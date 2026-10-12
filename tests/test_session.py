@@ -34,9 +34,29 @@ def test_batas_kartu_baru_dipatuhi():
 
 
 def test_kartu_baru_masuk_menurut_urutan_tahap():
-    plan = plan_session(Progress(), new_per_session=6, seed=3, on=HARI_INI)
-    tahap = [q.stage for q in plan.questions if q.stage is not None]
-    assert tahap and max(tahap) <= 2, "sesi pertama seharusnya materi tahap awal"
+    """Setiap modul memulai dari tahap terendah yang dimilikinya.
+
+    Tahap terendah berbeda antar modul: modul aksara mulai di tahap 1,
+    sedangkan modul kata serumpun baru mulai di tahap 3 karena memerlukan
+    kemampuan membaca lebih dahulu. Yang diperiksa di sini: tidak ada modul
+    yang melompati tahap awalnya sendiri.
+    """
+    import random
+
+    from thaidrill.questions import MODES, build_pool
+
+    plan = plan_session(Progress(), new_per_session=20, seed=3, on=HARI_INI)
+    terendah = {}
+    for m in MODES:
+        tahap = [q.stage for q in build_pool(m, None, random.Random(0))
+                 if q.stage is not None]
+        terendah[m] = min(tahap)
+    for q in plan.questions:
+        if q.stage is not None:
+            assert q.stage <= terendah[q.mode] + 1, (
+                f"{q.mode}: kartu tahap {q.stage} muncul padahal tahap "
+                f"terendahnya {terendah[q.mode]}"
+            )
 
 
 def test_kartu_yang_belum_jatuh_tempo_tidak_muncul():

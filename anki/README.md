@@ -16,6 +16,8 @@ python tools/build_exports.py
 | `kosakata.csv` | 186 | kosakata inti |
 | `tatabahasa.csv` | 60 | soal tata bahasa |
 | `frasa.csv` | 58 | frasa sehari-hari |
+| `serumpun.csv` | 29 | kata serapan Sanskerta yang sama di Thai dan Indonesia |
+| `bacaan.csv` | 8 | percakapan pendek, satu kartu per percakapan |
 
 ## Cara impor
 
@@ -94,6 +96,34 @@ secara manual di jendela impor.
 | 4 | arti harfiah |
 | 5 | catatan |
 | 6 | Tags |
+
+### `serumpun.csv` — 6 kolom
+
+| Kolom | Isi |
+|------:|:----|
+| 1 | tulisan Thai |
+| 2 | arti beserta kata Indonesia yang seasal |
+| 3 | lafal bernada |
+| 4 | kata Indonesianya |
+| 5 | catatan |
+| 6 | Tags |
+
+### `bacaan.csv` — 5 kolom
+
+| Kolom | Isi |
+|------:|:----|
+| 1 | percakapan dalam tulisan Thai (memakai `<br>`) |
+| 2 | lafal dan terjemahan per baris (memakai `<br>`) |
+| 3 | judul percakapan |
+| 4 | catatan |
+| 5 | Tags |
+
+Dua berkas ini memakai `<br>`, jadi saat mengimpornya nyalakan
+"Allow HTML in fields" seperti pada `tatabahasa.csv`.
+
+Modul latihan telinga tidak diekspor ke Anki, sebab kartunya memerlukan suara
+dan Anki tidak bisa membunyikan tulisan Thai tanpa berkas audio. Datanya tetap
+tersedia sebagai tabel di `data/csv/dengar.csv`.
 
 ## Tag yang dipakai
 

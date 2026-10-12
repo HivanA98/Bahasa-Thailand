@@ -1,0 +1,25 @@
+id,jenis,th,lafal,arti,pasangannya,tahap,catatan
+d-p01-0,panjang,ปัก,pàk,"menancapkan, menyulam",ปาก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia."
+d-p01-1,panjang,ปาก,pàak,mulut,ปัก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia."
+d-p02-0,panjang,คัน,khan,gatal; klasifikator kendaraan,คาน,2,Keduanya bernada sedang dan berawalan ค. Panjang vokal saja yang membedakan artinya.
+d-p02-1,panjang,คาน,khaan,balok penyangga,คัน,2,Keduanya bernada sedang dan berawalan ค. Panjang vokal saja yang membedakan artinya.
+d-p03-0,panjang,ทัน,than,"sempat, keburu",ทาน,3,"ทาน yang panjang adalah bentuk halus dari กิน. Kalau vokalnya terlalu pendek, yang terdengar justru ทัน ('keburu')."
+d-p03-1,panjang,ทาน,thaan,makan (ragam halus),ทัน,3,"ทาน yang panjang adalah bentuk halus dari กิน. Kalau vokalnya terlalu pendek, yang terdengar justru ทัน ('keburu')."
+d-p04-0,panjang,เขา,khǎo,dia,ขาว,3,"Dua kata yang sangat sering dipakai dan sama-sama bernada naik. เ◌า pendek, ◌าว panjang. Inilah pasangan yang paling sering membuat pemula salah paham."
+d-p04-1,panjang,ขาว,khǎao,putih,เขา,3,"Dua kata yang sangat sering dipakai dan sama-sama bernada naik. เ◌า pendek, ◌าว panjang. Inilah pasangan yang paling sering membuat pemula salah paham."
+d-p05-0,panjang,ไต,tai,ginjal,ตาย,4,Keduanya bernada sedang dan berakhir bunyi -i. Bedanya hanya vokal a yang pendek atau panjang.
+d-p05-1,panjang,ตาย,taai,mati,ไต,4,Keduanya bernada sedang dan berakhir bunyi -i. Bedanya hanya vokal a yang pendek atau panjang.
+d-p06-0,panjang,พัน,phan,seribu; melilit,พาน,5,"พัน ('seribu') dipakai hampir setiap hari saat menyebut harga, jadi vokal pendeknya perlu benar-benar pendek."
+d-p06-1,panjang,พาน,phaan,baki bertangkai,พัน,5,"พัน ('seribu') dipakai hampir setiap hari saat menyebut harga, jadi vokal pendeknya perlu benar-benar pendek."
+d-h01-0,hembusan,กา,kaa,burung gagak,คา,2,"Keduanya bernada sedang. ก tidak berhembus, ค berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada ค harus terasa embusan udara, pada ก tidak."
+d-h01-1,hembusan,คา,khaa,tersangkut,กา,2,"Keduanya bernada sedang. ก tidak berhembus, ค berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada ค harus terasa embusan udara, pada ก tidak."
+d-h02-0,hembusan,ตา,taa,mata; kakek dari pihak ibu,ทา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
+d-h02-1,hembusan,ทา,thaa,mengoleskan,ตา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
+d-h03-0,hembusan,ปา,paa,melempar,พา,3,"ป tanpa hembusan, พ dengan hembusan. Keduanya bernada sedang."
+d-h03-1,hembusan,พา,phaa,membawa (orang),ปา,3,"ป tanpa hembusan, พ dengan hembusan. Keduanya bernada sedang."
+d-h04-0,hembusan,ไก่,kài,ayam,ไข่,3,"Pasangan paling berguna di warung: keduanya bernada rendah, dan hanya hembusan yang membedakan 'ayam' dari 'telur'. ข้าวไก่ ('nasi ayam') dan ข้าวไข่ ('nasi telur') adalah dua pesanan yang berbeda."
+d-h04-1,hembusan,ไข่,khài,telur,ไก่,3,"Pasangan paling berguna di warung: keduanya bernada rendah, dan hanya hembusan yang membedakan 'ayam' dari 'telur'. ข้าวไก่ ('nasi ayam') dan ข้าวไข่ ('nasi telur') adalah dua pesanan yang berbeda."
+d-h05-0,hembusan,ป่า,pàa,hutan,ผ่า,4,"Keduanya bernada rendah. ป kelas tengah dan ผ kelas tinggi sama-sama menghasilkan nada rendah dengan mai ek, sehingga yang tersisa sebagai pembeda hanyalah hembusan."
+d-h05-1,hembusan,ผ่า,phàa,"membelah, mengoperasi",ป่า,4,"Keduanya bernada rendah. ป kelas tengah dan ผ kelas tinggi sama-sama menghasilkan nada rendah dengan mai ek, sehingga yang tersisa sebagai pembeda hanyalah hembusan."
+d-h06-0,hembusan,เป็น,pen,"adalah, menjadi",เพ็ญ,5,"เป็น adalah salah satu kata paling sering dipakai, jadi hembusannya harus benar-benar tidak ada."
+d-h06-1,hembusan,เพ็ญ,phen,purnama (lazim pada nama orang),เป็น,5,"เป็น adalah salah satu kata paling sering dipakai, jadi hembusannya harus benar-benar tidak ada."

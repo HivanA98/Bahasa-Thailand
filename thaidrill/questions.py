@@ -17,15 +17,26 @@ from dataclasses import dataclass, field
 
 from . import dataio, thai, tone
 
-MODES = ("aksara", "nada", "kosakata-th", "kosakata-id", "tatabahasa", "frasa")
+#: Urutan di sini menentukan giliran soal saat sesi disilang (interleaving).
+#: "kosakata-id" sengaja berada SEBELUM "kosakata-th": untuk bisa berbicara,
+#: latihan arah produksi (Anda yang memanggil kata Thainya) lebih berharga
+#: daripada arah pengenalan, dan arah yang lebih berharga diberi giliran lebih
+#: dahulu ketika sesi terpotong waktu.
+MODES = (
+    "aksara", "nada", "dengar", "kosakata-id", "kosakata-th",
+    "serumpun", "tatabahasa", "frasa", "bacaan",
+)
 
 MODE_LABELS = {
     "aksara": "Aksara: huruf, vokal, tanda",
     "nada": "Nada dan aturannya",
-    "kosakata-th": "Kosakata: Thai ke Indonesia",
+    "dengar": "Latihan telinga",
     "kosakata-id": "Kosakata: Indonesia ke Thai",
+    "kosakata-th": "Kosakata: Thai ke Indonesia",
+    "serumpun": "Kata serumpun Sanskerta",
     "tatabahasa": "Tata bahasa",
     "frasa": "Frasa sehari-hari",
+    "bacaan": "Bacaan dan percakapan",
 }
 
 _ACCEPTED_CACHE: dict[tuple, frozenset[str]] = {}
@@ -53,6 +64,9 @@ class Question:
     #: Tahap materi (1-6). Dipakai session.py untuk memperkenalkan kartu baru
     #: menurut urutan tahap, bukan acak dari seluruh materi.
     stage: int | None = None
+    #: Perkiraan seberapa sering kata itu dipakai (1 = paling sering). Di dalam
+    #: satu tahap, kata yang lebih sering diperkenalkan lebih dahulu.
+    freq: int | None = None
 
     def is_correct_text(self, text: str) -> bool:
         return normalize(text) in {normalize(a) for a in self.accepted}
@@ -403,6 +417,7 @@ def vocab_th_to_id(e: dict) -> Question:
         mode="kosakata-th",
         kind="typed",
         stage=e["stage"],
+        freq=e.get("freq"),
         question="Apa arti kata ini?",
         stimulus_th=e["th"],
         phon=e["phon"],
@@ -429,6 +444,7 @@ def vocab_id_to_th(e: dict, pool: list[dict], rng: random.Random) -> Question:
         mode="kosakata-id",
         kind="mcq",
         stage=e["stage"],
+        freq=e.get("freq"),
         question=f"Mana kata Thai untuk '{e['gloss']}'?",
         options=options,
         options_lang="th",
@@ -476,6 +492,129 @@ def phrase_question(p: dict) -> Question:
     )
 
 
+# ------------------------------------------------------ modul latihan telinga ---
+
+BEDA_LABEL = {
+    "panjang": "panjang vokal",
+    "hembusan": "hembusan konsonan awal",
+    "nada": "nada",
+}
+
+
+def listen_question(card: dict) -> Question:
+    """Kartu latihan telinga.
+
+    Di terminal tidak ada bunyi, sehingga kartu ini menjadi latihan
+    MENGUCAPKAN: bacalah kata sasaran dan pasangannya berturut-turut dengan
+    perbedaan yang tepat, lalu nilai sendiri. Aplikasi web memakai kartu yang
+    sama sebagai latihan MENDENGARKAN.
+    """
+    w = card["word"]
+    pasangan = " / ".join(x["th"] for x in card["words"])
+    rincian = " · ".join(f"{x['th']} = {x['phon']} ({x['gloss']})" for x in card["words"])
+    return Question(
+        card_id=card["id"],
+        mode="dengar",
+        kind="selfcheck",
+        stage=card["stage"],
+        question=(
+            f"Ucapkan kata ini dan pasangannya berturut-turut. Yang membedakan "
+            f"keduanya hanya {BEDA_LABEL[card['type']]}."
+        ),
+        stimulus_th=pasangan,
+        stimulus_label=f"kata sasaran: {w['th']}",
+        phon=None,
+        reveal=rincian,
+        reveal_th=w["th"],
+        explain=card["note"] or None,
+    )
+
+
+def listen_item_question(item: dict) -> Question:
+    return Question(
+        card_id=item["id"],
+        mode="dengar",
+        kind="mcq",
+        stage=item["stage"],
+        question=item["prompt"],
+        stimulus_th=item.get("prompt_th"),
+        options=list(item["options"]),
+        options_lang=item["options_lang"],
+        answer=item["answer"],
+        reveal=item["options"][item["answer"]],
+        explain=item.get("explain"),
+    )
+
+
+# ------------------------------------------------------ modul kata serumpun ---
+
+RELASI_LABEL = {
+    "sama": "artinya sejalan",
+    "bergeser": "seasal tetapi artinya sudah bergeser",
+    "sebagian": "kata Indonesianya jarang dipakai sehari-hari",
+}
+
+
+def cognate_question(c: dict) -> Question:
+    return Question(
+        card_id=c["id"],
+        mode="serumpun",
+        kind="typed",
+        stage=c["stage"],
+        question="Apa arti kata ini, dan kata Bahasa Indonesia apa yang seasal dengannya?",
+        stimulus_th=c["th"],
+        phon=c["phon"],
+        accepted=expand_accepted(c["gloss"]) + [c["id_word"]],
+        reveal=f"{c['phon']} = {c['gloss']}  (seasal dengan '{c['id_word']}', "
+               f"{RELASI_LABEL[c['relation']]})",
+        explain=c.get("note"),
+    )
+
+
+# ------------------------------------------------------------ modul bacaan ---
+
+#: Pemisah baris beserta lekukannya, dipakai saat menampilkan percakapan
+#: utuh pada satu kartu di terminal.
+NEWLINE_INDENT = chr(10) + '   '
+
+def text_question(t: dict) -> Question:
+    teks = "  ".join(ln["th"] for ln in t["lines"])
+    isi = NEWLINE_INDENT.join(
+        f"{ln['speaker']}: {ln['th']}  [{ln['phon']}]  {ln['gloss']}"
+        for ln in t["lines"]
+    )
+    return Question(
+        card_id=t["id"],
+        mode="bacaan",
+        kind="selfcheck",
+        stage=t["stage"],
+        question=(
+            f"Bacalah percakapan '{t['title']}' dengan suara, tentukan nadanya, "
+            "lalu cocokkan dengan terjemahannya."
+        ),
+        stimulus_th=teks,
+        reveal=NEWLINE_INDENT + isi,
+        explain=t.get("note"),
+    )
+
+
+def text_item_question(item: dict) -> Question:
+    return Question(
+        card_id=item["id"],
+        mode="bacaan",
+        kind="mcq",
+        stage=item["stage"],
+        question=item["prompt"],
+        stimulus_th=item.get("prompt_th"),
+        stimulus_label=item["text_title"],
+        options=list(item["options"]),
+        options_lang=item["options_lang"],
+        answer=item["answer"],
+        reveal=item["options"][item["answer"]],
+        explain=item.get("explain"),
+    )
+
+
 # -------------------------------------------------------------- kumpulan ---
 
 def build_pool(mode: str, stage: int | None, rng: random.Random) -> list[Question]:
@@ -509,6 +648,16 @@ def build_pool(mode: str, stage: int | None, rng: random.Random) -> list[Questio
         return [grammar_question(i) for i in dataio.grammar_items(stage)]
     if mode == "frasa":
         return [phrase_question(p) for p in dataio.phrases(stage)]
+    if mode == "dengar":
+        qs = [listen_question(c) for c in dataio.listen_cards(stage)]
+        qs += [listen_item_question(i) for i in dataio.listen_items(stage)]
+        return qs
+    if mode == "serumpun":
+        return [cognate_question(c) for c in dataio.cognates(stage)]
+    if mode == "bacaan":
+        qs = [text_question(t) for t in dataio.texts(stage)]
+        qs += [text_item_question(i) for i in dataio.text_items(stage)]
+        return qs
     raise ValueError(f"mode tidak dikenal: {mode}")
 
 
@@ -519,5 +668,7 @@ __all__ = [
     "minimal_pair_question", "nada_item_question", "normalize",
     "phrase_question", "syllable_tone_question", "tone_card_question",
     "tone_rule_question", "vocab_detail", "vocab_id_to_th", "vocab_th_to_id",
-    "vowel_question",
+    "vowel_question", "BEDA_LABEL", "RELASI_LABEL", "cognate_question",
+    "listen_item_question", "listen_question", "text_item_question",
+    "text_question",
 ]

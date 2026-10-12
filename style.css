@@ -321,6 +321,45 @@ body {
   font-size: 11.5px;
 }
 
+/* ---------- tombol suara dan percakapan ---------- */
+
+.speak-row { margin-top: 10px; }
+.btn-speak {
+  background: var(--paper);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit; font-size: 14px;
+  padding: 7px 16px;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-speak:hover { background: var(--accent); color: #fff; }
+.btn-speak:hover .k { color: rgba(255, 255, 255, .75); }
+.btn-speak .k { color: var(--ink-faint); font-size: 10.5px; }
+.btn-speak.is-off {
+  border-color: var(--line);
+  color: var(--ink-faint);
+  cursor: default;
+  font-size: 12.5px;
+}
+.btn-speak.is-off:hover { background: var(--paper); color: var(--ink-faint); }
+
+.dialog { text-align: left; width: 100%; margin-top: 6px; }
+.dialog-line {
+  display: flex; gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+}
+.dialog-line:last-child { border-bottom: 0; }
+.dialog-line .who {
+  color: var(--ink-faint);
+  font-size: 12px;
+  min-width: 14px;
+  padding-top: 5px;
+}
+.dialog-line .gloss { display: block; }
+
 .meaning { font-size: 19px; font-weight: 600; margin-bottom: 4px; }
 .detail { color: var(--ink-soft); font-size: 13px; }
 .sep { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }

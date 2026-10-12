@@ -43,10 +43,13 @@ NEW_SHARE = 0.45
 MODE_GROUPS = {
     "aksara": "aksara",
     "nada": "nada",
+    "dengar": "dengar",
     "kosakata-th": "kosakata",
     "kosakata-id": "kosakata",
+    "serumpun": "serumpun",
     "tatabahasa": "tatabahasa",
     "frasa": "frasa",
+    "bacaan": "bacaan",
 }
 
 #: Bobot pembagian jatah kartu baru antarkelompok materi.
@@ -54,9 +57,14 @@ MODE_GROUPS = {
 #: Aksara dan nada diberi bobot besar pada tahap awal karena keduanya syarat
 #: untuk segala hal lain: tanpa bisa membaca huruf dan menentukan nada,
 #: kosakata hanya bisa dihafal lewat alih huruf Latin, dan itu jalan buntu.
-#: Kosakata tetap diberi bobot terbesar karena jumlah entrinya paling banyak
-#: (186 kata berbanding 60 soal tata bahasa dan 55 frasa).
-GROUP_WEIGHTS = {"aksara": 3, "nada": 2, "kosakata": 3, "tatabahasa": 1, "frasa": 1}
+#: Kosakata tetap diberi bobot terbesar karena jumlah entrinya paling banyak.
+#: Latihan telinga diberi bobot 2 karena nada, panjang vokal, dan hembusan
+#: tidak ada dalam Bahasa Indonesia sehingga perlu diulang jauh lebih sering
+#: daripada hal yang sudah dimiliki penuturnya.
+GROUP_WEIGHTS = {
+    "aksara": 3, "nada": 2, "dengar": 2, "kosakata": 3, "serumpun": 1,
+    "tatabahasa": 1, "frasa": 1, "bacaan": 1,
+}
 
 
 @dataclass
@@ -142,14 +150,17 @@ def plan_session(
     # materi. Di dalam satu tahap urutannya diacak supaya sesi tidak monoton.
     chosen_new: set[str] = set()
     for g in (groups if new_per_session > 0 else []):
-        candidates: dict[str, int] = {}
+        candidates: dict[str, tuple[int, int]] = {}
         for m in modes:
             if MODE_GROUPS[m] != g:
                 continue
             for q in pools[m]:
                 if progress.is_new(q.card_id) and q.card_id not in candidates:
-                    candidates[q.card_id] = q.stage if q.stage is not None else 99
-        urut = sorted(candidates, key=lambda cid: (candidates[cid], rng.random()))
+                    candidates[q.card_id] = (
+                        q.stage if q.stage is not None else 99,
+                        q.freq if q.freq is not None else 2,
+                    )
+        urut = sorted(candidates, key=lambda cid: (*candidates[cid], rng.random()))
         chosen_new.update(urut[: quotas[g]])
 
     # --- pisahkan soal jatuh tempo dan soal materi baru --------------------

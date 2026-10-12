@@ -19,8 +19,12 @@ pengajar**. Periksalah dengan kamus atau pengajar sebelum menghafalkannya.
 | Pasangan nada memang berbeda nada satu sama lain | `tests/test_data.py` |
 | Setiap soal pilihan ganda punya tepat satu jawaban benar | `tests/test_keys.py` |
 | Semua ekspor (CSV, Anki, lembar kerja, `webdata.js`) mutakhir | `tests/test_exports.py` |
+| Pasangan latihan telinga bernada SAMA, sehingga yang dilatih memang panjang vokal atau hembusannya saja | `tests/test_modul_baru.py` |
+| Pasangan hembusan memang berupa pasangan X dan Xh menurut tabel konsonan | `tests/test_modul_baru.py` |
+| Kata serumpun tidak mengulang kata yang sudah ada di modul kosakata | `tests/test_modul_baru.py` |
+| Seluruh kata pada modul bacaan sudah pernah diajarkan di modul lain | `tests/test_modul_baru.py` |
 
-607 kata dan kalimat contoh diperiksa dengan cara itu.
+702 kata dan kalimat contoh diperiksa dengan cara itu.
 
 ## Yang TIDAK diperiksa mesin
 
@@ -41,19 +45,42 @@ pengajar**. Periksalah dengan kamus atau pengajar sebelum menghafalkannya.
 6. **Penjelasan tata bahasa.** Dua belas topik di `grammar.json` sengaja
    disederhanakan untuk tingkat A1-A2. Field `caveats` memuat batasnya, tetapi
    penyederhanaan yang menyesatkan tetap mungkin lolos.
+7. **Lajur `freq` pada kosakata.** Pembagian 48 kata inti, 113 kata sering,
+   dan 25 kata lebih jarang adalah **perkiraan penyusun**, bukan hasil
+   hitungan korpus. Ia menentukan kata mana yang diperkenalkan lebih dahulu,
+   jadi kekeliruan di sini memperlambat belajar tetapi tidak membuat materinya
+   salah. Daftar frekuensi dari korpus Thai akan jauh lebih baik.
+8. **Hubungan asal kata pada modul serumpun.** Kesamaan bentuk dan makna
+   antara มนุษย์ dan 'manusia' kasatmata, tetapi berkas ini tidak merujuk kamus
+   etimologi. Beberapa hubungan yang ditandai `sebagian` (วาจา/'wacana',
+   วิชา/'widya') perlu diperiksa ahli. Pakailah kemiripan itu untuk MENGINGAT
+   kata, bukan untuk menyimpulkan sejarah bahasanya.
+9. **Suara.** Pelafalan di aplikasi web memakai pelafal mesin bawaan perangkat,
+   bukan rekaman penutur asli. Mutunya berbeda-beda antar perangkat, dan
+   nadanya tidak selalu setepat penutur asli. Proyek ini tidak memuat berkas
+   audio sendiri.
 
 ## Butir tertentu yang diberi tanda
 
-Dua puluh butir berikut mematikan sebagian pemeriksaan mesin, dan masing-masing
-wajib menyertakan alasannya di field `check_why` (diuji di
-`tests/test_schema.py`). Sisanya, 587 butir, diperiksa penuh.
+Tiga puluh butir berikut mematikan sebagian pemeriksaan mesin, dan
+masing-masing wajib menyertakan alasannya di field `check_why` (diuji di
+`tests/test_schema.py`). Sisanya, 672 butir, diperiksa penuh.
+
+Hampir semuanya satu sebab yang sama: **huruf yang ditulis tetapi tidak
+dibunyikan.** Ejaan Thai mempertahankan bentuk asal kata serapan, sedangkan
+yang dibaca lebih pendek daripada yang ditulis.
 
 | Butir | Yang dimatikan | Sebab |
 |:--|:--|:--|
-| Semua entri yang memuat `ไทย` (17 butir) | pemeriksaan suku kata | `ย` pada `ไทย` tidak dibunyikan, jadi suku kata yang dibaca hanya `ไท` |
+| 18 entri yang memuat `ไทย` (kosakata, frasa, bacaan) | pemeriksaan suku kata | `ย` pada `ไทย` tidak dibunyikan, jadi suku kata yang dibaca hanya `ไท` |
+| 9 kata serumpun: `มนุษย์`, `สัตว์`, `ทุกข์`, `ภูมิ`, `ชาติ`, `อาทิตย์`, `จันทร์`, `ศุกร์`, `เสาร์` | pemeriksaan suku kata | huruf terakhirnya dimatikan oleh `◌์`, atau tanda vokalnya tidak dibunyikan |
 | `aksara.marks[m06]` (`ยักษ์`) | pemeriksaan suku kata | `ษ` dimatikan oleh `◌์` |
-| `aksara.marks[m07]` (`เด็กๆ`) | pemeriksaan suku kata dan nada | `ๆ` menyuruh kata dibaca dua kali |
 | `aksara.digits[0]` (`ศูนย์`) | pemeriksaan suku kata | `ย` dimatikan oleh `◌์` |
+| `aksara.marks[m07]` (`เด็กๆ`) | pemeriksaan suku kata dan nada | `ๆ` menyuruh kata dibaca dua kali |
+
+Perhatikan bahwa **nadanya tetap diperiksa** pada 29 dari 30 butir itu; yang
+dimatikan hanya perbandingan jumlah suku kata. Hanya `เด็กๆ` yang nadanya
+tidak diperiksa.
 
 ## Hal yang sengaja dihindari
 

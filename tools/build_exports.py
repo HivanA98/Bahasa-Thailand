@@ -48,6 +48,33 @@ def write_csv(path: str, header: list[str], rows: list[list], *,
 
 # ------------------------------------------------------------------ data ---
 
+def dengar_rows() -> list[list]:
+    out = []
+    for c in dataio.listen_cards():
+        w = c["word"]
+        lain = " / ".join(x["th"] for x in c["words"] if x["th"] != w["th"])
+        out.append([c["id"], c["type"], w["th"], w["phon"], w["gloss"], lain,
+                    c["stage"], c["note"]])
+    return out
+
+
+def serumpun_rows() -> list[list]:
+    return [
+        [c["id"], c["th"], c["phon"], c["rom"], c["gloss"], c["id_word"],
+         c["relation"], c["stage"], c.get("note") or ""]
+        for c in dataio.cognates()
+    ]
+
+
+def bacaan_rows() -> list[list]:
+    out = []
+    for t in dataio.texts():
+        for i, ln in enumerate(t["lines"], 1):
+            out.append([t["id"], t["title"], i, ln["speaker"], ln["th"],
+                        ln["phon"], ln["gloss"], t["stage"]])
+    return out
+
+
 def konsonan_rows() -> list[list]:
     return [
         [c["letter"], c["name_th"], c["name_rom"], c["name_id"], c["class"],
@@ -146,6 +173,19 @@ CSV_FILES = {
          "catatan"],
         frasa_rows,
     ),
+    "dengar.csv": (
+        ["id", "jenis", "th", "lafal", "arti", "pasangannya", "tahap", "catatan"],
+        dengar_rows,
+    ),
+    "serumpun.csv": (
+        ["id", "th", "lafal", "rtgs", "arti", "kata_indonesia", "hubungan",
+         "tahap", "catatan"],
+        serumpun_rows,
+    ),
+    "bacaan.csv": (
+        ["teks", "judul", "baris", "pembicara", "th", "lafal", "arti", "tahap"],
+        bacaan_rows,
+    ),
 }
 
 
@@ -216,12 +256,37 @@ def anki_frasa() -> list[list]:
     ]
 
 
+def anki_serumpun() -> list[list]:
+    rows = []
+    for c in dataio.cognates():
+        rows.append([
+            c["th"], f"{c['gloss']} — seasal dengan '{c['id_word']}'",
+            c["phon"], c["id_word"], c.get("note") or "",
+            f"thai serumpun {c['relation']} tahap{c['stage']}",
+        ])
+    return rows
+
+
+def anki_bacaan() -> list[list]:
+    rows = []
+    for t in dataio.texts():
+        depan = "<br>".join(f"{ln['speaker']}: {ln['th']}" for ln in t["lines"])
+        belakang = "<br>".join(
+            f"{ln['speaker']}: {ln['phon']} — {ln['gloss']}" for ln in t["lines"]
+        )
+        rows.append([depan, belakang, t["title"], t.get("note") or "",
+                     f"thai bacaan {t['cat']} tahap{t['stage']}"])
+    return rows
+
+
 ANKI_FILES = {
     "aksara.csv": (anki_aksara, 5),
     "nada.csv": (anki_nada, 6),
     "kosakata.csv": (anki_kosakata, 8),
     "tatabahasa.csv": (anki_tatabahasa, 4),
     "frasa.csv": (anki_frasa, 6),
+    "serumpun.csv": (anki_serumpun, 6),
+    "bacaan.csv": (anki_bacaan, 5),
 }
 
 

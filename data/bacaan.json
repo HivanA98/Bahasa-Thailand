@@ -1,0 +1,167 @@
+{
+  "module": 8,
+  "title": "Bacaan dan percakapan",
+  "description": "Kartu membangun kosakata; kelancaran datang dari masukan yang dipahami dalam jumlah besar. Modul ini memuat percakapan pendek yang seluruh katanya sudah ada di modul kosakata dan frasa, sehingga Anda bisa membacanya tanpa kamus. Cara memakainya: baca satu kali tanpa melihat artinya, dengarkan bila ada suara, baca ulang dengan suara keras, baru cocokkan dengan terjemahannya.\n\nSetiap baris dipecah menjadi suku kata tertulis dan nadanya diperiksa mesin, sama seperti modul lain. Jadi Anda bisa memakai teks ini untuk latihan menentukan nada kalimat utuh, bukan hanya kata lepas.",
+  "schema": {
+    "texts": "percakapan pendek, diurutkan menurut tahap",
+    "lines": "satu baris per giliran bicara; 'speaker' A atau B; 'syl' dan 'phon' diperiksa mesin. Spasi di dalam 'th' memisahkan klausa dan tidak dihitung sebagai suku kata.",
+    "items": "soal pemahaman isi, bukan soal tata bahasa"
+  },
+  "texts": [
+    {
+      "id": "b01", "stage": 2, "title": "Berkenalan", "cat": "kenalan",
+      "lines": [
+        {"speaker": "A", "th": "สวัสดีครับ", "syl": ["ส", "วัส", "ดี", "ครับ"], "phon": "sà-wàt-dii khráp", "gloss": "Selamat siang."},
+        {"speaker": "B", "th": "สวัสดีค่ะ", "syl": ["ส", "วัส", "ดี", "ค่ะ"], "phon": "sà-wàt-dii khâ", "gloss": "Selamat siang."},
+        {"speaker": "A", "th": "ผมชื่อสมชายครับ", "syl": ["ผม", "ชื่อ", "สม", "ชาย", "ครับ"], "phon": "phǒm chûue sǒm-chaai khráp", "gloss": "Nama saya Somchai."},
+        {"speaker": "A", "th": "คุณชื่ออะไรครับ", "syl": ["คุณ", "ชื่อ", "อะ", "ไร", "ครับ"], "phon": "khun chûue à-rai khráp", "gloss": "Siapa nama Anda?"},
+        {"speaker": "B", "th": "ฉันชื่อมาลีค่ะ", "syl": ["ฉัน", "ชื่อ", "มา", "ลี", "ค่ะ"], "phon": "chǎn chûue maa-lii khâ", "gloss": "Nama saya Mali."},
+        {"speaker": "A", "th": "ยินดีที่ได้รู้จักครับ", "syl": ["ยิน", "ดี", "ที่", "ได้", "รู้", "จัก", "ครับ"], "phon": "yin-dii thîi dâi rúu-jàk khráp", "gloss": "Senang berkenalan dengan Anda."}
+      ],
+      "note": "Perhatikan partikel sopannya: Somchai memakai ครับ, Mali memakai ค่ะ. Keduanya mengucapkan kalimat yang sama persis kecuali partikel itu.",
+      "items": [
+        {"id": "b01-q1", "type": "mcq", "prompt": "Siapa nama perempuan dalam percakapan ini?", "prompt_th": null, "options_lang": "id",
+         "options": ["Mali", "Somchai", "Keduanya tidak menyebut nama", "Namanya tidak disebut dengan jelas"], "answer": 0,
+         "explain": "ฉันชื่อมาลีค่ะ — ia memakai ฉัน dan ค่ะ, dua penanda penutur perempuan."},
+        {"id": "b01-q2", "type": "mcq", "prompt": "Dari mana Anda tahu penutur pertama seorang lelaki?", "prompt_th": null, "options_lang": "id",
+         "options": ["Ia memakai ผม dan ครับ", "Ia menyapa lebih dahulu", "Namanya Somchai", "Ia memakai kalimat yang lebih panjang"], "answer": 0,
+         "explain": "Kata ganti dan partikel sopan dipilih menurut jenis kelamin pembicara, jadi keduanya menandai hal yang sama."}
+      ]
+    },
+    {
+      "id": "b02", "stage": 3, "title": "Memesan makanan", "cat": "restoran",
+      "lines": [
+        {"speaker": "A", "th": "รับอะไรดีครับ", "syl": ["รับ", "อะ", "ไร", "ดี", "ครับ"], "phon": "ráp à-rai dii khráp", "gloss": "Mau pesan apa?"},
+        {"speaker": "B", "th": "ขอข้าวผัดไก่หนึ่งจานครับ", "syl": ["ขอ", "ข้าว", "ผัด", "ไก่", "หนึ่ง", "จาน", "ครับ"], "phon": "khǎaw khâao-phàt kài nùeng jaan khráp", "gloss": "Minta satu piring nasi goreng ayam."},
+        {"speaker": "B", "th": "ไม่เผ็ดนะครับ", "syl": ["ไม่", "เผ็ด", "นะ", "ครับ"], "phon": "mâi phèt ná khráp", "gloss": "Jangan pedas, ya."},
+        {"speaker": "A", "th": "ได้ครับ ดื่มอะไรดีครับ", "syl": ["ได้", "ครับ", "ดื่ม", "อะ", "ไร", "ดี", "ครับ"], "phon": "dâi khráp dùuem à-rai dii khráp", "gloss": "Baik. Mau minum apa?"},
+        {"speaker": "B", "th": "น้ำเปล่าหนึ่งแก้วครับ", "syl": ["น้ำ", "เปล่า", "หนึ่ง", "แก้ว", "ครับ"], "phon": "náam-plào nùeng kâeo khráp", "gloss": "Satu gelas air putih."},
+        {"speaker": "A", "th": "สักครู่นะครับ", "syl": ["สัก", "ครู่", "นะ", "ครับ"], "phon": "sàk-khrûu ná khráp", "gloss": "Mohon tunggu sebentar."}
+      ],
+      "note": "จาน ('piring') dan แก้ว ('gelas') di sini berfungsi sebagai klasifikator. Polanya: benda + angka + klasifikator.",
+      "items": [
+        {"id": "b02-q1", "type": "mcq", "prompt": "Apa yang dipesan tamu itu?", "prompt_th": null, "options_lang": "id",
+         "options": ["Nasi goreng ayam dan air putih", "Nasi goreng babi dan teh", "Mi dan kopi", "Nasi goreng telur dan air putih"], "answer": 0,
+         "explain": "ข้าวผัดไก่ = nasi goreng ayam; น้ำเปล่า = air putih (air minum biasa)."},
+        {"id": "b02-q2", "type": "mcq", "prompt": "Apa guna kata จาน dan แก้ว pada percakapan ini?", "prompt_th": null, "options_lang": "id",
+         "options": ["Klasifikator untuk menghitung", "Nama makanan", "Kata sifat", "Partikel sopan"], "answer": 0,
+         "explain": "หนึ่งจาน ('satu piring'), หนึ่งแก้ว ('satu gelas'). Klasifikator selalu berada sesudah angkanya."}
+      ]
+    },
+    {
+      "id": "b03", "stage": 3, "title": "Mencari toilet", "cat": "arah",
+      "lines": [
+        {"speaker": "A", "th": "ขอโทษครับ", "syl": ["ขอ", "โทษ", "ครับ"], "phon": "khǎaw-thôot khráp", "gloss": "Permisi."},
+        {"speaker": "A", "th": "ห้องน้ำอยู่ไหนครับ", "syl": ["ห้อง", "น้ำ", "อยู่", "ไหน", "ครับ"], "phon": "hâawng-náam yùu nǎi khráp", "gloss": "Di mana toiletnya?"},
+        {"speaker": "B", "th": "อยู่ข้างหลังร้านค่ะ", "syl": ["อยู่", "ข้าง", "หลัง", "ร้าน", "ค่ะ"], "phon": "yùu khâang-lǎng ráan khâ", "gloss": "Ada di belakang toko."},
+        {"speaker": "A", "th": "ไกลไหมครับ", "syl": ["ไกล", "ไหม", "ครับ"], "phon": "klai mǎi khráp", "gloss": "Jauh tidak?"},
+        {"speaker": "B", "th": "ไม่ไกลค่ะ เดินห้านาที", "syl": ["ไม่", "ไกล", "ค่ะ", "เดิน", "ห้า", "นา", "ที"], "phon": "mâi klai khâ dooen hâa naa-thii", "gloss": "Tidak jauh. Lima menit jalan kaki."},
+        {"speaker": "A", "th": "ขอบคุณมากครับ", "syl": ["ขอบ", "คุณ", "มาก", "ครับ"], "phon": "khàawp-khun mâak khráp", "gloss": "Terima kasih banyak."}
+      ],
+      "note": "ข้างหลัง ('di belakang') memakai ข้าง yang berarti 'sisi'. Pola yang sama: ข้างใน, ข้างนอก, ข้างบน, ข้างล่าง.",
+      "items": [
+        {"id": "b03-q1", "type": "mcq", "prompt": "Di mana toiletnya?", "prompt_th": null, "options_lang": "id",
+         "options": ["Di belakang toko", "Di depan toko", "Di dalam hotel", "Di sebelah kiri"], "answer": 0,
+         "explain": "อยู่ข้างหลังร้าน — ข้างหลัง berarti 'di belakang', ร้าน berarti 'toko'."},
+        {"id": "b03-q2", "type": "mcq", "prompt": "Berapa lama jalan kakinya?", "prompt_th": null, "options_lang": "id",
+         "options": ["Lima menit", "Lima belas menit", "Lima jam", "Tidak disebutkan"], "answer": 0,
+         "explain": "เดินห้านาที — ห้า berarti 'lima', นาที berarti 'menit'."}
+      ]
+    },
+    {
+      "id": "b04", "stage": 4, "title": "Menawar di pasar", "cat": "belanja",
+      "lines": [
+        {"speaker": "A", "th": "อันนี้ราคาเท่าไหร่ครับ", "syl": ["อัน", "นี้", "รา", "คา", "เท่า", "ไหร่", "ครับ"], "phon": "an níi raa-khaa thâo-rài khráp", "gloss": "Yang ini berapa harganya?"},
+        {"speaker": "B", "th": "สองร้อยบาทค่ะ", "syl": ["สอง", "ร้อย", "บาท", "ค่ะ"], "phon": "sǎawng ráawi bàat khâ", "gloss": "Dua ratus baht."},
+        {"speaker": "A", "th": "แพงไปครับ ลดได้ไหมครับ", "syl": ["แพง", "ไป", "ครับ", "ลด", "ได้", "ไหม", "ครับ"], "phon": "phaeng pai khráp lót dâi mǎi khráp", "gloss": "Terlalu mahal. Bisa kurang?"},
+        {"speaker": "B", "th": "ลดให้สิบบาทค่ะ", "syl": ["ลด", "ให้", "สิบ", "บาท", "ค่ะ"], "phon": "lót hâi sìp bàat khâ", "gloss": "Saya kurangi sepuluh baht."},
+        {"speaker": "A", "th": "เอาสองอันครับ", "syl": ["เอา", "สอง", "อัน", "ครับ"], "phon": "ao sǎawng an khráp", "gloss": "Saya ambil dua."}
+      ],
+      "note": "แพงไป memakai pola 'kata sifat + ไป' yang berarti 'terlalu ...'. Potongan sepuluh baht dari dua ratus adalah hasil tawar-menawar yang wajar; menawar setengah harga justru dianggap kurang sopan.",
+      "items": [
+        {"id": "b04-q1", "type": "mcq", "prompt": "Berapa harga akhirnya untuk satu barang?", "prompt_th": null, "options_lang": "id",
+         "options": ["190 baht", "200 baht", "180 baht", "210 baht"], "answer": 0,
+         "explain": "สองร้อย ('dua ratus') dikurangi สิบ ('sepuluh') menjadi 190 baht."},
+        {"id": "b04-q2", "type": "mcq", "prompt": "Apa arti แพงไป?", "prompt_th": "แพงไป", "options_lang": "id",
+         "options": ["Terlalu mahal", "Mahal sekali bagi saya", "Harga naik", "Mahal tetapi dibeli"], "answer": 0,
+         "explain": "Pola 'kata sifat + ไป' berarti melebihi batas: เผ็ดไป ('terlalu pedas'), เค็มไป ('terlalu asin')."}
+      ]
+    },
+    {
+      "id": "b05", "stage": 4, "title": "Cuaca", "cat": "alam",
+      "lines": [
+        {"speaker": "A", "th": "วันนี้อากาศร้อนมาก", "syl": ["วัน", "นี้", "อา", "กาศ", "ร้อน", "มาก"], "phon": "wan-níi aa-kàat ráawn mâak", "gloss": "Hari ini cuacanya sangat panas."},
+        {"speaker": "A", "th": "ที่อินโดนีเซียร้อนไหม", "syl": ["ที่", "อิน", "โด", "นี", "เซีย", "ร้อน", "ไหม"], "phon": "thîi in-doo-nii-sia ráawn mǎi", "gloss": "Apakah di Indonesia panas juga?"},
+        {"speaker": "B", "th": "ร้อนเหมือนกัน แต่ฝนตกบ่อย", "syl": ["ร้อน", "เหมือน", "กัน", "แต่", "ฝน", "ตก", "บ่อย"], "phon": "ráawn mǔean-kan tàe fǒn tòk bàawi", "gloss": "Sama-sama panas, tetapi sering hujan."},
+        {"speaker": "A", "th": "ที่นี่ฝนตกตอนเย็น", "syl": ["ที่", "นี่", "ฝน", "ตก", "ตอน", "เย็น"], "phon": "thîi-nîi fǒn tòk taawn-yen", "gloss": "Di sini hujan turun pada sore hari."}
+      ],
+      "note": "เหมือนกัน ('sama saja, juga') adalah salah satu kata percakapan yang paling sering dipakai untuk menanggapi.",
+      "items": [
+        {"id": "b05-q1", "type": "mcq", "prompt": "Apa kata B tentang cuaca di Indonesia?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sama panasnya, tetapi sering hujan", "Lebih dingin", "Tidak pernah hujan", "Lebih panas daripada Thailand"], "answer": 0,
+         "explain": "ร้อนเหมือนกัน แต่ฝนตกบ่อย — เหมือนกัน berarti 'sama saja', บ่อย berarti 'sering'."},
+        {"id": "b05-q2", "type": "mcq", "prompt": "Kapan hujan biasanya turun di tempat A?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sore hari", "Pagi hari", "Tengah malam", "Sepanjang hari"], "answer": 0,
+         "explain": "ตอนเย็น berarti 'waktu sore/petang'."}
+      ]
+    },
+    {
+      "id": "b06", "stage": 5, "title": "Naik taksi", "cat": "jalan",
+      "lines": [
+        {"speaker": "A", "th": "ไปโรงแรมนี้ได้ไหมครับ", "syl": ["ไป", "โรง", "แรม", "นี้", "ได้", "ไหม", "ครับ"], "phon": "pai roong-raem níi dâi mǎi khráp", "gloss": "Bisa antar ke hotel ini?"},
+        {"speaker": "B", "th": "ได้ครับ ขึ้นรถได้เลยครับ", "syl": ["ได้", "ครับ", "ขึ้น", "รถ", "ได้", "เลย", "ครับ"], "phon": "dâi khráp khûen rót dâi looei khráp", "gloss": "Bisa. Silakan langsung naik."},
+        {"speaker": "A", "th": "ไกลไหมครับ", "syl": ["ไกล", "ไหม", "ครับ"], "phon": "klai mǎi khráp", "gloss": "Jauh tidak?"},
+        {"speaker": "B", "th": "ไม่ไกลครับ สิบนาที", "syl": ["ไม่", "ไกล", "ครับ", "สิบ", "นา", "ที"], "phon": "mâi klai khráp sìp naa-thii", "gloss": "Tidak jauh. Sepuluh menit."},
+        {"speaker": "A", "th": "จอดตรงนี้ครับ", "syl": ["จอด", "ตรง", "นี้", "ครับ"], "phon": "jàawt trong-níi khráp", "gloss": "Berhenti di sini saja."}
+      ],
+      "note": "เลย sesudah ได้ berarti 'langsung saja'. Kata ini sangat sering dipakai dan artinya berubah-ubah menurut letaknya.",
+      "items": [
+        {"id": "b06-q1", "type": "mcq", "prompt": "Berapa lama perjalanannya?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sepuluh menit", "Lima menit", "Sepuluh jam", "Tidak disebutkan"], "answer": 0,
+         "explain": "สิบนาที — สิบ berarti 'sepuluh', นาที berarti 'menit'."},
+        {"id": "b06-q2", "type": "mcq", "prompt": "Apa yang diminta penumpang pada baris terakhir?", "prompt_th": null, "options_lang": "id",
+         "options": ["Berhenti di tempat itu", "Jalan lebih cepat", "Belok kiri", "Kembali ke hotel"], "answer": 0,
+         "explain": "จอด berarti 'berhenti, parkir'; ตรงนี้ berarti 'tepat di sini'."}
+      ]
+    },
+    {
+      "id": "b07", "stage": 5, "title": "Di apotek", "cat": "darurat",
+      "lines": [
+        {"speaker": "A", "th": "ผมไม่สบายครับ ปวดท้องมาก", "syl": ["ผม", "ไม่", "ส", "บาย", "ครับ", "ปวด", "ท้อง", "มาก"], "phon": "phǒm mâi sà-baai khráp pùat tháawng mâak", "gloss": "Saya tidak sehat. Perut saya sangat sakit."},
+        {"speaker": "B", "th": "กินยานี้วันละสามครั้ง", "syl": ["กิน", "ยา", "นี้", "วัน", "ละ", "สาม", "ครั้ง"], "phon": "kin yaa níi wan-lá sǎam kráng", "gloss": "Minum obat ini tiga kali sehari."},
+        {"speaker": "B", "th": "ถ้าไม่ดีขึ้นไปหาหมอ", "syl": ["ถ้า", "ไม่", "ดี", "ขึ้น", "ไป", "หา", "หมอ"], "phon": "thâa mâi dii khûen pai hǎa mǎaw", "gloss": "Kalau tidak membaik, pergilah ke dokter."},
+        {"speaker": "A", "th": "ขอบคุณครับ", "syl": ["ขอบ", "คุณ", "ครับ"], "phon": "khàawp-khun khráp", "gloss": "Terima kasih."}
+      ],
+      "note": "วันละสามครั้ง: ละ berarti 'per', jadi harfiahnya 'per hari tiga kali'. ดีขึ้น berarti 'menjadi lebih baik' — ขึ้น ('naik') dipakai untuk menandai perubahan ke arah lebih.",
+      "items": [
+        {"id": "b07-q1", "type": "mcq", "prompt": "Berapa kali sehari obatnya diminum?", "prompt_th": null, "options_lang": "id",
+         "options": ["Tiga kali", "Sekali", "Dua kali", "Setiap jam"], "answer": 0,
+         "explain": "วันละสามครั้ง — ละ berarti 'per', ครั้ง berarti 'kali'."},
+        {"id": "b07-q2", "type": "mcq", "prompt": "Apa yang harus dilakukan kalau tidak membaik?", "prompt_th": null, "options_lang": "id",
+         "options": ["Pergi ke dokter", "Minum obat dua kali lipat", "Istirahat saja", "Kembali ke apotek"], "answer": 0,
+         "explain": "ถ้าไม่ดีขึ้นไปหาหมอ — ถ้า berarti 'kalau', ไปหาหมอ berarti 'pergi menemui dokter'."}
+      ]
+    },
+    {
+      "id": "b08", "stage": 6, "title": "Mengobrol tentang belajar", "cat": "kenalan",
+      "lines": [
+        {"speaker": "A", "th": "คุณมาจากไหนครับ", "syl": ["คุณ", "มา", "จาก", "ไหน", "ครับ"], "phon": "khun maa jàak nǎi khráp", "gloss": "Anda dari mana?"},
+        {"speaker": "B", "th": "ฉันมาจากอินโดนีเซียค่ะ", "syl": ["ฉัน", "มา", "จาก", "อิน", "โด", "นี", "เซีย", "ค่ะ"], "phon": "chǎn maa jàak in-doo-nii-sia khâ", "gloss": "Saya dari Indonesia."},
+        {"speaker": "A", "th": "คุณพูดภาษาไทยเก่งมากครับ", "syl": ["คุณ", "พูด", "ภา", "ษา", "ไท", "เก่ง", "มาก", "ครับ"], "phon": "khun phûut phaa-sǎa thai kèng mâak khráp", "gloss": "Bahasa Thai Anda bagus sekali.",
+         "check_syl": false, "check_why": "ย pada ไทย tidak dibunyikan."},
+        {"speaker": "B", "th": "ยังไม่เก่งค่ะ เรียนสองเดือนแล้ว", "syl": ["ยัง", "ไม่", "เก่ง", "ค่ะ", "เรียน", "สอง", "เดือน", "แล้ว"], "phon": "yang mâi kèng khâ rian sǎawng duean láeo", "gloss": "Belum bagus. Saya sudah belajar dua bulan."},
+        {"speaker": "A", "th": "สนุกไหมครับ", "syl": ["ส", "นุก", "ไหม", "ครับ"], "phon": "sà-nùk mǎi khráp", "gloss": "Menyenangkan?"},
+        {"speaker": "B", "th": "สนุกมากค่ะ แต่เสียงยากค่ะ", "syl": ["ส", "นุก", "มาก", "ค่ะ", "แต่", "เสียง", "ยาก", "ค่ะ"], "phon": "sà-nùk mâak khâ tàe sǐang yâak khâ", "gloss": "Sangat menyenangkan, tetapi nadanya sulit."}
+      ],
+      "note": "Memuji kemampuan berbahasa adalah basa-basi yang hampir pasti Anda dengar. Jawaban yang wajar adalah merendah (ยังไม่เก่ง), bukan menerima pujian itu bulat-bulat.",
+      "items": [
+        {"id": "b08-q1", "type": "mcq", "prompt": "Sudah berapa lama B belajar?", "prompt_th": null, "options_lang": "id",
+         "options": ["Dua bulan", "Dua tahun", "Dua minggu", "Belum mulai"], "answer": 0,
+         "explain": "เรียนสองเดือนแล้ว — เดือน berarti 'bulan', แล้ว menandai bahwa itu sudah berlangsung."},
+        {"id": "b08-q2", "type": "mcq", "prompt": "Apa yang dirasa sulit oleh B?", "prompt_th": null, "options_lang": "id",
+         "options": ["Nadanya", "Tulisannya", "Kosakatanya", "Tata bahasanya"], "answer": 0,
+         "explain": "เสียงยาก — เสียง di sini berarti 'nada, bunyi'."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+teks,judul,baris,pembicara,th,lafal,arti,tahap
+b01,Berkenalan,1,A,สวัสดีครับ,sà-wàt-dii khráp,Selamat siang.,2
+b01,Berkenalan,2,B,สวัสดีค่ะ,sà-wàt-dii khâ,Selamat siang.,2
+b01,Berkenalan,3,A,ผมชื่อสมชายครับ,phǒm chûue sǒm-chaai khráp,Nama saya Somchai.,2
+b01,Berkenalan,4,A,คุณชื่ออะไรครับ,khun chûue à-rai khráp,Siapa nama Anda?,2
+b01,Berkenalan,5,B,ฉันชื่อมาลีค่ะ,chǎn chûue maa-lii khâ,Nama saya Mali.,2
+b01,Berkenalan,6,A,ยินดีที่ได้รู้จักครับ,yin-dii thîi dâi rúu-jàk khráp,Senang berkenalan dengan Anda.,2
+b02,Memesan makanan,1,A,รับอะไรดีครับ,ráp à-rai dii khráp,Mau pesan apa?,3
+b02,Memesan makanan,2,B,ขอข้าวผัดไก่หนึ่งจานครับ,khǎaw khâao-phàt kài nùeng jaan khráp,Minta satu piring nasi goreng ayam.,3
+b02,Memesan makanan,3,B,ไม่เผ็ดนะครับ,mâi phèt ná khráp,"Jangan pedas, ya.",3
+b02,Memesan makanan,4,A,ได้ครับ ดื่มอะไรดีครับ,dâi khráp dùuem à-rai dii khráp,Baik. Mau minum apa?,3
+b02,Memesan makanan,5,B,น้ำเปล่าหนึ่งแก้วครับ,náam-plào nùeng kâeo khráp,Satu gelas air putih.,3
+b02,Memesan makanan,6,A,สักครู่นะครับ,sàk-khrûu ná khráp,Mohon tunggu sebentar.,3
+b03,Mencari toilet,1,A,ขอโทษครับ,khǎaw-thôot khráp,Permisi.,3
+b03,Mencari toilet,2,A,ห้องน้ำอยู่ไหนครับ,hâawng-náam yùu nǎi khráp,Di mana toiletnya?,3
+b03,Mencari toilet,3,B,อยู่ข้างหลังร้านค่ะ,yùu khâang-lǎng ráan khâ,Ada di belakang toko.,3
+b03,Mencari toilet,4,A,ไกลไหมครับ,klai mǎi khráp,Jauh tidak?,3
+b03,Mencari toilet,5,B,ไม่ไกลค่ะ เดินห้านาที,mâi klai khâ dooen hâa naa-thii,Tidak jauh. Lima menit jalan kaki.,3
+b03,Mencari toilet,6,A,ขอบคุณมากครับ,khàawp-khun mâak khráp,Terima kasih banyak.,3
+b04,Menawar di pasar,1,A,อันนี้ราคาเท่าไหร่ครับ,an níi raa-khaa thâo-rài khráp,Yang ini berapa harganya?,4
+b04,Menawar di pasar,2,B,สองร้อยบาทค่ะ,sǎawng ráawi bàat khâ,Dua ratus baht.,4
+b04,Menawar di pasar,3,A,แพงไปครับ ลดได้ไหมครับ,phaeng pai khráp lót dâi mǎi khráp,Terlalu mahal. Bisa kurang?,4
+b04,Menawar di pasar,4,B,ลดให้สิบบาทค่ะ,lót hâi sìp bàat khâ,Saya kurangi sepuluh baht.,4
+b04,Menawar di pasar,5,A,เอาสองอันครับ,ao sǎawng an khráp,Saya ambil dua.,4
+b05,Cuaca,1,A,วันนี้อากาศร้อนมาก,wan-níi aa-kàat ráawn mâak,Hari ini cuacanya sangat panas.,4
+b05,Cuaca,2,A,ที่อินโดนีเซียร้อนไหม,thîi in-doo-nii-sia ráawn mǎi,Apakah di Indonesia panas juga?,4
+b05,Cuaca,3,B,ร้อนเหมือนกัน แต่ฝนตกบ่อย,ráawn mǔean-kan tàe fǒn tòk bàawi,"Sama-sama panas, tetapi sering hujan.",4
+b05,Cuaca,4,A,ที่นี่ฝนตกตอนเย็น,thîi-nîi fǒn tòk taawn-yen,Di sini hujan turun pada sore hari.,4
+b06,Naik taksi,1,A,ไปโรงแรมนี้ได้ไหมครับ,pai roong-raem níi dâi mǎi khráp,Bisa antar ke hotel ini?,5
+b06,Naik taksi,2,B,ได้ครับ ขึ้นรถได้เลยครับ,dâi khráp khûen rót dâi looei khráp,Bisa. Silakan langsung naik.,5
+b06,Naik taksi,3,A,ไกลไหมครับ,klai mǎi khráp,Jauh tidak?,5
+b06,Naik taksi,4,B,ไม่ไกลครับ สิบนาที,mâi klai khráp sìp naa-thii,Tidak jauh. Sepuluh menit.,5
+b06,Naik taksi,5,A,จอดตรงนี้ครับ,jàawt trong-níi khráp,Berhenti di sini saja.,5
+b07,Di apotek,1,A,ผมไม่สบายครับ ปวดท้องมาก,phǒm mâi sà-baai khráp pùat tháawng mâak,Saya tidak sehat. Perut saya sangat sakit.,5
+b07,Di apotek,2,B,กินยานี้วันละสามครั้ง,kin yaa níi wan-lá sǎam kráng,Minum obat ini tiga kali sehari.,5
+b07,Di apotek,3,B,ถ้าไม่ดีขึ้นไปหาหมอ,thâa mâi dii khûen pai hǎa mǎaw,"Kalau tidak membaik, pergilah ke dokter.",5
+b07,Di apotek,4,A,ขอบคุณครับ,khàawp-khun khráp,Terima kasih.,5
+b08,Mengobrol tentang belajar,1,A,คุณมาจากไหนครับ,khun maa jàak nǎi khráp,Anda dari mana?,6
+b08,Mengobrol tentang belajar,2,B,ฉันมาจากอินโดนีเซียค่ะ,chǎn maa jàak in-doo-nii-sia khâ,Saya dari Indonesia.,6
+b08,Mengobrol tentang belajar,3,A,คุณพูดภาษาไทยเก่งมากครับ,khun phûut phaa-sǎa thai kèng mâak khráp,Bahasa Thai Anda bagus sekali.,6
+b08,Mengobrol tentang belajar,4,B,ยังไม่เก่งค่ะ เรียนสองเดือนแล้ว,yang mâi kèng khâ rian sǎawng duean láeo,Belum bagus. Saya sudah belajar dua bulan.,6
+b08,Mengobrol tentang belajar,5,A,สนุกไหมครับ,sà-nùk mǎi khráp,Menyenangkan?,6
+b08,Mengobrol tentang belajar,6,B,สนุกมากค่ะ แต่เสียงยากค่ะ,sà-nùk mâak khâ tàe sǐang yâak khâ,"Sangat menyenangkan, tetapi nadanya sulit.",6

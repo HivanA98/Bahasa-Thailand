@@ -13,6 +13,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e01",
+   "audio": "\u0e01 \u0e44\u0e01\u0e48",
    "title": "\u0e01 \u0e44\u0e01\u0e48 \u2014 ko kai",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -51,6 +52,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e02",
+   "audio": "\u0e02 \u0e44\u0e02\u0e48",
    "title": "\u0e02 \u0e44\u0e02\u0e48 \u2014 kho khai",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -89,6 +91,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e04",
+   "audio": "\u0e04 \u0e04\u0e27\u0e32\u0e22",
    "title": "\u0e04 \u0e04\u0e27\u0e32\u0e22 \u2014 kho khwai",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -127,6 +130,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e07",
+   "audio": "\u0e07 \u0e07\u0e39",
    "title": "\u0e07 \u0e07\u0e39 \u2014 ngo ngu",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -165,6 +169,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e08",
+   "audio": "\u0e08 \u0e08\u0e32\u0e19",
    "title": "\u0e08 \u0e08\u0e32\u0e19 \u2014 cho chan",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -203,6 +208,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e14",
+   "audio": "\u0e14 \u0e40\u0e14\u0e47\u0e01",
    "title": "\u0e14 \u0e40\u0e14\u0e47\u0e01 \u2014 do dek",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -241,6 +247,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e15",
+   "audio": "\u0e15 \u0e40\u0e15\u0e48\u0e32",
    "title": "\u0e15 \u0e40\u0e15\u0e48\u0e32 \u2014 to tao",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -279,6 +286,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e19",
+   "audio": "\u0e19 \u0e2b\u0e19\u0e39",
    "title": "\u0e19 \u0e2b\u0e19\u0e39 \u2014 no nu",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -317,6 +325,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e1a",
+   "audio": "\u0e1a \u0e43\u0e1a\u0e44\u0e21\u0e49",
    "title": "\u0e1a \u0e43\u0e1a\u0e44\u0e21\u0e49 \u2014 bo baimai",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -355,6 +364,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e1b",
+   "audio": "\u0e1b \u0e1b\u0e25\u0e32",
    "title": "\u0e1b \u0e1b\u0e25\u0e32 \u2014 po pla",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -393,6 +403,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e21",
+   "audio": "\u0e21 \u0e21\u0e49\u0e32",
    "title": "\u0e21 \u0e21\u0e49\u0e32 \u2014 mo ma",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -431,6 +442,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 1,
    "th": "\u0e2d",
+   "audio": "\u0e2d \u0e2d\u0e48\u0e32\u0e07",
    "title": "\u0e2d \u0e2d\u0e48\u0e32\u0e07 \u2014 o ang",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -469,6 +481,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e0a",
+   "audio": "\u0e0a \u0e0a\u0e49\u0e32\u0e07",
    "title": "\u0e0a \u0e0a\u0e49\u0e32\u0e07 \u2014 cho chang",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -507,6 +520,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e0b",
+   "audio": "\u0e0b \u0e42\u0e0b\u0e48",
    "title": "\u0e0b \u0e42\u0e0b\u0e48 \u2014 so so",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -545,6 +559,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e17",
+   "audio": "\u0e17 \u0e17\u0e2b\u0e32\u0e23",
    "title": "\u0e17 \u0e17\u0e2b\u0e32\u0e23 \u2014 tho thahan",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -583,6 +598,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e1e",
+   "audio": "\u0e1e \u0e1e\u0e32\u0e19",
    "title": "\u0e1e \u0e1e\u0e32\u0e19 \u2014 pho phan",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -621,6 +637,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e1f",
+   "audio": "\u0e1f \u0e1f\u0e31\u0e19",
    "title": "\u0e1f \u0e1f\u0e31\u0e19 \u2014 fo fan",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -659,6 +676,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e22",
+   "audio": "\u0e22 \u0e22\u0e31\u0e01\u0e29\u0e4c",
    "title": "\u0e22 \u0e22\u0e31\u0e01\u0e29\u0e4c \u2014 yo yak",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -697,6 +715,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e23",
+   "audio": "\u0e23 \u0e40\u0e23\u0e37\u0e2d",
    "title": "\u0e23 \u0e40\u0e23\u0e37\u0e2d \u2014 ro ruea",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -735,6 +754,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e25",
+   "audio": "\u0e25 \u0e25\u0e34\u0e07",
    "title": "\u0e25 \u0e25\u0e34\u0e07 \u2014 lo ling",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -773,6 +793,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e27",
+   "audio": "\u0e27 \u0e41\u0e2b\u0e27\u0e19",
    "title": "\u0e27 \u0e41\u0e2b\u0e27\u0e19 \u2014 wo waen",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -811,6 +832,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 2,
    "th": "\u0e2a",
+   "audio": "\u0e2a \u0e40\u0e2a\u0e37\u0e2d",
    "title": "\u0e2a \u0e40\u0e2a\u0e37\u0e2d \u2014 so suea",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -849,6 +871,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e2b",
+   "audio": "\u0e2b \u0e2b\u0e35\u0e1a",
    "title": "\u0e2b \u0e2b\u0e35\u0e1a \u2014 ho hip",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -887,6 +910,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e1c",
+   "audio": "\u0e1c \u0e1c\u0e36\u0e49\u0e07",
    "title": "\u0e1c \u0e1c\u0e36\u0e49\u0e07 \u2014 pho phueng",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -925,6 +949,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e1d",
+   "audio": "\u0e1d \u0e1d\u0e32",
    "title": "\u0e1d \u0e1d\u0e32 \u2014 fo fa",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -963,6 +988,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e16",
+   "audio": "\u0e16 \u0e16\u0e38\u0e07",
    "title": "\u0e16 \u0e16\u0e38\u0e07 \u2014 tho thung",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1001,6 +1027,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e09",
+   "audio": "\u0e09 \u0e09\u0e34\u0e48\u0e07",
    "title": "\u0e09 \u0e09\u0e34\u0e48\u0e07 \u2014 cho ching",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1039,6 +1066,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e20",
+   "audio": "\u0e20 \u0e2a\u0e33\u0e40\u0e20\u0e32",
    "title": "\u0e20 \u0e2a\u0e33\u0e40\u0e20\u0e32 \u2014 pho sam-phao",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1077,6 +1105,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e18",
+   "audio": "\u0e18 \u0e18\u0e07",
    "title": "\u0e18 \u0e18\u0e07 \u2014 tho thong",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1115,6 +1144,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 3,
    "th": "\u0e2e",
+   "audio": "\u0e2e \u0e19\u0e01\u0e2e\u0e39\u0e01",
    "title": "\u0e2e \u0e19\u0e01\u0e2e\u0e39\u0e01 \u2014 ho nok-huk",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1153,6 +1183,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e0d",
+   "audio": "\u0e0d \u0e2b\u0e0d\u0e34\u0e07",
    "title": "\u0e0d \u0e2b\u0e0d\u0e34\u0e07 \u2014 yo ying",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1191,6 +1222,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e13",
+   "audio": "\u0e13 \u0e40\u0e13\u0e23",
    "title": "\u0e13 \u0e40\u0e13\u0e23 \u2014 no nen",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1229,6 +1261,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e28",
+   "audio": "\u0e28 \u0e28\u0e32\u0e25\u0e32",
    "title": "\u0e28 \u0e28\u0e32\u0e25\u0e32 \u2014 so sala",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1267,6 +1300,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e29",
+   "audio": "\u0e29 \u0e24\u0e29\u0e35",
    "title": "\u0e29 \u0e24\u0e29\u0e35 \u2014 so rue-si",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1305,6 +1339,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e2c",
+   "audio": "\u0e2c \u0e08\u0e38\u0e2c\u0e32",
    "title": "\u0e2c \u0e08\u0e38\u0e2c\u0e32 \u2014 lo chu-la",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1343,6 +1378,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 4,
    "th": "\u0e06",
+   "audio": "\u0e06 \u0e23\u0e30\u0e06\u0e31\u0e07",
    "title": "\u0e06 \u0e23\u0e30\u0e06\u0e31\u0e07 \u2014 kho ra-khang",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1381,6 +1417,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e0e",
+   "audio": "\u0e0e \u0e0a\u0e0e\u0e32",
    "title": "\u0e0e \u0e0a\u0e0e\u0e32 \u2014 do cha-da",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -1419,6 +1456,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e0f",
+   "audio": "\u0e0f \u0e1b\u0e0f\u0e31\u0e01",
    "title": "\u0e0f \u0e1b\u0e0f\u0e31\u0e01 \u2014 to pa-tak",
    "meaning": "kelas tengah (9 huruf)",
    "rows": [
@@ -1457,6 +1495,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e10",
+   "audio": "\u0e10 \u0e10\u0e32\u0e19",
    "title": "\u0e10 \u0e10\u0e32\u0e19 \u2014 tho than",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1495,6 +1534,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e11",
+   "audio": "\u0e11 \u0e21\u0e13\u0e42\u0e11",
    "title": "\u0e11 \u0e21\u0e13\u0e42\u0e11 \u2014 tho montho",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1533,6 +1573,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e12",
+   "audio": "\u0e12 \u0e1c\u0e39\u0e49\u0e40\u0e12\u0e48\u0e32",
    "title": "\u0e12 \u0e1c\u0e39\u0e49\u0e40\u0e12\u0e48\u0e32 \u2014 tho phu-thao",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1571,6 +1612,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 5,
    "th": "\u0e0c",
+   "audio": "\u0e0c \u0e40\u0e0c\u0e2d",
    "title": "\u0e0c \u0e40\u0e0c\u0e2d \u2014 cho choe",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1609,6 +1651,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 6,
    "th": "\u0e03",
+   "audio": "\u0e03 \u0e02\u0e27\u0e14",
    "title": "\u0e03 \u0e02\u0e27\u0e14 \u2014 kho khuat",
    "meaning": "kelas tinggi (11 huruf)",
    "rows": [
@@ -1647,6 +1690,7 @@ const THAI_DATA = {
    "catLabel": "Konsonan",
    "stage": 6,
    "th": "\u0e05",
+   "audio": "\u0e05 \u0e04\u0e19",
    "title": "\u0e05 \u0e04\u0e19 \u2014 kho khon",
    "meaning": "kelas rendah (24 huruf)",
    "rows": [
@@ -1685,6 +1729,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e30",
+   "audio": "\u0e08\u0e30",
    "title": "a (pendek)",
    "meaning": "bunyi a",
    "rows": [
@@ -1713,6 +1758,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e32",
+   "audio": "\u0e21\u0e32",
    "title": "aa (panjang)",
    "meaning": "bunyi aa",
    "rows": [
@@ -1741,6 +1787,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e34",
+   "audio": "\u0e01\u0e34\u0e19",
    "title": "i (pendek)",
    "meaning": "bunyi i",
    "rows": [
@@ -1769,6 +1816,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e35",
+   "audio": "\u0e14\u0e35",
    "title": "ii (panjang)",
    "meaning": "bunyi ii",
    "rows": [
@@ -1797,6 +1845,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e38",
+   "audio": "\u0e04\u0e38\u0e13",
    "title": "u (pendek)",
    "meaning": "bunyi u",
    "rows": [
@@ -1825,6 +1874,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u0e39",
+   "audio": "\u0e14\u0e39",
    "title": "uu (panjang)",
    "meaning": "bunyi uu",
    "rows": [
@@ -1853,6 +1903,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 1,
    "th": "\u25cc\u25cc",
+   "audio": "\u0e04\u0e19",
    "title": "o (pendek)",
    "meaning": "bunyi o",
    "rows": [
@@ -1881,6 +1932,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e40\u25cc\u0e30",
+   "audio": "\u0e40\u0e25\u0e47\u0e01",
    "title": "e (pendek)",
    "meaning": "bunyi e",
    "rows": [
@@ -1909,6 +1961,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e40\u25cc",
+   "audio": "\u0e40\u0e25\u0e48\u0e19",
    "title": "ee (panjang)",
    "meaning": "bunyi ee",
    "rows": [
@@ -1937,6 +1990,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e41\u25cc\u0e30",
+   "audio": "\u0e41\u0e02\u0e47\u0e07",
    "title": "ae (pendek)",
    "meaning": "bunyi ae",
    "rows": [
@@ -1965,6 +2019,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e41\u25cc",
+   "audio": "\u0e41\u0e21\u0e48",
    "title": "aae (panjang)",
    "meaning": "bunyi aae",
    "rows": [
@@ -1993,6 +2048,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e42\u25cc\u0e30",
+   "audio": "\u0e42\u0e15\u0e4a\u0e30",
    "title": "o (pendek)",
    "meaning": "bunyi o",
    "rows": [
@@ -2021,6 +2077,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e42\u25cc",
+   "audio": "\u0e42\u0e15",
    "title": "oo (panjang)",
    "meaning": "bunyi oo",
    "rows": [
@@ -2049,6 +2106,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u0e40\u25cc\u0e32\u0e30",
+   "audio": "\u0e40\u0e01\u0e32\u0e30",
    "title": "aw (pendek)",
    "meaning": "bunyi aw",
    "rows": [
@@ -2077,6 +2135,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u25cc\u0e2d",
+   "audio": "\u0e02\u0e2d",
    "title": "aaw (panjang)",
    "meaning": "bunyi aaw",
    "rows": [
@@ -2105,6 +2164,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u25cc\u0e36",
+   "audio": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
    "title": "ue (pendek)",
    "meaning": "bunyi ue",
    "rows": [
@@ -2133,6 +2193,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u25cc\u0e37\u0e2d",
+   "audio": "\u0e21\u0e37\u0e2d",
    "title": "uue (panjang)",
    "meaning": "bunyi uue",
    "rows": [
@@ -2161,6 +2222,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 4,
    "th": "\u0e40\u25cc\u0e2d\u0e30",
+   "audio": "\u0e40\u0e22\u0e2d\u0e30",
    "title": "oe (pendek)",
    "meaning": "bunyi oe",
    "rows": [
@@ -2189,6 +2251,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 4,
    "th": "\u0e40\u25cc\u0e2d",
+   "audio": "\u0e40\u0e18\u0e2d",
    "title": "ooe (panjang)",
    "meaning": "bunyi ooe",
    "rows": [
@@ -2217,6 +2280,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 4,
    "th": "\u0e40\u25cc\u0e35\u0e22",
+   "audio": "\u0e40\u0e23\u0e35\u0e22\u0e19",
    "title": "ia (panjang)",
    "meaning": "bunyi ia",
    "rows": [
@@ -2245,6 +2309,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 6,
    "th": "\u0e40\u25cc\u0e35\u0e22\u0e30",
+   "audio": "\u0e40\u0e1b\u0e35\u0e4a\u0e22\u0e30",
    "title": "ia (pendek)",
    "meaning": "bunyi ia",
    "rows": [
@@ -2273,6 +2338,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 4,
    "th": "\u0e40\u25cc\u0e37\u0e2d",
+   "audio": "\u0e40\u0e2a\u0e37\u0e2d",
    "title": "uea (panjang)",
    "meaning": "bunyi uea",
    "rows": [
@@ -2301,6 +2367,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 6,
    "th": "\u0e40\u25cc\u0e37\u0e2d\u0e30",
+   "audio": "",
    "title": "uea (pendek)",
    "meaning": "bunyi uea",
    "rows": [
@@ -2329,6 +2396,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 4,
    "th": "\u25cc\u0e31\u0e27",
+   "audio": "\u0e15\u0e31\u0e27",
    "title": "ua (panjang)",
    "meaning": "bunyi ua",
    "rows": [
@@ -2357,6 +2425,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 6,
    "th": "\u25cc\u0e31\u0e27\u0e30",
+   "audio": "",
    "title": "ua (pendek)",
    "meaning": "bunyi ua",
    "rows": [
@@ -2385,6 +2454,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u25cc\u0e31\u25cc",
+   "audio": "\u0e09\u0e31\u0e19",
    "title": "a (pendek)",
    "meaning": "bunyi a",
    "rows": [
@@ -2413,6 +2483,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u25cc\u0e33",
+   "audio": "\u0e19\u0e49\u0e33",
    "title": "am (pendek)",
    "meaning": "bunyi am",
    "rows": [
@@ -2441,6 +2512,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e44\u25cc",
+   "audio": "\u0e44\u0e1b",
    "title": "ai (pendek)",
    "meaning": "bunyi ai",
    "rows": [
@@ -2469,6 +2541,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 3,
    "th": "\u0e43\u25cc",
+   "audio": "\u0e43\u0e08",
    "title": "ai (pendek)",
    "meaning": "bunyi ai",
    "rows": [
@@ -2497,6 +2570,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 2,
    "th": "\u0e40\u25cc\u0e32",
+   "audio": "\u0e40\u0e02\u0e32",
    "title": "ao (pendek)",
    "meaning": "bunyi ao",
    "rows": [
@@ -2525,6 +2599,7 @@ const THAI_DATA = {
    "catLabel": "Vokal",
    "stage": 5,
    "th": "\u25cc",
+   "audio": "\u0e02\u0e19\u0e21",
    "title": "a (pendek)",
    "meaning": "bunyi a",
    "rows": [
@@ -2553,6 +2628,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 1,
    "th": "\u0e48",
+   "audio": "\u0e44\u0e21\u0e48",
    "title": "\u0e44\u0e21\u0e49\u0e40\u0e2d\u0e01 \u2014 mai ek",
    "meaning": "mai ek",
    "rows": [
@@ -2577,6 +2653,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 1,
    "th": "\u0e49",
+   "audio": "\u0e19\u0e49\u0e33",
    "title": "\u0e44\u0e21\u0e49\u0e42\u0e17 \u2014 mai tho",
    "meaning": "mai tho",
    "rows": [
@@ -2601,6 +2678,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 3,
    "th": "\u0e4a",
+   "audio": "\u0e42\u0e15\u0e4a\u0e30",
    "title": "\u0e44\u0e21\u0e49\u0e15\u0e23\u0e35 \u2014 mai tri",
    "meaning": "mai tri",
    "rows": [
@@ -2625,6 +2703,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 3,
    "th": "\u0e4b",
+   "audio": "\u0e40\u0e14\u0e35\u0e4b\u0e22\u0e27",
    "title": "\u0e44\u0e21\u0e49\u0e08\u0e31\u0e15\u0e27\u0e32 \u2014 mai chattawa",
    "meaning": "mai chattawa",
    "rows": [
@@ -2649,6 +2728,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 2,
    "th": "\u0e47",
+   "audio": "\u0e40\u0e25\u0e47\u0e01",
    "title": "\u0e44\u0e21\u0e49\u0e44\u0e15\u0e48\u0e04\u0e39\u0e49 \u2014 maitaikhu",
    "meaning": "maitaikhu",
    "rows": [
@@ -2673,6 +2753,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 4,
    "th": "\u0e4c",
+   "audio": "\u0e22\u0e31\u0e01\u0e29\u0e4c",
    "title": "\u0e17\u0e31\u0e13\u0e11\u0e06\u0e32\u0e15 \u2014 thanthakhat",
    "meaning": "thanthakhat",
    "rows": [
@@ -2697,6 +2778,7 @@ const THAI_DATA = {
    "catLabel": "Tanda",
    "stage": 4,
    "th": "\u0e46",
+   "audio": "\u0e40\u0e14\u0e47\u0e01\u0e46",
    "title": "\u0e44\u0e21\u0e49\u0e22\u0e21\u0e01 \u2014 mai yamok",
    "meaning": "mai yamok",
    "rows": [
@@ -2721,6 +2803,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e50",
+   "audio": "\u0e28\u0e39\u0e19\u0e22\u0e4c",
    "title": "0",
    "meaning": "0",
    "rows": [
@@ -2742,6 +2825,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e51",
+   "audio": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
    "title": "1",
    "meaning": "1",
    "rows": [
@@ -2763,6 +2847,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e52",
+   "audio": "\u0e2a\u0e2d\u0e07",
    "title": "2",
    "meaning": "2",
    "rows": [
@@ -2784,6 +2869,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e53",
+   "audio": "\u0e2a\u0e32\u0e21",
    "title": "3",
    "meaning": "3",
    "rows": [
@@ -2805,6 +2891,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e54",
+   "audio": "\u0e2a\u0e35\u0e48",
    "title": "4",
    "meaning": "4",
    "rows": [
@@ -2826,6 +2913,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e55",
+   "audio": "\u0e2b\u0e49\u0e32",
    "title": "5",
    "meaning": "5",
    "rows": [
@@ -2847,6 +2935,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e56",
+   "audio": "\u0e2b\u0e01",
    "title": "6",
    "meaning": "6",
    "rows": [
@@ -2868,6 +2957,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e57",
+   "audio": "\u0e40\u0e08\u0e47\u0e14",
    "title": "7",
    "meaning": "7",
    "rows": [
@@ -2889,6 +2979,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e58",
+   "audio": "\u0e41\u0e1b\u0e14",
    "title": "8",
    "meaning": "8",
    "rows": [
@@ -2910,6 +3001,7 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 5,
    "th": "\u0e59",
+   "audio": "\u0e40\u0e01\u0e49\u0e32",
    "title": "9",
    "meaning": "9",
    "rows": [
@@ -3149,6 +3241,7 @@ const THAI_DATA = {
    "catLabel": "Lima nada",
    "stage": 1,
    "th": "\u0e21\u0e32",
+   "audio": "\u0e21\u0e32",
    "title": "nada sedang",
    "meaning": "nada sedang \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07\u0e2a\u0e32\u0e21\u0e31\u0e0d (siang saman)",
    "rows": [
@@ -3175,6 +3268,7 @@ const THAI_DATA = {
    "catLabel": "Lima nada",
    "stage": 1,
    "th": "\u0e1b\u0e48\u0e32",
+   "audio": "\u0e1b\u0e48\u0e32",
    "title": "nada rendah",
    "meaning": "nada rendah \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07\u0e40\u0e2d\u0e01 (siang ek)",
    "rows": [
@@ -3201,6 +3295,7 @@ const THAI_DATA = {
    "catLabel": "Lima nada",
    "stage": 1,
    "th": "\u0e1b\u0e49\u0e32",
+   "audio": "\u0e1b\u0e49\u0e32",
    "title": "nada turun",
    "meaning": "nada turun \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07\u0e42\u0e17 (siang tho)",
    "rows": [
@@ -3227,6 +3322,7 @@ const THAI_DATA = {
    "catLabel": "Lima nada",
    "stage": 1,
    "th": "\u0e21\u0e49\u0e32",
+   "audio": "\u0e21\u0e49\u0e32",
    "title": "nada tinggi",
    "meaning": "nada tinggi \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07\u0e15\u0e23\u0e35 (siang tri)",
    "rows": [
@@ -3253,6 +3349,7 @@ const THAI_DATA = {
    "catLabel": "Lima nada",
    "stage": 1,
    "th": "\u0e2b\u0e21\u0e32",
+   "audio": "\u0e2b\u0e21\u0e32",
    "title": "nada naik",
    "meaning": "nada naik \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07\u0e08\u0e31\u0e15\u0e27\u0e32 (siang chattawa)",
    "rows": [
@@ -3586,6 +3683,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e01\u0e32",
+   "audio": "\u0e01\u0e32",
    "promptLabel": "arti: burung gagak",
    "optionsLang": "id",
    "options": [
@@ -3606,6 +3704,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e14\u0e35",
+   "audio": "\u0e14\u0e35",
    "promptLabel": "arti: baik",
    "optionsLang": "id",
    "options": [
@@ -3626,6 +3725,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e08\u0e30",
+   "audio": "\u0e08\u0e30",
    "promptLabel": "arti: akan",
    "optionsLang": "id",
    "options": [
@@ -3646,6 +3746,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e08\u0e32\u0e01",
+   "audio": "\u0e08\u0e32\u0e01",
    "promptLabel": "arti: dari",
    "optionsLang": "id",
    "options": [
@@ -3666,6 +3767,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1b\u0e34\u0e14",
+   "audio": "\u0e1b\u0e34\u0e14",
    "promptLabel": "arti: menutup",
    "optionsLang": "id",
    "options": [
@@ -3686,6 +3788,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e40\u0e1b\u0e47\u0e19",
+   "audio": "\u0e40\u0e1b\u0e47\u0e19",
    "promptLabel": "arti: adalah, menjadi",
    "optionsLang": "id",
    "options": [
@@ -3706,6 +3809,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e21\u0e32",
+   "audio": "\u0e21\u0e32",
    "promptLabel": "arti: datang",
    "optionsLang": "id",
    "options": [
@@ -3726,6 +3830,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e04\u0e19",
+   "audio": "\u0e04\u0e19",
    "promptLabel": "arti: orang",
    "optionsLang": "id",
    "options": [
@@ -3746,6 +3851,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e02\u0e32",
+   "audio": "\u0e02\u0e32",
    "promptLabel": "arti: kaki",
    "optionsLang": "id",
    "options": [
@@ -3766,6 +3872,7 @@ const THAI_DATA = {
    "stage": 1,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e19\u0e01",
+   "audio": "\u0e19\u0e01",
    "promptLabel": "arti: burung",
    "optionsLang": "id",
    "options": [
@@ -3786,6 +3893,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1b\u0e48\u0e32",
+   "audio": "\u0e1b\u0e48\u0e32",
    "promptLabel": "arti: hutan",
    "optionsLang": "id",
    "options": [
@@ -3806,6 +3914,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1b\u0e49\u0e32",
+   "audio": "\u0e1b\u0e49\u0e32",
    "promptLabel": "arti: bibi (saudara tua ayah/ibu)",
    "optionsLang": "id",
    "options": [
@@ -3826,6 +3935,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e44\u0e21\u0e48",
+   "audio": "\u0e44\u0e21\u0e48",
    "promptLabel": "arti: tidak",
    "optionsLang": "id",
    "options": [
@@ -3846,6 +3956,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e21\u0e49\u0e32",
+   "audio": "\u0e21\u0e49\u0e32",
    "promptLabel": "arti: kuda",
    "optionsLang": "id",
    "options": [
@@ -3866,6 +3977,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e02\u0e48\u0e32\u0e27",
+   "audio": "\u0e02\u0e48\u0e32\u0e27",
    "promptLabel": "arti: berita",
    "optionsLang": "id",
    "options": [
@@ -3886,6 +3998,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e02\u0e49\u0e32\u0e27",
+   "audio": "\u0e02\u0e49\u0e32\u0e27",
    "promptLabel": "arti: beras, nasi",
    "optionsLang": "id",
    "options": [
@@ -3906,6 +4019,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e21\u0e32\u0e01",
+   "audio": "\u0e21\u0e32\u0e01",
    "promptLabel": "arti: banyak, sangat",
    "optionsLang": "id",
    "options": [
@@ -3926,6 +4040,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e23\u0e31\u0e01",
+   "audio": "\u0e23\u0e31\u0e01",
    "promptLabel": "arti: cinta, mencintai",
    "optionsLang": "id",
    "options": [
@@ -3946,6 +4061,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e25\u0e39\u0e01",
+   "audio": "\u0e25\u0e39\u0e01",
    "promptLabel": "arti: anak (keturunan)",
    "optionsLang": "id",
    "options": [
@@ -3966,6 +4082,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2a\u0e34\u0e1a",
+   "audio": "\u0e2a\u0e34\u0e1a",
    "promptLabel": "arti: sepuluh",
    "optionsLang": "id",
    "options": [
@@ -3986,6 +4103,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2a\u0e32\u0e21",
+   "audio": "\u0e2a\u0e32\u0e21",
    "promptLabel": "arti: tiga",
    "optionsLang": "id",
    "options": [
@@ -4006,6 +4124,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2b\u0e49\u0e32",
+   "audio": "\u0e2b\u0e49\u0e32",
    "promptLabel": "arti: lima",
    "optionsLang": "id",
    "options": [
@@ -4026,6 +4145,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2b\u0e01",
+   "audio": "\u0e2b\u0e01",
    "promptLabel": "arti: enam",
    "optionsLang": "id",
    "options": [
@@ -4046,6 +4166,7 @@ const THAI_DATA = {
    "stage": 2,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1c\u0e21",
+   "audio": "\u0e1c\u0e21",
    "promptLabel": "arti: saya (dipakai lelaki); rambut",
    "optionsLang": "id",
    "options": [
@@ -4066,6 +4187,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e16\u0e39\u0e01",
+   "audio": "\u0e16\u0e39\u0e01",
    "promptLabel": "arti: murah; benar",
    "optionsLang": "id",
    "options": [
@@ -4086,6 +4208,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1d\u0e19",
+   "audio": "\u0e1d\u0e19",
    "promptLabel": "arti: hujan",
    "optionsLang": "id",
    "options": [
@@ -4106,6 +4229,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e19\u0e49\u0e33",
+   "audio": "\u0e19\u0e49\u0e33",
    "promptLabel": "arti: air",
    "optionsLang": "id",
    "options": [
@@ -4126,6 +4250,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e17\u0e35\u0e48",
+   "audio": "\u0e17\u0e35\u0e48",
    "promptLabel": "arti: di; yang; tempat",
    "optionsLang": "id",
    "options": [
@@ -4146,6 +4271,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e22\u0e32\u0e01",
+   "audio": "\u0e22\u0e32\u0e01",
    "promptLabel": "arti: sulit",
    "optionsLang": "id",
    "options": [
@@ -4166,6 +4292,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e40\u0e25\u0e47\u0e01",
+   "audio": "\u0e40\u0e25\u0e47\u0e01",
    "promptLabel": "arti: kecil",
    "optionsLang": "id",
    "options": [
@@ -4186,6 +4313,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e0a\u0e32",
+   "audio": "\u0e0a\u0e32",
    "promptLabel": "arti: teh",
    "optionsLang": "id",
    "options": [
@@ -4206,6 +4334,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e07\u0e32\u0e19",
+   "audio": "\u0e07\u0e32\u0e19",
    "promptLabel": "arti: pekerjaan, acara",
    "optionsLang": "id",
    "options": [
@@ -4226,6 +4355,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e27\u0e31\u0e19",
+   "audio": "\u0e27\u0e31\u0e19",
    "promptLabel": "arti: hari",
    "optionsLang": "id",
    "options": [
@@ -4246,6 +4376,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e42\u0e15\u0e4a\u0e30",
+   "audio": "\u0e42\u0e15\u0e4a\u0e30",
    "promptLabel": "arti: meja",
    "optionsLang": "id",
    "options": [
@@ -4266,6 +4397,7 @@ const THAI_DATA = {
    "stage": 3,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e40\u0e14\u0e35\u0e4b\u0e22\u0e27",
+   "audio": "\u0e40\u0e14\u0e35\u0e4b\u0e22\u0e27",
    "promptLabel": "arti: sebentar",
    "optionsLang": "id",
    "options": [
@@ -4286,6 +4418,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2b\u0e21\u0e32",
+   "audio": "\u0e2b\u0e21\u0e32",
    "promptLabel": "arti: anjing",
    "optionsLang": "id",
    "options": [
@@ -4306,6 +4439,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
+   "audio": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
    "promptLabel": "arti: satu",
    "optionsLang": "id",
    "options": [
@@ -4326,6 +4460,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e43\u0e2b\u0e49",
+   "audio": "\u0e43\u0e2b\u0e49",
    "promptLabel": "arti: memberi; supaya",
    "optionsLang": "id",
    "options": [
@@ -4346,6 +4481,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e43\u0e2b\u0e0d\u0e48",
+   "audio": "\u0e43\u0e2b\u0e0d\u0e48",
    "promptLabel": "arti: besar",
    "optionsLang": "id",
    "options": [
@@ -4366,6 +4502,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e44\u0e2b\u0e21",
+   "audio": "\u0e44\u0e2b\u0e21",
    "promptLabel": "arti: partikel penanda pertanyaan",
    "optionsLang": "id",
    "options": [
@@ -4386,6 +4523,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2d\u0e22\u0e39\u0e48",
+   "audio": "\u0e2d\u0e22\u0e39\u0e48",
    "promptLabel": "arti: berada, tinggal di",
    "optionsLang": "id",
    "options": [
@@ -4406,6 +4544,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1b\u0e25\u0e32",
+   "audio": "\u0e1b\u0e25\u0e32",
    "promptLabel": "arti: ikan",
    "optionsLang": "id",
    "options": [
@@ -4426,6 +4565,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e01\u0e25\u0e31\u0e1a",
+   "audio": "\u0e01\u0e25\u0e31\u0e1a",
    "promptLabel": "arti: kembali, pulang",
    "optionsLang": "id",
    "options": [
@@ -4446,6 +4586,7 @@ const THAI_DATA = {
    "stage": 4,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e04\u0e23\u0e31\u0e1a",
    "promptLabel": "arti: partikel sopan (dipakai lelaki)",
    "optionsLang": "id",
    "options": [
@@ -4466,6 +4607,7 @@ const THAI_DATA = {
    "stage": 5,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e02\u0e19\u0e21",
+   "audio": "\u0e02\u0e19\u0e21",
    "promptLabel": "arti: kue, penganan",
    "optionsLang": "id",
    "options": [
@@ -4486,6 +4628,7 @@ const THAI_DATA = {
    "stage": 5,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e15\u0e25\u0e32\u0e14",
+   "audio": "\u0e15\u0e25\u0e32\u0e14",
    "promptLabel": "arti: pasar",
    "optionsLang": "id",
    "options": [
@@ -4506,6 +4649,7 @@ const THAI_DATA = {
    "stage": 5,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2a\u0e19\u0e38\u0e01",
+   "audio": "\u0e2a\u0e19\u0e38\u0e01",
    "promptLabel": "arti: menyenangkan, seru",
    "optionsLang": "id",
    "options": [
@@ -4526,6 +4670,7 @@ const THAI_DATA = {
    "stage": 5,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2a\u0e1a\u0e32\u0e22",
+   "audio": "\u0e2a\u0e1a\u0e32\u0e22",
    "promptLabel": "arti: nyaman, sehat",
    "optionsLang": "id",
    "options": [
@@ -4546,6 +4691,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e40\u0e2b\u0e19\u0e37\u0e48\u0e2d\u0e22",
+   "audio": "\u0e40\u0e2b\u0e19\u0e37\u0e48\u0e2d\u0e22",
    "promptLabel": "arti: lelah",
    "optionsLang": "id",
    "options": [
@@ -4566,6 +4712,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e40\u0e1b\u0e23\u0e35\u0e49\u0e22\u0e27",
+   "audio": "\u0e40\u0e1b\u0e23\u0e35\u0e49\u0e22\u0e27",
    "promptLabel": "arti: asam",
    "optionsLang": "id",
    "options": [
@@ -4586,6 +4733,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32",
+   "audio": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32",
    "promptLabel": "arti: tas",
    "optionsLang": "id",
    "options": [
@@ -4606,6 +4754,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25",
+   "audio": "\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25",
    "promptLabel": "arti: perawat",
    "optionsLang": "id",
    "options": [
@@ -4626,6 +4775,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a",
    "promptLabel": "arti: untuk",
    "optionsLang": "id",
    "options": [
@@ -4646,6 +4796,7 @@ const THAI_DATA = {
    "stage": 6,
    "prompt": "Apa nada kata ini?",
    "promptTh": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02",
+   "audio": "\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02",
    "promptLabel": "arti: kebahagiaan",
    "optionsLang": "id",
    "options": [
@@ -4665,6 +4816,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 1,
    "th": "\u0e21\u0e32 / \u0e21\u0e49\u0e32 / \u0e2b\u0e21\u0e32",
+   "audio": "\u0e21\u0e32 \u0e21\u0e49\u0e32 \u0e2b\u0e21\u0e32",
    "title": "\u0e21\u0e32 / \u0e21\u0e49\u0e32 / \u0e2b\u0e21\u0e32",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -4691,6 +4843,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 2,
    "th": "\u0e02\u0e32\u0e27 / \u0e02\u0e48\u0e32\u0e27 / \u0e02\u0e49\u0e32\u0e27",
+   "audio": "\u0e02\u0e32\u0e27 \u0e02\u0e48\u0e32\u0e27 \u0e02\u0e49\u0e32\u0e27",
    "title": "\u0e02\u0e32\u0e27 / \u0e02\u0e48\u0e32\u0e27 / \u0e02\u0e49\u0e32\u0e27",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -4717,6 +4870,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 2,
    "th": "\u0e04\u0e32 / \u0e04\u0e48\u0e32 / \u0e04\u0e49\u0e32",
+   "audio": "\u0e04\u0e32 \u0e04\u0e48\u0e32 \u0e04\u0e49\u0e32",
    "title": "\u0e04\u0e32 / \u0e04\u0e48\u0e32 / \u0e04\u0e49\u0e32",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -4743,6 +4897,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 3,
    "th": "\u0e40\u0e2a\u0e37\u0e2d / \u0e40\u0e2a\u0e37\u0e48\u0e2d / \u0e40\u0e2a\u0e37\u0e49\u0e2d",
+   "audio": "\u0e40\u0e2a\u0e37\u0e2d \u0e40\u0e2a\u0e37\u0e48\u0e2d \u0e40\u0e2a\u0e37\u0e49\u0e2d",
    "title": "\u0e40\u0e2a\u0e37\u0e2d / \u0e40\u0e2a\u0e37\u0e48\u0e2d / \u0e40\u0e2a\u0e37\u0e49\u0e2d",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -4769,6 +4924,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 4,
    "th": "\u0e1b\u0e32 / \u0e1b\u0e48\u0e32 / \u0e1b\u0e49\u0e32 / \u0e1b\u0e4a\u0e32 / \u0e1b\u0e4b\u0e32",
+   "audio": "\u0e1b\u0e32 \u0e1b\u0e48\u0e32 \u0e1b\u0e49\u0e32 \u0e1b\u0e4a\u0e32 \u0e1b\u0e4b\u0e32",
    "title": "\u0e1b\u0e32 / \u0e1b\u0e48\u0e32 / \u0e1b\u0e49\u0e32 / \u0e1b\u0e4a\u0e32 / \u0e1b\u0e4b\u0e32",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -4803,6 +4959,7 @@ const THAI_DATA = {
    "catLabel": "Pasangan nada",
    "stage": 4,
    "th": "\u0e44\u0e01\u0e25 / \u0e43\u0e01\u0e25\u0e49",
+   "audio": "\u0e44\u0e01\u0e25 \u0e43\u0e01\u0e25\u0e49",
    "title": "\u0e44\u0e01\u0e25 / \u0e43\u0e01\u0e25\u0e49",
    "meaning": "Kata-kata ini hanya berbeda nada",
    "rows": [
@@ -5035,6 +5192,560 @@ const THAI_DATA = {
    "explain": "Aturan ejaan memberi nada naik; percakapan memakai nada tinggi. Keduanya hidup bersama: ejaan baku \u0e44\u0e2b\u0e21 tetap dipakai dalam tulisan resmi, \u0e21\u0e31\u0e49\u0e22 dipakai pada tulisan tidak resmi dan percakapan."
   }
  ],
+ "dengar": [
+  {
+   "id": "d-p01-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e1b\u0e31\u0e01",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e31\u0e01",
+    "\u0e1b\u0e32\u0e01"
+   ],
+   "answer": 0,
+   "reveal": "\u0e1b\u0e31\u0e01 = p\u00e0k (menancapkan, menyulam)",
+   "explain": "Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: \u25cc\u0e31 pendek, \u25cc\u0e32 panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia.  \u0e1b\u0e31\u0e01 = p\u00e0k (menancapkan, menyulam) \u00b7 \u0e1b\u0e32\u0e01 = p\u00e0ak (mulut)"
+  },
+  {
+   "id": "d-p01-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e1b\u0e32\u0e01",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e31\u0e01",
+    "\u0e1b\u0e32\u0e01"
+   ],
+   "answer": 1,
+   "reveal": "\u0e1b\u0e32\u0e01 = p\u00e0ak (mulut)",
+   "explain": "Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: \u25cc\u0e31 pendek, \u25cc\u0e32 panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia.  \u0e1b\u0e31\u0e01 = p\u00e0k (menancapkan, menyulam) \u00b7 \u0e1b\u0e32\u0e01 = p\u00e0ak (mulut)"
+  },
+  {
+   "id": "d-p02-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e04\u0e31\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e04\u0e31\u0e19",
+    "\u0e04\u0e32\u0e19"
+   ],
+   "answer": 0,
+   "reveal": "\u0e04\u0e31\u0e19 = khan (gatal; klasifikator kendaraan)",
+   "explain": "Keduanya bernada sedang dan berawalan \u0e04. Panjang vokal saja yang membedakan artinya.  \u0e04\u0e31\u0e19 = khan (gatal; klasifikator kendaraan) \u00b7 \u0e04\u0e32\u0e19 = khaan (balok penyangga)"
+  },
+  {
+   "id": "d-p02-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e04\u0e32\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e04\u0e31\u0e19",
+    "\u0e04\u0e32\u0e19"
+   ],
+   "answer": 1,
+   "reveal": "\u0e04\u0e32\u0e19 = khaan (balok penyangga)",
+   "explain": "Keduanya bernada sedang dan berawalan \u0e04. Panjang vokal saja yang membedakan artinya.  \u0e04\u0e31\u0e19 = khan (gatal; klasifikator kendaraan) \u00b7 \u0e04\u0e32\u0e19 = khaan (balok penyangga)"
+  },
+  {
+   "id": "d-p03-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e17\u0e31\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e17\u0e31\u0e19",
+    "\u0e17\u0e32\u0e19"
+   ],
+   "answer": 0,
+   "reveal": "\u0e17\u0e31\u0e19 = than (sempat, keburu)",
+   "explain": "\u0e17\u0e32\u0e19 yang panjang adalah bentuk halus dari \u0e01\u0e34\u0e19. Kalau vokalnya terlalu pendek, yang terdengar justru \u0e17\u0e31\u0e19 ('keburu').  \u0e17\u0e31\u0e19 = than (sempat, keburu) \u00b7 \u0e17\u0e32\u0e19 = thaan (makan (ragam halus))"
+  },
+  {
+   "id": "d-p03-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e17\u0e32\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e17\u0e31\u0e19",
+    "\u0e17\u0e32\u0e19"
+   ],
+   "answer": 1,
+   "reveal": "\u0e17\u0e32\u0e19 = thaan (makan (ragam halus))",
+   "explain": "\u0e17\u0e32\u0e19 yang panjang adalah bentuk halus dari \u0e01\u0e34\u0e19. Kalau vokalnya terlalu pendek, yang terdengar justru \u0e17\u0e31\u0e19 ('keburu').  \u0e17\u0e31\u0e19 = than (sempat, keburu) \u00b7 \u0e17\u0e32\u0e19 = thaan (makan (ragam halus))"
+  },
+  {
+   "id": "d-p04-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e40\u0e02\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e40\u0e02\u0e32",
+    "\u0e02\u0e32\u0e27"
+   ],
+   "answer": 0,
+   "reveal": "\u0e40\u0e02\u0e32 = kh\u01ceo (dia)",
+   "explain": "Dua kata yang sangat sering dipakai dan sama-sama bernada naik. \u0e40\u25cc\u0e32 pendek, \u25cc\u0e32\u0e27 panjang. Inilah pasangan yang paling sering membuat pemula salah paham.  \u0e40\u0e02\u0e32 = kh\u01ceo (dia) \u00b7 \u0e02\u0e32\u0e27 = kh\u01ceao (putih)"
+  },
+  {
+   "id": "d-p04-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e02\u0e32\u0e27",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e40\u0e02\u0e32",
+    "\u0e02\u0e32\u0e27"
+   ],
+   "answer": 1,
+   "reveal": "\u0e02\u0e32\u0e27 = kh\u01ceao (putih)",
+   "explain": "Dua kata yang sangat sering dipakai dan sama-sama bernada naik. \u0e40\u25cc\u0e32 pendek, \u25cc\u0e32\u0e27 panjang. Inilah pasangan yang paling sering membuat pemula salah paham.  \u0e40\u0e02\u0e32 = kh\u01ceo (dia) \u00b7 \u0e02\u0e32\u0e27 = kh\u01ceao (putih)"
+  },
+  {
+   "id": "d-p05-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 4,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e44\u0e15",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e44\u0e15",
+    "\u0e15\u0e32\u0e22"
+   ],
+   "answer": 0,
+   "reveal": "\u0e44\u0e15 = tai (ginjal)",
+   "explain": "Keduanya bernada sedang dan berakhir bunyi -i. Bedanya hanya vokal a yang pendek atau panjang.  \u0e44\u0e15 = tai (ginjal) \u00b7 \u0e15\u0e32\u0e22 = taai (mati)"
+  },
+  {
+   "id": "d-p05-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 4,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e15\u0e32\u0e22",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e44\u0e15",
+    "\u0e15\u0e32\u0e22"
+   ],
+   "answer": 1,
+   "reveal": "\u0e15\u0e32\u0e22 = taai (mati)",
+   "explain": "Keduanya bernada sedang dan berakhir bunyi -i. Bedanya hanya vokal a yang pendek atau panjang.  \u0e44\u0e15 = tai (ginjal) \u00b7 \u0e15\u0e32\u0e22 = taai (mati)"
+  },
+  {
+   "id": "d-p06-0",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 5,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e1e\u0e31\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1e\u0e31\u0e19",
+    "\u0e1e\u0e32\u0e19"
+   ],
+   "answer": 0,
+   "reveal": "\u0e1e\u0e31\u0e19 = phan (seribu; melilit)",
+   "explain": "\u0e1e\u0e31\u0e19 ('seribu') dipakai hampir setiap hari saat menyebut harga, jadi vokal pendeknya perlu benar-benar pendek.  \u0e1e\u0e31\u0e19 = phan (seribu; melilit) \u00b7 \u0e1e\u0e32\u0e19 = phaan (baki bertangkai)"
+  },
+  {
+   "id": "d-p06-1",
+   "kind": "mcq",
+   "cat": "telinga-panjang",
+   "catLabel": "Panjang vokal",
+   "stage": 5,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya panjang vokal",
+   "audio": "\u0e1e\u0e32\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1e\u0e31\u0e19",
+    "\u0e1e\u0e32\u0e19"
+   ],
+   "answer": 1,
+   "reveal": "\u0e1e\u0e32\u0e19 = phaan (baki bertangkai)",
+   "explain": "\u0e1e\u0e31\u0e19 ('seribu') dipakai hampir setiap hari saat menyebut harga, jadi vokal pendeknya perlu benar-benar pendek.  \u0e1e\u0e31\u0e19 = phan (seribu; melilit) \u00b7 \u0e1e\u0e32\u0e19 = phaan (baki bertangkai)"
+  },
+  {
+   "id": "d-h01-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e01\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e01\u0e32",
+    "\u0e04\u0e32"
+   ],
+   "answer": 0,
+   "reveal": "\u0e01\u0e32 = kaa (burung gagak)",
+   "explain": "Keduanya bernada sedang. \u0e01 tidak berhembus, \u0e04 berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada \u0e04 harus terasa embusan udara, pada \u0e01 tidak.  \u0e01\u0e32 = kaa (burung gagak) \u00b7 \u0e04\u0e32 = khaa (tersangkut)"
+  },
+  {
+   "id": "d-h01-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e04\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e01\u0e32",
+    "\u0e04\u0e32"
+   ],
+   "answer": 1,
+   "reveal": "\u0e04\u0e32 = khaa (tersangkut)",
+   "explain": "Keduanya bernada sedang. \u0e01 tidak berhembus, \u0e04 berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada \u0e04 harus terasa embusan udara, pada \u0e01 tidak.  \u0e01\u0e32 = kaa (burung gagak) \u00b7 \u0e04\u0e32 = khaa (tersangkut)"
+  },
+  {
+   "id": "d-h02-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e15\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e15\u0e32",
+    "\u0e17\u0e32"
+   ],
+   "answer": 0,
+   "reveal": "\u0e15\u0e32 = taa (mata; kakek dari pihak ibu)",
+   "explain": "\u0e15 tanpa hembusan, \u0e17 dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip \u0e15, jadi yang perlu dilatih adalah menambah hembusan pada \u0e17.  \u0e15\u0e32 = taa (mata; kakek dari pihak ibu) \u00b7 \u0e17\u0e32 = thaa (mengoleskan)"
+  },
+  {
+   "id": "d-h02-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 2,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e17\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e15\u0e32",
+    "\u0e17\u0e32"
+   ],
+   "answer": 1,
+   "reveal": "\u0e17\u0e32 = thaa (mengoleskan)",
+   "explain": "\u0e15 tanpa hembusan, \u0e17 dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip \u0e15, jadi yang perlu dilatih adalah menambah hembusan pada \u0e17.  \u0e15\u0e32 = taa (mata; kakek dari pihak ibu) \u00b7 \u0e17\u0e32 = thaa (mengoleskan)"
+  },
+  {
+   "id": "d-h03-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e1b\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e32",
+    "\u0e1e\u0e32"
+   ],
+   "answer": 0,
+   "reveal": "\u0e1b\u0e32 = paa (melempar)",
+   "explain": "\u0e1b tanpa hembusan, \u0e1e dengan hembusan. Keduanya bernada sedang.  \u0e1b\u0e32 = paa (melempar) \u00b7 \u0e1e\u0e32 = phaa (membawa (orang))"
+  },
+  {
+   "id": "d-h03-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e1e\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e32",
+    "\u0e1e\u0e32"
+   ],
+   "answer": 1,
+   "reveal": "\u0e1e\u0e32 = phaa (membawa (orang))",
+   "explain": "\u0e1b tanpa hembusan, \u0e1e dengan hembusan. Keduanya bernada sedang.  \u0e1b\u0e32 = paa (melempar) \u00b7 \u0e1e\u0e32 = phaa (membawa (orang))"
+  },
+  {
+   "id": "d-h04-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e44\u0e01\u0e48",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e44\u0e01\u0e48",
+    "\u0e44\u0e02\u0e48"
+   ],
+   "answer": 0,
+   "reveal": "\u0e44\u0e01\u0e48 = k\u00e0i (ayam)",
+   "explain": "Pasangan paling berguna di warung: keduanya bernada rendah, dan hanya hembusan yang membedakan 'ayam' dari 'telur'. \u0e02\u0e49\u0e32\u0e27\u0e44\u0e01\u0e48 ('nasi ayam') dan \u0e02\u0e49\u0e32\u0e27\u0e44\u0e02\u0e48 ('nasi telur') adalah dua pesanan yang berbeda.  \u0e44\u0e01\u0e48 = k\u00e0i (ayam) \u00b7 \u0e44\u0e02\u0e48 = kh\u00e0i (telur)"
+  },
+  {
+   "id": "d-h04-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 3,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e44\u0e02\u0e48",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e44\u0e01\u0e48",
+    "\u0e44\u0e02\u0e48"
+   ],
+   "answer": 1,
+   "reveal": "\u0e44\u0e02\u0e48 = kh\u00e0i (telur)",
+   "explain": "Pasangan paling berguna di warung: keduanya bernada rendah, dan hanya hembusan yang membedakan 'ayam' dari 'telur'. \u0e02\u0e49\u0e32\u0e27\u0e44\u0e01\u0e48 ('nasi ayam') dan \u0e02\u0e49\u0e32\u0e27\u0e44\u0e02\u0e48 ('nasi telur') adalah dua pesanan yang berbeda.  \u0e44\u0e01\u0e48 = k\u00e0i (ayam) \u00b7 \u0e44\u0e02\u0e48 = kh\u00e0i (telur)"
+  },
+  {
+   "id": "d-h05-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 4,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e1b\u0e48\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e48\u0e32",
+    "\u0e1c\u0e48\u0e32"
+   ],
+   "answer": 0,
+   "reveal": "\u0e1b\u0e48\u0e32 = p\u00e0a (hutan)",
+   "explain": "Keduanya bernada rendah. \u0e1b kelas tengah dan \u0e1c kelas tinggi sama-sama menghasilkan nada rendah dengan mai ek, sehingga yang tersisa sebagai pembeda hanyalah hembusan.  \u0e1b\u0e48\u0e32 = p\u00e0a (hutan) \u00b7 \u0e1c\u0e48\u0e32 = ph\u00e0a (membelah, mengoperasi)"
+  },
+  {
+   "id": "d-h05-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 4,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e1c\u0e48\u0e32",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e1b\u0e48\u0e32",
+    "\u0e1c\u0e48\u0e32"
+   ],
+   "answer": 1,
+   "reveal": "\u0e1c\u0e48\u0e32 = ph\u00e0a (membelah, mengoperasi)",
+   "explain": "Keduanya bernada rendah. \u0e1b kelas tengah dan \u0e1c kelas tinggi sama-sama menghasilkan nada rendah dengan mai ek, sehingga yang tersisa sebagai pembeda hanyalah hembusan.  \u0e1b\u0e48\u0e32 = p\u00e0a (hutan) \u00b7 \u0e1c\u0e48\u0e32 = ph\u00e0a (membelah, mengoperasi)"
+  },
+  {
+   "id": "d-h06-0",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 5,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e40\u0e1b\u0e47\u0e19",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e40\u0e1b\u0e47\u0e19",
+    "\u0e40\u0e1e\u0e47\u0e0d"
+   ],
+   "answer": 0,
+   "reveal": "\u0e40\u0e1b\u0e47\u0e19 = pen (adalah, menjadi)",
+   "explain": "\u0e40\u0e1b\u0e47\u0e19 adalah salah satu kata paling sering dipakai, jadi hembusannya harus benar-benar tidak ada.  \u0e40\u0e1b\u0e47\u0e19 = pen (adalah, menjadi) \u00b7 \u0e40\u0e1e\u0e47\u0e0d = phen (purnama (lazim pada nama orang))"
+  },
+  {
+   "id": "d-h06-1",
+   "kind": "mcq",
+   "cat": "telinga-hembusan",
+   "catLabel": "Hembusan",
+   "stage": 5,
+   "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+   "promptTh": "",
+   "promptLabel": "bedanya hanya hembusan konsonan awal",
+   "audio": "\u0e40\u0e1e\u0e47\u0e0d",
+   "audioOnly": true,
+   "optionsLang": "th",
+   "options": [
+    "\u0e40\u0e1b\u0e47\u0e19",
+    "\u0e40\u0e1e\u0e47\u0e0d"
+   ],
+   "answer": 1,
+   "reveal": "\u0e40\u0e1e\u0e47\u0e0d = phen (purnama (lazim pada nama orang))",
+   "explain": "\u0e40\u0e1b\u0e47\u0e19 adalah salah satu kata paling sering dipakai, jadi hembusannya harus benar-benar tidak ada.  \u0e40\u0e1b\u0e47\u0e19 = pen (adalah, menjadi) \u00b7 \u0e40\u0e1e\u0e47\u0e0d = phen (purnama (lazim pada nama orang))"
+  },
+  {
+   "id": "d-q01",
+   "kind": "mcq",
+   "cat": "soal-telinga",
+   "catLabel": "Soal telinga",
+   "stage": 2,
+   "prompt": "Mengapa latihan mendengarkan pasangan kata diperlukan, padahal aturan nada sudah dihafal?",
+   "promptTh": "",
+   "optionsLang": "id",
+   "options": [
+    "Aturan nada melatih mata untuk membaca; telinga perlu dilatih terpisah",
+    "Aturan nada hanya berlaku untuk kata serapan",
+    "Karena aturan nada sering salah",
+    "Karena nada tidak penting dalam percakapan"
+   ],
+   "answer": 0,
+   "explain": "Aturan nada menjawab pertanyaan 'kata tertulis ini nadanya apa'. Ia tidak menjawab 'bunyi yang barusan saya dengar itu nada apa'. Keduanya keterampilan berbeda dan dilatih terpisah."
+  },
+  {
+   "id": "d-q02",
+   "kind": "mcq",
+   "cat": "soal-telinga",
+   "catLabel": "Soal telinga",
+   "stage": 2,
+   "prompt": "Apa yang paling sering merusak nada kata terakhir pada kalimat tanya penutur Bahasa Indonesia?",
+   "promptTh": "",
+   "optionsLang": "id",
+   "options": [
+    "Kebiasaan menaikkan nada suara di akhir pertanyaan",
+    "Berbicara terlalu pelan",
+    "Memakai partikel \u0e04\u0e23\u0e31\u0e1a atau \u0e04\u0e48\u0e30",
+    "Mengucapkan vokal terlalu panjang"
+   ],
+   "answer": 0,
+   "explain": "Dalam Bahasa Indonesia, naik-turun suara menandai jenis kalimat. Dalam Bahasa Thailand, naik-turun suara adalah bagian dari kata itu sendiri. Pertanyaan ditandai partikel seperti \u0e44\u0e2b\u0e21, bukan oleh nada akhir."
+  },
+  {
+   "id": "d-q03",
+   "kind": "mcq",
+   "cat": "soal-telinga",
+   "catLabel": "Soal telinga",
+   "stage": 3,
+   "prompt": "Cara paling sederhana memeriksa sendiri apakah konsonan Anda berhembus?",
+   "promptTh": "",
+   "optionsLang": "id",
+   "options": [
+    "Taruh telapak tangan di depan mulut dan rasakan embusan udaranya",
+    "Rekam suara lalu lihat gelombangnya",
+    "Ucapkan sambil menahan napas",
+    "Bandingkan dengan huruf Latinnya"
+   ],
+   "answer": 0,
+   "explain": "Pada \u0e02, \u0e16, \u0e1c, \u0e17, \u0e04, \u0e1e terasa embusan udara di telapak tangan; pada \u0e01, \u0e15, \u0e1b tidak. Ini pemeriksaan yang bisa dilakukan tanpa alat apa pun."
+  },
+  {
+   "id": "d-q04",
+   "kind": "mcq",
+   "cat": "soal-telinga",
+   "catLabel": "Soal telinga",
+   "stage": 4,
+   "prompt": "Panjang vokal pada Bahasa Thailand berperan sebagai apa?",
+   "promptTh": "",
+   "optionsLang": "id",
+   "options": [
+    "Pembeda arti kata, sama seperti nada",
+    "Hanya hiasan gaya bicara",
+    "Penanda kesopanan",
+    "Penanda jenis kalimat"
+   ],
+   "answer": 0,
+   "explain": "\u0e40\u0e02\u0e32 ('dia') dan \u0e02\u0e32\u0e27 ('putih') hanya berbeda panjang vokalnya. Bahasa Indonesia tidak memakai panjang vokal untuk membedakan arti, sehingga perbedaan ini harus dilatih dengan sengaja."
+  }
+ ],
  "kosakata": [
   {
    "id": "v001",
@@ -5043,8 +5754,10 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35",
+   "audio": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35",
    "phon": "s\u00e0-w\u00e0t-dii",
    "rom": "sawatdi",
+   "freq": 1,
    "gloss": "salam (hai, selamat pagi, selamat siang)",
    "alt": [
     "hai",
@@ -5065,8 +5778,10 @@ const THAI_DATA = {
    "catLabel": "Partikel",
    "stage": 1,
    "th": "\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e04\u0e23\u0e31\u0e1a",
    "phon": "khr\u00e1p",
    "rom": "khrap",
+   "freq": 1,
    "gloss": "partikel sopan yang dipakai lelaki",
    "alt": [
     "ya (sopan, lelaki)"
@@ -5085,8 +5800,10 @@ const THAI_DATA = {
    "catLabel": "Partikel",
    "stage": 1,
    "th": "\u0e04\u0e48\u0e30",
+   "audio": "\u0e04\u0e48\u0e30",
    "phon": "kh\u00e2",
    "rom": "kha",
+   "freq": 1,
    "gloss": "partikel sopan yang dipakai perempuan, pada pernyataan",
    "alt": [
     "ya (sopan, perempuan)"
@@ -5105,8 +5822,10 @@ const THAI_DATA = {
    "catLabel": "Partikel",
    "stage": 1,
    "th": "\u0e04\u0e30",
+   "audio": "\u0e04\u0e30",
    "phon": "kh\u00e1",
    "rom": "kha",
+   "freq": 2,
    "gloss": "partikel sopan yang dipakai perempuan, pada pertanyaan",
    "alt": [],
    "detail": "partikel \u00b7 RTGS: kha",
@@ -5123,8 +5842,10 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13",
+   "audio": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13",
    "phon": "kh\u00e0awp-khun",
    "rom": "khopkhun",
+   "freq": 1,
    "gloss": "terima kasih",
    "alt": [
     "terimakasih"
@@ -5143,8 +5864,10 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e02\u0e2d\u0e42\u0e17\u0e29",
+   "audio": "\u0e02\u0e2d\u0e42\u0e17\u0e29",
    "phon": "kh\u01ceaw-th\u00f4ot",
    "rom": "khothot",
+   "freq": 1,
    "gloss": "maaf; permisi",
    "alt": [
     "minta maaf",
@@ -5164,8 +5887,10 @@ const THAI_DATA = {
    "catLabel": "Partikel",
    "stage": 1,
    "th": "\u0e43\u0e0a\u0e48",
+   "audio": "\u0e43\u0e0a\u0e48",
    "phon": "ch\u00e2i",
    "rom": "chai",
+   "freq": 1,
    "gloss": "ya, benar",
    "alt": [
     "benar",
@@ -5185,8 +5910,10 @@ const THAI_DATA = {
    "catLabel": "Partikel",
    "stage": 1,
    "th": "\u0e44\u0e21\u0e48",
+   "audio": "\u0e44\u0e21\u0e48",
    "phon": "m\u00e2i",
    "rom": "mai",
+   "freq": 1,
    "gloss": "tidak",
    "alt": [
     "bukan",
@@ -5206,8 +5933,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e1c\u0e21",
+   "audio": "\u0e1c\u0e21",
    "phon": "ph\u01d2m",
    "rom": "phom",
+   "freq": 1,
    "gloss": "saya (dipakai lelaki)",
    "alt": [
     "aku (lelaki)",
@@ -5227,8 +5956,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e09\u0e31\u0e19",
+   "audio": "\u0e09\u0e31\u0e19",
    "phon": "ch\u01cen",
    "rom": "chan",
+   "freq": 1,
    "gloss": "saya (dipakai perempuan)",
    "alt": [
     "aku (perempuan)"
@@ -5247,8 +5978,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e04\u0e38\u0e13",
+   "audio": "\u0e04\u0e38\u0e13",
    "phon": "khun",
    "rom": "khun",
+   "freq": 1,
    "gloss": "Anda",
    "alt": [
     "kamu (sopan)",
@@ -5268,8 +6001,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e40\u0e02\u0e32",
+   "audio": "\u0e40\u0e02\u0e32",
    "phon": "kh\u01ceo",
    "rom": "khao",
+   "freq": 1,
    "gloss": "dia",
    "alt": [
     "ia",
@@ -5289,8 +6024,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e40\u0e23\u0e32",
+   "audio": "\u0e40\u0e23\u0e32",
    "phon": "rao",
    "rom": "rao",
+   "freq": 1,
    "gloss": "kita, kami",
    "alt": [
     "kami",
@@ -5310,8 +6047,10 @@ const THAI_DATA = {
    "catLabel": "Kata ganti",
    "stage": 1,
    "th": "\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32",
+   "audio": "\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32",
    "phon": "ph\u00fbak-kh\u01ceo",
    "rom": "phuak khao",
+   "freq": 2,
    "gloss": "mereka",
    "alt": [],
    "detail": "ganti \u00b7 RTGS: phuak khao",
@@ -5328,8 +6067,10 @@ const THAI_DATA = {
    "catLabel": "Kata tunjuk",
    "stage": 1,
    "th": "\u0e19\u0e35\u0e48",
+   "audio": "\u0e19\u0e35\u0e48",
    "phon": "n\u00eei",
    "rom": "ni",
+   "freq": 1,
    "gloss": "ini",
    "alt": [
     "yang ini"
@@ -5348,8 +6089,10 @@ const THAI_DATA = {
    "catLabel": "Kata tunjuk",
    "stage": 1,
    "th": "\u0e19\u0e31\u0e48\u0e19",
+   "audio": "\u0e19\u0e31\u0e48\u0e19",
    "phon": "n\u00e2n",
    "rom": "nan",
+   "freq": 1,
    "gloss": "itu",
    "alt": [
     "yang itu"
@@ -5368,8 +6111,10 @@ const THAI_DATA = {
    "catLabel": "Kata tanya",
    "stage": 1,
    "th": "\u0e2d\u0e30\u0e44\u0e23",
+   "audio": "\u0e2d\u0e30\u0e44\u0e23",
    "phon": "\u00e0-rai",
    "rom": "arai",
+   "freq": 1,
    "gloss": "apa",
    "alt": [
     "apakah"
@@ -5388,8 +6133,10 @@ const THAI_DATA = {
    "catLabel": "Kata tanya",
    "stage": 1,
    "th": "\u0e43\u0e04\u0e23",
+   "audio": "\u0e43\u0e04\u0e23",
    "phon": "khrai",
    "rom": "khrai",
+   "freq": 2,
    "gloss": "siapa",
    "alt": [],
    "detail": "tanya \u00b7 RTGS: khrai",
@@ -5406,8 +6153,10 @@ const THAI_DATA = {
    "catLabel": "Kata tanya",
    "stage": 1,
    "th": "\u0e44\u0e2b\u0e19",
+   "audio": "\u0e44\u0e2b\u0e19",
    "phon": "n\u01cei",
    "rom": "nai",
+   "freq": 1,
    "gloss": "mana",
    "alt": [
     "di mana"
@@ -5426,8 +6175,10 @@ const THAI_DATA = {
    "catLabel": "Kata tanya",
    "stage": 1,
    "th": "\u0e17\u0e33\u0e44\u0e21",
+   "audio": "\u0e17\u0e33\u0e44\u0e21",
    "phon": "tham-mai",
    "rom": "thammai",
+   "freq": 2,
    "gloss": "mengapa",
    "alt": [
     "kenapa"
@@ -5446,8 +6197,10 @@ const THAI_DATA = {
    "catLabel": "Kata tanya",
    "stage": 1,
    "th": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e2b\u0e23\u0e48",
+   "audio": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e2b\u0e23\u0e48",
    "phon": "m\u00fbea-r\u00e0i",
    "rom": "muearai",
+   "freq": 2,
    "gloss": "kapan",
    "alt": [
     "bilamana"
@@ -5466,8 +6219,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
+   "audio": "\u0e2b\u0e19\u0e36\u0e48\u0e07",
    "phon": "n\u00f9eng",
    "rom": "nueng",
+   "freq": 1,
    "gloss": "satu",
    "alt": [
     "1"
@@ -5486,8 +6241,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2a\u0e2d\u0e07",
+   "audio": "\u0e2a\u0e2d\u0e07",
    "phon": "s\u01ceawng",
    "rom": "song",
+   "freq": 1,
    "gloss": "dua",
    "alt": [
     "2"
@@ -5506,8 +6263,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2a\u0e32\u0e21",
+   "audio": "\u0e2a\u0e32\u0e21",
    "phon": "s\u01ceam",
    "rom": "sam",
+   "freq": 2,
    "gloss": "tiga",
    "alt": [
     "3"
@@ -5526,8 +6285,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2a\u0e35\u0e48",
+   "audio": "\u0e2a\u0e35\u0e48",
    "phon": "s\u00eci",
    "rom": "si",
+   "freq": 2,
    "gloss": "empat",
    "alt": [
     "4"
@@ -5546,8 +6307,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2b\u0e49\u0e32",
+   "audio": "\u0e2b\u0e49\u0e32",
    "phon": "h\u00e2a",
    "rom": "ha",
+   "freq": 2,
    "gloss": "lima",
    "alt": [
     "5"
@@ -5566,8 +6329,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2b\u0e01",
+   "audio": "\u0e2b\u0e01",
    "phon": "h\u00f2k",
    "rom": "hok",
+   "freq": 2,
    "gloss": "enam",
    "alt": [
     "6"
@@ -5586,8 +6351,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e40\u0e08\u0e47\u0e14",
+   "audio": "\u0e40\u0e08\u0e47\u0e14",
    "phon": "j\u00e8t",
    "rom": "chet",
+   "freq": 2,
    "gloss": "tujuh",
    "alt": [
     "7"
@@ -5606,8 +6373,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e41\u0e1b\u0e14",
+   "audio": "\u0e41\u0e1b\u0e14",
    "phon": "p\u00e0et",
    "rom": "paet",
+   "freq": 2,
    "gloss": "delapan",
    "alt": [
     "8"
@@ -5626,8 +6395,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e40\u0e01\u0e49\u0e32",
+   "audio": "\u0e40\u0e01\u0e49\u0e32",
    "phon": "k\u00e2o",
    "rom": "kao",
+   "freq": 2,
    "gloss": "sembilan",
    "alt": [
     "9"
@@ -5646,8 +6417,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e2a\u0e34\u0e1a",
+   "audio": "\u0e2a\u0e34\u0e1a",
    "phon": "s\u00ecp",
    "rom": "sip",
+   "freq": 2,
    "gloss": "sepuluh",
    "alt": [
     "10"
@@ -5666,8 +6439,10 @@ const THAI_DATA = {
    "catLabel": "Angka",
    "stage": 1,
    "th": "\u0e23\u0e49\u0e2d\u0e22",
+   "audio": "\u0e23\u0e49\u0e2d\u0e22",
    "phon": "r\u00e1awi",
    "rom": "roi",
+   "freq": 2,
    "gloss": "ratus",
    "alt": [
     "seratus"
@@ -5686,8 +6461,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e1e\u0e48\u0e2d",
+   "audio": "\u0e1e\u0e48\u0e2d",
    "phon": "ph\u00e2aw",
    "rom": "pho",
+   "freq": 2,
    "gloss": "ayah",
    "alt": [
     "bapak",
@@ -5707,8 +6484,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e41\u0e21\u0e48",
+   "audio": "\u0e41\u0e21\u0e48",
    "phon": "m\u00e2e",
    "rom": "mae",
+   "freq": 2,
    "gloss": "ibu",
    "alt": [
     "mama",
@@ -5728,8 +6507,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e1e\u0e35\u0e48",
+   "audio": "\u0e1e\u0e35\u0e48",
    "phon": "ph\u00eei",
    "rom": "phi",
+   "freq": 2,
    "gloss": "saudara yang lebih tua",
    "alt": [
     "kakak"
@@ -5748,8 +6529,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e19\u0e49\u0e2d\u0e07",
+   "audio": "\u0e19\u0e49\u0e2d\u0e07",
    "phon": "n\u00e1awng",
    "rom": "nong",
+   "freq": 2,
    "gloss": "saudara yang lebih muda",
    "alt": [
     "adik"
@@ -5768,8 +6551,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e25\u0e39\u0e01",
+   "audio": "\u0e25\u0e39\u0e01",
    "phon": "l\u00fbuk",
    "rom": "luk",
+   "freq": 2,
    "gloss": "anak (keturunan)",
    "alt": [
     "anak kandung"
@@ -5788,8 +6573,10 @@ const THAI_DATA = {
    "catLabel": "Keluarga",
    "stage": 2,
    "th": "\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27",
+   "audio": "\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27",
    "phon": "khr\u00e2awp-khrua",
    "rom": "khropkhrua",
+   "freq": 2,
    "gloss": "keluarga",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: khropkhrua",
@@ -5806,8 +6593,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19",
+   "audio": "\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19",
    "phon": "ph\u00fbean",
    "rom": "phuean",
+   "freq": 2,
    "gloss": "teman",
    "alt": [
     "kawan",
@@ -5827,8 +6616,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e04\u0e19",
+   "audio": "\u0e04\u0e19",
    "phon": "khon",
    "rom": "khon",
+   "freq": 1,
    "gloss": "orang",
    "alt": [
     "manusia"
@@ -5847,8 +6638,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22",
+   "audio": "\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22",
    "phon": "ph\u00fbu-chaai",
    "rom": "phuchai",
+   "freq": 2,
    "gloss": "lelaki",
    "alt": [
     "pria",
@@ -5868,8 +6661,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+   "audio": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
    "phon": "ph\u00fbu-y\u01d0ng",
    "rom": "phuying",
+   "freq": 2,
    "gloss": "perempuan",
    "alt": [
     "wanita"
@@ -5888,8 +6683,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e40\u0e14\u0e47\u0e01",
+   "audio": "\u0e40\u0e14\u0e47\u0e01",
    "phon": "d\u00e8k",
    "rom": "dek",
+   "freq": 2,
    "gloss": "anak (usia muda)",
    "alt": [
     "anak-anak",
@@ -5909,8 +6706,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e04\u0e23\u0e39",
+   "audio": "\u0e04\u0e23\u0e39",
    "phon": "khruu",
    "rom": "khru",
+   "freq": 2,
    "gloss": "guru",
    "alt": [
     "pengajar"
@@ -5929,8 +6728,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19",
+   "audio": "\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19",
    "phon": "n\u00e1k-rian",
    "rom": "nakrian",
+   "freq": 2,
    "gloss": "murid, pelajar",
    "alt": [
     "siswa",
@@ -5950,8 +6751,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e2b\u0e21\u0e2d",
+   "audio": "\u0e2b\u0e21\u0e2d",
    "phon": "m\u01ceaw",
    "rom": "mo",
+   "freq": 2,
    "gloss": "dokter",
    "alt": [
     "tabib"
@@ -5970,8 +6773,10 @@ const THAI_DATA = {
    "catLabel": "Orang",
    "stage": 2,
    "th": "\u0e0a\u0e37\u0e48\u0e2d",
+   "audio": "\u0e0a\u0e37\u0e48\u0e2d",
    "phon": "ch\u00fbue",
    "rom": "chue",
+   "freq": 2,
    "gloss": "nama; bernama",
    "alt": [
     "nama"
@@ -5990,8 +6795,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e01\u0e34\u0e19",
+   "audio": "\u0e01\u0e34\u0e19",
    "phon": "kin",
    "rom": "kin",
+   "freq": 1,
    "gloss": "makan",
    "alt": [
     "menyantap"
@@ -6010,8 +6817,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e14\u0e37\u0e48\u0e21",
+   "audio": "\u0e14\u0e37\u0e48\u0e21",
    "phon": "d\u00f9uem",
    "rom": "duem",
+   "freq": 2,
    "gloss": "minum",
    "alt": [],
    "detail": "verba \u00b7 RTGS: duem",
@@ -6028,8 +6837,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e19\u0e2d\u0e19",
+   "audio": "\u0e19\u0e2d\u0e19",
    "phon": "naawn",
    "rom": "non",
+   "freq": 2,
    "gloss": "tidur, berbaring",
    "alt": [
     "tidur",
@@ -6049,8 +6860,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e44\u0e1b",
+   "audio": "\u0e44\u0e1b",
    "phon": "pai",
    "rom": "pai",
+   "freq": 1,
    "gloss": "pergi",
    "alt": [
     "berangkat",
@@ -6070,8 +6883,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e21\u0e32",
+   "audio": "\u0e21\u0e32",
    "phon": "maa",
    "rom": "ma",
+   "freq": 1,
    "gloss": "datang",
    "alt": [
     "tiba",
@@ -6091,8 +6906,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e17\u0e33",
+   "audio": "\u0e17\u0e33",
    "phon": "tham",
    "rom": "tham",
+   "freq": 1,
    "gloss": "melakukan, membuat",
    "alt": [
     "mengerjakan",
@@ -6112,8 +6929,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e1e\u0e39\u0e14",
+   "audio": "\u0e1e\u0e39\u0e14",
    "phon": "ph\u00fbut",
    "rom": "phut",
+   "freq": 2,
    "gloss": "berbicara",
    "alt": [
     "bicara",
@@ -6133,8 +6952,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e2d\u0e48\u0e32\u0e19",
+   "audio": "\u0e2d\u0e48\u0e32\u0e19",
    "phon": "\u00e0an",
    "rom": "an",
+   "freq": 2,
    "gloss": "membaca",
    "alt": [
     "baca"
@@ -6153,8 +6974,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e40\u0e02\u0e35\u0e22\u0e19",
+   "audio": "\u0e40\u0e02\u0e35\u0e22\u0e19",
    "phon": "kh\u01d0an",
    "rom": "khian",
+   "freq": 2,
    "gloss": "menulis",
    "alt": [
     "tulis"
@@ -6173,8 +6996,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e40\u0e23\u0e35\u0e22\u0e19",
+   "audio": "\u0e40\u0e23\u0e35\u0e22\u0e19",
    "phon": "rian",
    "rom": "rian",
+   "freq": 2,
    "gloss": "belajar",
    "alt": [
     "mempelajari"
@@ -6193,8 +7018,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e0a\u0e2d\u0e1a",
+   "audio": "\u0e0a\u0e2d\u0e1a",
    "phon": "ch\u00e2awp",
    "rom": "chop",
+   "freq": 1,
    "gloss": "suka, menyukai",
    "alt": [
     "senang akan",
@@ -6214,8 +7041,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e23\u0e31\u0e01",
+   "audio": "\u0e23\u0e31\u0e01",
    "phon": "r\u00e1k",
    "rom": "rak",
+   "freq": 2,
    "gloss": "cinta, mencintai",
    "alt": [
     "sayang",
@@ -6235,8 +7064,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e23\u0e39\u0e49",
+   "audio": "\u0e23\u0e39\u0e49",
    "phon": "r\u00fau",
    "rom": "ru",
+   "freq": 1,
    "gloss": "tahu, mengetahui",
    "alt": [
     "mengetahui"
@@ -6255,8 +7086,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e21\u0e35",
+   "audio": "\u0e21\u0e35",
    "phon": "mii",
    "rom": "mi",
+   "freq": 1,
    "gloss": "ada, punya",
    "alt": [
     "memiliki",
@@ -6276,8 +7109,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e40\u0e1b\u0e47\u0e19",
+   "audio": "\u0e40\u0e1b\u0e47\u0e19",
    "phon": "pen",
    "rom": "pen",
+   "freq": 1,
    "gloss": "adalah, menjadi",
    "alt": [
     "menjadi"
@@ -6296,8 +7131,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e04\u0e37\u0e2d",
+   "audio": "\u0e04\u0e37\u0e2d",
    "phon": "khuue",
    "rom": "khue",
+   "freq": 1,
    "gloss": "yaitu, adalah",
    "alt": [
     "ialah"
@@ -6316,8 +7153,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e2d\u0e22\u0e39\u0e48",
+   "audio": "\u0e2d\u0e22\u0e39\u0e48",
    "phon": "y\u00f9u",
    "rom": "yu",
+   "freq": 1,
    "gloss": "berada, tinggal di",
    "alt": [
     "ada di",
@@ -6337,8 +7176,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e44\u0e14\u0e49",
+   "audio": "\u0e44\u0e14\u0e49",
    "phon": "d\u00e2i",
    "rom": "dai",
+   "freq": 1,
    "gloss": "bisa, dapat; boleh",
    "alt": [
     "dapat",
@@ -6359,8 +7200,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e40\u0e2d\u0e32",
+   "audio": "\u0e40\u0e2d\u0e32",
    "phon": "ao",
    "rom": "ao",
+   "freq": 1,
    "gloss": "mengambil; mau",
    "alt": [
     "ambil",
@@ -6381,8 +7224,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e40\u0e25\u0e48\u0e19",
+   "audio": "\u0e40\u0e25\u0e48\u0e19",
    "phon": "l\u00ean",
    "rom": "len",
+   "freq": 2,
    "gloss": "bermain",
    "alt": [
     "main"
@@ -6401,8 +7246,10 @@ const THAI_DATA = {
    "catLabel": "Kata kerja",
    "stage": 2,
    "th": "\u0e2b\u0e32",
+   "audio": "\u0e2b\u0e32",
    "phon": "h\u01cea",
    "rom": "ha",
+   "freq": 2,
    "gloss": "mencari; menemui",
    "alt": [
     "cari",
@@ -6422,8 +7269,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 2,
    "th": "\u0e40\u0e01\u0e48\u0e07",
+   "audio": "\u0e40\u0e01\u0e48\u0e07",
    "phon": "k\u00e8ng",
    "rom": "keng",
+   "freq": 2,
    "gloss": "pandai, mahir",
    "alt": [
     "pintar",
@@ -6444,8 +7293,10 @@ const THAI_DATA = {
    "catLabel": "Benda",
    "stage": 2,
    "th": "\u0e2b\u0e19\u0e31\u0e07\u0e2a\u0e37\u0e2d",
+   "audio": "\u0e2b\u0e19\u0e31\u0e07\u0e2a\u0e37\u0e2d",
    "phon": "n\u01ceng-s\u01d4ue",
    "rom": "nangsue",
+   "freq": 2,
    "gloss": "buku",
    "alt": [
     "kitab"
@@ -6464,8 +7315,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e02\u0e49\u0e32\u0e27",
+   "audio": "\u0e02\u0e49\u0e32\u0e27",
    "phon": "kh\u00e2ao",
    "rom": "khao",
+   "freq": 1,
    "gloss": "beras, nasi",
    "alt": [
     "nasi",
@@ -6485,8 +7338,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e19\u0e49\u0e33",
+   "audio": "\u0e19\u0e49\u0e33",
    "phon": "n\u00e1am",
    "rom": "nam",
+   "freq": 1,
    "gloss": "air",
    "alt": [
     "minuman"
@@ -6505,8 +7360,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e2d\u0e32\u0e2b\u0e32\u0e23",
+   "audio": "\u0e2d\u0e32\u0e2b\u0e32\u0e23",
    "phon": "aa-h\u01cean",
    "rom": "ahan",
+   "freq": 2,
    "gloss": "makanan",
    "alt": [
     "hidangan",
@@ -6526,8 +7383,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e44\u0e02\u0e48",
+   "audio": "\u0e44\u0e02\u0e48",
    "phon": "kh\u00e0i",
    "rom": "khai",
+   "freq": 2,
    "gloss": "telur",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e1f\u0e2d\u0e07 \u00b7 RTGS: khai",
@@ -6544,8 +7403,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e2b\u0e21\u0e39",
+   "audio": "\u0e2b\u0e21\u0e39",
    "phon": "m\u01d4u",
    "rom": "mu",
+   "freq": 2,
    "gloss": "babi",
    "alt": [
     "daging babi"
@@ -6564,8 +7425,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e44\u0e01\u0e48",
+   "audio": "\u0e44\u0e01\u0e48",
    "phon": "k\u00e0i",
    "rom": "kai",
+   "freq": 2,
    "gloss": "ayam",
    "alt": [
     "daging ayam"
@@ -6584,8 +7447,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e1b\u0e25\u0e32",
+   "audio": "\u0e1b\u0e25\u0e32",
    "phon": "plaa",
    "rom": "pla",
+   "freq": 2,
    "gloss": "ikan",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e15\u0e31\u0e27 \u00b7 RTGS: pla",
@@ -6602,8 +7467,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e40\u0e19\u0e37\u0e49\u0e2d",
+   "audio": "\u0e40\u0e19\u0e37\u0e49\u0e2d",
    "phon": "n\u00faea",
    "rom": "nuea",
+   "freq": 2,
    "gloss": "daging (terutama sapi)",
    "alt": [
     "daging"
@@ -6622,8 +7489,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e1c\u0e31\u0e01",
+   "audio": "\u0e1c\u0e31\u0e01",
    "phon": "ph\u00e0k",
    "rom": "phak",
+   "freq": 2,
    "gloss": "sayur",
    "alt": [
     "sayuran"
@@ -6642,8 +7511,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e01\u0e25\u0e49\u0e27\u0e22",
+   "audio": "\u0e01\u0e25\u0e49\u0e27\u0e22",
    "phon": "kl\u00fbai",
    "rom": "kluai",
+   "freq": 2,
    "gloss": "pisang",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e25\u0e39\u0e01 \u00b7 RTGS: kluai",
@@ -6660,8 +7531,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e2a\u0e49\u0e21",
+   "audio": "\u0e2a\u0e49\u0e21",
    "phon": "s\u00f4m",
    "rom": "som",
+   "freq": 2,
    "gloss": "jeruk",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e25\u0e39\u0e01 \u00b7 RTGS: som",
@@ -6678,8 +7551,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e01\u0e32\u0e41\u0e1f",
+   "audio": "\u0e01\u0e32\u0e41\u0e1f",
    "phon": "kaa-fae",
    "rom": "kafae",
+   "freq": 2,
    "gloss": "kopi",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e41\u0e01\u0e49\u0e27 \u00b7 RTGS: kafae",
@@ -6696,8 +7571,10 @@ const THAI_DATA = {
    "catLabel": "Makanan",
    "stage": 3,
    "th": "\u0e0a\u0e32",
+   "audio": "\u0e0a\u0e32",
    "phon": "chaa",
    "rom": "cha",
+   "freq": 2,
    "gloss": "teh",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e41\u0e01\u0e49\u0e27 \u00b7 RTGS: cha",
@@ -6714,8 +7591,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 3,
    "th": "\u0e40\u0e1c\u0e47\u0e14",
+   "audio": "\u0e40\u0e1c\u0e47\u0e14",
    "phon": "ph\u00e8t",
    "rom": "phet",
+   "freq": 2,
    "gloss": "pedas",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: phet",
@@ -6732,8 +7611,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 3,
    "th": "\u0e2b\u0e27\u0e32\u0e19",
+   "audio": "\u0e2b\u0e27\u0e32\u0e19",
    "phon": "w\u01cean",
    "rom": "wan",
+   "freq": 2,
    "gloss": "manis",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: wan",
@@ -6750,8 +7631,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 3,
    "th": "\u0e40\u0e04\u0e47\u0e21",
+   "audio": "\u0e40\u0e04\u0e47\u0e21",
    "phon": "khem",
    "rom": "khem",
+   "freq": 2,
    "gloss": "asin",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: khem",
@@ -6768,8 +7651,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 3,
    "th": "\u0e40\u0e1b\u0e23\u0e35\u0e49\u0e22\u0e27",
+   "audio": "\u0e40\u0e1b\u0e23\u0e35\u0e49\u0e22\u0e27",
    "phon": "pr\u00eeao",
    "rom": "priao",
+   "freq": 2,
    "gloss": "asam",
    "alt": [
     "kecut"
@@ -6788,8 +7673,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 3,
    "th": "\u0e2d\u0e23\u0e48\u0e2d\u0e22",
+   "audio": "\u0e2d\u0e23\u0e48\u0e2d\u0e22",
    "phon": "\u00e0-r\u00e0awi",
    "rom": "aroi",
+   "freq": 2,
    "gloss": "enak, lezat",
    "alt": [
     "lezat",
@@ -6809,8 +7696,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e1a\u0e49\u0e32\u0e19",
+   "audio": "\u0e1a\u0e49\u0e32\u0e19",
    "phon": "b\u00e2an",
    "rom": "ban",
+   "freq": 1,
    "gloss": "rumah",
    "alt": [
     "kampung"
@@ -6829,8 +7718,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33",
+   "audio": "\u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33",
    "phon": "h\u00e2awng-n\u00e1am",
    "rom": "hongnam",
+   "freq": 2,
    "gloss": "kamar mandi, toilet",
    "alt": [
     "toilet",
@@ -6851,8 +7742,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19",
+   "audio": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19",
    "phon": "roong-rian",
    "rom": "rongrian",
+   "freq": 2,
    "gloss": "sekolah",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e42\u0e23\u0e07 \u00b7 RTGS: rongrian",
@@ -6869,8 +7762,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e15\u0e25\u0e32\u0e14",
+   "audio": "\u0e15\u0e25\u0e32\u0e14",
    "phon": "t\u00e0-l\u00e0at",
    "rom": "talat",
+   "freq": 2,
    "gloss": "pasar",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: talat",
@@ -6887,8 +7782,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e23\u0e49\u0e32\u0e19",
+   "audio": "\u0e23\u0e49\u0e32\u0e19",
    "phon": "r\u00e1an",
    "rom": "ran",
+   "freq": 2,
    "gloss": "toko, warung",
    "alt": [
     "kedai",
@@ -6908,8 +7805,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21",
+   "audio": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21",
    "phon": "roong-raem",
    "rom": "rongraem",
+   "freq": 2,
    "gloss": "hotel",
    "alt": [
     "penginapan"
@@ -6928,8 +7827,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e2a\u0e16\u0e32\u0e19\u0e35",
+   "audio": "\u0e2a\u0e16\u0e32\u0e19\u0e35",
    "phon": "s\u00e0-th\u01cea-nii",
    "rom": "sathani",
+   "freq": 2,
    "gloss": "stasiun",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: sathani",
@@ -6946,8 +7847,10 @@ const THAI_DATA = {
    "catLabel": "Tempat",
    "stage": 3,
    "th": "\u0e27\u0e31\u0e14",
+   "audio": "\u0e27\u0e31\u0e14",
    "phon": "w\u00e1t",
    "rom": "wat",
+   "freq": 2,
    "gloss": "kuil (wihara Buddha)",
    "alt": [
     "wihara",
@@ -6967,8 +7870,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e27\u0e31\u0e19",
+   "audio": "\u0e27\u0e31\u0e19",
    "phon": "wan",
    "rom": "wan",
+   "freq": 1,
    "gloss": "hari",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e27\u0e31\u0e19 \u00b7 RTGS: wan",
@@ -6985,8 +7890,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49",
+   "audio": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49",
    "phon": "wan-n\u00edi",
    "rom": "wanni",
+   "freq": 2,
    "gloss": "hari ini",
    "alt": [],
    "detail": "keterangan \u00b7 RTGS: wanni",
@@ -7003,8 +7910,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e1e\u0e23\u0e38\u0e48\u0e07\u0e19\u0e35\u0e49",
+   "audio": "\u0e1e\u0e23\u0e38\u0e48\u0e07\u0e19\u0e35\u0e49",
    "phon": "phr\u00fbng-n\u00edi",
    "rom": "phrungni",
+   "freq": 2,
    "gloss": "besok",
    "alt": [
     "esok"
@@ -7023,8 +7932,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e27\u0e32\u0e19",
+   "audio": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e27\u0e32\u0e19",
    "phon": "m\u00fbea-waan",
    "rom": "muea wan",
+   "freq": 2,
    "gloss": "kemarin",
    "alt": [],
    "detail": "keterangan \u00b7 RTGS: muea wan",
@@ -7041,8 +7952,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e15\u0e2d\u0e19\u0e40\u0e0a\u0e49\u0e32",
+   "audio": "\u0e15\u0e2d\u0e19\u0e40\u0e0a\u0e49\u0e32",
    "phon": "taawn-ch\u00e1o",
    "rom": "ton chao",
+   "freq": 2,
    "gloss": "pagi",
    "alt": [
     "waktu pagi"
@@ -7061,8 +7974,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e15\u0e2d\u0e19\u0e40\u0e22\u0e47\u0e19",
+   "audio": "\u0e15\u0e2d\u0e19\u0e40\u0e22\u0e47\u0e19",
    "phon": "taawn-yen",
    "rom": "ton yen",
+   "freq": 2,
    "gloss": "senja, petang",
    "alt": [
     "sore",
@@ -7082,8 +7997,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e01\u0e25\u0e32\u0e07\u0e04\u0e37\u0e19",
+   "audio": "\u0e01\u0e25\u0e32\u0e07\u0e04\u0e37\u0e19",
    "phon": "klaang-khuuen",
    "rom": "klangkhuen",
+   "freq": 2,
    "gloss": "malam",
    "alt": [
     "waktu malam"
@@ -7102,8 +8019,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e40\u0e27\u0e25\u0e32",
+   "audio": "\u0e40\u0e27\u0e25\u0e32",
    "phon": "wee-laa",
    "rom": "wela",
+   "freq": 2,
    "gloss": "waktu",
    "alt": [
     "saat"
@@ -7122,8 +8041,10 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e0a\u0e31\u0e48\u0e27\u0e42\u0e21\u0e07",
+   "audio": "\u0e0a\u0e31\u0e48\u0e27\u0e42\u0e21\u0e07",
    "phon": "ch\u00fba-moong",
    "rom": "chuamong",
+   "freq": 2,
    "gloss": "jam (lama waktu)",
    "alt": [
     "jam"
@@ -7142,8 +8063,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e43\u0e2b\u0e0d\u0e48",
+   "audio": "\u0e43\u0e2b\u0e0d\u0e48",
    "phon": "y\u00e0i",
    "rom": "yai",
+   "freq": 2,
    "gloss": "besar",
    "alt": [
     "luas",
@@ -7163,8 +8086,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e40\u0e25\u0e47\u0e01",
+   "audio": "\u0e40\u0e25\u0e47\u0e01",
    "phon": "l\u00e9k",
    "rom": "lek",
+   "freq": 2,
    "gloss": "kecil",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: lek",
@@ -7181,8 +8106,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e14\u0e35",
+   "audio": "\u0e14\u0e35",
    "phon": "dii",
    "rom": "di",
+   "freq": 1,
    "gloss": "baik, bagus",
    "alt": [
     "bagus",
@@ -7202,8 +8129,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e2a\u0e27\u0e22",
+   "audio": "\u0e2a\u0e27\u0e22",
    "phon": "s\u01d4ai",
    "rom": "suai",
+   "freq": 2,
    "gloss": "cantik, indah",
    "alt": [
     "indah",
@@ -7223,8 +8152,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e43\u0e2b\u0e21\u0e48",
+   "audio": "\u0e43\u0e2b\u0e21\u0e48",
    "phon": "m\u00e0i",
    "rom": "mai",
+   "freq": 2,
    "gloss": "baru",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: mai",
@@ -7241,8 +8172,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e40\u0e01\u0e48\u0e32",
+   "audio": "\u0e40\u0e01\u0e48\u0e32",
    "phon": "k\u00e0o",
    "rom": "kao",
+   "freq": 2,
    "gloss": "lama, tua (untuk benda)",
    "alt": [
     "usang",
@@ -7262,8 +8195,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e41\u0e1e\u0e07",
+   "audio": "\u0e41\u0e1e\u0e07",
    "phon": "phaeng",
    "rom": "phaeng",
+   "freq": 2,
    "gloss": "mahal",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: phaeng",
@@ -7280,8 +8215,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e16\u0e39\u0e01",
+   "audio": "\u0e16\u0e39\u0e01",
    "phon": "th\u00f9uk",
    "rom": "thuk",
+   "freq": 2,
    "gloss": "murah; benar",
    "alt": [
     "murah",
@@ -7302,8 +8239,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e23\u0e49\u0e2d\u0e19",
+   "audio": "\u0e23\u0e49\u0e2d\u0e19",
    "phon": "r\u00e1awn",
    "rom": "ron",
+   "freq": 2,
    "gloss": "panas",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: ron",
@@ -7320,8 +8259,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e40\u0e22\u0e47\u0e19",
+   "audio": "\u0e40\u0e22\u0e47\u0e19",
    "phon": "yen",
    "rom": "yen",
+   "freq": 2,
    "gloss": "dingin (benda, minuman); sejuk",
    "alt": [
     "sejuk",
@@ -7341,8 +8282,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e2b\u0e19\u0e32\u0e27",
+   "audio": "\u0e2b\u0e19\u0e32\u0e27",
    "phon": "n\u01ceao",
    "rom": "nao",
+   "freq": 2,
    "gloss": "dingin (cuaca, badan)",
    "alt": [
     "kedinginan"
@@ -7361,8 +8304,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e21\u0e32\u0e01",
+   "audio": "\u0e21\u0e32\u0e01",
    "phon": "m\u00e2ak",
    "rom": "mak",
+   "freq": 1,
    "gloss": "banyak; sangat",
    "alt": [
     "sangat",
@@ -7383,8 +8328,10 @@ const THAI_DATA = {
    "catLabel": "Kata sifat",
    "stage": 4,
    "th": "\u0e19\u0e49\u0e2d\u0e22",
+   "audio": "\u0e19\u0e49\u0e2d\u0e22",
    "phon": "n\u00e1awi",
    "rom": "noi",
+   "freq": 2,
    "gloss": "sedikit",
    "alt": [
     "kurang"
@@ -7403,8 +8350,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e44\u0e01\u0e25",
+   "audio": "\u0e44\u0e01\u0e25",
    "phon": "klai",
    "rom": "klai",
+   "freq": 2,
    "gloss": "jauh",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: klai",
@@ -7421,8 +8370,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e43\u0e01\u0e25\u0e49",
+   "audio": "\u0e43\u0e01\u0e25\u0e49",
    "phon": "kl\u00e2i",
    "rom": "klai",
+   "freq": 2,
    "gloss": "dekat",
    "alt": [],
    "detail": "sifat \u00b7 RTGS: klai",
@@ -7439,8 +8390,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e0b\u0e49\u0e32\u0e22",
+   "audio": "\u0e0b\u0e49\u0e32\u0e22",
    "phon": "s\u00e1ai",
    "rom": "sai",
+   "freq": 2,
    "gloss": "kiri",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: sai",
@@ -7457,8 +8410,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e02\u0e27\u0e32",
+   "audio": "\u0e02\u0e27\u0e32",
    "phon": "khw\u01cea",
    "rom": "khwa",
+   "freq": 2,
    "gloss": "kanan",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: khwa",
@@ -7475,8 +8430,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e15\u0e23\u0e07",
+   "audio": "\u0e15\u0e23\u0e07",
    "phon": "trong",
    "rom": "trong",
+   "freq": 2,
    "gloss": "lurus; tepat di",
    "alt": [
     "lurus",
@@ -7496,8 +8453,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e2b\u0e19\u0e49\u0e32",
+   "audio": "\u0e2b\u0e19\u0e49\u0e32",
    "phon": "n\u00e2a",
    "rom": "na",
+   "freq": 2,
    "gloss": "depan; muka; halaman",
    "alt": [
     "muka",
@@ -7518,8 +8477,10 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e2b\u0e25\u0e31\u0e07",
+   "audio": "\u0e2b\u0e25\u0e31\u0e07",
    "phon": "l\u01ceng",
    "rom": "lang",
+   "freq": 2,
    "gloss": "belakang; sesudah",
    "alt": [
     "belakang",
@@ -7539,8 +8500,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e23\u0e16",
+   "audio": "\u0e23\u0e16",
    "phon": "r\u00f3t",
    "rom": "rot",
+   "freq": 2,
    "gloss": "mobil, kendaraan",
    "alt": [
     "kendaraan",
@@ -7560,8 +8523,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e23\u0e16\u0e44\u0e1f",
+   "audio": "\u0e23\u0e16\u0e44\u0e1f",
    "phon": "r\u00f3t-fai",
    "rom": "rotfai",
+   "freq": 2,
    "gloss": "kereta api",
    "alt": [
     "kereta"
@@ -7580,8 +8545,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e40\u0e23\u0e37\u0e2d",
+   "audio": "\u0e40\u0e23\u0e37\u0e2d",
    "phon": "ruea",
    "rom": "ruea",
+   "freq": 2,
    "gloss": "perahu, kapal",
    "alt": [
     "kapal",
@@ -7601,8 +8568,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e1a\u0e34\u0e19",
+   "audio": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e1a\u0e34\u0e19",
    "phon": "khr\u00fbeang-bin",
    "rom": "khrueangbin",
+   "freq": 2,
    "gloss": "pesawat terbang",
    "alt": [
     "pesawat",
@@ -7622,8 +8591,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e41\u0e17\u0e47\u0e01\u0e0b\u0e35\u0e48",
+   "audio": "\u0e41\u0e17\u0e47\u0e01\u0e0b\u0e35\u0e48",
    "phon": "th\u00e1ek-s\u00eei",
    "rom": "thaeksi",
+   "freq": 2,
    "gloss": "taksi",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e04\u0e31\u0e19 \u00b7 RTGS: thaeksi",
@@ -7640,8 +8611,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e40\u0e14\u0e34\u0e19",
+   "audio": "\u0e40\u0e14\u0e34\u0e19",
    "phon": "dooen",
    "rom": "doen",
+   "freq": 2,
    "gloss": "berjalan",
    "alt": [
     "jalan kaki"
@@ -7660,8 +8633,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e19\u0e31\u0e48\u0e07",
+   "audio": "\u0e19\u0e31\u0e48\u0e07",
    "phon": "n\u00e2ng",
    "rom": "nang",
+   "freq": 2,
    "gloss": "duduk; naik (kendaraan)",
    "alt": [
     "duduk",
@@ -7681,8 +8656,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e02\u0e36\u0e49\u0e19",
+   "audio": "\u0e02\u0e36\u0e49\u0e19",
    "phon": "kh\u00fben",
    "rom": "khuen",
+   "freq": 2,
    "gloss": "naik, menaiki",
    "alt": [
     "meningkat"
@@ -7701,8 +8678,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e25\u0e07",
+   "audio": "\u0e25\u0e07",
    "phon": "long",
    "rom": "long",
+   "freq": 2,
    "gloss": "turun",
    "alt": [
     "menurun"
@@ -7721,8 +8700,10 @@ const THAI_DATA = {
    "catLabel": "Kendaraan",
    "stage": 4,
    "th": "\u0e01\u0e25\u0e31\u0e1a",
+   "audio": "\u0e01\u0e25\u0e31\u0e1a",
    "phon": "kl\u00e0p",
    "rom": "klap",
+   "freq": 2,
    "gloss": "kembali, pulang",
    "alt": [
     "pulang",
@@ -7742,8 +8723,10 @@ const THAI_DATA = {
    "catLabel": "Benda",
    "stage": 4,
    "th": "\u0e42\u0e15\u0e4a\u0e30",
+   "audio": "\u0e42\u0e15\u0e4a\u0e30",
    "phon": "t\u00f3",
    "rom": "to",
+   "freq": 2,
    "gloss": "meja",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e15\u0e31\u0e27 \u00b7 RTGS: to",
@@ -7760,8 +8743,10 @@ const THAI_DATA = {
    "catLabel": "Benda",
    "stage": 4,
    "th": "\u0e40\u0e01\u0e49\u0e32\u0e2d\u0e35\u0e49",
+   "audio": "\u0e40\u0e01\u0e49\u0e32\u0e2d\u0e35\u0e49",
    "phon": "k\u00e2o-\u00eei",
    "rom": "kaoi",
+   "freq": 2,
    "gloss": "kursi",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e15\u0e31\u0e27 \u00b7 RTGS: kaoi",
@@ -7778,8 +8763,10 @@ const THAI_DATA = {
    "catLabel": "Benda",
    "stage": 4,
    "th": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32",
+   "audio": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32",
    "phon": "kr\u00e0-p\u01ceo",
    "rom": "krapao",
+   "freq": 2,
    "gloss": "tas",
    "alt": [
     "kantong",
@@ -7799,8 +8786,10 @@ const THAI_DATA = {
    "catLabel": "Benda",
    "stage": 4,
    "th": "\u0e40\u0e2a\u0e37\u0e49\u0e2d",
+   "audio": "\u0e40\u0e2a\u0e37\u0e49\u0e2d",
    "phon": "s\u00fbea",
    "rom": "suea",
+   "freq": 2,
    "gloss": "baju",
    "alt": [
     "kemeja",
@@ -7820,8 +8809,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e40\u0e07\u0e34\u0e19",
+   "audio": "\u0e40\u0e07\u0e34\u0e19",
    "phon": "ngooen",
    "rom": "ngoen",
+   "freq": 2,
    "gloss": "uang",
    "alt": [
     "duit",
@@ -7841,8 +8832,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e1a\u0e32\u0e17",
+   "audio": "\u0e1a\u0e32\u0e17",
    "phon": "b\u00e0at",
    "rom": "bat",
+   "freq": 2,
    "gloss": "baht (mata uang Thailand)",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: bat",
@@ -7859,8 +8852,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48",
+   "audio": "\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48",
    "phon": "th\u00e2o-r\u00e0i",
    "rom": "thaorai",
+   "freq": 1,
    "gloss": "berapa",
    "alt": [
     "berapa banyak"
@@ -7879,8 +8874,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e23\u0e32\u0e04\u0e32",
+   "audio": "\u0e23\u0e32\u0e04\u0e32",
    "phon": "raa-khaa",
    "rom": "rakha",
+   "freq": 2,
    "gloss": "harga",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: rakha",
@@ -7897,8 +8894,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e0b\u0e37\u0e49\u0e2d",
+   "audio": "\u0e0b\u0e37\u0e49\u0e2d",
    "phon": "s\u00faue",
    "rom": "sue",
+   "freq": 2,
    "gloss": "membeli",
    "alt": [
     "beli"
@@ -7917,8 +8916,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e02\u0e32\u0e22",
+   "audio": "\u0e02\u0e32\u0e22",
    "phon": "kh\u01ceai",
    "rom": "khai",
+   "freq": 2,
    "gloss": "menjual",
    "alt": [
     "jual"
@@ -7937,8 +8938,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e08\u0e48\u0e32\u0e22",
+   "audio": "\u0e08\u0e48\u0e32\u0e22",
    "phon": "j\u00e0ai",
    "rom": "chai",
+   "freq": 2,
    "gloss": "membayar",
    "alt": [
     "bayar"
@@ -7957,8 +8960,10 @@ const THAI_DATA = {
    "catLabel": "Uang & belanja",
    "stage": 5,
    "th": "\u0e25\u0e14",
+   "audio": "\u0e25\u0e14",
    "phon": "l\u00f3t",
    "rom": "lot",
+   "freq": 2,
    "gloss": "mengurangi, memberi potongan harga",
    "alt": [
     "kurangi",
@@ -7978,8 +8983,10 @@ const THAI_DATA = {
    "catLabel": "Klasifikator",
    "stage": 5,
    "th": "\u0e41\u0e01\u0e49\u0e27",
+   "audio": "\u0e41\u0e01\u0e49\u0e27",
    "phon": "k\u00e2eo",
    "rom": "kaeo",
+   "freq": 2,
    "gloss": "gelas; kaca",
    "alt": [
     "gelas",
@@ -7999,8 +9006,10 @@ const THAI_DATA = {
    "catLabel": "Klasifikator",
    "stage": 5,
    "th": "\u0e43\u0e1a",
+   "audio": "\u0e43\u0e1a",
    "phon": "bai",
    "rom": "bai",
+   "freq": 2,
    "gloss": "lembar (klasifikator); daun",
    "alt": [
     "daun",
@@ -8020,8 +9029,10 @@ const THAI_DATA = {
    "catLabel": "Klasifikator",
    "stage": 5,
    "th": "\u0e15\u0e31\u0e27",
+   "audio": "\u0e15\u0e31\u0e27",
    "phon": "tua",
    "rom": "tua",
+   "freq": 2,
    "gloss": "tubuh; klasifikator hewan dan pakaian",
    "alt": [
     "badan",
@@ -8041,8 +9052,10 @@ const THAI_DATA = {
    "catLabel": "Klasifikator",
    "stage": 5,
    "th": "\u0e2d\u0e31\u0e19",
+   "audio": "\u0e2d\u0e31\u0e19",
    "phon": "an",
    "rom": "an",
+   "freq": 2,
    "gloss": "klasifikator umum untuk benda kecil",
    "alt": [
     "buah (benda)"
@@ -8061,8 +9074,10 @@ const THAI_DATA = {
    "catLabel": "Klasifikator",
    "stage": 5,
    "th": "\u0e01\u0e35\u0e48",
+   "audio": "\u0e01\u0e35\u0e48",
    "phon": "k\u00eci",
    "rom": "ki",
+   "freq": 1,
    "gloss": "berapa (dengan klasifikator)",
    "alt": [],
    "detail": "tanya \u00b7 RTGS: ki",
@@ -8079,8 +9094,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e41\u0e25\u0e49\u0e27",
+   "audio": "\u0e41\u0e25\u0e49\u0e27",
    "phon": "l\u00e1eo",
    "rom": "laeo",
+   "freq": 1,
    "gloss": "sudah",
    "alt": [
     "telah"
@@ -8099,8 +9116,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e22\u0e31\u0e07",
+   "audio": "\u0e22\u0e31\u0e07",
    "phon": "yang",
    "rom": "yang",
+   "freq": 1,
    "gloss": "masih; belum",
    "alt": [
     "masih"
@@ -8119,8 +9138,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e08\u0e30",
+   "audio": "\u0e08\u0e30",
    "phon": "j\u00e0",
    "rom": "cha",
+   "freq": 1,
    "gloss": "akan",
    "alt": [],
    "detail": "partikel \u00b7 RTGS: cha",
@@ -8137,8 +9158,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e15\u0e49\u0e2d\u0e07",
+   "audio": "\u0e15\u0e49\u0e2d\u0e07",
    "phon": "t\u00e2awng",
    "rom": "tong",
+   "freq": 1,
    "gloss": "harus",
    "alt": [
     "mesti",
@@ -8158,8 +9181,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e2d\u0e22\u0e32\u0e01",
+   "audio": "\u0e2d\u0e22\u0e32\u0e01",
    "phon": "y\u00e0ak",
    "rom": "yak",
+   "freq": 1,
    "gloss": "ingin",
    "alt": [
     "mau",
@@ -8179,8 +9204,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e14\u0e49\u0e27\u0e22",
+   "audio": "\u0e14\u0e49\u0e27\u0e22",
    "phon": "d\u00fbai",
    "rom": "duai",
+   "freq": 1,
    "gloss": "juga; dengan",
    "alt": [
     "juga",
@@ -8201,8 +9228,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e01\u0e31\u0e1a",
+   "audio": "\u0e01\u0e31\u0e1a",
    "phon": "k\u00e0p",
    "rom": "kap",
+   "freq": 1,
    "gloss": "dengan, dan",
    "alt": [
     "bersama",
@@ -8222,8 +9251,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e41\u0e15\u0e48",
+   "audio": "\u0e41\u0e15\u0e48",
    "phon": "t\u00e0e",
    "rom": "tae",
+   "freq": 1,
    "gloss": "tetapi",
    "alt": [
     "tapi",
@@ -8243,8 +9274,10 @@ const THAI_DATA = {
    "catLabel": "Kata penanda",
    "stage": 5,
    "th": "\u0e17\u0e35\u0e48",
+   "audio": "\u0e17\u0e35\u0e48",
    "phon": "th\u00eei",
    "rom": "thi",
+   "freq": 1,
    "gloss": "di; yang; tempat",
    "alt": [
     "di",
@@ -8264,8 +9297,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e2b\u0e31\u0e27",
+   "audio": "\u0e2b\u0e31\u0e27",
    "phon": "h\u01d4a",
    "rom": "hua",
+   "freq": 3,
    "gloss": "kepala",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e2b\u0e31\u0e27 \u00b7 RTGS: hua",
@@ -8282,8 +9317,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e15\u0e32",
+   "audio": "\u0e15\u0e32",
    "phon": "taa",
    "rom": "ta",
+   "freq": 3,
    "gloss": "mata; kakek (dari pihak ibu)",
    "alt": [
     "mata"
@@ -8302,8 +9339,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e1b\u0e32\u0e01",
+   "audio": "\u0e1b\u0e32\u0e01",
    "phon": "p\u00e0ak",
    "rom": "pak",
+   "freq": 3,
    "gloss": "mulut",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: pak",
@@ -8320,8 +9359,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e21\u0e37\u0e2d",
+   "audio": "\u0e21\u0e37\u0e2d",
    "phon": "muue",
    "rom": "mue",
+   "freq": 3,
    "gloss": "tangan",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e02\u0e49\u0e32\u0e07 \u00b7 RTGS: mue",
@@ -8338,8 +9379,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e40\u0e17\u0e49\u0e32",
+   "audio": "\u0e40\u0e17\u0e49\u0e32",
    "phon": "th\u00e1o",
    "rom": "thao",
+   "freq": 3,
    "gloss": "kaki (bagian bawah)",
    "alt": [
     "telapak kaki"
@@ -8358,8 +9401,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e17\u0e49\u0e2d\u0e07",
+   "audio": "\u0e17\u0e49\u0e2d\u0e07",
    "phon": "th\u00e1awng",
    "rom": "thong",
+   "freq": 3,
    "gloss": "perut",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: thong",
@@ -8376,8 +9421,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e40\u0e08\u0e47\u0e1a",
+   "audio": "\u0e40\u0e08\u0e47\u0e1a",
    "phon": "j\u00e8p",
    "rom": "chep",
+   "freq": 3,
    "gloss": "sakit (nyeri karena luka)",
    "alt": [
     "nyeri",
@@ -8397,8 +9444,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e1b\u0e48\u0e27\u0e22",
+   "audio": "\u0e1b\u0e48\u0e27\u0e22",
    "phon": "p\u00f9ai",
    "rom": "puai",
+   "freq": 3,
    "gloss": "sakit (berpenyakit)",
    "alt": [
     "jatuh sakit"
@@ -8417,8 +9466,10 @@ const THAI_DATA = {
    "catLabel": "Tubuh & sakit",
    "stage": 6,
    "th": "\u0e22\u0e32",
+   "audio": "\u0e22\u0e32",
    "phon": "yaa",
    "rom": "ya",
+   "freq": 3,
    "gloss": "obat",
    "alt": [],
    "detail": "nomina \u00b7 klasifikator: \u0e40\u0e21\u0e47\u0e14 \u00b7 RTGS: ya",
@@ -8435,8 +9486,10 @@ const THAI_DATA = {
    "catLabel": "Alam & cuaca",
    "stage": 6,
    "th": "\u0e2d\u0e32\u0e01\u0e32\u0e28",
+   "audio": "\u0e2d\u0e32\u0e01\u0e32\u0e28",
    "phon": "aa-k\u00e0at",
    "rom": "akat",
+   "freq": 3,
    "gloss": "cuaca, udara",
    "alt": [
     "udara",
@@ -8456,8 +9509,10 @@ const THAI_DATA = {
    "catLabel": "Alam & cuaca",
    "stage": 6,
    "th": "\u0e1d\u0e19",
+   "audio": "\u0e1d\u0e19",
    "phon": "f\u01d2n",
    "rom": "fon",
+   "freq": 3,
    "gloss": "hujan",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: fon",
@@ -8474,8 +9529,10 @@ const THAI_DATA = {
    "catLabel": "Alam & cuaca",
    "stage": 6,
    "th": "\u0e41\u0e14\u0e14",
+   "audio": "\u0e41\u0e14\u0e14",
    "phon": "d\u00e0et",
    "rom": "daet",
+   "freq": 3,
    "gloss": "sinar matahari",
    "alt": [
     "panas matahari"
@@ -8494,8 +9551,10 @@ const THAI_DATA = {
    "catLabel": "Alam & cuaca",
    "stage": 6,
    "th": "\u0e25\u0e21",
+   "audio": "\u0e25\u0e21",
    "phon": "lom",
    "rom": "lom",
+   "freq": 3,
    "gloss": "angin",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: lom",
@@ -8512,8 +9571,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e14\u0e35\u0e43\u0e08",
+   "audio": "\u0e14\u0e35\u0e43\u0e08",
    "phon": "dii-jai",
    "rom": "dichai",
+   "freq": 3,
    "gloss": "senang, gembira",
    "alt": [
     "gembira",
@@ -8533,8 +9594,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e40\u0e2a\u0e35\u0e22\u0e43\u0e08",
+   "audio": "\u0e40\u0e2a\u0e35\u0e22\u0e43\u0e08",
    "phon": "s\u01d0a-jai",
    "rom": "siachai",
+   "freq": 3,
    "gloss": "sedih",
    "alt": [
     "berduka",
@@ -8554,8 +9617,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e40\u0e2b\u0e19\u0e37\u0e48\u0e2d\u0e22",
+   "audio": "\u0e40\u0e2b\u0e19\u0e37\u0e48\u0e2d\u0e22",
    "phon": "n\u00f9eai",
    "rom": "nueai",
+   "freq": 3,
    "gloss": "lelah",
    "alt": [
     "capek",
@@ -8575,8 +9640,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e2b\u0e34\u0e27",
+   "audio": "\u0e2b\u0e34\u0e27",
    "phon": "h\u01d0u",
    "rom": "hiu",
+   "freq": 3,
    "gloss": "lapar",
    "alt": [
     "haus (dengan \u0e19\u0e49\u0e33)"
@@ -8595,8 +9662,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e07\u0e48\u0e27\u0e07",
+   "audio": "\u0e07\u0e48\u0e27\u0e07",
    "phon": "ng\u00fbang",
    "rom": "nguang",
+   "freq": 3,
    "gloss": "mengantuk",
    "alt": [
     "ngantuk"
@@ -8615,8 +9684,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e2a\u0e19\u0e38\u0e01",
+   "audio": "\u0e2a\u0e19\u0e38\u0e01",
    "phon": "s\u00e0-n\u00f9k",
    "rom": "sanuk",
+   "freq": 3,
    "gloss": "menyenangkan, seru",
    "alt": [
     "asyik",
@@ -8636,8 +9707,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e2a\u0e1a\u0e32\u0e22",
+   "audio": "\u0e2a\u0e1a\u0e32\u0e22",
    "phon": "s\u00e0-baai",
    "rom": "sabai",
+   "freq": 3,
    "gloss": "nyaman, sehat, santai",
    "alt": [
     "enak badan",
@@ -8657,8 +9730,10 @@ const THAI_DATA = {
    "catLabel": "Perasaan",
    "stage": 6,
    "th": "\u0e0a\u0e48\u0e27\u0e22",
+   "audio": "\u0e0a\u0e48\u0e27\u0e22",
    "phon": "ch\u00fbai",
    "rom": "chuai",
+   "freq": 3,
    "gloss": "membantu; tolong (minta)",
    "alt": [
     "tolong",
@@ -8678,8 +9753,10 @@ const THAI_DATA = {
    "catLabel": "Bangsa & bahasa",
    "stage": 6,
    "th": "\u0e20\u0e32\u0e29\u0e32",
+   "audio": "\u0e20\u0e32\u0e29\u0e32",
    "phon": "phaa-s\u01cea",
    "rom": "phasa",
+   "freq": 3,
    "gloss": "bahasa",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: phasa",
@@ -8696,8 +9773,10 @@ const THAI_DATA = {
    "catLabel": "Bangsa & bahasa",
    "stage": 6,
    "th": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28",
+   "audio": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28",
    "phon": "pr\u00e0-th\u00eaet",
    "rom": "prathet",
+   "freq": 3,
    "gloss": "negara",
    "alt": [
     "negeri"
@@ -8716,8 +9795,10 @@ const THAI_DATA = {
    "catLabel": "Bangsa & bahasa",
    "stage": 6,
    "th": "\u0e44\u0e17\u0e22",
+   "audio": "\u0e44\u0e17\u0e22",
    "phon": "thai",
    "rom": "thai",
+   "freq": 3,
    "gloss": "Thai, Thailand",
    "alt": [
     "Thailand"
@@ -8736,8 +9817,10 @@ const THAI_DATA = {
    "catLabel": "Bangsa & bahasa",
    "stage": 6,
    "th": "\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22",
+   "audio": "\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22",
    "phon": "in-doo-nii-sia",
    "rom": "indonisia",
+   "freq": 3,
    "gloss": "Indonesia",
    "alt": [],
    "detail": "nomina \u00b7 RTGS: indonisia",
@@ -8746,6 +9829,443 @@ const THAI_DATA = {
    "exPhon": "ph\u01d2m pen khon in-doo-nii-sia",
    "exGloss": "Saya orang Indonesia.",
    "note": "Nama negara diserap menurut bunyinya. Semua suku katanya bernada sedang, sehingga mudah diucapkan."
+  }
+ ],
+ "serumpun": [
+  {
+   "id": "c01",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 3,
+   "th": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c",
+   "audio": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c",
+   "phon": "m\u00e1-n\u00fat",
+   "rom": "manut",
+   "gloss": "manusia",
+   "idWord": "manusia",
+   "relation": "artinya sejalan",
+   "note": "Ejaan Thai mempertahankan bentuk Sanskerta manu\u1e63ya, lengkap dengan \u0e29 dan \u0e22 yang tidak dibunyikan. Bahasa Indonesia menulisnya menurut bunyi."
+  },
+  {
+   "id": "c02",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 3,
+   "th": "\u0e19\u0e23\u0e01",
+   "audio": "\u0e19\u0e23\u0e01",
+   "phon": "n\u00e1-r\u00f3k",
+   "rom": "narok",
+   "gloss": "neraka",
+   "idWord": "neraka",
+   "relation": "artinya sejalan",
+   "note": "Contoh aksara nam yang pemimpinnya berkelas rendah (\u0e19), sehingga tidak ada penularan kelas dan kedua suku katanya bernada tinggi."
+  },
+  {
+   "id": "c03",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 3,
+   "th": "\u0e23\u0e32\u0e0a\u0e32",
+   "audio": "\u0e23\u0e32\u0e0a\u0e32",
+   "phon": "raa-chaa",
+   "rom": "racha",
+   "gloss": "raja",
+   "idWord": "raja",
+   "relation": "artinya sejalan",
+   "note": "Muncul pada banyak nama tempat dan gelar, misalnya \u0e23\u0e32\u0e0a\u0e01\u0e32\u0e23 ('kedinasan') dan \u0e23\u0e32\u0e0a\u0e34\u0e19\u0e35 ('ratu')."
+  },
+  {
+   "id": "c04",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 3,
+   "th": "\u0e19\u0e32\u0e21",
+   "audio": "\u0e19\u0e32\u0e21",
+   "phon": "naam",
+   "rom": "nam",
+   "gloss": "nama",
+   "idWord": "nama",
+   "relation": "artinya sejalan",
+   "note": "Dalam percakapan sehari-hari dipakai \u0e0a\u0e37\u0e48\u0e2d (ch\u00fbue); \u0e19\u0e32\u0e21 terasa resmi, seperti 'nama' dibandingkan 'sebutan'. \u0e19\u0e32\u0e21\u0e2a\u0e01\u0e38\u0e25 berarti 'nama keluarga'."
+  },
+  {
+   "id": "c05",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 3,
+   "th": "\u0e21\u0e2b\u0e32",
+   "audio": "\u0e21\u0e2b\u0e32",
+   "phon": "m\u00e1-h\u01cea",
+   "rom": "maha",
+   "gloss": "besar, agung",
+   "idWord": "maha",
+   "relation": "artinya sejalan",
+   "note": "Sama seperti dalam Bahasa Indonesia, ia menjadi awalan: \u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22 ('universitas'), \u0e21\u0e2b\u0e32\u0e2a\u0e21\u0e38\u0e17\u0e23 ('samudra'). Bandingkan 'mahasiswa' dan 'mahakuasa'."
+  },
+  {
+   "id": "c06",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+   "audio": "\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+   "phon": "s\u00e0t",
+   "rom": "sat",
+   "gloss": "hewan",
+   "idWord": "satwa",
+   "relation": "artinya sejalan",
+   "note": "Bahasa Indonesia memakai 'satwa' hanya dalam ragam resmi (suaka margasatwa), sedangkan \u0e2a\u0e31\u0e15\u0e27\u0e4c adalah kata sehari-hari untuk hewan."
+  },
+  {
+   "id": "c07",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e19\u0e32\u0e04",
+   "audio": "\u0e19\u0e32\u0e04",
+   "phon": "n\u00e2ak",
+   "rom": "nak",
+   "gloss": "naga",
+   "idWord": "naga",
+   "relation": "artinya sejalan",
+   "note": "Patung \u0e19\u0e32\u0e04 ada di tangga hampir setiap kuil Thailand. Bentuknya ular berkepala banyak, sama dengan naga dalam cerita Nusantara."
+  },
+  {
+   "id": "c08",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e04\u0e23\u0e38\u0e11",
+   "audio": "\u0e04\u0e23\u0e38\u0e11",
+   "phon": "khr\u00fat",
+   "rom": "khrut",
+   "gloss": "garuda",
+   "idWord": "garuda",
+   "relation": "artinya sejalan",
+   "note": "\u0e04\u0e23\u0e38\u0e11 adalah lambang negara Thailand, sebagaimana Garuda menjadi lambang Indonesia. Keduanya burung yang sama dari cerita yang sama."
+  },
+  {
+   "id": "c09",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e40\u0e17\u0e27\u0e14\u0e32",
+   "audio": "\u0e40\u0e17\u0e27\u0e14\u0e32",
+   "phon": "thee-w\u00e1-daa",
+   "rom": "thewada",
+   "gloss": "dewa, makhluk kayangan",
+   "idWord": "dewata",
+   "relation": "artinya sejalan",
+   "note": "Bentuk pendeknya \u0e40\u0e17\u0e1e (th\u00eaep), seasal dengan 'dewa'."
+  },
+  {
+   "id": "c10",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e17\u0e38\u0e01\u0e02\u0e4c",
+   "audio": "\u0e17\u0e38\u0e01\u0e02\u0e4c",
+   "phon": "th\u00fak",
+   "rom": "thuk",
+   "gloss": "penderitaan, kesusahan",
+   "idWord": "duka",
+   "relation": "artinya sejalan",
+   "note": "Istilah inti dalam ajaran Buddha. Perhatikan bunyinya sama persis dengan \u0e17\u0e38\u0e01 ('setiap'), hanya ejaannya yang berbeda."
+  },
+  {
+   "id": "c11",
+   "kind": "flip",
+   "cat": "serumpun-bergeser",
+   "catLabel": "Arti bergeser",
+   "stage": 4,
+   "th": "\u0e2a\u0e38\u0e02",
+   "audio": "\u0e2a\u0e38\u0e02",
+   "phon": "s\u00f9k",
+   "rom": "suk",
+   "gloss": "bahagia, sejahtera",
+   "idWord": "suka",
+   "relation": "seasal tetapi artinya sudah bergeser",
+   "note": "PERINGATAN: dalam Bahasa Indonesia 'suka' berarti menyenangi sesuatu, sedangkan \u0e2a\u0e38\u0e02 berarti bahagia. Untuk 'suka' dalam arti Indonesia, Bahasa Thailand memakai \u0e0a\u0e2d\u0e1a. \u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02 berarti 'kebahagiaan'."
+  },
+  {
+   "id": "c12",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e2a\u0e32\u0e21\u0e35",
+   "audio": "\u0e2a\u0e32\u0e21\u0e35",
+   "phon": "s\u01cea-mii",
+   "rom": "sami",
+   "gloss": "suami",
+   "idWord": "suami",
+   "relation": "artinya sejalan",
+   "note": "Pasangannya \u0e20\u0e23\u0e23\u0e22\u0e32 (phan-r\u00e1-yaa, 'istri') juga serapan Sanskerta, seasal dengan 'bharya' dalam bahasa Jawa Kuno."
+  },
+  {
+   "id": "c13",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 5,
+   "th": "\u0e2d\u0e31\u0e01\u0e29\u0e23",
+   "audio": "\u0e2d\u0e31\u0e01\u0e29\u0e23",
+   "phon": "\u00e0k-s\u01d2on",
+   "rom": "akson",
+   "gloss": "huruf, aksara",
+   "idWord": "aksara",
+   "relation": "artinya sejalan",
+   "note": "Istilah yang Anda pakai sepanjang Modul 1: \u0e2d\u0e31\u0e01\u0e29\u0e23\u0e01\u0e25\u0e32\u0e07 ('aksara tengah'), \u0e2d\u0e31\u0e01\u0e29\u0e23\u0e2a\u0e39\u0e07 ('aksara tinggi'), \u0e2d\u0e31\u0e01\u0e29\u0e23\u0e15\u0e48\u0e33 ('aksara rendah'), dan \u0e2d\u0e31\u0e01\u0e29\u0e23\u0e19\u0e33 ('aksara nam')."
+  },
+  {
+   "id": "c14",
+   "kind": "flip",
+   "cat": "serumpun-sebagian",
+   "catLabel": "Jarang di Indonesia",
+   "stage": 5,
+   "th": "\u0e0a\u0e35\u0e27\u0e34\u0e15",
+   "audio": "\u0e0a\u0e35\u0e27\u0e34\u0e15",
+   "phon": "chii-w\u00edt",
+   "rom": "chiwit",
+   "gloss": "kehidupan, nyawa",
+   "idWord": "jiwa",
+   "relation": "kata Indonesianya jarang dipakai sehari-hari",
+   "note": "Seasal dengan 'jiwa' lewat bentuk Sanskerta j\u012bva. Artinya lebih dekat ke 'hidup' daripada ke 'jiwa' dalam arti batin."
+  },
+  {
+   "id": "c15",
+   "kind": "flip",
+   "cat": "serumpun-bergeser",
+   "catLabel": "Arti bergeser",
+   "stage": 5,
+   "th": "\u0e20\u0e39\u0e21\u0e34",
+   "audio": "\u0e20\u0e39\u0e21\u0e34",
+   "phon": "phuum",
+   "rom": "phum",
+   "gloss": "tanah, daerah, latar",
+   "idWord": "bumi",
+   "relation": "seasal tetapi artinya sudah bergeser",
+   "note": "Bukan 'bumi' sebagai planet (itu \u0e42\u0e25\u0e01), melainkan 'tanah' atau 'asal': \u0e20\u0e39\u0e21\u0e34\u0e25\u0e33\u0e40\u0e19\u0e32 ('tempat asal'), \u0e20\u0e39\u0e21\u0e34\u0e43\u0e08 ('bangga', harfiahnya 'tanah hati')."
+  },
+  {
+   "id": "c16",
+   "kind": "flip",
+   "cat": "serumpun-sebagian",
+   "catLabel": "Jarang di Indonesia",
+   "stage": 5,
+   "th": "\u0e42\u0e25\u0e01",
+   "audio": "\u0e42\u0e25\u0e01",
+   "phon": "l\u00f4ok",
+   "rom": "lok",
+   "gloss": "dunia",
+   "idWord": "loka",
+   "relation": "kata Indonesianya jarang dipakai sehari-hari",
+   "note": "Dalam Bahasa Indonesia 'loka' hanya hidup di dalam gabungan seperti 'lokakarya' dan nama tempat, sedangkan kata sehari-harinya 'dunia' berasal dari bahasa Arab. Dalam Bahasa Thailand \u0e42\u0e25\u0e01 justru kata sehari-hari."
+  },
+  {
+   "id": "c17",
+   "kind": "flip",
+   "cat": "serumpun-sebagian",
+   "catLabel": "Jarang di Indonesia",
+   "stage": 5,
+   "th": "\u0e27\u0e32\u0e08\u0e32",
+   "audio": "\u0e27\u0e32\u0e08\u0e32",
+   "phon": "waa-jaa",
+   "rom": "wacha",
+   "gloss": "ucapan, perkataan",
+   "idWord": "wacana",
+   "relation": "kata Indonesianya jarang dipakai sehari-hari",
+   "note": "Keduanya berasal dari akar Sanskerta yang sama untuk 'berbicara'. Bahasa Indonesia memakai 'wacana' untuk pembicaraan atau rencana; Bahasa Thailand memakai \u0e27\u0e32\u0e08\u0e32 untuk ucapan."
+  },
+  {
+   "id": "c18",
+   "kind": "flip",
+   "cat": "serumpun-sebagian",
+   "catLabel": "Jarang di Indonesia",
+   "stage": 5,
+   "th": "\u0e27\u0e34\u0e0a\u0e32",
+   "audio": "\u0e27\u0e34\u0e0a\u0e32",
+   "phon": "w\u00ed-chaa",
+   "rom": "wicha",
+   "gloss": "mata pelajaran, ilmu",
+   "idWord": "widya",
+   "relation": "kata Indonesianya jarang dipakai sehari-hari",
+   "note": "Seasal dengan 'widya' (vidy\u0101) yang dalam Bahasa Indonesia tinggal dipakai pada nama lembaga dan nama orang."
+  },
+  {
+   "id": "c19",
+   "kind": "flip",
+   "cat": "serumpun-bergeser",
+   "catLabel": "Arti bergeser",
+   "stage": 6,
+   "th": "\u0e0a\u0e32\u0e15\u0e34",
+   "audio": "\u0e0a\u0e32\u0e15\u0e34",
+   "phon": "ch\u00e2at",
+   "rom": "chat",
+   "gloss": "bangsa; kelahiran",
+   "idWord": "jati",
+   "relation": "seasal tetapi artinya sudah bergeser",
+   "note": "Dari Sanskerta j\u0101ti ('kelahiran, asal'), seasal dengan 'jati' pada 'sejati' dan 'jati diri'. Dalam Bahasa Thailand artinya 'bangsa' (\u0e0a\u0e32\u0e15\u0e34\u0e44\u0e17\u0e22) dan juga 'kelahiran' dalam ajaran kelahiran kembali."
+  },
+  {
+   "id": "c20",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 6,
+   "th": "\u0e42\u0e22\u0e04\u0e30",
+   "audio": "\u0e42\u0e22\u0e04\u0e30",
+   "phon": "yoo-kh\u00e1",
+   "rom": "yokha",
+   "gloss": "yoga",
+   "idWord": "yoga",
+   "relation": "artinya sejalan",
+   "note": "Serapan baru yang bentuk Sanskertanya masih terlihat utuh di kedua bahasa."
+  },
+  {
+   "id": "c21",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e2d\u0e32\u0e17\u0e34\u0e15\u0e22\u0e4c",
+   "audio": "\u0e2d\u0e32\u0e17\u0e34\u0e15\u0e22\u0e4c",
+   "phon": "aa-th\u00edt",
+   "rom": "athit",
+   "gloss": "Minggu; matahari; pekan",
+   "idWord": "Aditya",
+   "relation": "artinya sejalan",
+   "note": "Nama hari dalam Bahasa Thailand adalah nama planet Sanskerta, persis seperti nama hari Jawa-Bali. \u0e27\u0e31\u0e19\u0e2d\u0e32\u0e17\u0e34\u0e15\u0e22\u0e4c = hari Aditya = Minggu."
+  },
+  {
+   "id": "c22",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c",
+   "audio": "\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c",
+   "phon": "jan",
+   "rom": "chan",
+   "gloss": "Senin; bulan",
+   "idWord": "Candra",
+   "relation": "artinya sejalan",
+   "note": "\u0e27\u0e31\u0e19\u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c = hari Candra = Senin. Bandingkan 'Soma' dan 'Candra' pada penanggalan Jawa-Bali."
+  },
+  {
+   "id": "c23",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 4,
+   "th": "\u0e2d\u0e31\u0e07\u0e04\u0e32\u0e23",
+   "audio": "\u0e2d\u0e31\u0e07\u0e04\u0e32\u0e23",
+   "phon": "ang-khaan",
+   "rom": "angkhan",
+   "gloss": "Selasa; planet Mars",
+   "idWord": "Anggara",
+   "relation": "artinya sejalan",
+   "note": "\u0e27\u0e31\u0e19\u0e2d\u0e31\u0e07\u0e04\u0e32\u0e23 = hari Anggara = Selasa. Namanya nyaris tidak berubah dari bentuk yang dipakai di Jawa dan Bali."
+  },
+  {
+   "id": "c24",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 5,
+   "th": "\u0e1e\u0e38\u0e18",
+   "audio": "\u0e1e\u0e38\u0e18",
+   "phon": "ph\u00fat",
+   "rom": "phut",
+   "gloss": "Rabu; planet Merkurius",
+   "idWord": "Buda",
+   "relation": "artinya sejalan",
+   "note": "\u0e27\u0e31\u0e19\u0e1e\u0e38\u0e18 = hari Buda = Rabu. Jangan dikacaukan dengan \u0e1e\u0e38\u0e17\u0e18 (ph\u00fat-th\u00e1, 'Buddha') yang bunyinya mirip tetapi ejaannya berbeda."
+  },
+  {
+   "id": "c25",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 5,
+   "th": "\u0e28\u0e38\u0e01\u0e23\u0e4c",
+   "audio": "\u0e28\u0e38\u0e01\u0e23\u0e4c",
+   "phon": "s\u00f9k",
+   "rom": "suk",
+   "gloss": "Jumat; planet Venus",
+   "idWord": "Sukra",
+   "relation": "artinya sejalan",
+   "note": "\u0e27\u0e31\u0e19\u0e28\u0e38\u0e01\u0e23\u0e4c = hari Sukra = Jumat. Bunyinya sama persis dengan \u0e2a\u0e38\u0e02 ('bahagia'), hanya ejaannya yang berbeda."
+  },
+  {
+   "id": "c26",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 5,
+   "th": "\u0e40\u0e2a\u0e32\u0e23\u0e4c",
+   "audio": "\u0e40\u0e2a\u0e32\u0e23\u0e4c",
+   "phon": "s\u01ceo",
+   "rom": "sao",
+   "gloss": "Sabtu; planet Saturnus",
+   "idWord": "Saniscara",
+   "relation": "artinya sejalan",
+   "note": "\u0e27\u0e31\u0e19\u0e40\u0e2a\u0e32\u0e23\u0e4c = hari Saniscara = Sabtu dalam penanggalan Jawa-Bali."
+  },
+  {
+   "id": "c27",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 6,
+   "th": "\u0e40\u0e2d\u0e01",
+   "audio": "\u0e40\u0e2d\u0e01",
+   "phon": "\u00e8ek",
+   "rom": "ek",
+   "gloss": "satu, utama, tunggal",
+   "idWord": "eka",
+   "relation": "artinya sejalan",
+   "note": "Inilah 'eka' pada 'ekasila' dan 'Bhinneka'. Dalam Bahasa Thailand ia menjadi nama tanda nada pertama: \u0e44\u0e21\u0e49\u0e40\u0e2d\u0e01."
+  },
+  {
+   "id": "c28",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 6,
+   "th": "\u0e42\u0e17",
+   "audio": "\u0e42\u0e17",
+   "phon": "thoo",
+   "rom": "tho",
+   "gloss": "dua, tingkat kedua",
+   "idWord": "dwi",
+   "relation": "artinya sejalan",
+   "note": "Seasal dengan 'dwi'. Nama tanda nada kedua: \u0e44\u0e21\u0e49\u0e42\u0e17. Juga dipakai untuk gelar: \u0e1b\u0e23\u0e34\u0e0d\u0e0d\u0e32\u0e42\u0e17 ('magister')."
+  },
+  {
+   "id": "c29",
+   "kind": "flip",
+   "cat": "serumpun-sama",
+   "catLabel": "Arti sejalan",
+   "stage": 6,
+   "th": "\u0e15\u0e23\u0e35",
+   "audio": "\u0e15\u0e23\u0e35",
+   "phon": "trii",
+   "rom": "tri",
+   "gloss": "tiga",
+   "idWord": "tri",
+   "relation": "artinya sejalan",
+   "note": "Nama tanda nada ketiga: \u0e44\u0e21\u0e49\u0e15\u0e23\u0e35. Tanda keempat, \u0e44\u0e21\u0e49\u0e08\u0e31\u0e15\u0e27\u0e32, berasal dari catur ('empat'). Jadi keempat tanda nada Thai sebenarnya bernama satu, dua, tiga, empat dalam Sanskerta \u2014 eka, dwi, tri, catur."
   }
  ],
  "tatabahasa": [
@@ -9838,6 +11358,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
    "phon": "s\u00e0-w\u00e0t-dii khr\u00e1p",
    "rom": "sawatdi khrap",
    "gloss": "Salam. (diucapkan lelaki)",
@@ -9851,6 +11372,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e48\u0e30",
+   "audio": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e48\u0e30",
    "phon": "s\u00e0-w\u00e0t-dii kh\u00e2",
    "rom": "sawatdi kha",
    "gloss": "Salam. (diucapkan perempuan)",
@@ -9864,6 +11386,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e2a\u0e1a\u0e32\u0e22\u0e14\u0e35\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2a\u0e1a\u0e32\u0e22\u0e14\u0e35\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "s\u00e0-baai-dii m\u01cei khr\u00e1p",
    "rom": "sabaidi mai khrap",
    "gloss": "Apa kabar?",
@@ -9877,6 +11400,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e2a\u0e1a\u0e32\u0e22\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2a\u0e1a\u0e32\u0e22\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
    "phon": "s\u00e0-baai-dii khr\u00e1p",
    "rom": "sabaidi khrap",
    "gloss": "Baik, terima kasih.",
@@ -9890,6 +11414,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e04\u0e23\u0e31\u0e1a",
    "phon": "kh\u00e0awp-khun khr\u00e1p",
    "rom": "khopkhun khrap",
    "gloss": "Terima kasih.",
@@ -9903,6 +11428,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e44\u0e21\u0e48\u0e40\u0e1b\u0e47\u0e19\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e21\u0e48\u0e40\u0e1b\u0e47\u0e19\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
    "phon": "m\u00e2i-pen-rai khr\u00e1p",
    "rom": "mai pen rai khrap",
    "gloss": "Tidak apa-apa. / Tidak masalah.",
@@ -9916,6 +11442,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 1,
    "th": "\u0e02\u0e2d\u0e42\u0e17\u0e29\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e02\u0e2d\u0e42\u0e17\u0e29\u0e04\u0e23\u0e31\u0e1a",
    "phon": "kh\u01ceaw-th\u00f4ot khr\u00e1p",
    "rom": "khothot khrap",
    "gloss": "Maaf. / Permisi.",
@@ -9929,6 +11456,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 2,
    "th": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01",
+   "audio": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01",
    "phon": "yin-dii th\u00eei d\u00e2i r\u00fau-j\u00e0k",
    "rom": "yindi thi dai ruchak",
    "gloss": "Senang berkenalan dengan Anda.",
@@ -9942,6 +11470,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 2,
    "th": "\u0e04\u0e38\u0e13\u0e0a\u0e37\u0e48\u0e2d\u0e2d\u0e30\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e04\u0e38\u0e13\u0e0a\u0e37\u0e48\u0e2d\u0e2d\u0e30\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
    "phon": "khun ch\u00fbue \u00e0-rai khr\u00e1p",
    "rom": "khun chue arai khrap",
    "gloss": "Siapa nama Anda?",
@@ -9955,6 +11484,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 2,
    "th": "\u0e1c\u0e21\u0e21\u0e32\u0e08\u0e32\u0e01\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22",
+   "audio": "\u0e1c\u0e21\u0e21\u0e32\u0e08\u0e32\u0e01\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22",
    "phon": "ph\u01d2m maa j\u00e0ak in-doo-nii-sia",
    "rom": "phom ma chak indonisia",
    "gloss": "Saya dari Indonesia.",
@@ -9968,6 +11498,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 2,
    "th": "\u0e1c\u0e21\u0e1e\u0e39\u0e14\u0e44\u0e17\u0e22\u0e44\u0e14\u0e49\u0e19\u0e34\u0e14\u0e2b\u0e19\u0e48\u0e2d\u0e22",
+   "audio": "\u0e1c\u0e21\u0e1e\u0e39\u0e14\u0e44\u0e17\u0e22\u0e44\u0e14\u0e49\u0e19\u0e34\u0e14\u0e2b\u0e19\u0e48\u0e2d\u0e22",
    "phon": "ph\u01d2m ph\u00fbut thai d\u00e2i n\u00edt-n\u00e0awi",
    "rom": "phom phut thai dai nitnoi",
    "gloss": "Saya bisa berbahasa Thai sedikit.",
@@ -9981,6 +11512,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 2,
    "th": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m m\u00e2i kh\u00e2o-jai khr\u00e1p",
    "rom": "phom mai khaochai khrap",
    "gloss": "Saya tidak mengerti.",
@@ -9994,6 +11526,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 3,
    "th": "\u0e0a\u0e48\u0e27\u0e22\u0e1e\u0e39\u0e14\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e0a\u0e48\u0e27\u0e22\u0e1e\u0e39\u0e14\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ch\u00fbai ph\u00fbut \u00ecik kr\u00e1ng khr\u00e1p",
    "rom": "chuai phut ik khrang khrap",
    "gloss": "Tolong ucapkan sekali lagi.",
@@ -10007,6 +11540,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 3,
    "th": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22\u0e22\u0e32\u0e01\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22\u0e22\u0e32\u0e01\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "phaa-s\u01cea thai y\u00e2ak m\u01cei khr\u00e1p",
    "rom": "phasa thai yak mai khrap",
    "gloss": "Apakah bahasa Thailand sulit?",
@@ -10020,6 +11554,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 2,
    "th": "\u0e41\u0e25\u0e49\u0e27\u0e40\u0e08\u0e2d\u0e01\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e41\u0e25\u0e49\u0e27\u0e40\u0e08\u0e2d\u0e01\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "l\u00e1eo jooe kan khr\u00e1p",
    "rom": "laeo choe kan khrap",
    "gloss": "Sampai jumpa.",
@@ -10033,6 +11568,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 3,
    "th": "\u0e25\u0e32\u0e01\u0e48\u0e2d\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e25\u0e32\u0e01\u0e48\u0e2d\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "laa-k\u00e0awn khr\u00e1p",
    "rom": "lakon khrap",
    "gloss": "Selamat tinggal.",
@@ -10046,6 +11582,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 3,
    "th": "\u0e44\u0e1b\u0e01\u0e48\u0e2d\u0e19\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e1b\u0e01\u0e48\u0e2d\u0e19\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
    "phon": "pai k\u00e0awn n\u00e1 khr\u00e1p",
    "rom": "pai kon na khrap",
    "gloss": "Saya pergi dulu, ya.",
@@ -10059,6 +11596,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 4,
    "th": "\u0e1d\u0e31\u0e19\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1d\u0e31\u0e19\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
    "phon": "f\u01cen dii khr\u00e1p",
    "rom": "fandi khrap",
    "gloss": "Selamat tidur. (mimpi indah)",
@@ -10072,6 +11610,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 2,
    "th": "\u0e40\u0e2d\u0e32\u0e2d\u0e31\u0e19\u0e19\u0e35\u0e49\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e2d\u0e32\u0e2d\u0e31\u0e19\u0e19\u0e35\u0e49\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ao an n\u00edi khr\u00e1p",
    "rom": "ao an ni khrap",
    "gloss": "Saya mau yang ini.",
@@ -10085,6 +11624,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 2,
    "th": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e01\u0e34\u0e19\u0e2b\u0e21\u0e39\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e01\u0e34\u0e19\u0e2b\u0e21\u0e39\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m m\u00e2i kin m\u01d4u khr\u00e1p",
    "rom": "phom mai kin mu khrap",
    "gloss": "Saya tidak makan babi.",
@@ -10098,6 +11638,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 3,
    "th": "\u0e21\u0e35\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e2e\u0e32\u0e25\u0e32\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e21\u0e35\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e2e\u0e32\u0e25\u0e32\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "mii aa-h\u01cean haa-laan m\u01cei khr\u00e1p",
    "rom": "mi ahan halan mai khrap",
    "gloss": "Apakah ada makanan halal?",
@@ -10111,6 +11652,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 2,
    "th": "\u0e44\u0e21\u0e48\u0e40\u0e1c\u0e47\u0e14\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e21\u0e48\u0e40\u0e1c\u0e47\u0e14\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
    "phon": "m\u00e2i ph\u00e8t n\u00e1 khr\u00e1p",
    "rom": "mai phet na khrap",
    "gloss": "Jangan pedas, ya.",
@@ -10124,6 +11666,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 3,
    "th": "\u0e40\u0e2d\u0e32\u0e19\u0e49\u0e33\u0e40\u0e1b\u0e25\u0e48\u0e32\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e41\u0e01\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e2d\u0e32\u0e19\u0e49\u0e33\u0e40\u0e1b\u0e25\u0e48\u0e32\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e41\u0e01\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ao n\u00e1am-pl\u00e0o n\u00f9eng k\u00e2eo khr\u00e1p",
    "rom": "ao nam plao nueng kaeo khrap",
    "gloss": "Saya mau satu gelas air putih.",
@@ -10137,6 +11680,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 2,
    "th": "\u0e2d\u0e23\u0e48\u0e2d\u0e22\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2d\u0e23\u0e48\u0e2d\u0e22\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
    "phon": "\u00e0-r\u00e0awi m\u00e2ak khr\u00e1p",
    "rom": "aroi mak khrap",
    "gloss": "Enak sekali.",
@@ -10150,6 +11694,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 3,
    "th": "\u0e02\u0e2d\u0e0a\u0e49\u0e2d\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e02\u0e2d\u0e0a\u0e49\u0e2d\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "kh\u01ceaw ch\u00e1awn khr\u00e1p",
    "rom": "kho chon khrap",
    "gloss": "Minta sendok.",
@@ -10163,6 +11708,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 3,
    "th": "\u0e40\u0e0a\u0e47\u0e04\u0e1a\u0e34\u0e25\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e0a\u0e47\u0e04\u0e1a\u0e34\u0e25\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ch\u00e9k bin khr\u00e1p",
    "rom": "chek bin khrap",
    "gloss": "Minta bonnya. (bayar)",
@@ -10176,6 +11722,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 3,
    "th": "\u0e2d\u0e34\u0e48\u0e21\u0e41\u0e25\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2d\u0e34\u0e48\u0e21\u0e41\u0e25\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
    "phon": "\u00ecm l\u00e1eo khr\u00e1p",
    "rom": "im laeo khrap",
    "gloss": "Sudah kenyang.",
@@ -10189,6 +11736,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 4,
    "th": "\u0e01\u0e34\u0e19\u0e02\u0e49\u0e32\u0e27\u0e41\u0e25\u0e49\u0e27\u0e2b\u0e23\u0e37\u0e2d\u0e22\u0e31\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e01\u0e34\u0e19\u0e02\u0e49\u0e32\u0e27\u0e41\u0e25\u0e49\u0e27\u0e2b\u0e23\u0e37\u0e2d\u0e22\u0e31\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "kin kh\u00e2ao l\u00e1eo r\u01d4ue yang khr\u00e1p",
    "rom": "kin khao laeo rue yang khrap",
    "gloss": "Sudah makan atau belum?",
@@ -10202,6 +11750,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 3,
    "th": "\u0e23\u0e32\u0e04\u0e32\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e23\u0e32\u0e04\u0e32\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48\u0e04\u0e23\u0e31\u0e1a",
    "phon": "raa-khaa th\u00e2o-r\u00e0i khr\u00e1p",
    "rom": "rakha thaorai khrap",
    "gloss": "Berapa harganya?",
@@ -10215,6 +11764,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 3,
    "th": "\u0e41\u0e1e\u0e07\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e41\u0e1e\u0e07\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
    "phon": "phaeng m\u00e2ak khr\u00e1p",
    "rom": "phaeng mak khrap",
    "gloss": "Mahal sekali.",
@@ -10228,6 +11778,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 4,
    "th": "\u0e25\u0e14\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e25\u0e14\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "l\u00f3t d\u00e2i m\u01cei khr\u00e1p",
    "rom": "lot dai mai khrap",
    "gloss": "Bisa kurang harganya?",
@@ -10241,6 +11792,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 3,
    "th": "\u0e40\u0e2d\u0e32\u0e2a\u0e2d\u0e07\u0e2d\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e2d\u0e32\u0e2a\u0e2d\u0e07\u0e2d\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ao s\u01ceawng an khr\u00e1p",
    "rom": "ao song an khrap",
    "gloss": "Saya mau dua buah.",
@@ -10254,6 +11806,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 4,
    "th": "\u0e21\u0e35\u0e2a\u0e35\u0e2d\u0e37\u0e48\u0e19\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e21\u0e35\u0e2a\u0e35\u0e2d\u0e37\u0e48\u0e19\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "mii s\u01d0i \u00f9uen m\u01cei khr\u00e1p",
    "rom": "mi si uen mai khrap",
    "gloss": "Ada warna lain?",
@@ -10267,6 +11820,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 4,
    "th": "\u0e08\u0e48\u0e32\u0e22\u0e40\u0e07\u0e34\u0e19\u0e17\u0e35\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e08\u0e48\u0e32\u0e22\u0e40\u0e07\u0e34\u0e19\u0e17\u0e35\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "j\u00e0ai ngooen th\u00eei-n\u01cei khr\u00e1p",
    "rom": "chai ngoen thi nai khrap",
    "gloss": "Bayarnya di mana?",
@@ -10280,6 +11834,7 @@ const THAI_DATA = {
    "catLabel": "Belanja",
    "stage": 2,
    "th": "\u0e44\u0e21\u0e48\u0e40\u0e2d\u0e32\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e21\u0e48\u0e40\u0e2d\u0e32\u0e04\u0e23\u0e31\u0e1a",
    "phon": "m\u00e2i ao khr\u00e1p",
    "rom": "mai ao khrap",
    "gloss": "Tidak, terima kasih.",
@@ -10293,6 +11848,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 2,
    "th": "\u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33\u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33\u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "h\u00e2awng-n\u00e1am y\u00f9u th\u00eei-n\u01cei khr\u00e1p",
    "rom": "hongnam yu thi nai khrap",
    "gloss": "Di mana toiletnya?",
@@ -10306,6 +11862,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 5,
    "th": "\u0e44\u0e1b\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e16\u0e44\u0e1f\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e1b\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e16\u0e44\u0e1f\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
    "phon": "pai s\u00e0-th\u01cea-nii r\u00f3t-fai y\u00e0ang-rai khr\u00e1p",
    "rom": "pai sathani rotfai yangrai khrap",
    "gloss": "Bagaimana caranya ke stasiun kereta?",
@@ -10319,6 +11876,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 2,
    "th": "\u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "klai m\u01cei khr\u00e1p",
    "rom": "klai mai khrap",
    "gloss": "Jauh tidak?",
@@ -10332,6 +11890,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e40\u0e25\u0e35\u0e49\u0e22\u0e27\u0e0b\u0e49\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e25\u0e35\u0e49\u0e22\u0e27\u0e0b\u0e49\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "l\u00edao s\u00e1ai khr\u00e1p",
    "rom": "liao sai khrap",
    "gloss": "Belok kiri.",
@@ -10345,6 +11904,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 4,
    "th": "\u0e15\u0e23\u0e07\u0e44\u0e1b\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e15\u0e23\u0e07\u0e44\u0e1b\u0e04\u0e23\u0e31\u0e1a",
    "phon": "trong pai khr\u00e1p",
    "rom": "trong pai khrap",
    "gloss": "Jalan terus (lurus).",
@@ -10358,6 +11918,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 5,
    "th": "\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e02\u0e35\u0e22\u0e19\u0e43\u0e2b\u0e49\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e02\u0e35\u0e22\u0e19\u0e43\u0e2b\u0e49\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ch\u00fbai kh\u01d0an h\u00e2i d\u00fbai khr\u00e1p",
    "rom": "chuai khian hai duai khrap",
    "gloss": "Tolong tuliskan untuk saya.",
@@ -10371,6 +11932,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 5,
    "th": "\u0e1c\u0e21\u0e2b\u0e25\u0e07\u0e17\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e2b\u0e25\u0e07\u0e17\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m l\u01d2ng thaang khr\u00e1p",
    "rom": "phom longthang khrap",
    "gloss": "Saya tersesat.",
@@ -10384,6 +11946,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 3,
    "th": "\u0e0a\u0e48\u0e27\u0e22\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e0a\u0e48\u0e27\u0e22\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ch\u00fbai d\u00fbai khr\u00e1p",
    "rom": "chuai duai khrap",
    "gloss": "Tolong!",
@@ -10397,6 +11960,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 3,
    "th": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e2a\u0e1a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e2a\u0e1a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m m\u00e2i s\u00e0-baai khr\u00e1p",
    "rom": "phom mai sabai khrap",
    "gloss": "Saya tidak sehat.",
@@ -10410,6 +11974,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 4,
    "th": "\u0e1c\u0e21\u0e1b\u0e27\u0e14\u0e17\u0e49\u0e2d\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e1b\u0e27\u0e14\u0e17\u0e49\u0e2d\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m p\u00f9at th\u00e1awng khr\u00e1p",
    "rom": "phom puat thong khrap",
    "gloss": "Perut saya sakit.",
@@ -10423,6 +11988,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 5,
    "th": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2d\u0e22\u0e39\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2d\u0e22\u0e39\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "roong-ph\u00e1-yaa-baan y\u00f9u n\u01cei khr\u00e1p",
    "rom": "rongphayaban yu nai khrap",
    "gloss": "Di mana rumah sakit?",
@@ -10436,6 +12002,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 5,
    "th": "\u0e40\u0e23\u0e35\u0e22\u0e01\u0e2b\u0e21\u0e2d\u0e43\u0e2b\u0e49\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e23\u0e35\u0e22\u0e01\u0e2b\u0e21\u0e2d\u0e43\u0e2b\u0e49\u0e14\u0e49\u0e27\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "r\u00eeak m\u01ceaw h\u00e2i d\u00fbai khr\u00e1p",
    "rom": "riak mo hai duai khrap",
    "gloss": "Tolong panggil dokter.",
@@ -10449,6 +12016,7 @@ const THAI_DATA = {
    "catLabel": "Darurat & sakit",
    "stage": 4,
    "th": "\u0e1c\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e34\u0e19\u0e22\u0e32\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e34\u0e19\u0e22\u0e32\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m t\u00e2awng kin yaa khr\u00e1p",
    "rom": "phom tong kin ya khrap",
    "gloss": "Saya harus minum obat.",
@@ -10462,6 +12030,7 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 4,
    "th": "\u0e01\u0e35\u0e48\u0e42\u0e21\u0e07\u0e41\u0e25\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e01\u0e35\u0e48\u0e42\u0e21\u0e07\u0e41\u0e25\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
    "phon": "k\u00eci moong l\u00e1eo khr\u00e1p",
    "rom": "ki mong laeo khrap",
    "gloss": "Jam berapa sekarang?",
@@ -10475,6 +12044,7 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 4,
    "th": "\u0e23\u0e2d\u0e2a\u0e31\u0e01\u0e04\u0e23\u0e39\u0e48\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e23\u0e2d\u0e2a\u0e31\u0e01\u0e04\u0e23\u0e39\u0e48\u0e04\u0e23\u0e31\u0e1a",
    "phon": "raaw s\u00e0k-khr\u00fbu khr\u00e1p",
    "rom": "ro sakkhru khrap",
    "gloss": "Tunggu sebentar.",
@@ -10488,6 +12058,7 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 3,
    "th": "\u0e40\u0e14\u0e35\u0e4b\u0e22\u0e27\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e40\u0e14\u0e35\u0e4b\u0e22\u0e27\u0e04\u0e23\u0e31\u0e1a",
    "phon": "d\u01d0ao khr\u00e1p",
    "rom": "diao khrap",
    "gloss": "Sebentar.",
@@ -10501,6 +12072,7 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 4,
    "th": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e27\u0e48\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e27\u0e48\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "wan-n\u00edi ph\u01d2m m\u00e2i w\u00e2ang khr\u00e1p",
    "rom": "wanni phom mai wang khrap",
    "gloss": "Hari ini saya tidak ada waktu.",
@@ -10514,6 +12086,7 @@ const THAI_DATA = {
    "catLabel": "Waktu",
    "stage": 4,
    "th": "\u0e1e\u0e23\u0e38\u0e48\u0e07\u0e19\u0e35\u0e49\u0e40\u0e08\u0e2d\u0e01\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1e\u0e23\u0e38\u0e48\u0e07\u0e19\u0e35\u0e49\u0e40\u0e08\u0e2d\u0e01\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
    "phon": "phr\u00fbng-n\u00edi jooe kan khr\u00e1p",
    "rom": "phrungni choe kan khrap",
    "gloss": "Sampai besok.",
@@ -10527,6 +12100,7 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 5,
    "th": "\u0e1c\u0e21\u0e2d\u0e22\u0e32\u0e01\u0e44\u0e1b\u0e44\u0e17\u0e22\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e2d\u0e22\u0e32\u0e01\u0e44\u0e1b\u0e44\u0e17\u0e22\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m y\u00e0ak pai thai khr\u00e1p",
    "rom": "phom yak pai thai khrap",
    "gloss": "Saya ingin pergi ke Thailand.",
@@ -10540,6 +12114,7 @@ const THAI_DATA = {
    "catLabel": "Warung & restoran",
    "stage": 6,
    "th": "\u0e1c\u0e21\u0e01\u0e34\u0e19\u0e40\u0e1c\u0e47\u0e14\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e1c\u0e21\u0e01\u0e34\u0e19\u0e40\u0e1c\u0e47\u0e14\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a",
    "phon": "ph\u01d2m kin ph\u00e8t m\u00e2i d\u00e2i khr\u00e1p",
    "rom": "phom kin phet mai dai khrap",
    "gloss": "Saya tidak bisa makan pedas.",
@@ -10553,6 +12128,7 @@ const THAI_DATA = {
    "catLabel": "Arah",
    "stage": 6,
    "th": "\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e16\u0e48\u0e32\u0e22\u0e23\u0e39\u0e1b\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e16\u0e48\u0e32\u0e22\u0e23\u0e39\u0e1b\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
    "phon": "th\u00eei-n\u00eei th\u00e0ai-r\u00fbup d\u00e2i m\u01cei khr\u00e1p",
    "rom": "thi ni thairup dai mai khrap",
    "gloss": "Boleh memotret di sini?",
@@ -10566,6 +12142,7 @@ const THAI_DATA = {
    "catLabel": "Sapaan",
    "stage": 6,
    "th": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e17\u0e38\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e17\u0e38\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e04\u0e23\u0e31\u0e1a",
    "phon": "kh\u00e0awp-khun s\u01cem-r\u00e0p th\u00fak-y\u00e0ang khr\u00e1p",
    "rom": "khopkhun samrap thukyang khrap",
    "gloss": "Terima kasih untuk semuanya.",
@@ -10579,11 +12156,666 @@ const THAI_DATA = {
    "catLabel": "Perkenalan",
    "stage": 5,
    "th": "\u0e04\u0e19\u0e44\u0e17\u0e22\u0e43\u0e08\u0e14\u0e35\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+   "audio": "\u0e04\u0e19\u0e44\u0e17\u0e22\u0e43\u0e08\u0e14\u0e35\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
    "phon": "khon thai jai-dii m\u00e2ak khr\u00e1p",
    "rom": "khon thai chaidi mak khrap",
    "gloss": "Orang Thai sangat baik hati.",
    "lit": "orang Thai hati-baik sangat",
    "note": "\u0e43\u0e08\u0e14\u0e35 ('baik hati') menempatkan \u0e43\u0e08 di depan, sedangkan \u0e14\u0e35\u0e43\u0e08 ('senang') urutannya terbalik. Urutan kata mengubah artinya."
+  }
+ ],
+ "bacaan": [
+  {
+   "id": "b01",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 2,
+   "title": "Berkenalan",
+   "audio": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e48\u0e30 \u0e1c\u0e21\u0e0a\u0e37\u0e48\u0e2d\u0e2a\u0e21\u0e0a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a \u0e04\u0e38\u0e13\u0e0a\u0e37\u0e48\u0e2d\u0e2d\u0e30\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a \u0e09\u0e31\u0e19\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e32\u0e25\u0e35\u0e04\u0e48\u0e30 \u0e22\u0e34\u0e19\u0e14\u0e35\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "s\u00e0-w\u00e0t-dii khr\u00e1p",
+     "gloss": "Selamat siang."
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e04\u0e48\u0e30",
+     "phon": "s\u00e0-w\u00e0t-dii kh\u00e2",
+     "gloss": "Selamat siang."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e1c\u0e21\u0e0a\u0e37\u0e48\u0e2d\u0e2a\u0e21\u0e0a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "ph\u01d2m ch\u00fbue s\u01d2m-chaai khr\u00e1p",
+     "gloss": "Nama saya Somchai."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e04\u0e38\u0e13\u0e0a\u0e37\u0e48\u0e2d\u0e2d\u0e30\u0e44\u0e23\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "khun ch\u00fbue \u00e0-rai khr\u00e1p",
+     "gloss": "Siapa nama Anda?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e09\u0e31\u0e19\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e32\u0e25\u0e35\u0e04\u0e48\u0e30",
+     "phon": "ch\u01cen ch\u00fbue maa-lii kh\u00e2",
+     "gloss": "Nama saya Mali."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e22\u0e34\u0e19\u0e14\u0e35\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "yin-dii th\u00eei d\u00e2i r\u00fau-j\u00e0k khr\u00e1p",
+     "gloss": "Senang berkenalan dengan Anda."
+    }
+   ],
+   "note": "Perhatikan partikel sopannya: Somchai memakai \u0e04\u0e23\u0e31\u0e1a, Mali memakai \u0e04\u0e48\u0e30. Keduanya mengucapkan kalimat yang sama persis kecuali partikel itu."
+  },
+  {
+   "id": "b02",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 3,
+   "title": "Memesan makanan",
+   "audio": "\u0e23\u0e31\u0e1a\u0e2d\u0e30\u0e44\u0e23\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a \u0e02\u0e2d\u0e02\u0e49\u0e32\u0e27\u0e1c\u0e31\u0e14\u0e44\u0e01\u0e48\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e08\u0e32\u0e19\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e21\u0e48\u0e40\u0e1c\u0e47\u0e14\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a \u0e14\u0e37\u0e48\u0e21\u0e2d\u0e30\u0e44\u0e23\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a \u0e19\u0e49\u0e33\u0e40\u0e1b\u0e25\u0e48\u0e32\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e41\u0e01\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e31\u0e01\u0e04\u0e23\u0e39\u0e48\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e23\u0e31\u0e1a\u0e2d\u0e30\u0e44\u0e23\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "r\u00e1p \u00e0-rai dii khr\u00e1p",
+     "gloss": "Mau pesan apa?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e02\u0e2d\u0e02\u0e49\u0e32\u0e27\u0e1c\u0e31\u0e14\u0e44\u0e01\u0e48\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e08\u0e32\u0e19\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "kh\u01ceaw kh\u00e2ao-ph\u00e0t k\u00e0i n\u00f9eng jaan khr\u00e1p",
+     "gloss": "Minta satu piring nasi goreng ayam."
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e44\u0e21\u0e48\u0e40\u0e1c\u0e47\u0e14\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "m\u00e2i ph\u00e8t n\u00e1 khr\u00e1p",
+     "gloss": "Jangan pedas, ya."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a \u0e14\u0e37\u0e48\u0e21\u0e2d\u0e30\u0e44\u0e23\u0e14\u0e35\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "d\u00e2i khr\u00e1p d\u00f9uem \u00e0-rai dii khr\u00e1p",
+     "gloss": "Baik. Mau minum apa?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e19\u0e49\u0e33\u0e40\u0e1b\u0e25\u0e48\u0e32\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e41\u0e01\u0e49\u0e27\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "n\u00e1am-pl\u00e0o n\u00f9eng k\u00e2eo khr\u00e1p",
+     "gloss": "Satu gelas air putih."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e2a\u0e31\u0e01\u0e04\u0e23\u0e39\u0e48\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "s\u00e0k-khr\u00fbu n\u00e1 khr\u00e1p",
+     "gloss": "Mohon tunggu sebentar."
+    }
+   ],
+   "note": "\u0e08\u0e32\u0e19 ('piring') dan \u0e41\u0e01\u0e49\u0e27 ('gelas') di sini berfungsi sebagai klasifikator. Polanya: benda + angka + klasifikator."
+  },
+  {
+   "id": "b03",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 3,
+   "title": "Mencari toilet",
+   "audio": "\u0e02\u0e2d\u0e42\u0e17\u0e29\u0e04\u0e23\u0e31\u0e1a \u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33\u0e2d\u0e22\u0e39\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a \u0e2d\u0e22\u0e39\u0e48\u0e02\u0e49\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e23\u0e49\u0e32\u0e19\u0e04\u0e48\u0e30 \u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e21\u0e48\u0e44\u0e01\u0e25\u0e04\u0e48\u0e30 \u0e40\u0e14\u0e34\u0e19\u0e2b\u0e49\u0e32\u0e19\u0e32\u0e17\u0e35 \u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e02\u0e2d\u0e42\u0e17\u0e29\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "kh\u01ceaw-th\u00f4ot khr\u00e1p",
+     "gloss": "Permisi."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e2b\u0e49\u0e2d\u0e07\u0e19\u0e49\u0e33\u0e2d\u0e22\u0e39\u0e48\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "h\u00e2awng-n\u00e1am y\u00f9u n\u01cei khr\u00e1p",
+     "gloss": "Di mana toiletnya?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e2d\u0e22\u0e39\u0e48\u0e02\u0e49\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e23\u0e49\u0e32\u0e19\u0e04\u0e48\u0e30",
+     "phon": "y\u00f9u kh\u00e2ang-l\u01ceng r\u00e1an kh\u00e2",
+     "gloss": "Ada di belakang toko."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "klai m\u01cei khr\u00e1p",
+     "gloss": "Jauh tidak?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e44\u0e21\u0e48\u0e44\u0e01\u0e25\u0e04\u0e48\u0e30 \u0e40\u0e14\u0e34\u0e19\u0e2b\u0e49\u0e32\u0e19\u0e32\u0e17\u0e35",
+     "phon": "m\u00e2i klai kh\u00e2 dooen h\u00e2a naa-thii",
+     "gloss": "Tidak jauh. Lima menit jalan kaki."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "kh\u00e0awp-khun m\u00e2ak khr\u00e1p",
+     "gloss": "Terima kasih banyak."
+    }
+   ],
+   "note": "\u0e02\u0e49\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e07 ('di belakang') memakai \u0e02\u0e49\u0e32\u0e07 yang berarti 'sisi'. Pola yang sama: \u0e02\u0e49\u0e32\u0e07\u0e43\u0e19, \u0e02\u0e49\u0e32\u0e07\u0e19\u0e2d\u0e01, \u0e02\u0e49\u0e32\u0e07\u0e1a\u0e19, \u0e02\u0e49\u0e32\u0e07\u0e25\u0e48\u0e32\u0e07."
+  },
+  {
+   "id": "b04",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 4,
+   "title": "Menawar di pasar",
+   "audio": "\u0e2d\u0e31\u0e19\u0e19\u0e35\u0e49\u0e23\u0e32\u0e04\u0e32\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e2d\u0e07\u0e23\u0e49\u0e2d\u0e22\u0e1a\u0e32\u0e17\u0e04\u0e48\u0e30 \u0e41\u0e1e\u0e07\u0e44\u0e1b\u0e04\u0e23\u0e31\u0e1a \u0e25\u0e14\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a \u0e25\u0e14\u0e43\u0e2b\u0e49\u0e2a\u0e34\u0e1a\u0e1a\u0e32\u0e17\u0e04\u0e48\u0e30 \u0e40\u0e2d\u0e32\u0e2a\u0e2d\u0e07\u0e2d\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e2d\u0e31\u0e19\u0e19\u0e35\u0e49\u0e23\u0e32\u0e04\u0e32\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "an n\u00edi raa-khaa th\u00e2o-r\u00e0i khr\u00e1p",
+     "gloss": "Yang ini berapa harganya?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e2a\u0e2d\u0e07\u0e23\u0e49\u0e2d\u0e22\u0e1a\u0e32\u0e17\u0e04\u0e48\u0e30",
+     "phon": "s\u01ceawng r\u00e1awi b\u00e0at kh\u00e2",
+     "gloss": "Dua ratus baht."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e41\u0e1e\u0e07\u0e44\u0e1b\u0e04\u0e23\u0e31\u0e1a \u0e25\u0e14\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "phaeng pai khr\u00e1p l\u00f3t d\u00e2i m\u01cei khr\u00e1p",
+     "gloss": "Terlalu mahal. Bisa kurang?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e25\u0e14\u0e43\u0e2b\u0e49\u0e2a\u0e34\u0e1a\u0e1a\u0e32\u0e17\u0e04\u0e48\u0e30",
+     "phon": "l\u00f3t h\u00e2i s\u00ecp b\u00e0at kh\u00e2",
+     "gloss": "Saya kurangi sepuluh baht."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e40\u0e2d\u0e32\u0e2a\u0e2d\u0e07\u0e2d\u0e31\u0e19\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "ao s\u01ceawng an khr\u00e1p",
+     "gloss": "Saya ambil dua."
+    }
+   ],
+   "note": "\u0e41\u0e1e\u0e07\u0e44\u0e1b memakai pola 'kata sifat + \u0e44\u0e1b' yang berarti 'terlalu ...'. Potongan sepuluh baht dari dua ratus adalah hasil tawar-menawar yang wajar; menawar setengah harga justru dianggap kurang sopan."
+  },
+  {
+   "id": "b05",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 4,
+   "title": "Cuaca",
+   "audio": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49\u0e2d\u0e32\u0e01\u0e32\u0e28\u0e23\u0e49\u0e2d\u0e19\u0e21\u0e32\u0e01 \u0e17\u0e35\u0e48\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22\u0e23\u0e49\u0e2d\u0e19\u0e44\u0e2b\u0e21 \u0e23\u0e49\u0e2d\u0e19\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 \u0e41\u0e15\u0e48\u0e1d\u0e19\u0e15\u0e01\u0e1a\u0e48\u0e2d\u0e22 \u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e1d\u0e19\u0e15\u0e01\u0e15\u0e2d\u0e19\u0e40\u0e22\u0e47\u0e19",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e27\u0e31\u0e19\u0e19\u0e35\u0e49\u0e2d\u0e32\u0e01\u0e32\u0e28\u0e23\u0e49\u0e2d\u0e19\u0e21\u0e32\u0e01",
+     "phon": "wan-n\u00edi aa-k\u00e0at r\u00e1awn m\u00e2ak",
+     "gloss": "Hari ini cuacanya sangat panas."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e17\u0e35\u0e48\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22\u0e23\u0e49\u0e2d\u0e19\u0e44\u0e2b\u0e21",
+     "phon": "th\u00eei in-doo-nii-sia r\u00e1awn m\u01cei",
+     "gloss": "Apakah di Indonesia panas juga?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e23\u0e49\u0e2d\u0e19\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 \u0e41\u0e15\u0e48\u0e1d\u0e19\u0e15\u0e01\u0e1a\u0e48\u0e2d\u0e22",
+     "phon": "r\u00e1awn m\u01d4ean-kan t\u00e0e f\u01d2n t\u00f2k b\u00e0awi",
+     "gloss": "Sama-sama panas, tetapi sering hujan."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e17\u0e35\u0e48\u0e19\u0e35\u0e48\u0e1d\u0e19\u0e15\u0e01\u0e15\u0e2d\u0e19\u0e40\u0e22\u0e47\u0e19",
+     "phon": "th\u00eei-n\u00eei f\u01d2n t\u00f2k taawn-yen",
+     "gloss": "Di sini hujan turun pada sore hari."
+    }
+   ],
+   "note": "\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 ('sama saja, juga') adalah salah satu kata percakapan yang paling sering dipakai untuk menanggapi."
+  },
+  {
+   "id": "b06",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 5,
+   "title": "Naik taksi",
+   "audio": "\u0e44\u0e1b\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a \u0e02\u0e36\u0e49\u0e19\u0e23\u0e16\u0e44\u0e14\u0e49\u0e40\u0e25\u0e22\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a \u0e44\u0e21\u0e48\u0e44\u0e01\u0e25\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e34\u0e1a\u0e19\u0e32\u0e17\u0e35 \u0e08\u0e2d\u0e14\u0e15\u0e23\u0e07\u0e19\u0e35\u0e49\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e44\u0e1b\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "pai roong-raem n\u00edi d\u00e2i m\u01cei khr\u00e1p",
+     "gloss": "Bisa antar ke hotel ini?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e44\u0e14\u0e49\u0e04\u0e23\u0e31\u0e1a \u0e02\u0e36\u0e49\u0e19\u0e23\u0e16\u0e44\u0e14\u0e49\u0e40\u0e25\u0e22\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "d\u00e2i khr\u00e1p kh\u00fben r\u00f3t d\u00e2i looei khr\u00e1p",
+     "gloss": "Bisa. Silakan langsung naik."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e44\u0e01\u0e25\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "klai m\u01cei khr\u00e1p",
+     "gloss": "Jauh tidak?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e44\u0e21\u0e48\u0e44\u0e01\u0e25\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e34\u0e1a\u0e19\u0e32\u0e17\u0e35",
+     "phon": "m\u00e2i klai khr\u00e1p s\u00ecp naa-thii",
+     "gloss": "Tidak jauh. Sepuluh menit."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e08\u0e2d\u0e14\u0e15\u0e23\u0e07\u0e19\u0e35\u0e49\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "j\u00e0awt trong-n\u00edi khr\u00e1p",
+     "gloss": "Berhenti di sini saja."
+    }
+   ],
+   "note": "\u0e40\u0e25\u0e22 sesudah \u0e44\u0e14\u0e49 berarti 'langsung saja'. Kata ini sangat sering dipakai dan artinya berubah-ubah menurut letaknya."
+  },
+  {
+   "id": "b07",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 5,
+   "title": "Di apotek",
+   "audio": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e2a\u0e1a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a \u0e1b\u0e27\u0e14\u0e17\u0e49\u0e2d\u0e07\u0e21\u0e32\u0e01 \u0e01\u0e34\u0e19\u0e22\u0e32\u0e19\u0e35\u0e49\u0e27\u0e31\u0e19\u0e25\u0e30\u0e2a\u0e32\u0e21\u0e04\u0e23\u0e31\u0e49\u0e07 \u0e16\u0e49\u0e32\u0e44\u0e21\u0e48\u0e14\u0e35\u0e02\u0e36\u0e49\u0e19\u0e44\u0e1b\u0e2b\u0e32\u0e2b\u0e21\u0e2d \u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e04\u0e23\u0e31\u0e1a",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e1c\u0e21\u0e44\u0e21\u0e48\u0e2a\u0e1a\u0e32\u0e22\u0e04\u0e23\u0e31\u0e1a \u0e1b\u0e27\u0e14\u0e17\u0e49\u0e2d\u0e07\u0e21\u0e32\u0e01",
+     "phon": "ph\u01d2m m\u00e2i s\u00e0-baai khr\u00e1p p\u00f9at th\u00e1awng m\u00e2ak",
+     "gloss": "Saya tidak sehat. Perut saya sangat sakit."
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e01\u0e34\u0e19\u0e22\u0e32\u0e19\u0e35\u0e49\u0e27\u0e31\u0e19\u0e25\u0e30\u0e2a\u0e32\u0e21\u0e04\u0e23\u0e31\u0e49\u0e07",
+     "phon": "kin yaa n\u00edi wan-l\u00e1 s\u01ceam kr\u00e1ng",
+     "gloss": "Minum obat ini tiga kali sehari."
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e16\u0e49\u0e32\u0e44\u0e21\u0e48\u0e14\u0e35\u0e02\u0e36\u0e49\u0e19\u0e44\u0e1b\u0e2b\u0e32\u0e2b\u0e21\u0e2d",
+     "phon": "th\u00e2a m\u00e2i dii kh\u00fben pai h\u01cea m\u01ceaw",
+     "gloss": "Kalau tidak membaik, pergilah ke dokter."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e02\u0e2d\u0e1a\u0e04\u0e38\u0e13\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "kh\u00e0awp-khun khr\u00e1p",
+     "gloss": "Terima kasih."
+    }
+   ],
+   "note": "\u0e27\u0e31\u0e19\u0e25\u0e30\u0e2a\u0e32\u0e21\u0e04\u0e23\u0e31\u0e49\u0e07: \u0e25\u0e30 berarti 'per', jadi harfiahnya 'per hari tiga kali'. \u0e14\u0e35\u0e02\u0e36\u0e49\u0e19 berarti 'menjadi lebih baik' \u2014 \u0e02\u0e36\u0e49\u0e19 ('naik') dipakai untuk menandai perubahan ke arah lebih."
+  },
+  {
+   "id": "b08",
+   "kind": "flip",
+   "cat": "percakapan",
+   "catLabel": "Percakapan",
+   "stage": 6,
+   "title": "Mengobrol tentang belajar",
+   "audio": "\u0e04\u0e38\u0e13\u0e21\u0e32\u0e08\u0e32\u0e01\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a \u0e09\u0e31\u0e19\u0e21\u0e32\u0e08\u0e32\u0e01\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22\u0e04\u0e48\u0e30 \u0e04\u0e38\u0e13\u0e1e\u0e39\u0e14\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22\u0e40\u0e01\u0e48\u0e07\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a \u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e40\u0e01\u0e48\u0e07\u0e04\u0e48\u0e30 \u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e2d\u0e07\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e41\u0e25\u0e49\u0e27 \u0e2a\u0e19\u0e38\u0e01\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a \u0e2a\u0e19\u0e38\u0e01\u0e21\u0e32\u0e01\u0e04\u0e48\u0e30 \u0e41\u0e15\u0e48\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e22\u0e32\u0e01\u0e04\u0e48\u0e30",
+   "lines": [
+    {
+     "speaker": "A",
+     "th": "\u0e04\u0e38\u0e13\u0e21\u0e32\u0e08\u0e32\u0e01\u0e44\u0e2b\u0e19\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "khun maa j\u00e0ak n\u01cei khr\u00e1p",
+     "gloss": "Anda dari mana?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e09\u0e31\u0e19\u0e21\u0e32\u0e08\u0e32\u0e01\u0e2d\u0e34\u0e19\u0e42\u0e14\u0e19\u0e35\u0e40\u0e0b\u0e35\u0e22\u0e04\u0e48\u0e30",
+     "phon": "ch\u01cen maa j\u00e0ak in-doo-nii-sia kh\u00e2",
+     "gloss": "Saya dari Indonesia."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e04\u0e38\u0e13\u0e1e\u0e39\u0e14\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22\u0e40\u0e01\u0e48\u0e07\u0e21\u0e32\u0e01\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "khun ph\u00fbut phaa-s\u01cea thai k\u00e8ng m\u00e2ak khr\u00e1p",
+     "gloss": "Bahasa Thai Anda bagus sekali."
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e40\u0e01\u0e48\u0e07\u0e04\u0e48\u0e30 \u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e2d\u0e07\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e41\u0e25\u0e49\u0e27",
+     "phon": "yang m\u00e2i k\u00e8ng kh\u00e2 rian s\u01ceawng duean l\u00e1eo",
+     "gloss": "Belum bagus. Saya sudah belajar dua bulan."
+    },
+    {
+     "speaker": "A",
+     "th": "\u0e2a\u0e19\u0e38\u0e01\u0e44\u0e2b\u0e21\u0e04\u0e23\u0e31\u0e1a",
+     "phon": "s\u00e0-n\u00f9k m\u01cei khr\u00e1p",
+     "gloss": "Menyenangkan?"
+    },
+    {
+     "speaker": "B",
+     "th": "\u0e2a\u0e19\u0e38\u0e01\u0e21\u0e32\u0e01\u0e04\u0e48\u0e30 \u0e41\u0e15\u0e48\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e22\u0e32\u0e01\u0e04\u0e48\u0e30",
+     "phon": "s\u00e0-n\u00f9k m\u00e2ak kh\u00e2 t\u00e0e s\u01d0ang y\u00e2ak kh\u00e2",
+     "gloss": "Sangat menyenangkan, tetapi nadanya sulit."
+    }
+   ],
+   "note": "Memuji kemampuan berbahasa adalah basa-basi yang hampir pasti Anda dengar. Jawaban yang wajar adalah merendah (\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e40\u0e01\u0e48\u0e07), bukan menerima pujian itu bulat-bulat."
+  },
+  {
+   "id": "b01-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 2,
+   "prompt": "Siapa nama perempuan dalam percakapan ini?",
+   "promptTh": "",
+   "promptLabel": "Berkenalan",
+   "optionsLang": "id",
+   "options": [
+    "Mali",
+    "Somchai",
+    "Keduanya tidak menyebut nama",
+    "Namanya tidak disebut dengan jelas"
+   ],
+   "answer": 0,
+   "explain": "\u0e09\u0e31\u0e19\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e32\u0e25\u0e35\u0e04\u0e48\u0e30 \u2014 ia memakai \u0e09\u0e31\u0e19 dan \u0e04\u0e48\u0e30, dua penanda penutur perempuan."
+  },
+  {
+   "id": "b01-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 2,
+   "prompt": "Dari mana Anda tahu penutur pertama seorang lelaki?",
+   "promptTh": "",
+   "promptLabel": "Berkenalan",
+   "optionsLang": "id",
+   "options": [
+    "Ia memakai \u0e1c\u0e21 dan \u0e04\u0e23\u0e31\u0e1a",
+    "Ia menyapa lebih dahulu",
+    "Namanya Somchai",
+    "Ia memakai kalimat yang lebih panjang"
+   ],
+   "answer": 0,
+   "explain": "Kata ganti dan partikel sopan dipilih menurut jenis kelamin pembicara, jadi keduanya menandai hal yang sama."
+  },
+  {
+   "id": "b02-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 3,
+   "prompt": "Apa yang dipesan tamu itu?",
+   "promptTh": "",
+   "promptLabel": "Memesan makanan",
+   "optionsLang": "id",
+   "options": [
+    "Nasi goreng ayam dan air putih",
+    "Nasi goreng babi dan teh",
+    "Mi dan kopi",
+    "Nasi goreng telur dan air putih"
+   ],
+   "answer": 0,
+   "explain": "\u0e02\u0e49\u0e32\u0e27\u0e1c\u0e31\u0e14\u0e44\u0e01\u0e48 = nasi goreng ayam; \u0e19\u0e49\u0e33\u0e40\u0e1b\u0e25\u0e48\u0e32 = air putih (air minum biasa)."
+  },
+  {
+   "id": "b02-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 3,
+   "prompt": "Apa guna kata \u0e08\u0e32\u0e19 dan \u0e41\u0e01\u0e49\u0e27 pada percakapan ini?",
+   "promptTh": "",
+   "promptLabel": "Memesan makanan",
+   "optionsLang": "id",
+   "options": [
+    "Klasifikator untuk menghitung",
+    "Nama makanan",
+    "Kata sifat",
+    "Partikel sopan"
+   ],
+   "answer": 0,
+   "explain": "\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e08\u0e32\u0e19 ('satu piring'), \u0e2b\u0e19\u0e36\u0e48\u0e07\u0e41\u0e01\u0e49\u0e27 ('satu gelas'). Klasifikator selalu berada sesudah angkanya."
+  },
+  {
+   "id": "b03-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 3,
+   "prompt": "Di mana toiletnya?",
+   "promptTh": "",
+   "promptLabel": "Mencari toilet",
+   "optionsLang": "id",
+   "options": [
+    "Di belakang toko",
+    "Di depan toko",
+    "Di dalam hotel",
+    "Di sebelah kiri"
+   ],
+   "answer": 0,
+   "explain": "\u0e2d\u0e22\u0e39\u0e48\u0e02\u0e49\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e23\u0e49\u0e32\u0e19 \u2014 \u0e02\u0e49\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e07 berarti 'di belakang', \u0e23\u0e49\u0e32\u0e19 berarti 'toko'."
+  },
+  {
+   "id": "b03-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 3,
+   "prompt": "Berapa lama jalan kakinya?",
+   "promptTh": "",
+   "promptLabel": "Mencari toilet",
+   "optionsLang": "id",
+   "options": [
+    "Lima menit",
+    "Lima belas menit",
+    "Lima jam",
+    "Tidak disebutkan"
+   ],
+   "answer": 0,
+   "explain": "\u0e40\u0e14\u0e34\u0e19\u0e2b\u0e49\u0e32\u0e19\u0e32\u0e17\u0e35 \u2014 \u0e2b\u0e49\u0e32 berarti 'lima', \u0e19\u0e32\u0e17\u0e35 berarti 'menit'."
+  },
+  {
+   "id": "b04-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 4,
+   "prompt": "Berapa harga akhirnya untuk satu barang?",
+   "promptTh": "",
+   "promptLabel": "Menawar di pasar",
+   "optionsLang": "id",
+   "options": [
+    "190 baht",
+    "200 baht",
+    "180 baht",
+    "210 baht"
+   ],
+   "answer": 0,
+   "explain": "\u0e2a\u0e2d\u0e07\u0e23\u0e49\u0e2d\u0e22 ('dua ratus') dikurangi \u0e2a\u0e34\u0e1a ('sepuluh') menjadi 190 baht."
+  },
+  {
+   "id": "b04-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 4,
+   "prompt": "Apa arti \u0e41\u0e1e\u0e07\u0e44\u0e1b?",
+   "promptTh": "\u0e41\u0e1e\u0e07\u0e44\u0e1b",
+   "promptLabel": "Menawar di pasar",
+   "optionsLang": "id",
+   "options": [
+    "Terlalu mahal",
+    "Mahal sekali bagi saya",
+    "Harga naik",
+    "Mahal tetapi dibeli"
+   ],
+   "answer": 0,
+   "explain": "Pola 'kata sifat + \u0e44\u0e1b' berarti melebihi batas: \u0e40\u0e1c\u0e47\u0e14\u0e44\u0e1b ('terlalu pedas'), \u0e40\u0e04\u0e47\u0e21\u0e44\u0e1b ('terlalu asin')."
+  },
+  {
+   "id": "b05-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 4,
+   "prompt": "Apa kata B tentang cuaca di Indonesia?",
+   "promptTh": "",
+   "promptLabel": "Cuaca",
+   "optionsLang": "id",
+   "options": [
+    "Sama panasnya, tetapi sering hujan",
+    "Lebih dingin",
+    "Tidak pernah hujan",
+    "Lebih panas daripada Thailand"
+   ],
+   "answer": 0,
+   "explain": "\u0e23\u0e49\u0e2d\u0e19\u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 \u0e41\u0e15\u0e48\u0e1d\u0e19\u0e15\u0e01\u0e1a\u0e48\u0e2d\u0e22 \u2014 \u0e40\u0e2b\u0e21\u0e37\u0e2d\u0e19\u0e01\u0e31\u0e19 berarti 'sama saja', \u0e1a\u0e48\u0e2d\u0e22 berarti 'sering'."
+  },
+  {
+   "id": "b05-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 4,
+   "prompt": "Kapan hujan biasanya turun di tempat A?",
+   "promptTh": "",
+   "promptLabel": "Cuaca",
+   "optionsLang": "id",
+   "options": [
+    "Sore hari",
+    "Pagi hari",
+    "Tengah malam",
+    "Sepanjang hari"
+   ],
+   "answer": 0,
+   "explain": "\u0e15\u0e2d\u0e19\u0e40\u0e22\u0e47\u0e19 berarti 'waktu sore/petang'."
+  },
+  {
+   "id": "b06-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 5,
+   "prompt": "Berapa lama perjalanannya?",
+   "promptTh": "",
+   "promptLabel": "Naik taksi",
+   "optionsLang": "id",
+   "options": [
+    "Sepuluh menit",
+    "Lima menit",
+    "Sepuluh jam",
+    "Tidak disebutkan"
+   ],
+   "answer": 0,
+   "explain": "\u0e2a\u0e34\u0e1a\u0e19\u0e32\u0e17\u0e35 \u2014 \u0e2a\u0e34\u0e1a berarti 'sepuluh', \u0e19\u0e32\u0e17\u0e35 berarti 'menit'."
+  },
+  {
+   "id": "b06-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 5,
+   "prompt": "Apa yang diminta penumpang pada baris terakhir?",
+   "promptTh": "",
+   "promptLabel": "Naik taksi",
+   "optionsLang": "id",
+   "options": [
+    "Berhenti di tempat itu",
+    "Jalan lebih cepat",
+    "Belok kiri",
+    "Kembali ke hotel"
+   ],
+   "answer": 0,
+   "explain": "\u0e08\u0e2d\u0e14 berarti 'berhenti, parkir'; \u0e15\u0e23\u0e07\u0e19\u0e35\u0e49 berarti 'tepat di sini'."
+  },
+  {
+   "id": "b07-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 5,
+   "prompt": "Berapa kali sehari obatnya diminum?",
+   "promptTh": "",
+   "promptLabel": "Di apotek",
+   "optionsLang": "id",
+   "options": [
+    "Tiga kali",
+    "Sekali",
+    "Dua kali",
+    "Setiap jam"
+   ],
+   "answer": 0,
+   "explain": "\u0e27\u0e31\u0e19\u0e25\u0e30\u0e2a\u0e32\u0e21\u0e04\u0e23\u0e31\u0e49\u0e07 \u2014 \u0e25\u0e30 berarti 'per', \u0e04\u0e23\u0e31\u0e49\u0e07 berarti 'kali'."
+  },
+  {
+   "id": "b07-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 5,
+   "prompt": "Apa yang harus dilakukan kalau tidak membaik?",
+   "promptTh": "",
+   "promptLabel": "Di apotek",
+   "optionsLang": "id",
+   "options": [
+    "Pergi ke dokter",
+    "Minum obat dua kali lipat",
+    "Istirahat saja",
+    "Kembali ke apotek"
+   ],
+   "answer": 0,
+   "explain": "\u0e16\u0e49\u0e32\u0e44\u0e21\u0e48\u0e14\u0e35\u0e02\u0e36\u0e49\u0e19\u0e44\u0e1b\u0e2b\u0e32\u0e2b\u0e21\u0e2d \u2014 \u0e16\u0e49\u0e32 berarti 'kalau', \u0e44\u0e1b\u0e2b\u0e32\u0e2b\u0e21\u0e2d berarti 'pergi menemui dokter'."
+  },
+  {
+   "id": "b08-q1",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 6,
+   "prompt": "Sudah berapa lama B belajar?",
+   "promptTh": "",
+   "promptLabel": "Mengobrol tentang belajar",
+   "optionsLang": "id",
+   "options": [
+    "Dua bulan",
+    "Dua tahun",
+    "Dua minggu",
+    "Belum mulai"
+   ],
+   "answer": 0,
+   "explain": "\u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e2d\u0e07\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e41\u0e25\u0e49\u0e27 \u2014 \u0e40\u0e14\u0e37\u0e2d\u0e19 berarti 'bulan', \u0e41\u0e25\u0e49\u0e27 menandai bahwa itu sudah berlangsung."
+  },
+  {
+   "id": "b08-q2",
+   "kind": "mcq",
+   "cat": "soal-bacaan",
+   "catLabel": "Soal pemahaman",
+   "stage": 6,
+   "prompt": "Apa yang dirasa sulit oleh B?",
+   "promptTh": "",
+   "promptLabel": "Mengobrol tentang belajar",
+   "optionsLang": "id",
+   "options": [
+    "Nadanya",
+    "Tulisannya",
+    "Kosakatanya",
+    "Tata bahasanya"
+   ],
+   "answer": 0,
+   "explain": "\u0e40\u0e2a\u0e35\u0e22\u0e07\u0e22\u0e32\u0e01 \u2014 \u0e40\u0e2a\u0e35\u0e22\u0e07 di sini berarti 'nada, bunyi'."
   }
  ],
  "topik": [
@@ -11100,6 +13332,28 @@ const THAI_DATA = {
     "Itulah sebabnya pasangan huruf berbunyi sama tetapi berkelas berbeda (\u0e02/\u0e04, \u0e16/\u0e17, \u0e1c/\u0e1e, \u0e2a/\u0e0b, \u0e1d/\u0e1f, \u0e09/\u0e0a) tetap dipertahankan dalam ejaan Thai: dengan pasangan itu, setiap bunyi konsonan bisa dituliskan dalam lima nada."
    ]
   },
+  "serumpun": [
+   {
+    "id": "cn01",
+    "title": "Kata yang ejaannya memakai \u0e23\u0e23",
+    "text": "Beberapa kata serumpun yang paling dikenal ditulis dengan \u0e23\u0e23 (ro han), yang dibaca -an- atau -am- dan tidak mengikuti pola suku kata biasa: \u0e18\u0e23\u0e23\u0e21 (tham) = 'dharma', \u0e01\u0e23\u0e23\u0e21 (kam) = 'karma', \u0e2a\u0e27\u0e23\u0e23\u0e04\u0e4c (s\u00e0-w\u01cen) = 'surga', dan \u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34 (tham-m\u00e1-ch\u00e2at) = 'alam'. Kata-kata itu tidak dijadikan kartu di sini karena pembacaannya tidak bisa diperiksa mesin, tetapi tetap perlu Anda kenali."
+   },
+   {
+    "id": "cn02",
+    "title": "Nama hari yang belum tercantum",
+    "text": "\u0e27\u0e31\u0e19\u0e1e\u0e24\u0e2b\u0e31\u0e2a\u0e1a\u0e14\u0e35 (wan ph\u00e1-r\u00fae-h\u00e0t-s\u00e0-baaw-dii, Kamis) berasal dari Brihaspati \u2014 'Respati' dalam penanggalan Jawa. Ejaannya memakai \u0e24 dan berlapis-lapis, sehingga tidak dijadikan kartu. Enam hari lainnya ada di daftar di atas."
+   },
+   {
+    "id": "cn03",
+    "title": "Jangan percaya kemiripan begitu saja",
+    "text": "Kemiripan bentuk tidak selalu berarti kemiripan makna. \u0e2a\u0e38\u0e02 bukan 'suka', \u0e20\u0e39\u0e21\u0e34 bukan 'bumi' sebagai planet, dan \u0e0a\u0e32\u0e15\u0e34 bukan 'sejati'. Pakailah kemiripan untuk MENGINGAT kata, bukan untuk MENEBAK artinya."
+   },
+   {
+    "id": "cn04",
+    "title": "Di mana lagi kata serumpun muncul",
+    "text": "Jalur Sanskerta paling banyak muncul pada istilah keagamaan, pemerintahan, ilmu, dan gelar. Pada kosakata sehari-hari (makanan, keluarga, kata kerja) hampir tidak ada, sebab di sana Bahasa Thailand memakai kata aslinya sendiri. Jadi modul ini mempercepat kosakata ragam resmi, bukan kosakata warung."
+   }
+  ],
   "aksara": {
    "classes": [
     {

@@ -28,6 +28,9 @@ MODULE_FILES = {
     "vocab": "vocab.json",
     "grammar": "grammar.json",
     "frasa": "frasa.json",
+    "dengar": "dengar.json",
+    "serumpun": "serumpun.json",
+    "bacaan": "bacaan.json",
 }
 
 MAX_STAGE = 6
@@ -153,6 +156,61 @@ def phrases(stage: int | None = None) -> list[dict]:
     return _upto(load("frasa")["phrases"], stage)
 
 
+# ----------------------------------------------------- modul latihan telinga ---
+
+def listen_sets(stage: int | None = None) -> list[dict]:
+    """Kelompok kata yang hanya berbeda panjang vokal atau hembusan."""
+    return _upto(load("dengar")["sets"], stage)
+
+
+def listen_cards(stage: int | None = None) -> list[dict]:
+    """Satu kartu untuk setiap kata di dalam kelompok.
+
+    Di aplikasi web kartu ini membunyikan kata tersebut lalu meminta pengguna
+    memilih kata mana yang terdengar; di terminal kartu yang sama menjadi
+    latihan mengucapkan, sebab terminal tidak membunyikan apa pun.
+    """
+    out = []
+    for s in listen_sets(stage):
+        for i, w in enumerate(s["words"]):
+            out.append({
+                "id": f"{s['id']}-{i}",
+                "set_id": s["id"], "type": s["type"], "stage": s["stage"],
+                "index": i, "words": s["words"], "word": w,
+                "note": s.get("note") or "",
+            })
+    return out
+
+
+def listen_items(stage: int | None = None) -> list[dict]:
+    return _upto(load("dengar")["items"], stage)
+
+
+# ----------------------------------------------------- modul kata serumpun ---
+
+def cognates(stage: int | None = None) -> list[dict]:
+    return _upto(load("serumpun")["entries"], stage)
+
+
+def cognate_notes() -> list[dict]:
+    return list(load("serumpun")["notes"])
+
+
+# ----------------------------------------------------------- modul bacaan ---
+
+def texts(stage: int | None = None) -> list[dict]:
+    return _upto(load("bacaan")["texts"], stage)
+
+
+def text_items(stage: int | None = None) -> list[dict]:
+    out: list[dict] = []
+    for t in texts(stage):
+        for item in t["items"]:
+            out.append({**item, "text_id": t["id"], "text_title": t["title"],
+                        "stage": t["stage"]})
+    return out
+
+
 # ---------------------------------------------------------------- gabungan ---
 
 def all_card_ids() -> list[str]:
@@ -170,6 +228,11 @@ def all_card_ids() -> list[str]:
     ids += [e["id"] for e in vocab_entries()]
     ids += [i["id"] for i in grammar_items()]
     ids += [p["id"] for p in phrases()]
+    ids += [c["id"] for c in listen_cards()]
+    ids += [i["id"] for i in listen_items()]
+    ids += [c["id"] for c in cognates()]
+    ids += [t["id"] for t in texts()]
+    ids += [i["id"] for i in text_items()]
     return ids
 
 
@@ -210,6 +273,14 @@ def examples_with_syllables() -> list[tuple[str, dict]]:
             add(f"grammar[{t['id']}].examples[{i}]", ex)
     for p in load("frasa")["phrases"]:
         add(f"frasa[{p['id']}]", p)
+    for st in load("dengar")["sets"]:
+        for i, w in enumerate(st["words"]):
+            add(f"dengar[{st['id']}].words[{i}]", w)
+    for c in load("serumpun")["entries"]:
+        add(f"serumpun[{c['id']}]", c)
+    for t in load("bacaan")["texts"]:
+        for i, ln in enumerate(t["lines"]):
+            add(f"bacaan[{t['id']}].lines[{i}]", ln)
     return out
 
 
@@ -219,5 +290,6 @@ __all__ = [
     "consonants", "digits", "examples_with_syllables", "grammar_items",
     "grammar_topics", "load", "load_all", "marks", "minimal_pairs",
     "nada_items", "phrases", "tone_rules", "tone_syllables", "tones",
-    "vocab_entries", "vowels",
+    "vocab_entries", "vowels", "cognate_notes", "cognates", "listen_cards",
+    "listen_items", "listen_sets", "text_items", "texts",
 ]

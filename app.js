@@ -37,8 +37,13 @@ const MAX_BOX = 5;
 const progress = lsGet(LS.prog, { cards: {} });
 if (!progress.cards) progress.cards = {};
 
+/* arah: true berarti Indonesia -> Thai, yaitu arah PRODUKSI. Sengaja
+   dinyalakan secara bawaan: untuk bisa berbicara, memanggil kata Thainya
+   sendiri jauh lebih berharga daripada sekadar mengenalinya. Matikan bila
+   Anda ingin latihan pengenalan. */
 const prefs = Object.assign(
-  { phon: true, arah: false, due: false, hide: false, kelas: false },
+  { phon: true, arah: true, due: false, hide: false, kelas: false,
+    suara: true, lambat: false },
   lsGet(LS.prefs, {})
 );
 
@@ -96,6 +101,61 @@ function noteBlock(text) {
   return text ? `<div class="note">${esc(text)}</div>` : "";
 }
 
+
+/* ------------------------------------------------------------- suara ---- */
+
+/* Pelafalan memakai Web Speech API peramban. Ketersediaan suara Thai berbeda
+   di setiap perangkat: Android dan iOS umumnya punya, Windows memerlukan
+   paket bahasa Thai yang dipasang lewat Settings → Time & language. Bila
+   tidak ada, aplikasi tetap jalan dan tombol suaranya dimatikan. */
+
+let voiceThai = null;
+let voicesLoaded = false;
+let userInteracted = false;
+
+function pickVoice() {
+  try {
+    const list = window.speechSynthesis.getVoices() || [];
+    voiceThai = list.find((v) => /^th([-_]|$)/i.test(v.lang)) || null;
+    voicesLoaded = true;
+  } catch { voiceThai = null; voicesLoaded = true; }
+}
+
+function speechReady() {
+  return typeof window.speechSynthesis !== "undefined" && voiceThai !== null;
+}
+
+function speak(text) {
+  if (!text || !speechReady()) return;
+  try {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.voice = voiceThai;
+    u.lang = voiceThai.lang || "th-TH";
+    u.rate = prefs.lambat ? 0.55 : 0.85;
+    window.speechSynthesis.speak(u);
+  } catch { /* suara tidak tersedia */ }
+}
+
+function audioOf(x) {
+  return x.audio || x.th || x.promptTh || "";
+}
+
+/* Tombol suara pada kartu. Teksnya tidak pernah memuat tulisan Thainya,
+   supaya kartu mendengarkan tidak membocorkan jawaban. */
+function speakButton(x) {
+  if (!audioOf(x)) return "";
+  if (!speechReady()) {
+    /* Tanpa suara Thai, tombolnya disembunyikan saja supaya tidak mengganggu.
+       Hanya kartu mendengarkan yang tetap memperlihatkan keterangannya, sebab
+       di sanalah ketiadaan suara benar-benar mengubah cara mengerjakannya. */
+    if (!x.audioOnly) return "";
+    return `<button type="button" class="btn-speak is-off" disabled
+      title="Perangkat ini belum punya suara Thai">Suara tidak tersedia</button>`;
+  }
+  return `<button type="button" class="btn-speak" data-speak="1">&#9654; Dengarkan<span class="k">A</span></button>`;
+}
+
 /* ----------------------------------------------------- pembuat kartu ---- */
 
 const D = typeof THAI_DATA !== "undefined" ? THAI_DATA : null;
@@ -126,6 +186,7 @@ const MODES = {
         return `<div class="prompt">${esc(x.prompt)}</div>
           ${x.promptTh ? th(x.promptTh, "th-lg") : ""}`;
       }
+      const suara = `<div class="speak-row">${speakButton(x)}</div>`;
       const hint = x.cat === "konsonan"
         ? "Apa nama huruf ini, kelasnya, dan bunyinya?"
         : x.cat === "vokal"
@@ -133,7 +194,7 @@ const MODES = {
           : x.cat === "tanda"
             ? "Apa nama tanda ini dan apa gunanya?"
             : "Berapa nilainya?";
-      return th(x.th, "th-xl") +
+      return th(x.th, "th-xl") + suara +
         `<div class="prompt-label">${esc(hint)}</div>`;
     },
     back(x) {
@@ -154,10 +215,12 @@ const MODES = {
       if (x.kind === "mcq") {
         return `<div class="prompt">${esc(x.prompt)}</div>
           ${x.promptTh ? th(x.promptTh, "th-xl") : ""}
+          ${x.audio ? `<div class="speak-row">${speakButton(x)}</div>` : ""}
           ${x.promptLabel ? `<div class="prompt-label">${esc(x.promptLabel)}</div>` : ""}`;
       }
       return th(x.th, "th-lg") +
-        `<div class="prompt-label">${esc(x.hint || "")}</div>`;
+        `<div class="speak-row">${speakButton(x)}</div>
+        <div class="prompt-label">${esc(x.hint || "")}</div>`;
     },
     back(x) {
       if (x.kind === "mcq") return mcqBack(x);
@@ -178,7 +241,8 @@ const MODES = {
         return `<div class="id-xl">${esc(x.gloss)}</div>
           <div class="rom">${esc(x.detail)}</div>`;
       }
-      return th(x.th, "th-xl") + (prefs.phon ? phonLine(x.phon) : "");
+      return th(x.th, "th-xl") + (prefs.phon ? phonLine(x.phon) : "") +
+        `<div class="speak-row">${speakButton(x)}</div>`;
     },
     back(x) {
       return `<div class="meaning">${esc(x.gloss)}</div>
@@ -186,6 +250,90 @@ const MODES = {
         ${phonLine(x.phon)}
         <div class="detail">${esc(x.detail)}${x.cls ? " · klasifikator: " + esc(x.cls) : ""}</div>
         ${exampleBlock(x)}${noteBlock(x.note)}`;
+    },
+  },
+
+
+  dengar: {
+    label: "Telinga",
+    toggles: ["lambat"],
+    items: () => D.dengar,
+    search: (x) => [x.prompt, x.promptLabel, x.reveal, x.explain, x.catLabel]
+      .concat(x.options || []).join(" "),
+    kind: () => "mcq",
+    front(x) {
+      /* Tanpa suara Thai, kartu mendengarkan tidak bisa dikerjakan. Daripada
+         membiarkannya menebak-nebak, kartu itu berubah menjadi latihan
+         mengucapkan: kata sasarannya ditampilkan apa adanya. */
+      const bisu = x.audioOnly && !speechReady();
+      return `<div class="prompt">${esc(x.prompt)}</div>
+        ${x.promptTh ? th(x.promptTh, "th-lg") : ""}
+        ${bisu ? th(x.audio, "th-xl") : ""}
+        <div class="speak-row">${speakButton(x)}</div>
+        ${bisu ? `<div class="prompt-label">Tanpa suara Thai, kartu ini menjadi
+          latihan mengucapkan: bacalah kata di atas, lalu pilih kata itu.</div>` : ""}
+        ${x.promptLabel ? `<div class="prompt-label">${esc(x.promptLabel)}</div>` : ""}`;
+    },
+    back: (x) => mcqBack(x),
+  },
+
+  serumpun: {
+    label: "Serumpun",
+    toggles: ["phon", "arah"],
+    items: () => D.serumpun,
+    search: (x) => [x.th, x.phon, x.rom, x.gloss, x.idWord, x.catLabel, x.note].join(" "),
+    kind: () => "flip",
+    front(x) {
+      if (prefs.arah) {
+        return `<div class="id-xl">${esc(x.gloss)}</div>
+          <div class="prompt-label">Kata Thai apa, dan kata Indonesia apa yang seasal?</div>`;
+      }
+      return th(x.th, "th-xl") + (prefs.phon ? phonLine(x.phon) : "") +
+        `<div class="speak-row">${speakButton(x)}</div>`;
+    },
+    back(x) {
+      return `<div class="meaning">${esc(x.gloss)}</div>
+        ${prefs.arah ? th(x.th, "th-lg") : ""}
+        ${phonLine(x.phon)}
+        <dl class="kv">
+          <dt>Seasal dengan</dt><dd><strong>${esc(x.idWord)}</strong></dd>
+          <dt>Hubungan</dt><dd>${esc(x.relation)}</dd>
+          <dt>RTGS</dt><dd>${esc(x.rom)}</dd>
+        </dl>
+        ${noteBlock(x.note)}`;
+    },
+  },
+
+  bacaan: {
+    label: "Bacaan",
+    toggles: ["phon", "lambat"],
+    items: () => D.bacaan,
+    search: (x) => [x.title, x.prompt, x.catLabel, x.note]
+      .concat((x.lines || []).map((l) => `${l.th} ${l.phon} ${l.gloss}`))
+      .concat(x.options || []).join(" "),
+    kind: (x) => x.kind,
+    front(x) {
+      if (x.kind === "mcq") {
+        return `<div class="prompt">${esc(x.prompt)}</div>
+          ${x.promptTh ? th(x.promptTh, "th-lg") : ""}
+          ${x.promptLabel ? `<div class="prompt-label">dari percakapan "${esc(x.promptLabel)}"</div>` : ""}`;
+      }
+      return `<div class="prompt">${esc(x.title)}</div>
+        <div class="dialog">${x.lines.map((l) =>
+          `<div class="dialog-line"><span class="who">${esc(l.speaker)}</span>
+            <span class="th th-md" lang="th">${esc(l.th)}</span></div>`).join("")}</div>
+        <div class="speak-row">${speakButton(x)}</div>
+        <div class="prompt-label">Bacalah dengan suara, lalu buka terjemahannya</div>`;
+    },
+    back(x) {
+      if (x.kind === "mcq") return mcqBack(x);
+      return `<div class="meaning">${esc(x.title)}</div>
+        <div class="dialog">${x.lines.map((l) =>
+          `<div class="dialog-line"><span class="who">${esc(l.speaker)}</span>
+            <span><span class="th th-md" lang="th">${esc(l.th)}</span>
+            ${prefs.phon ? `<span class="phon"> ${esc(l.phon)}</span>` : ""}
+            <span class="gloss detail">${esc(l.gloss)}</span></span></div>`).join("")}</div>
+        ${noteBlock(x.note)}`;
     },
   },
 
@@ -214,7 +362,8 @@ const MODES = {
         return `<div class="id-xl">${esc(x.gloss)}</div>
           <div class="prompt-label">Bagaimana mengatakan ini dalam bahasa Thailand?</div>`;
       }
-      return th(x.th, "th-lg") + (prefs.phon ? phonLine(x.phon) : "");
+      return th(x.th, "th-lg") + (prefs.phon ? phonLine(x.phon) : "") +
+        `<div class="speak-row">${speakButton(x)}</div>`;
     },
     back(x) {
       return `<div class="meaning">${esc(x.gloss)}</div>
@@ -305,6 +454,7 @@ function renderToggles() {
   $("#wrap-phon").hidden = !aktif.includes("phon");
   $("#wrap-arah").hidden = !aktif.includes("arah");
   $("#wrap-kelas").hidden = !aktif.includes("kelas");
+  $("#wrap-lambat").hidden = !aktif.includes("lambat");
 }
 
 /* ------------------------------------------------------------ tampilan ---- */
@@ -453,6 +603,31 @@ function renderPanel(x) {
       </table>
       ${i.notes.map((n) => `<div class="caveat">${esc(n)}</div>`).join("")}
     </div></details>`;
+  } else if (mode === "dengar") {
+    html = `<details open><summary>Cara memakai latihan telinga</summary><div class="body">
+      <p>Tekan <strong>Dengarkan</strong>, lalu pilih kata yang Anda dengar.
+      Jangan melihat pilihan jawaban sebelum mendengarkan sekali.</p>
+      <p>Tiga hal ini tidak ada dalam bahasa Indonesia, sehingga telinga Anda
+      memang belum terlatih membedakannya: <strong>nada</strong>,
+      <strong>panjang vokal</strong>, dan <strong>hembusan</strong>. Latihan
+      pendek yang sering jauh lebih berguna daripada latihan panjang sesekali.</p>
+      ${speechReady() ? "" : `<div class="caveat">Perangkat ini belum punya
+      suara Thai, jadi tombol suaranya mati. Di Windows: Settings → Time &amp;
+      language → Language &amp; region → tambahkan Thai beserta paket
+      suaranya. Di Android dan iOS, suara Thai biasanya sudah tersedia.</div>`}
+    </div></details>`;
+  } else if (mode === "serumpun") {
+    html = `<details><summary>Tentang kata serumpun</summary><div class="body">
+      ${D.info.serumpun.map((n) => `<p><strong>${esc(n.title)}.</strong>
+        ${esc(n.text)}</p>`).join("")}
+    </div></details>`;
+  } else if (mode === "bacaan") {
+    html = `<details><summary>Cara memakai bacaan</summary><div class="body">
+      <p>Baca satu kali tanpa melihat artinya. Dengarkan bila ada suara. Baca
+      ulang dengan suara keras. Baru balik kartunya dan cocokkan.</p>
+      <p>Seluruh kata pada percakapan ini sudah ada di modul kosakata dan
+      frasa, jadi Anda tidak memerlukan kamus.</p>
+    </div></details>`;
   } else if (mode === "kosakata" || mode === "frasa") {
     html = `<details><summary>Cara membaca lajur lafal</summary><div class="body">
       <p>Vokal panjang ditulis ganda (aa, ii, uu, ee, aae, oo, aaw, uue, ooe),
@@ -554,6 +729,16 @@ function init() {
 
   setTheme(lsGet(LS.theme, "siam"));
 
+  /* Daftar suara peramban sering baru siap beberapa saat sesudah halaman
+     dimuat, jadi kartu digambar ulang begitu suaranya ditemukan. */
+  if (typeof window.speechSynthesis !== "undefined") {
+    pickVoice();
+    window.speechSynthesis.onvoiceschanged = () => { pickVoice(); render(); };
+  } else {
+    voicesLoaded = true;
+  }
+  document.addEventListener("click", () => { userInteracted = true; }, { once: true });
+
   els.tabs.addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (b) setMode(b.dataset.mode);
@@ -587,6 +772,11 @@ function init() {
     if (b) answer(Number(b.dataset.i));
   });
   els.card.addEventListener("click", (e) => {
+    if (e.target.closest("[data-speak]")) {
+      e.stopPropagation();
+      if (deck.length) speak(audioOf(deck[index]));
+      return;
+    }
     if (!e.target.closest(".choices")) flip();
   });
 
@@ -625,6 +815,7 @@ function init() {
   bindToggle("#tg-due", "due");
   bindToggle("#tg-hide", "hide");
   bindToggle("#tg-kelas", "kelas");
+  bindToggle("#tg-lambat", "lambat");
 
   document.addEventListener("keydown", (e) => {
     if (e.target === els.search) {
@@ -639,6 +830,9 @@ function init() {
       case "h": case "H": gradeFlip(true); break;
       case "b": case "B": gradeFlip(false); break;
       case "s": case "S": $("#btn-shuffle").click(); break;
+      case "a": case "A":
+        if (deck.length) speak(audioOf(deck[index]));
+        break;
       case "l": case "L": $("#tg-phon").click(); break;
       case "/": e.preventDefault(); els.search.focus(); break;
       default:

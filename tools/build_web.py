@@ -28,6 +28,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from thaidrill import dataio, thai, tone  # noqa: E402
 from thaidrill.questions import (  # noqa: E402
+    BEDA_LABEL,
+    RELASI_LABEL,
     consonant_class_question,
     syllable_tone_question,
     tone_rule_question,
@@ -77,6 +79,17 @@ CAT_LABEL = {
     "rasa": "Perasaan",
     "bangsa": "Bangsa & bahasa",
     "benda": "Benda",
+    # modul latihan telinga
+    "telinga-panjang": "Panjang vokal",
+    "telinga-hembusan": "Hembusan",
+    "soal-telinga": "Soal telinga",
+    # modul kata serumpun
+    "serumpun-sama": "Arti sejalan",
+    "serumpun-bergeser": "Arti bergeser",
+    "serumpun-sebagian": "Jarang di Indonesia",
+    # modul bacaan
+    "percakapan": "Percakapan",
+    "soal-bacaan": "Soal pemahaman",
     # modul frasa
     "kenalan": "Perkenalan",
     "restoran": "Warung & restoran",
@@ -107,6 +120,7 @@ def build_aksara(rng: random.Random) -> list[dict]:
             "id": c["id"], "kind": "flip", "cat": "konsonan",
             "catLabel": label("konsonan"), "stage": c["stage"],
             "th": c["letter"],
+            "audio": c["name_th"],
             "title": f"{c['name_th']} — {c['name_rom']}",
             "meaning": f"kelas {c['class']} ({CLASS_COUNT[c['class']]} huruf)",
             "rows": [
@@ -124,6 +138,7 @@ def build_aksara(rng: random.Random) -> list[dict]:
             "id": v["id"], "kind": "flip", "cat": "vokal",
             "catLabel": label("vokal"), "stage": v["stage"],
             "th": v["display"],
+            "audio": ex["th"],
             "title": f"{v['phon']} ({tone.VOWEL_PATTERNS[v['vowel_id']]['length']})",
             "meaning": f"bunyi {v['phon']}",
             "rows": [
@@ -140,6 +155,7 @@ def build_aksara(rng: random.Random) -> list[dict]:
             "id": m["id"], "kind": "flip", "cat": "tanda",
             "catLabel": label("tanda"), "stage": m["stage"],
             "th": m["mark"],
+            "audio": ex["th"],
             "title": f"{m['name_th']} — {m['name_rom']}",
             "meaning": m["name_rom"],
             "rows": [["Nama Thai", m["name_th"]], ["Nama Latin", m["name_rom"]]],
@@ -151,6 +167,7 @@ def build_aksara(rng: random.Random) -> list[dict]:
             "id": d["id"], "kind": "flip", "cat": "angka",
             "catLabel": label("angka"), "stage": d["stage"],
             "th": d["digit"],
+            "audio": d["th"],
             "title": str(d["value"]),
             "meaning": f"{d['value']}",
             "rows": [["Angka", str(d["value"])], ["Kata", f"{d['th']} ({d['phon']})"]],
@@ -177,6 +194,7 @@ def build_nada(rng: random.Random) -> list[dict]:
             "id": t["id"], "kind": "flip", "cat": "nada",
             "catLabel": label("nada"), "stage": t["stage"],
             "th": ex["th"],
+            "audio": ex["th"],
             "title": f"nada {t['key']}",
             "meaning": f"nada {t['key']} — {t['name_th']} ({t['name_rom']})",
             "rows": [["Bunyinya", t["contour"]], ["Lafal contoh", ex["phon"]],
@@ -198,7 +216,7 @@ def build_nada(rng: random.Random) -> list[dict]:
         out.append({
             "id": s["id"], "kind": "mcq", "cat": "suku",
             "catLabel": label("suku"), "stage": s["stage"],
-            "prompt": q.question, "promptTh": s["th"],
+            "prompt": q.question, "promptTh": s["th"], "audio": s["th"],
             "promptLabel": f"arti: {s['gloss']}",
             "optionsLang": "id", "options": q.options, "answer": q.answer,
             "explain": q.explain,
@@ -209,6 +227,7 @@ def build_nada(rng: random.Random) -> list[dict]:
             "id": mp["id"], "kind": "flip", "cat": "pasangan",
             "catLabel": label("pasangan"), "stage": mp["stage"],
             "th": " / ".join(w["th"] for w in mp["words"]),
+            "audio": " ".join(w["th"] for w in mp["words"]),
             "title": mp["title"],
             "meaning": "Kata-kata ini hanya berbeda nada",
             "rows": [[w["th"], f"{w['phon']} — {w['gloss']}"] for w in mp["words"]],
@@ -235,7 +254,8 @@ def build_kosakata() -> list[dict]:
         out.append({
             "id": e["id"], "kind": "flip", "cat": cat, "catLabel": label(cat),
             "stage": e["stage"],
-            "th": e["th"], "phon": e["phon"], "rom": e["rom"],
+            "th": e["th"], "audio": e["th"], "phon": e["phon"],
+            "rom": e["rom"], "freq": e.get("freq", 2),
             "gloss": e["gloss"], "alt": e.get("alt") or [],
             "detail": vocab_detail(e),
             "cls": e.get("cls") or "",
@@ -283,9 +303,96 @@ def build_frasa() -> list[dict]:
         out.append({
             "id": p["id"], "kind": "flip", "cat": p["cat"], "catLabel": label(p["cat"]),
             "stage": p["stage"],
-            "th": p["th"], "phon": p["phon"], "rom": p["rom"],
+            "th": p["th"], "audio": p["th"], "phon": p["phon"], "rom": p["rom"],
             "gloss": p["gloss"], "lit": p.get("lit") or "",
             "note": p.get("note") or "",
+        })
+    return out
+
+
+# ---------------------------------------------------- modul latihan telinga ---
+
+def build_dengar() -> list[dict]:
+    """Kartu mendengarkan: bunyikan satu kata, lalu pilih kata mana itu.
+
+    Kunci jawabannya adalah kata yang dibunyikan, sehingga tidak ada daftar
+    jawaban terpisah yang bisa menyimpang darinya. Urutan pilihan dibuat tetap
+    mengikuti urutan di data, supaya yang terlatih adalah membedakan bunyi,
+    bukan menghafal letak jawaban.
+    """
+    out: list[dict] = []
+    for c in dataio.listen_cards():
+        w = c["word"]
+        rincian = " · ".join(
+            f"{x['th']} = {x['phon']} ({x['gloss']})" for x in c["words"]
+        )
+        cat = "telinga-" + c["type"]
+        out.append({
+            "id": c["id"], "kind": "mcq", "cat": cat, "catLabel": label(cat),
+            "stage": c["stage"],
+            "prompt": "Dengarkan, lalu pilih kata yang Anda dengar.",
+            "promptTh": "",
+            "promptLabel": f"bedanya hanya {BEDA_LABEL[c['type']]}",
+            "audio": w["th"], "audioOnly": True,
+            "optionsLang": "th",
+            "options": [x["th"] for x in c["words"]],
+            "answer": c["index"],
+            "reveal": f"{w['th']} = {w['phon']} ({w['gloss']})",
+            "explain": (c["note"] + "  " if c["note"] else "") + rincian,
+        })
+    for i in dataio.listen_items():
+        out.append({
+            "id": i["id"], "kind": "mcq", "cat": "soal-telinga",
+            "catLabel": label("soal-telinga"), "stage": i["stage"],
+            "prompt": i["prompt"], "promptTh": i.get("prompt_th") or "",
+            "optionsLang": i["options_lang"], "options": i["options"],
+            "answer": i["answer"], "explain": i.get("explain") or "",
+        })
+    return out
+
+
+# ----------------------------------------------------- modul kata serumpun ---
+
+def build_serumpun() -> list[dict]:
+    out = []
+    for c in dataio.cognates():
+        cat = "serumpun-" + c["relation"]
+        out.append({
+            "id": c["id"], "kind": "flip", "cat": cat, "catLabel": label(cat),
+            "stage": c["stage"],
+            "th": c["th"], "audio": c["th"], "phon": c["phon"], "rom": c["rom"],
+            "gloss": c["gloss"], "idWord": c["id_word"],
+            "relation": RELASI_LABEL[c["relation"]],
+            "note": c.get("note") or "",
+        })
+    return out
+
+
+# ------------------------------------------------------------- modul bacaan ---
+
+def build_bacaan() -> list[dict]:
+    out = []
+    for t in dataio.texts():
+        out.append({
+            "id": t["id"], "kind": "flip", "cat": "percakapan",
+            "catLabel": label("percakapan"), "stage": t["stage"],
+            "title": t["title"],
+            "audio": " ".join(ln["th"] for ln in t["lines"]),
+            "lines": [
+                {"speaker": ln["speaker"], "th": ln["th"], "phon": ln["phon"],
+                 "gloss": ln["gloss"]}
+                for ln in t["lines"]
+            ],
+            "note": t.get("note") or "",
+        })
+    for i in dataio.text_items():
+        out.append({
+            "id": i["id"], "kind": "mcq", "cat": "soal-bacaan",
+            "catLabel": label("soal-bacaan"), "stage": i["stage"],
+            "prompt": i["prompt"], "promptTh": i.get("prompt_th") or "",
+            "promptLabel": i["text_title"],
+            "optionsLang": i["options_lang"], "options": i["options"],
+            "answer": i["answer"], "explain": i.get("explain") or "",
         })
     return out
 
@@ -314,6 +421,7 @@ def build_info() -> dict:
             ],
             "notes": d["rules_note"],
         },
+        "serumpun": dataio.cognate_notes(),
         "aksara": {
             "classes": [
                 {"name": cls, "count": CLASS_COUNT[cls],
@@ -333,9 +441,12 @@ def build() -> dict:
     return {
         "aksara": build_aksara(rng),
         "nada": build_nada(rng),
+        "dengar": build_dengar(),
         "kosakata": build_kosakata(),
+        "serumpun": build_serumpun(),
         "tatabahasa": build_tatabahasa(),
         "frasa": build_frasa(),
+        "bacaan": build_bacaan(),
         "topik": build_topik(),
         "info": build_info(),
     }
@@ -359,9 +470,10 @@ def main() -> int:
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
     data = build()
-    total = sum(len(data[k]) for k in ("aksara", "nada", "kosakata", "tatabahasa", "frasa"))
-    print(f"webdata.js dibuat: {total} kartu")
-    for k in ("aksara", "nada", "kosakata", "tatabahasa", "frasa"):
+    modul = ("aksara", "nada", "dengar", "kosakata", "serumpun", "tatabahasa",
+             "frasa", "bacaan")
+    print(f"webdata.js dibuat: {sum(len(data[k]) for k in modul)} kartu")
+    for k in modul:
         print(f"  {k:12s} {len(data[k]):4d}")
     return 0
 

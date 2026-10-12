@@ -30,7 +30,9 @@ def test_gabungan_suku_kata_sama_dengan_tulisannya(label, item):
     if not item.get("check_syl", True):
         assert item.get("check_why"), f"{label}: pengecualian wajib punya alasan"
         return
-    assert "".join(item["syl"]) == item["th"], label
+    # Tulisan Thai tidak memakai spasi antarkata, tetapi spasi dipakai untuk
+    # memisahkan klausa. Spasi itu tidak termasuk suku kata, jadi diabaikan.
+    assert "".join(item["syl"]) == item["th"].replace(" ", ""), label
 
 
 @pytest.mark.parametrize("label,item", CONTOH, ids=IDS)

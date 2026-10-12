@@ -29,9 +29,12 @@
 <nav class="tabs" id="tabs" aria-label="Modul latihan">
   <button data-mode="aksara"     aria-pressed="true">Aksara<span>0</span></button>
   <button data-mode="nada"       aria-pressed="false">Nada<span>0</span></button>
+  <button data-mode="dengar"     aria-pressed="false">Telinga<span>0</span></button>
   <button data-mode="kosakata"   aria-pressed="false">Kosakata<span>0</span></button>
+  <button data-mode="serumpun"   aria-pressed="false">Serumpun<span>0</span></button>
   <button data-mode="tatabahasa" aria-pressed="false">Tata bahasa<span>0</span></button>
   <button data-mode="frasa"      aria-pressed="false">Frasa<span>0</span></button>
+  <button data-mode="bacaan"     aria-pressed="false">Bacaan<span>0</span></button>
 </nav>
 
 <main class="stage">
@@ -59,6 +62,9 @@
       </label>
       <label class="toggle" id="wrap-kelas" title="Ubah kartu konsonan menjadi soal pilihan ganda: apa kelas huruf ini?">
         <input type="checkbox" id="tg-kelas" /> Uji kelas konsonan
+      </label>
+      <label class="toggle" id="wrap-lambat" title="Perlambat pelafalan, berguna saat membedakan nada dan panjang vokal">
+        <input type="checkbox" id="tg-lambat" /> Suara pelan
       </label>
       <label class="toggle" id="wrap-arah" title="Tukar arah: dari arti Indonesia ke tulisan Thai">
         <input type="checkbox" id="tg-arah" /> Indonesia &rarr; Thai

@@ -15,12 +15,15 @@ itu buntu. Sasarannya tingkat A1 menuju A2.
 | Pola vokal | 31 pola, termasuk vokal yang tidak ditulis |
 | Tanda dan angka | 7 tanda, 10 angka Thai |
 | Nada | 5 nada, 17 baris aturan, 54 kata latihan, 6 pasangan nada |
-| Kosakata | 186 entri, 6 tahap |
+| Latihan telinga | 12 pasangan bunyi, 24 kartu, 4 soal |
+| Kosakata | 186 entri, 6 tahap, diurutkan menurut seberapa sering dipakai |
+| Kata serumpun Sanskerta | 29 kata yang sama di Thai dan Indonesia |
 | Tata bahasa | 12 topik, 60 soal |
 | Frasa sehari-hari | 58 kalimat, 7 keadaan |
-| Total kartu | 485 |
+| Bacaan | 8 percakapan, 42 baris, 16 soal pemahaman |
+| Total kartu | 566 |
 | Lembar kerja tertulis | 12 lembar + 12 kunci jawaban |
-| Pengujian otomatis | 3193 |
+| Pengujian otomatis | 3671 |
 
 ## Dua cara memakai
 
@@ -38,16 +41,20 @@ python -m http.server 8777
 
 lalu buka <http://localhost:8777>.
 
-Lima modul dalam bentuk kartu bolak-balik dan pilihan ganda: aksara, nada,
-kosakata (dua arah), tata bahasa, dan frasa. Sakelar "Uji kelas konsonan"
-mengubah kartu huruf menjadi soal pilihan ganda, dan sakelar "Lafal di depan"
-mematikan penyangga Latin bila Anda sudah siap membaca langsung dari tulisan
-Thai. Progres memakai lima kotak Leitner yang sama dengan versi terminal dan
-tersimpan di `localStorage` peramban Anda sendiri.
+Delapan modul dalam bentuk kartu bolak-balik dan pilihan ganda: aksara, nada,
+telinga, kosakata (dua arah), kata serumpun, tata bahasa, frasa, dan bacaan.
+Setiap kartu bertulisan Thai bisa dibunyikan dengan tombol **Dengarkan**.
+Sakelar "Uji kelas konsonan" mengubah kartu huruf menjadi soal pilihan ganda,
+sakelar "Lafal di depan" mematikan penyangga Latin bila Anda sudah siap
+membaca langsung dari tulisan Thai, dan sakelar "Indonesia &rarr; Thai"
+(menyala secara bawaan) menentukan arah latihan kosakata. Progres memakai lima
+kotak Leitner yang sama dengan versi terminal dan tersimpan di `localStorage`
+peramban Anda sendiri.
 
 Pintasan papan ketik: `Spasi` balik kartu &middot; `&larr;` `&rarr;` navigasi
-&middot; `1`&ndash;`5` pilih jawaban &middot; `H` sudah hafal &middot; `B`
-belum hafal &middot; `S` acak &middot; `L` lafal &middot; `/` cari.
+&middot; `1`&ndash;`5` pilih jawaban &middot; `A` dengarkan &middot; `H` sudah
+hafal &middot; `B` belum hafal &middot; `S` acak &middot; `L` lafal
+&middot; `/` cari.
 
 ### 2. Latihan di terminal
 
@@ -70,13 +77,91 @@ Bila Anda benar-benar mulai dari nol, urutan ini yang dirancang:
 2. **Modul Nada, tahap 1.** Lima nada dan sembilan baris aturan tanpa tanda
    nada. Di titik ini Anda sudah bisa menentukan nada kata yang hurufnya sudah
    dikenal.
-3. **Modul Kosakata dan Frasa.** Baru di sini menghafal kata. Setiap kata
+3. **Modul Telinga, sejak hari pertama.** Latihan pendek yang sering lebih
+   berguna daripada latihan panjang sesekali. Lima menit sehari sudah cukup.
+4. **Modul Kosakata dan Frasa.** Baru di sini menghafal kata. Setiap kata
    sudah bisa Anda baca sendiri, bukan sekadar ditiru bunyinya.
-4. **Modul Tata bahasa** menyusul, karena tata bahasanya dekat
+5. **Modul Tata bahasa** menyusul, karena tata bahasanya dekat
    dengan bahasa Indonesia dan bukan penghalang utama.
+6. **Modul Serumpun dan Bacaan** mempercepat kosakata dan memberi masukan
+   yang bisa dipahami tanpa kamus.
 
 `python quiz.py --stage 1` menjalankan semuanya pada tahap 1 saja, dengan
 interleaving antarmodul.
+
+## Pendekatan yang dipakai
+
+Materi ini tidak disusun seperti kursus bahasa Thailand pada umumnya, sebab
+kursus pada umumnya ditulis untuk penutur bahasa Inggris. Penutur bahasa
+Indonesia berangkat dari titik yang berbeda, dan urutan materinya mengikuti
+tiga keputusan berikut.
+
+**Telinga lebih dahulu, baru mata, baru mulut.** Nada adalah bagian dari
+identitas kata, sama seperti huruf. Kata yang masuk ke ingatan tanpa nadanya
+masuk dalam keadaan rusak dan harus dihafal ulang kelak. Karena itu setiap
+kartu bisa dibunyikan, dan ada satu modul khusus (Modul 6) yang melatih
+telinga membedakan bunyi, bukan melatih mata membaca aturan.
+
+**Yang sudah Anda miliki tidak perlu diajarkan panjang-panjang.** Banyak hal
+yang menyulitkan penutur bahasa Inggris sudah Anda kuasai sejak kecil:
+
+| Hal | Status bagi penutur bahasa Indonesia |
+|:--|:--|
+| Urutan kata, tanpa konjugasi, tanpa gender, tanpa kata sandang | Hampir sama dengan bahasa Indonesia |
+| Bunyi `ng-` di awal kata (ngeri, ngilu) | Sudah dimiliki |
+| `p t k` tanpa hembusan (ป ต ก) | Sudah dimiliki |
+| Konsonan akhir yang tidak dilepas (sedap, sakit) | Sudah dimiliki; hanya perlu diperhatikan bahwa `-k` bahasa Indonesia sering menjadi hamzah, sedangkan Thai tetap [k] |
+| Klasifikator (ekor, buah, batang) | Konsepnya sudah dikenal |
+| Partikel akhir kalimat (ya, kok, dong) | Konsepnya sudah dikenal |
+| Kosakata serapan Sanskerta | Ratusan kata sudah dikenal seumur hidup |
+
+Itulah sebabnya modul tata bahasa di sini hanya 12 topik pendek, dan ada satu
+modul khusus (Modul 7) untuk memanen kosakata serumpun.
+
+**Waktu yang dihemat dipakai untuk tiga hal yang benar-benar baru.** Ketiganya
+tidak ada dalam bahasa Indonesia, sehingga telinga Anda belum pernah
+dilatih membedakannya:
+
+1. **Nada** — bahasa Indonesia memakai tinggi-rendah suara untuk menandai
+   jenis kalimat, bukan untuk membedakan kata. Akibatnya intonasi tanya Anda
+   dapat merusak kata terakhir pada kalimat Thai.
+2. **Panjang vokal** — เขา ('dia') dan ขาว ('putih') hanya berbeda lama
+   vokalnya.
+3. **Hembusan** — ไก่ ('ayam') dan ไข่ ('telur') hanya berbeda ada tidaknya
+   embusan udara pada konsonan awalnya.
+
+**Arah produksi didahulukan.** Untuk bisa berbicara, memanggil sendiri kata
+Thainya jauh lebih berharga daripada sekadar mengenalinya saat dilihat. Karena
+itu arah Indonesia &rarr; Thai dinyalakan secara bawaan di aplikasi web, dan
+mode `kosakata-id` mendapat giliran lebih dahulu daripada `kosakata-th` ketika
+sesi terpotong waktu.
+
+**Yang tidak bisa dikerjakan aplikasi mana pun.** Tidak ada aplikasi yang bisa
+mendengar dan mengoreksi nada ucapan Anda. Sesudah dua atau tiga bulan, carilah
+penutur asli yang bersedia mengoreksi. Materi ini menyiapkan Anda supaya jam
+bersama mereka tidak habis untuk hal yang bisa dipelajari sendiri.
+
+## Suara
+
+Setiap kartu yang memuat tulisan Thai punya tombol **Dengarkan** (pintasan
+`A`). Pelafalannya memakai suara bawaan peramban dan perangkat Anda, jadi
+tidak ada berkas audio yang perlu diunduh dan tidak ada yang dikirim ke mana
+pun.
+
+| Perangkat | Suara Thai |
+|:--|:--|
+| Android, iOS, iPadOS | Biasanya sudah tersedia |
+| macOS | Tambahkan lewat System Settings &rarr; Accessibility &rarr; Spoken Content |
+| Windows | Settings &rarr; Time &amp; language &rarr; Language &amp; region &rarr; tambahkan Thai beserta paket suaranya |
+
+Bila perangkat Anda belum punya suara Thai, tombolnya mati dan aplikasi tetap
+jalan: kartu Modul 6 berubah menjadi latihan mengucapkan, bukan mendengarkan.
+Sakelar **Suara pelan** memperlambat pelafalan, berguna saat membandingkan
+nada dan panjang vokal.
+
+Suara mesin tidak sebaik penutur asli, terutama pada nada. Pakailah ia untuk
+latihan harian, dan tetap dengarkan rekaman penutur asli untuk kata yang
+Anda hafalkan.
 
 ## Mengapa kelas konsonan dihafal lebih dahulu
 
@@ -133,7 +218,7 @@ Setiap kata dan kalimat di seluruh data memuat tiga lajur:
 
 Pengujian otomatis mengambil `syl`, menghitung nada setiap suku kata dari
 ejaannya memakai `thaidrill/tone.py`, lalu membandingkannya dengan nada pada
-`phon`. **607 kata dan kalimat** diperiksa dengan cara itu setiap kali
+`phon`. **702 kata dan kalimat** diperiksa dengan cara itu setiap kali
 pengujian dijalankan.
 
 Artinya: lafal yang tertulis di materi ini tidak mungkin bertentangan dengan
@@ -230,10 +315,13 @@ Mode yang tersedia:
 |:-----|:----|
 | `aksara` | Huruf, kelas konsonan, pola vokal, tanda, dan angka. |
 | `nada` | Lima nada, aturannya, dan soal "apa nada kata ini" yang dibuat otomatis. |
+| `dengar` | Pasangan bunyi. Di terminal menjadi latihan mengucapkan, sebab terminal tidak membunyikan apa pun. |
+| `kosakata-id` | Indonesia ke Thai. Pilihan ganda. Arah produksi, diberi giliran lebih dahulu. |
 | `kosakata-th` | Thai ke Indonesia. Jawaban **ditulis** (bukan pilihan ganda). |
-| `kosakata-id` | Indonesia ke Thai. Pilihan ganda. |
+| `serumpun` | Kata serapan Sanskerta yang sama di Thai dan Indonesia. Jawaban ditulis. |
 | `tatabahasa` | Soal tata bahasa. |
 | `frasa` | Frasa sehari-hari; Anda menyusun kalimatnya lalu mencocokkan sendiri. |
+| `bacaan` | Percakapan pendek beserta soal pemahaman. |
 
 Di dalam sesi: ketik nomor untuk pilihan ganda, `l` untuk melewati, `k` untuk
 keluar, `?` untuk melihat jawaban pada soal yang jawabannya ditulis (dihitung
@@ -308,6 +396,36 @@ aturan mutlak.
 sapaan, perkenalan, warung dan restoran, belanja, arah dan jalan, darurat dan
 sakit, serta waktu.
 
+### Modul 6 — Latihan telinga (`data/dengar.json`)
+
+Dua belas pasangan kata yang bedanya **hanya satu hal**: enam pasangan panjang
+vokal (ปัก/ปาก, คัน/คาน, ทัน/ทาน, เขา/ขาว, ไต/ตาย, พัน/พาน) dan enam pasangan
+hembusan (กา/คา, ตา/ทา, ปา/พา, ไก่/ไข่, ป่า/ผ่า, เป็น/เพ็ญ). Latihan nada
+memakai enam kelompok pasangan nada di Modul 2.
+
+Aplikasi web membunyikan salah satu kata lalu meminta Anda memilih kata mana
+yang terdengar. Pengujian otomatis memeriksa bahwa semua kata dalam satu
+pasangan **bernada sama** — kalau nadanya ikut berbeda, latihannya tidak lagi
+melatih panjang vokal atau hembusan saja.
+
+### Modul 7 — Kata serumpun (`data/serumpun.json`)
+
+29 kata serapan Sanskerta-Pali yang hidup di kedua bahasa: มนุษย์ (manusia),
+นรก (neraka), ราชา (raja), สัตว์ (satwa), ครุฑ (garuda), อักษร (aksara), dan
+seterusnya; ditambah enam nama hari yang sama dengan penanggalan Jawa-Bali
+(วันอังคาร = Anggara, วันพุธ = Buda) dan tiga angka Sanskerta yang menjadi nama
+tanda nada (เอก, โท, ตรี = eka, dwi, tri).
+
+Modul ini juga memberi peringatan untuk kata yang maknanya sudah bergeser:
+สุข bukan 'suka' melainkan 'bahagia', ภูมิ bukan 'bumi' sebagai planet, dan
+ชาติ bukan 'sejati'.
+
+### Modul 8 — Bacaan (`data/bacaan.json`)
+
+Delapan percakapan pendek (42 baris) beserta 16 soal pemahaman. Seluruh katanya
+sudah ada di modul kosakata dan frasa, sehingga bisa dibaca tanpa kamus —
+dan ada pengujian otomatis yang memeriksa hal itu.
+
 ## Cara kerja penjadwalan
 
 Lima kotak Leitner. Jawaban benar menaikkan kartu satu kotak, jawaban salah
@@ -341,8 +459,16 @@ Empat hal lain yang diterapkan penjadwal:
   menaikkan kotak Leitner dua kali.
 
 Jatah kartu baru dibagi per kelompok materi dengan bobot: aksara 3, nada 2,
-kosakata 3, tata bahasa 1, frasa 1. Aksara dan nada diberi bobot besar karena
-keduanya menjadi syarat bagi segala hal lain.
+telinga 2, kosakata 3, kata serumpun 1, tata bahasa 1, frasa 1, bacaan 1.
+Aksara dan nada diberi bobot besar karena keduanya menjadi syarat bagi segala
+hal lain; latihan telinga diberi bobot 2 karena nada, panjang vokal, dan
+hembusan tidak ada dalam bahasa Indonesia sehingga perlu diulang jauh lebih
+sering daripada hal yang sudah dimiliki penuturnya.
+
+Di dalam satu tahap, kata yang **lebih sering dipakai** diperkenalkan lebih
+dahulu. Lajur `freq` pada `data/vocab.json` membaginya menjadi tiga: 48 kata
+inti, 113 kata yang sering, dan 25 kata yang lebih jarang. Pembagian itu
+perkiraan penyusun, bukan hasil hitungan korpus — lihat `data/NEEDS_REVIEW.md`.
 
 ## Jadwal 10 minggu
 
@@ -350,24 +476,26 @@ Dengan pengaturan bawaan (20 menit per sesi, 8 kartu baru, 5 sesi per minggu):
 
 | Minggu | Konsonan | Vokal | Kata latihan nada | Kosakata | Tata bahasa | Frasa | Kartu dikenal |
 |-------:|---------:|------:|------------------:|---------:|------------:|------:|--------------:|
-| 1 | 8 | 3 | 2 | 15 | 5 | 5 | 50 |
-| 2 | 16 | 9 | 6 | 30 | 10 | 10 | 100 |
-| 3 | 21 | 16 | 12 | 45 | 15 | 15 | 150 |
-| 4 | 30 | 20 | 18 | 60 | 20 | 20 | 200 |
-| 5 | 33 | 26 | 23 | 75 | 25 | 25 | 250 |
-| 6 | 38 | 27 | 29 | 90 | 30 | 30 | 300 |
-| 7 | 44 | 31 | 36 | 105 | 35 | 35 | 349 |
-| 10 | 44 | 31 | 54 | 150 | 50 | 50 | 448 |
+| 1 | 6 | 2 | 3 | 10 | 5 | 5 | 60 |
+| 2 | 10 | 5 | 7 | 20 | 10 | 10 | 120 |
+| 3 | 14 | 10 | 11 | 30 | 15 | 15 | 178 |
+| 4 | 20 | 13 | 17 | 40 | 20 | 20 | 228 |
+| 6 | 27 | 20 | 27 | 60 | 30 | 30 | 321 |
+| 8 | 36 | 27 | 44 | 80 | 40 | 40 | 401 |
+| 10 | 43 | 29 | 54 | 100 | 50 | 50 | 475 |
 
-**Seluruh 44 konsonan dan 31 pola vokal sudah diperkenalkan pada akhir minggu
-ke-7.** Kosakata mencapai sekitar 150 dari 186 kata pada minggu ke-10.
+Dengan delapan modul, materi baru tersebar lebih lebar daripada sebelumnya:
+pada minggu ke-10 hampir seluruh huruf dan pola vokal sudah diperkenalkan,
+kosakata mencapai sekitar 100 dari 186 kata, dan 475 dari 566 kartu sudah
+pernah dilihat. Bila Anda ingin kosakata bergerak lebih cepat, jalankan
+`python quiz.py --mode kosakata-id,kosakata-th` beberapa sesi.
 
 ### Dari mana angka-angka itu
 
 Angka di tabel berasal dari **simulasi penjadwal**, bukan dari pengamatan
 pembelajar nyata: 50 sesi berurutan, 5 sesi per minggu, dengan asumsi
 ketepatan jawaban 85%. Pada simulasi itu, tunggakan soal jatuh tempo memuncak
-di sekitar 360 soal. Dengan ketepatan 95%, puncaknya sekitar 280.
+di sekitar 357 soal. Dengan ketepatan 95%, puncaknya lebih rendah.
 
 Tunggakan sebesar itu **lebih banyak daripada yang bisa dikerjakan dalam sesi
 20 menit**. Itu bukan kesalahan hitung, melainkan akibat laju 8 kartu baru per
@@ -425,18 +553,19 @@ sekaligus.
 python -m pytest
 ```
 
-3193 pengujian. Yang diperiksa:
+3671 pengujian. Yang diperiksa:
 
 | Berkas | Isi |
 |:-------|:----|
 | `test_thai.py` | Tabel 44 konsonan: jumlah tiap kelas, bunyi akhir yang sah, huruf yang tidak pernah menjadi konsonan akhir, dua huruf usang, bentuk NFC, dan pembacaan lajur `phon`. |
 | `test_tone.py` | Tabel nada lengkap, panjang vokal hanya menentukan pada satu keadaan, 48 kata patokan, ห nam, อย, gugus konsonan, aksara nam, dan jenis suku kata. |
-| `test_data.py` | **Inti proyek:** 607 kata dan kalimat diperiksa — gabungan suku katanya sama dengan tulisannya, dan nadanya sama dengan hitungan mesin. Juga: baris aturan sesuai mesin, pasangan nada benar-benar berbeda nada, id pola vokal dikenali mesin. |
+| `test_data.py` | **Inti proyek:** 702 kata dan kalimat diperiksa — gabungan suku katanya sama dengan tulisannya, dan nadanya sama dengan hitungan mesin. Juga: baris aturan sesuai mesin, pasangan nada benar-benar berbeda nada, id pola vokal dikenali mesin. |
 | `test_schema.py` | Id unik di seluruh modul, format id, tahap 1-6 terisi pada tiap modul, kelas kata sah, field wajib terisi, pengecualian pemeriksaan wajib beralasan. |
 | `test_keys.py` | Setiap soal punya tepat satu jawaban benar, tidak ada pilihan kembar, kunci soal buatan diambil dari mesin, pengecoh kosakata tidak pernah ikut benar, jawaban bertaip menerima arti lain. |
 | `test_leitner.py` | Kenaikan dan penurunan kotak, jeda sesuai tabel, jatuh tempo, simpan dan muat ulang, berkas rusak tidak merusak pemuatan, penulisan atomik. |
 | `test_session.py` | Batas kartu baru, ulangan tidak tergeser habis, kartu belum jatuh tempo tidak muncul, interleaving mencampur mode, satu kata dilatih dua arah, sesi dapat diulang dengan seed sama. |
 | `test_exports.py` | Semua ekspor mutakhir (CSV, Anki, `webdata.js`), kunci soal di `webdata.js` sama dengan di `data/`, jeda Leitner di `app.js` sama dengan di Python, dan aplikasi web tidak memakai `fetch()` sehingga tetap jalan di `file://`. |
+| `test_modul_baru.py` | Pasangan latihan telinga bernada sama, pasangan hembusan memang berbeda hembusan saja, pasangan panjang memakai vokal pendek dan panjang, kata serumpun tidak mengulang modul kosakata, kata yang maknanya bergeser wajib diberi peringatan, dan seluruh kata pada bacaan sudah pernah diajarkan. |
 | `test_worksheets.py` | Kunci berada di berkas terpisah, semua bagian ada, lembar kerja tidak memuat jawabannya, kunci nada dihitung ulang dari ejaan, setiap butir berasal dari data. |
 
 ### Apa yang TIDAK bisa diuji mesin
@@ -495,10 +624,18 @@ yang memeriksa hal itu.
 ```
 index.html            aplikasi kartu di browser
 style.css             tiga tema: siam, ratri, baitoei
-app.js                kartu, saringan, Leitner di localStorage
+app.js                kartu, saringan, suara, Leitner di localStorage
 webdata.js            data aplikasi web (dibuat ulang)
 .nojekyll             agar GitHub Pages tidak memproses berkas lewat Jekyll
 data/                 sumber data JSON + NEEDS_REVIEW.md
+  aksara.json         Modul 1: huruf, vokal, tanda, angka
+  nada.json           Modul 2: lima nada dan aturannya
+  vocab.json          Modul 3: kosakata
+  grammar.json        Modul 4: tata bahasa
+  frasa.json          Modul 5: frasa sehari-hari
+  dengar.json         Modul 6: pasangan bunyi untuk latihan telinga
+  serumpun.json       Modul 7: kata serapan Sanskerta
+  bacaan.json         Modul 8: percakapan pendek
   csv/                ekspor CSV (dibuat ulang)
 thaidrill/            paket inti
   thai.py             tabel 44 konsonan, kelas, tanda, utilitas lafal
@@ -524,8 +661,12 @@ progress.json         progres Anda (dibuat saat latihan pertama)
 - Tingkat A1-A2 berarti kalimat pendek dan kosakata sehari-hari. Membaca surat
   kabar Thailand dengan lancar memerlukan kosakata yang jauh lebih banyak
   daripada yang ada di sini.
-- Nada perlu didengar. Lajur `phon` memberi tahu nada apa yang seharusnya
-  diucapkan, tetapi tidak bisa mengajari telinga Anda membedakannya. Carilah
-  rekaman penutur asli untuk setiap kata yang Anda hafalkan, terutama untuk
-  enam kelompok pasangan nada di Modul 2.
-- Tidak ada latihan menyimak dan berbicara di proyek ini.
+- Suara pada aplikasi ini berasal dari pelafal mesin bawaan perangkat Anda.
+  Ia cukup untuk latihan membedakan panjang vokal dan hembusan, tetapi nadanya
+  tidak selalu setepat penutur asli. Tetap dengarkan rekaman penutur asli untuk
+  kata yang Anda hafalkan.
+- Tidak ada koreksi ucapan. Aplikasi bisa membunyikan kata dan menguji telinga
+  Anda, tetapi tidak bisa mendengar Anda. Untuk itu diperlukan penutur asli.
+- Kosakata 186 kata adalah fondasi, bukan tujuan. Untuk tingkat A2 diperlukan
+  kira-kira seribu kata; menambahnya adalah langkah berikutnya yang paling
+  berguna untuk proyek ini.
