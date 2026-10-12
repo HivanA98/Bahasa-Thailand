@@ -35,6 +35,7 @@
 | harus | ต้อง | tâawng |
 | juga; dengan | ด้วย | dûai |
 | tetapi | แต่ | tàe |
+| mulai | เริ่ม | rôoem |
 
 ## 5. Tata bahasa
 

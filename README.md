@@ -16,14 +16,14 @@ itu buntu. Sasarannya tingkat A1 menuju A2.
 | Tanda dan angka | 7 tanda, 10 angka Thai |
 | Nada | 5 nada, 17 baris aturan, 54 kata latihan, 6 pasangan nada |
 | Latihan telinga | 12 pasangan bunyi, 24 kartu, 4 soal |
-| Kosakata | 186 entri, 6 tahap, diurutkan menurut seberapa sering dipakai |
+| Kosakata | 502 entri, 6 tahap, diurutkan menurut seberapa sering dipakai |
 | Kata serumpun Sanskerta | 29 kata yang sama di Thai dan Indonesia |
 | Tata bahasa | 12 topik, 60 soal |
 | Frasa sehari-hari | 58 kalimat, 7 keadaan |
 | Bacaan | 8 percakapan, 42 baris, 16 soal pemahaman |
-| Total kartu | 566 |
+| Total kartu | 882 |
 | Lembar kerja tertulis | 12 lembar + 12 kunci jawaban |
-| Pengujian otomatis | 3671 |
+| Pengujian otomatis | 6201 |
 
 ## Dua cara memakai
 
@@ -218,7 +218,7 @@ Setiap kata dan kalimat di seluruh data memuat tiga lajur:
 
 Pengujian otomatis mengambil `syl`, menghitung nada setiap suku kata dari
 ejaannya memakai `thaidrill/tone.py`, lalu membandingkannya dengan nada pada
-`phon`. **702 kata dan kalimat** diperiksa dengan cara itu setiap kali
+`phon`. **1334 kata dan kalimat** diperiksa dengan cara itu setiap kali
 pengujian dijalankan.
 
 Artinya: lafal yang tertulis di materi ini tidak mungkin bertentangan dengan
@@ -226,14 +226,15 @@ aturan nada yang diajarkannya. Bila suatu hari ada yang menyunting datanya dan
 menulis lafal yang keliru nadanya, pengujian langsung gagal dan menyebutkan
 kata mana yang salah.
 
-Mesin itu juga memperhitungkan dua hal yang sering membuat pembelajar
-tersandung:
+Mesin itu juga memperhitungkan tiga pola ejaan yang tidak dapat dibaca huruf
+per huruf:
 
 - **ห nam** — ห di depan konsonan nyaring kelas rendah tidak dibunyikan dan
   menaikkan kelasnya: หมา dibaca mǎa, bukan hǎmaa.
 - **อักษรนำ (aksara nam)** — konsonan kelas tinggi atau tengah yang berdiri
   sendiri sebagai suku kata menularkan kelasnya ke suku kata berikutnya:
   ขนม = khà-**nǒm**, bukan khà-nom.
+- **ทร yang dibaca s** — ทราบ dibaca sâap, bukan thrâap.
 
 Yang **tidak** diperiksa mesin: ketepatan arti bahasa Indonesia, kewajaran
 kalimat contoh, dan alih huruf vokalnya (hanya nadanya yang diperiksa).
@@ -361,13 +362,18 @@ berbeda nada satu sama lain.
 
 ### Modul 3 — Kosakata (`data/vocab.json`)
 
-186 entri dalam 6 tahap: sapaan, partikel sopan, kata ganti, kata tanya,
-angka, keluarga, orang, kata kerja, kata sifat, makanan, tempat, waktu, arah,
-kendaraan, uang, klasifikator, tubuh, cuaca, dan perasaan.
+502 entri dalam 6 tahap dan 23 kelompok makna: sapaan, partikel, kata ganti,
+kata tanya, angka, keluarga, orang, kata kerja, kata sifat, makanan, tempat,
+waktu, arah, kendaraan, uang, klasifikator, tubuh dan kesehatan, alam dan
+cuaca, perasaan, warna, hewan, benda sehari-hari, serta bangsa dan bahasa.
 
 Setiap entri memuat tulisan Thai, pemecahan suku katanya, RTGS, lafal bernada,
-arti, kelas kata, klasifikator (untuk kata benda), satu kalimat contoh pendek,
-dan catatan pemakaian.
+arti, kelas kata, klasifikator (untuk kata benda), perkiraan seberapa sering
+kata itu dipakai, satu kalimat contoh pendek, dan catatan pemakaian.
+
+Setiap kata dan setiap kalimat contohnya diperiksa mesin: pemecahan suku
+katanya harus sama dengan tulisannya, dan nadanya harus sama dengan hasil
+hitungan dari ejaannya.
 
 ### Modul 4 — Tata bahasa (`data/grammar.json`)
 
@@ -466,8 +472,8 @@ hembusan tidak ada dalam bahasa Indonesia sehingga perlu diulang jauh lebih
 sering daripada hal yang sudah dimiliki penuturnya.
 
 Di dalam satu tahap, kata yang **lebih sering dipakai** diperkenalkan lebih
-dahulu. Lajur `freq` pada `data/vocab.json` membaginya menjadi tiga: 48 kata
-inti, 113 kata yang sering, dan 25 kata yang lebih jarang. Pembagian itu
+dahulu. Lajur `freq` pada `data/vocab.json` membaginya menjadi tiga: 73 kata
+inti, 260 kata yang sering, dan 169 kata yang lebih jarang. Pembagian itu
 perkiraan penyusun, bukan hasil hitungan korpus — lihat `data/NEEDS_REVIEW.md`.
 
 ## Jadwal 10 minggu
@@ -476,19 +482,30 @@ Dengan pengaturan bawaan (20 menit per sesi, 8 kartu baru, 5 sesi per minggu):
 
 | Minggu | Konsonan | Vokal | Kata latihan nada | Kosakata | Tata bahasa | Frasa | Kartu dikenal |
 |-------:|---------:|------:|------------------:|---------:|------------:|------:|--------------:|
-| 1 | 6 | 2 | 3 | 10 | 5 | 5 | 60 |
-| 2 | 10 | 5 | 7 | 20 | 10 | 10 | 120 |
-| 3 | 14 | 10 | 11 | 30 | 15 | 15 | 178 |
-| 4 | 20 | 13 | 17 | 40 | 20 | 20 | 228 |
-| 6 | 27 | 20 | 27 | 60 | 30 | 30 | 321 |
+| 1 | 5 | 2 | 5 | 10 | 5 | 5 | 60 |
+| 2 | 10 | 6 | 8 | 20 | 10 | 10 | 120 |
+| 3 | 15 | 9 | 12 | 30 | 15 | 15 | 178 |
+| 4 | 20 | 14 | 20 | 40 | 20 | 20 | 228 |
+| 6 | 28 | 20 | 28 | 60 | 30 | 30 | 321 |
 | 8 | 36 | 27 | 44 | 80 | 40 | 40 | 401 |
 | 10 | 43 | 29 | 54 | 100 | 50 | 50 | 475 |
 
 Dengan delapan modul, materi baru tersebar lebih lebar daripada sebelumnya:
 pada minggu ke-10 hampir seluruh huruf dan pola vokal sudah diperkenalkan,
-kosakata mencapai sekitar 100 dari 186 kata, dan 475 dari 566 kartu sudah
-pernah dilihat. Bila Anda ingin kosakata bergerak lebih cepat, jalankan
-`python quiz.py --mode kosakata-id,kosakata-th` beberapa sesi.
+dan 475 dari 882 kartu sudah pernah dilihat. Kosakata baru mencapai sekitar
+100 dari 502 kata, sebab penjadwal membagi jatah kartu baru ke delapan modul
+sekaligus.
+
+Dengan kosakata sebanyak ini, jalur bawaan tidak lagi cukup bila sasaran Anda
+adalah menguasai kosakatanya. Dua pilihan yang masuk akal:
+
+```bash
+python quiz.py --mode kosakata-id,kosakata-th --new 15
+```
+
+untuk sesi khusus kosakata, atau menaikkan `--new` pada sesi campuran setelah
+huruf dan nadanya mantap. Seluruh 502 kata memerlukan kira-kira 35 sesi
+khusus kosakata dengan 15 kata baru per sesi.
 
 ### Dari mana angka-angka itu
 
@@ -553,13 +570,13 @@ sekaligus.
 python -m pytest
 ```
 
-3671 pengujian. Yang diperiksa:
+6201 pengujian. Yang diperiksa:
 
 | Berkas | Isi |
 |:-------|:----|
 | `test_thai.py` | Tabel 44 konsonan: jumlah tiap kelas, bunyi akhir yang sah, huruf yang tidak pernah menjadi konsonan akhir, dua huruf usang, bentuk NFC, dan pembacaan lajur `phon`. |
-| `test_tone.py` | Tabel nada lengkap, panjang vokal hanya menentukan pada satu keadaan, 48 kata patokan, ห nam, อย, gugus konsonan, aksara nam, dan jenis suku kata. |
-| `test_data.py` | **Inti proyek:** 702 kata dan kalimat diperiksa — gabungan suku katanya sama dengan tulisannya, dan nadanya sama dengan hitungan mesin. Juga: baris aturan sesuai mesin, pasangan nada benar-benar berbeda nada, id pola vokal dikenali mesin. |
+| `test_tone.py` | Tabel nada lengkap, panjang vokal hanya menentukan pada satu keadaan, 48 kata patokan, ห nam, อย, ทร yang dibaca s, gugus konsonan, aksara nam, dan jenis suku kata. |
+| `test_data.py` | **Inti proyek:** 1334 kata dan kalimat diperiksa — gabungan suku katanya sama dengan tulisannya, dan nadanya sama dengan hitungan mesin. Juga: baris aturan sesuai mesin, pasangan nada benar-benar berbeda nada, id pola vokal dikenali mesin. |
 | `test_schema.py` | Id unik di seluruh modul, format id, tahap 1-6 terisi pada tiap modul, kelas kata sah, field wajib terisi, pengecualian pemeriksaan wajib beralasan. |
 | `test_keys.py` | Setiap soal punya tepat satu jawaban benar, tidak ada pilihan kembar, kunci soal buatan diambil dari mesin, pengecoh kosakata tidak pernah ikut benar, jawaban bertaip menerima arti lain. |
 | `test_leitner.py` | Kenaikan dan penurunan kotak, jeda sesuai tabel, jatuh tempo, simpan dan muat ulang, berkas rusak tidak merusak pemuatan, penulisan atomik. |
@@ -667,6 +684,10 @@ progress.json         progres Anda (dibuat saat latihan pertama)
   kata yang Anda hafalkan.
 - Tidak ada koreksi ucapan. Aplikasi bisa membunyikan kata dan menguji telinga
   Anda, tetapi tidak bisa mendengar Anda. Untuk itu diperlukan penutur asli.
-- Kosakata 186 kata adalah fondasi, bukan tujuan. Untuk tingkat A2 diperlukan
-  kira-kira seribu kata; menambahnya adalah langkah berikutnya yang paling
-  berguna untuk proyek ini.
+- Kosakata 502 kata cukup untuk percakapan sehari-hari pada tingkat A1 menuju
+  A2, tetapi belum cukup untuk membaca surat kabar. Daftar frekuensi dari
+  korpus Thai akan membuat urutan pengenalannya lebih tepat daripada
+  perkiraan yang dipakai sekarang.
+- Beberapa kata sehari-hari sengaja tidak dimasukkan karena pembacaannya
+  tidak bisa diperiksa mesin, misalnya ผลไม้ ('buah') dan ตำรวจ ('polisi')
+  yang satu hurufnya dibaca dua kali. Lihat `data/NEEDS_REVIEW.md`.

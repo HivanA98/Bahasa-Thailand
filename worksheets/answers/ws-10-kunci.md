@@ -35,6 +35,7 @@
 | ingin | อยาก | yàak |
 | dengan, dan | กับ | kàp |
 | di; yang; tempat | ที่ | thîi |
+| selesai, berakhir | จบ | jòp |
 
 ## 5. Tata bahasa
 

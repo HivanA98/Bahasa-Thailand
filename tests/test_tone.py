@@ -119,6 +119,23 @@ def test_tanpa_ho_nam_kelasnya_rendah():
     assert s.tone == "sedang"
 
 
+def test_tr_dibaca_s_dan_berkelas_rendah():
+    """ทร di awal suku kata dibaca s, bukan thr; kelasnya mengikuti ท."""
+    (s,) = tone.parse_syllable("ทราบ")
+    assert s.initial == tone.TR_DIGRAPH
+    assert s.consonant == "ท"
+    assert s.cls == thai.LOW
+    assert s.tone == "turun"
+    assert "dibaca s" in tone.explain(s)
+
+
+def test_tr_tidak_mengubah_kata_lain_yang_berawalan_tho():
+    # ท tanpa ร tetap dibaca th seperti biasa.
+    (s,) = tone.parse_syllable("ทาน")
+    assert s.initial == "ท"
+    assert s.tone == "sedang"
+
+
 def test_o_lead_berkelas_tengah():
     (s,) = tone.parse_syllable("อยู่")
     assert s.cls == thai.MID

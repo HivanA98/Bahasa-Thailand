@@ -108,7 +108,7 @@
     {
       "id": "b06", "stage": 5, "title": "Naik taksi", "cat": "jalan",
       "lines": [
-        {"speaker": "A", "th": "ไปโรงแรมนี้ได้ไหมครับ", "syl": ["ไป", "โรง", "แรม", "นี้", "ได้", "ไหม", "ครับ"], "phon": "pai roong-raem níi dâi mǎi khráp", "gloss": "Bisa antar ke hotel ini?"},
+        {"speaker": "A", "th": "ไปโรงแรมนี้ได้ไหมครับ", "syl": ["ไป", "โรง", "แรม", "นี้", "ได้", "ไหม", "ครับ"], "phon": "pai roong-raem níi dâi mǎi khráp", "gloss": "Bisa mengantar saya ke hotel ini?"},
         {"speaker": "B", "th": "ได้ครับ ขึ้นรถได้เลยครับ", "syl": ["ได้", "ครับ", "ขึ้น", "รถ", "ได้", "เลย", "ครับ"], "phon": "dâi khráp khûen rót dâi looei khráp", "gloss": "Bisa. Silakan langsung naik."},
         {"speaker": "A", "th": "ไกลไหมครับ", "syl": ["ไกล", "ไหม", "ครับ"], "phon": "klai mǎi khráp", "gloss": "Jauh tidak?"},
         {"speaker": "B", "th": "ไม่ไกลครับ สิบนาที", "syl": ["ไม่", "ไกล", "ครับ", "สิบ", "นา", "ที"], "phon": "mâi klai khráp sìp naa-thii", "gloss": "Tidak jauh. Sepuluh menit."},

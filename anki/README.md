@@ -13,7 +13,7 @@ python tools/build_exports.py
 |:-------|-------------:|:----|
 | `aksara.csv` | 75 | 44 konsonan dan 31 pola vokal |
 | `nada.csv` | 54 | kata latihan nada beserta alasan nadanya |
-| `kosakata.csv` | 186 | kosakata inti |
+| `kosakata.csv` | 502 | kosakata inti |
 | `tatabahasa.csv` | 60 | soal tata bahasa |
 | `frasa.csv` | 58 | frasa sehari-hari |
 | `serumpun.csv` | 29 | kata serapan Sanskerta yang sama di Thai dan Indonesia |

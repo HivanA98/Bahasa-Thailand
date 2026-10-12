@@ -125,7 +125,7 @@
 ขวา,kanan,khwǎa,khwa,nomina · RTGS: khwa,เลี้ยวขวา — líao khwǎa — Belok kanan.,"ขว adalah gugus konsonan sejati, jadi kelasnya diambil dari ข (kelas tinggi).",thai kosakata arah tahap4
 ตรง,lurus; tepat di,trong,trong,sifat · RTGS: trong,ตรงไป — trong pai — Jalan terus (lurus).,"ตรงนี้ ('di sini'), ตรงนั้น ('di sana') dipakai untuk menunjuk tempat yang terlihat.",thai kosakata arah tahap4
 หน้า,depan; muka; halaman,nâa,na,nomina · RTGS: na,ร้านอยู่หน้าโรงแรม — ráan yùu nâa roong-raem — Tokonya ada di depan hotel.,"Bunyinya sama dengan น่า (nâa, 'patut, layak') tetapi ejaannya berbeda. Juga berarti 'berikutnya': อาทิตย์หน้า ('pekan depan').",thai kosakata arah tahap4
-หลัง,belakang; sesudah,lǎng,lang,nomina · RTGS: lang,ห้องน้ำอยู่หลังร้าน — hâawng-náam yùu lǎng ráan — Toiletnya ada di belakang toko.,Kata yang sama menjadi klasifikator untuk rumah: บ้านสองหลัง ('dua rumah').,thai kosakata arah tahap4
+หลัง,belakang; sesudah,lǎng,lang,nomina · RTGS: lang,ห้องน้ำอยู่หลังร้าน — hâawng-náam yùu lǎng ráan — Toiletnya ada di belakang toko.,"Satu kata dengan tiga tugas: 'belakang', 'sesudah', dan klasifikator untuk rumah serta bangunan (บ้านสองหลัง, 'dua rumah').",thai kosakata arah tahap4
 รถ,"mobil, kendaraan",rót,rot,nomina · klasifikator: คัน · RTGS: rot,รถคันนี้เก่า — rót khan níi kào — Mobil ini tua.,"Awalan untuk banyak kendaraan: รถไฟ (kereta), รถเมล์ (bus kota), รถตู้ (minibus).",thai kosakata jalan tahap4
 รถไฟ,kereta api,rót-fai,rotfai,nomina · klasifikator: ขบวน · RTGS: rotfai,ผมไปด้วยรถไฟ — phǒm pai dûai rót-fai — Saya pergi dengan kereta.,"Harfiahnya 'kendaraan api', sepadan dengan 'kereta api'.",thai kosakata jalan tahap4
 เรือ,"perahu, kapal",ruea,ruea,nomina · klasifikator: ลำ · RTGS: ruea,ผมไปเรือ — phǒm pai ruea — Saya pergi dengan perahu.,,thai kosakata jalan tahap4
@@ -187,3 +187,319 @@
 ประเทศ,negara,prà-thêet,prathet,nomina · RTGS: prathet,ประเทศไทยสวย — prà-thêet thai sǔai — Negeri Thailand indah.,ประเทศไทย adalah nama resmi Thailand. Seakar dengan 'pradesa' dalam Sanskerta.,thai kosakata bangsa tahap6
 ไทย,"Thai, Thailand",thai,thai,nomina · RTGS: thai,คนไทยพูดภาษาไทย — khon thai phûut phaa-sǎa thai — Orang Thai berbahasa Thai.,"Dipakai untuk bangsa, bahasa, dan negaranya: คนไทย, ภาษาไทย, ประเทศไทย.",thai kosakata bangsa tahap6
 อินโดนีเซีย,Indonesia,in-doo-nii-sia,indonisia,nomina · RTGS: indonisia,ผมเป็นคนอินโดนีเซีย — phǒm pen khon in-doo-nii-sia — Saya orang Indonesia.,"Nama negara diserap menurut bunyinya. Semua suku katanya bernada sedang, sehingga mudah diucapkan.",thai kosakata bangsa tahap6
+ให้,memberi; supaya,hâi,hai,verba · RTGS: hai,ให้ผมครับ — hâi phǒm khráp — Berikan kepada saya.,Juga dipakai untuk 'untuk saya': ช่วยเขียนให้ด้วย ('tolong tuliskan untuk saya').,thai kosakata kerja tahap2
+บอก,memberitahu,bàawk,bok,verba · RTGS: bok,บอกผมหน่อย — bàawk phǒm nàawi — Beri tahu saya sedikit.,,thai kosakata kerja tahap3
+ถาม,bertanya,thǎam,tham,verba · RTGS: tham,ผมขอถามครับ — phǒm khǎaw thǎam khráp — Saya mau bertanya.,,thai kosakata kerja tahap3
+ตอบ,menjawab,tàawp,top,verba · RTGS: top,เขาไม่ตอบ — khǎo mâi tàawp — Dia tidak menjawab.,,thai kosakata kerja tahap4
+ฟัง,mendengarkan,fang,fang,verba · RTGS: fang,ผมชอบฟังเพลง — phǒm châawp fang phleeng — Saya suka mendengarkan lagu.,,thai kosakata kerja tahap2
+ดู,"melihat, menonton",duu,du,verba · RTGS: du,ผมดูหนัง — phǒm duu nǎng — Saya menonton film.,,thai kosakata kerja tahap2
+เห็น,melihat (tertangkap mata),hěn,hen,verba · RTGS: hen,ผมไม่เห็น — phǒm mâi hěn — Saya tidak melihatnya.,ดู adalah menonton dengan sengaja; เห็น adalah melihat karena tertangkap mata.,thai kosakata kerja tahap3
+รอ,menunggu,raaw,ro,verba · RTGS: ro,รอที่นี่ครับ — raaw thîi-nîi khráp — Tunggu di sini.,,thai kosakata kerja tahap3
+เริ่ม,mulai,rôoem,roem,verba · RTGS: roem,เริ่มตอนเช้า — rôoem taawn-cháo — Mulai pada pagi hari.,,thai kosakata kerja tahap5
+จบ,"selesai, berakhir",jòp,chop,verba · RTGS: chop,งานจบแล้ว — ngaan jòp láeo — Pekerjaannya sudah selesai.,,thai kosakata kerja tahap5
+ปิด,"menutup, mematikan",pìt,pit,verba · RTGS: pit,ปิดประตูด้วย — pìt prà-tuu dûai — Tolong tutup pintunya.,,thai kosakata kerja tahap3
+เปิด,"membuka, menyalakan",pòoet,poet,verba · RTGS: poet,ร้านเปิดกี่โมง — ráan pòoet kìi moong — Tokonya buka jam berapa?,,thai kosakata kerja tahap3
+ส่ง,"mengirim, mengantar",sòng,song,verba · RTGS: song,ส่งให้เพื่อน — sòng hâi phûean — Mengirimkannya untuk teman.,,thai kosakata kerja tahap4
+รับ,"menerima, menjemput",ráp,rap,verba · RTGS: rap,รับอะไรดีครับ — ráp à-rai dii khráp — Mau pesan apa?,"Di warung dan restoran, รับอะไรดี adalah cara menanyakan pesanan.",thai kosakata kerja tahap3
+ใช้,memakai,chái,chai,verba · RTGS: chai,ผมใช้มือถือ — phǒm chái muue-thǔue — Saya memakai telepon genggam.,"Jangan dikacaukan dengan ใช่ (châi, 'ya, benar') yang hanya berbeda nada.",thai kosakata kerja tahap3
+ทำงาน,bekerja,tham-ngaan,thamngan,verba · RTGS: thamngan,ผมทำงานที่นี่ — phǒm tham-ngaan thîi-nîi — Saya bekerja di sini.,,thai kosakata kerja tahap3
+พัก,"beristirahat, menginap",phák,phak,verba · RTGS: phak,พักที่โรงแรม — phák thîi roong-raem — Menginap di hotel.,,thai kosakata kerja tahap4
+วิ่ง,berlari,wîng,wing,verba · RTGS: wing,เด็กวิ่งเร็วมาก — dèk wîng reo mâak — Anak itu berlari sangat cepat.,,thai kosakata kerja tahap4
+ขี่,mengendarai (yang dinaiki),khìi,khi,verba · RTGS: khi,ผมขี่ไม่เป็น — phǒm khìi mâi pen — Saya tidak bisa mengendarainya.,"ขี่ untuk yang dinaiki dengan kaki mengangkang (sepeda, motor, kuda); ขับ untuk yang disetir (mobil).",thai kosakata kerja tahap5
+ลืม,lupa,luuem,luem,verba · RTGS: luem,ผมลืมชื่อเขา — phǒm luuem chûue khǎo — Saya lupa namanya.,,thai kosakata kerja tahap4
+จำ,mengingat,jam,cham,verba · RTGS: cham,ผมจำไม่ได้ — phǒm jam mâi dâi — Saya tidak bisa mengingatnya.,"จำได้ berarti 'ingat', จำไม่ได้ berarti 'lupa, tidak ingat'.",thai kosakata kerja tahap4
+คิด,berpikir; menghitung,khít,khit,verba · RTGS: khit,ผมคิดว่าดี — phǒm khít wâa dii — Saya rasa itu bagus.,"คิดว่า berarti 'berpikir bahwa'. Di warung, คิดเงิน berarti 'menghitung tagihan'.",thai kosakata kerja tahap4
+เข้าใจ,mengerti,khâo-jai,khaochai,verba · RTGS: khaochai,ผมไม่เข้าใจครับ — phǒm mâi khâo-jai khráp — Saya tidak mengerti.,Harfiahnya 'masuk hati'.,thai kosakata kerja tahap3
+ตื่น,bangun (dari tidur),tùuen,tuen,verba · RTGS: tuen,ผมตื่นหกโมง — phǒm tùuen hòk moong — Saya bangun jam enam.,,thai kosakata kerja tahap5
+อาบน้ำ,mandi,àap-náam,apnam,verba · RTGS: apnam,ผมอาบน้ำตอนเช้า — phǒm àap-náam taawn-cháo — Saya mandi pagi.,,thai kosakata kerja tahap4
+ใส่,memakai (pakaian); memasukkan,sài,sai,verba · RTGS: sai,"ไม่ใส่น้ำตาลครับ — mâi sài náam-taan khráp — Tanpa gula, ya.",Sangat berguna saat memesan minuman: ไม่ใส่น้ำแข็ง ('tanpa es').,thai kosakata kerja tahap4
+เดินทาง,bepergian,dooen-thaang,doenthang,verba · RTGS: doenthang,ผมเดินทางคนเดียว — phǒm dooen-thaang khon diao — Saya bepergian sendirian.,,thai kosakata kerja tahap5
+ชิม,mencicipi,chim,chim,verba · RTGS: chim,ขอชิมหน่อยครับ — khǎaw chim nàawi khráp — Boleh saya cicipi sedikit?,,thai kosakata kerja tahap5
+สั่ง,memesan; menyuruh,sàng,sang,verba · RTGS: sang,ผมสั่งข้าวผัด — phǒm sàng khâao-phàt — Saya memesan nasi goreng.,,thai kosakata kerja tahap4
+เก็บ,"menyimpan, membereskan",kèp,kep,verba · RTGS: kep,เก็บเงินด้วยครับ — kèp ngooen dûai khráp — Minta bonnya.,เก็บเงิน adalah cara Thai asli untuk meminta bon; เช็คบิล adalah serapan Inggris.,thai kosakata kerja tahap5
+เจอ,"bertemu, menemukan",jooe,choe,verba · RTGS: choe,แล้วเจอกันครับ — láeo jooe kan khráp — Sampai jumpa.,,thai kosakata kerja tahap3
+คุย,mengobrol,khui,khui,verba · RTGS: khui,คุยกับเพื่อน — khui kàp phûean — Mengobrol dengan teman.,,thai kosakata kerja tahap4
+เล่า,menceritakan,lâo,lao,verba · RTGS: lao,"เล่าให้ฟังหน่อย — lâo hâi fang nàawi — Ceritakan sedikit, dong.",,thai kosakata kerja tahap6
+เต้น,menari,tên,ten,verba · RTGS: ten,เขาเต้นเก่ง — khǎo tên kèng — Dia pandai menari.,,thai kosakata kerja tahap6
+วาด,menggambar,wâat,wat,verba · RTGS: wat,ผมวาดรูปไม่เก่ง — phǒm wâat rûup mâi kèng — Saya tidak pandai menggambar.,,thai kosakata kerja tahap6
+สอน,mengajar,sǎawn,son,verba · RTGS: son,ครูสอนที่โรงเรียน — khruu sǎawn thîi roong-rian — Guru mengajar di sekolah.,,thai kosakata kerja tahap4
+จอง,memesan tempat,jaawng,chong,verba · RTGS: chong,ผมจองห้องแล้ว — phǒm jaawng hâawng láeo — Saya sudah memesan kamar.,,thai kosakata kerja tahap5
+เช่า,menyewa,châo,chao,verba · RTGS: chao,เช่ารถวันละเท่าไหร่ — châo rót wan-lá thâo-rài — Sewa mobil berapa sehari?,,thai kosakata kerja tahap6
+ยืม,meminjam,yuuem,yuem,verba · RTGS: yuem,ขอยืมปากกาหน่อย — khǎaw yuuem pàak-kaa nàawi — Boleh pinjam pulpennya?,,thai kosakata kerja tahap6
+จอด,"berhenti, memarkir",jàawt,chot,verba · RTGS: chot,จอดตรงนี้ครับ — jàawt trong-níi khráp — Berhenti di sini saja.,,thai kosakata jalan tahap5
+เลี้ยว,berbelok,líao,liao,verba · RTGS: liao,เลี้ยวซ้ายครับ — líao sáai khráp — Belok kiri.,,thai kosakata jalan tahap4
+ข้าม,menyeberang,khâam,kham,verba · RTGS: kham,ข้ามถนนตรงนี้ — khâam thà-nǒn trong-níi — Menyeberang jalan di sini.,,thai kosakata jalan tahap5
+ว่าย,berenang,wâai,wai,verba · RTGS: wai,ผมว่ายน้ำเป็น — phǒm wâai-náam pen — Saya bisa berenang.,Bentuk lengkapnya ว่ายน้ำ. เป็น sesudah kata kerja menandai keterampilan yang dipelajari.,thai kosakata kerja tahap6
+สูง,tinggi,sǔung,sung,sifat · RTGS: sung,เขาสูงมาก — khǎo sǔung mâak — Dia sangat tinggi.,,thai kosakata sifat tahap3
+เตี้ย,pendek (orang),tîa,tia,sifat · RTGS: tia,ผมเตี้ยกว่าเขา — phǒm tîa kwàa khǎo — Saya lebih pendek daripada dia.,,thai kosakata sifat tahap5
+ยาว,panjang,yaao,yao,sifat · RTGS: yao,ถนนเส้นนี้ยาว — thà-nǒn sên níi yaao — Jalan ini panjang.,,thai kosakata sifat tahap3
+สั้น,pendek (benda),sân,san,sifat · RTGS: san,เวลาสั้นมาก — wee-laa sân mâak — Waktunya sangat singkat.,,thai kosakata sifat tahap3
+หนัก,berat,nàk,nak,sifat · RTGS: nak,กระเป๋าหนักไหม — krà-pǎo nàk mǎi — Tasnya berat tidak?,,thai kosakata sifat tahap4
+เบา,ringan; pelan (suara),bao,bao,sifat · RTGS: bao,พูดเบาหน่อย — phûut bao nàawi — Tolong bicara lebih pelan.,Bentuk เบาๆ dengan tanda ulang terdengar lebih halus lagi.,thai kosakata sifat tahap4
+เร็ว,cepat,reo,reo,sifat · RTGS: reo,รถเร็วมาก — rót reo mâak — Mobilnya sangat cepat.,,thai kosakata sifat tahap3
+ช้า,lambat,cháa,cha,sifat · RTGS: cha,ช่วยพูดช้าหน่อยครับ — chûai phûut cháa nàawi khráp — Tolong bicara lebih lambat.,Kalimat ini termasuk yang paling sering diperlukan pembelajar pemula.,thai kosakata sifat tahap3
+ง่าย,mudah,ngâai,ngai,sifat · RTGS: ngai,ภาษานี้ไม่ง่าย — phaa-sǎa níi mâi ngâai — Bahasa ini tidak mudah.,,thai kosakata sifat tahap3
+ยาก,sulit,yâak,yak,sifat · RTGS: yak,เสียงยากมาก — sǐang yâak mâak — Nadanya sangat sulit.,,thai kosakata sifat tahap2
+สะอาด,bersih,sà-àat,sa-at,sifat · RTGS: sa-at,ห้องน้ำสะอาดมาก — hâawng-náam sà-àat mâak — Toiletnya sangat bersih.,,thai kosakata sifat tahap4
+อ่อน,lembut; muda (warna),àawn,on,sifat · RTGS: on,เนื้ออ่อนมาก — núea àawn mâak — Dagingnya sangat lembut.,,thai kosakata sifat tahap5
+แข็ง,keras,khǎeng,khaeng,sifat · RTGS: khaeng,ข้าวแข็งไป — khâao khǎeng pai — Nasinya terlalu keras.,,thai kosakata sifat tahap4
+ว่าง,"luang, kosong",wâang,wang,sifat · RTGS: wang,พรุ่งนี้ผมว่าง — phrûng-níi phǒm wâang — Besok saya luang.,,thai kosakata sifat tahap4
+เต็ม,penuh,tem,tem,sifat · RTGS: tem,ร้านเต็มแล้ว — ráan tem láeo — Restorannya sudah penuh.,,thai kosakata sifat tahap5
+ดัง,keras (suara); terkenal,dang,dang,sifat · RTGS: dang,ร้านนี้ดังมาก — ráan níi dang mâak — Restoran ini sangat terkenal.,,thai kosakata sifat tahap5
+เงียบ,"sunyi, diam",ngîap,ngiap,sifat · RTGS: ngiap,"ที่นี่เงียบดี — thîi-nîi ngîap dii — Di sini enak, sunyi.",,thai kosakata sifat tahap5
+น่ารัก,"manis, menggemaskan",nâa-rák,narak,sifat · RTGS: narak,เด็กคนนี้น่ารัก — dèk khon níi nâa-rák — Anak ini menggemaskan.,"น่า + kata kerja berarti 'patut di-': น่ากิน ('menggugah selera'), น่าไป ('layak dikunjungi').",thai kosakata sifat tahap4
+สำคัญ,penting,sǎm-khan,samkhan,sifat · RTGS: samkhan,เรื่องนี้สำคัญมาก — rûeang níi sǎm-khan mâak — Hal ini sangat penting.,,thai kosakata sifat tahap5
+อบอุ่น,hangat,òp-ùn,op-un,sifat · RTGS: op-un,อากาศอบอุ่น — aa-kàat òp-ùn — Cuacanya hangat.,,thai kosakata sifat tahap6
+สด,segar,sòt,sot,sifat · RTGS: sot,ปลาสดมาก — plaa sòt mâak — Ikannya sangat segar.,,thai kosakata sifat tahap5
+ขม,pahit,khǒm,khom,sifat · RTGS: khom,กาแฟขมไป — kaa-fae khǒm pai — Kopinya terlalu pahit.,,thai kosakata sifat tahap5
+มัน,"berminyak, gurih",man,man,sifat · RTGS: man,อาหารมันไป — aa-hǎan man pai — Makanannya terlalu berminyak.,,thai kosakata sifat tahap6
+สุก,matang,sùk,suk,sifat · RTGS: suk,เนื้อสุกแล้ว — núea sùk láeo — Dagingnya sudah matang.,,thai kosakata sifat tahap5
+ดิบ,mentah,dìp,dip,sifat · RTGS: dip,ผมไม่กินของดิบ — phǒm mâi kin khǎawng dìp — Saya tidak makan makanan mentah.,,thai kosakata sifat tahap6
+หรือ,atau,rǔue,rue,sambung · RTGS: rue,ชาหรือกาแฟ — chaa rǔue kaa-fae — Teh atau kopi?,,thai kosakata keterangan tahap4
+และ,dan,láe,lae,sambung · RTGS: lae,ข้าวและน้ำ — khâao láe náam — Nasi dan air.,และ menghubungkan kalimat atau daftar; untuk 'dengan' di antara dua kata benda dipakai กับ.,thai kosakata keterangan tahap4
+เพราะ,karena,phráw,phro,sambung · RTGS: phro,ไม่ไปเพราะฝนตก — mâi pai phráw fǒn tòk — Tidak pergi karena hujan.,,thai kosakata keterangan tahap5
+ถ้า,"kalau, jika",thâa,tha,sambung · RTGS: tha,"ถ้าฝนตกผมไม่ไป — thâa fǒn tòk phǒm mâi pai — Kalau hujan, saya tidak pergi.",,thai kosakata keterangan tahap5
+แค่,hanya,khâe,khae,keterangan · RTGS: khae,แค่นี้พอครับ — khâe níi phaaw khráp — Segini saja cukup.,,thai kosakata keterangan tahap5
+ทั้งหมด,semuanya,tháng-mòt,thangmot,keterangan · RTGS: thangmot,ทั้งหมดเท่าไหร่ครับ — tháng-mòt thâo-rài khráp — Semuanya berapa?,,thai kosakata keterangan tahap5
+อื่น,lain,ùuen,uen,sifat · RTGS: uen,มีสีอื่นไหม — mii sǐi ùuen mǎi — Ada warna lain?,,thai kosakata keterangan tahap5
+เอง,sendiri,eeng,eng,keterangan · RTGS: eng,ผมทำเอง — phǒm tham eeng — Saya mengerjakannya sendiri.,,thai kosakata keterangan tahap6
+กัน,"bersama, saling",kan,kan,keterangan · RTGS: kan,ไปด้วยกันครับ — pai dûai-kan khráp — Ayo pergi bersama.,,thai kosakata keterangan tahap4
+ที่สุด,paling,thîi-sùt,thisut,keterangan · RTGS: thisut,ร้านนี้ดีที่สุด — ráan níi dii thîi-sùt — Restoran ini yang paling bagus.,,thai kosakata keterangan tahap5
+กว่า,lebih ... daripada,kwàa,kwa,keterangan · RTGS: kwa,แพงกว่าร้านนั้น — phaeng kwàa ráan nán — Lebih mahal daripada toko itu.,,thai kosakata keterangan tahap5
+เหมือน,"seperti, sama dengan",mǔean,muean,keterangan · RTGS: muean,ร้อนเหมือนกัน — ráawn mǔean-kan — Sama panasnya.,"เหมือนกัน juga dipakai sendirian untuk menanggapi: 'sama saja', 'saya juga'.",thai kosakata keterangan tahap5
+ต่าง,berbeda; asing,tàang,tang,sifat · RTGS: tang,ราคาต่างกัน — raa-khaa tàang kan — Harganya berbeda-beda.,"ต่างชาติ (tàang-châat) berarti 'asing', harfiahnya 'bangsa lain'.",thai kosakata keterangan tahap6
+เกือบ,hampir,kùeap,kueap,keterangan · RTGS: kueap,เกือบลืมแล้ว — kùeap luuem láeo — Hampir saja lupa.,,thai kosakata keterangan tahap6
+นิด,sedikit,nít,nit,keterangan · RTGS: nit,เผ็ดนิดหน่อย — phèt nít-nàawi — Sedikit pedas.,"Bentuk lengkapnya นิดหน่อย, dan itulah yang paling sering terdengar.",thai kosakata keterangan tahap4
+บ่อย,sering,bàawi,boi,keterangan · RTGS: boi,ฝนตกบ่อย — fǒn tòk bàawi — Sering hujan.,,thai kosakata keterangan tahap4
+บางครั้ง,kadang-kadang,baang-kráng,bangkhrang,keterangan · RTGS: bangkhrang,บางครั้งผมไปตลาด — baang-kráng phǒm pai tà-làat — Kadang-kadang saya pergi ke pasar.,,thai kosakata keterangan tahap6
+เคย,pernah,khooei,khoei,keterangan · RTGS: khoei,ผมเคยไปที่นั่น — phǒm khooei pai thîi-nân — Saya pernah ke sana.,Penafiannya ไม่เคย ('belum pernah').,thai kosakata keterangan tahap5
+ก่อน,"sebelum, lebih dahulu",kàawn,kon,keterangan · RTGS: kon,"ผมไปก่อนนะ — phǒm pai kàawn ná — Saya pergi duluan, ya.",,thai kosakata waktu tahap4
+ตอนนี้,sekarang,taawn-níi,tonni,keterangan · RTGS: tonni,ตอนนี้ผมไม่ว่าง — taawn-níi phǒm mâi wâang — Sekarang saya tidak luang.,,thai kosakata waktu tahap4
+ห้อง,"ruang, kamar",hâawng,hong,nomina · klasifikator: ห้อง · RTGS: hong,ห้องนี้ใหญ่มาก — hâawng níi yài mâak — Kamar ini sangat besar.,"Dipakai pada banyak kata: ห้องนอน (kamar tidur), ห้องเรียน (ruang kelas), ห้องน้ำ (toilet).",thai kosakata tempat tahap3
+ครัว,dapur,khrua,khrua,nomina · klasifikator: ห้อง · RTGS: khrua,แม่อยู่ในครัว — mâe yùu nai khrua — Ibu ada di dapur.,,thai kosakata tempat tahap5
+สวน,"taman, kebun",sǔan,suan,nomina · RTGS: suan,สวนนี้สวยมาก — sǔan níi sǔai mâak — Taman ini sangat indah.,,thai kosakata tempat tahap4
+ถนน,jalan (raya),thà-nǒn,thanon,nomina · klasifikator: สาย · RTGS: thanon,ถนนนี้ยาวมาก — thà-nǒn níi yaao mâak — Jalan ini sangat panjang.,"Contoh aksara nam: ถ berkelas tinggi memimpin นน, sehingga suku kata keduanya bernada naik.",thai kosakata jalan tahap4
+สะพาน,jembatan,sà-phaan,saphan,nomina · RTGS: saphan,ข้ามสะพานไป — khâam sà-phaan pai — Menyeberang lewat jembatan.,,thai kosakata jalan tahap6
+ธนาคาร,bank,thá-naa-khaan,thanakhan,nomina · RTGS: thanakhan,ธนาคารอยู่ไหนครับ — thá-naa-khaan yùu nǎi khráp — Di mana banknya?,,thai kosakata tempat tahap5
+โรงพยาบาล,rumah sakit,roong-phá-yaa-baan,rongphayaban,nomina · klasifikator: แห่ง · RTGS: rongphayaban,ไปโรงพยาบาลด้วยกัน — pai roong-phá-yaa-baan dûai-kan — Pergi ke rumah sakit bersama.,,thai kosakata tempat tahap5
+ร้านอาหาร,"restoran, rumah makan",ráan-aa-hǎan,ran ahan,nomina · klasifikator: ร้าน · RTGS: ran ahan,ร้านอาหารเปิดแล้ว — ráan-aa-hǎan pòoet láeo — Rumah makannya sudah buka.,,thai kosakata tempat tahap4
+ชายหาด,pantai,chaai-hàat,chaihat,nomina · klasifikator: แห่ง · RTGS: chaihat,ชายหาดสวยมาก — chaai-hàat sǔai mâak — Pantainya sangat indah.,,thai kosakata tempat tahap6
+ภูเขา,gunung,phuu-khǎo,phukhao,nomina · klasifikator: ลูก · RTGS: phukhao,ภูเขาสูงมาก — phuu-khǎo sǔung mâak — Gunungnya sangat tinggi.,,thai kosakata alam tahap5
+แม่น้ำ,sungai,mâe-náam,maenam,nomina · klasifikator: สาย · RTGS: maenam,แม่น้ำยาวมาก — mâe-náam yaao mâak — Sungainya sangat panjang.,Harfiahnya 'ibu air'.,thai kosakata alam tahap5
+ทะเล,laut,thá-lee,thale,nomina · RTGS: thale,ผมชอบทะเล — phǒm châawp thá-lee — Saya suka laut.,,thai kosakata alam tahap5
+เมือง,kota,mueang,mueang,nomina · klasifikator: เมือง · RTGS: mueang,เมืองนี้ใหญ่ — mueang níi yài — Kota ini besar.,,thai kosakata tempat tahap5
+หมู่บ้าน,"kampung, desa",mùu-bâan,muban,nomina · klasifikator: แห่ง · RTGS: muban,หมู่บ้านอยู่ไกล — mùu-bâan yùu klai — Kampungnya jauh.,,thai kosakata tempat tahap6
+สนามบิน,bandar udara,sà-nǎam-bin,sanambin,nomina · klasifikator: แห่ง · RTGS: sanambin,ไปสนามบินกี่ชั่วโมง — pai sà-nǎam-bin kìi chûa-moong — Ke bandara berapa jam?,,thai kosakata tempat tahap5
+ห้าง,pusat perbelanjaan,hâang,hang,nomina · klasifikator: ห้าง · RTGS: hang,ห้างเปิดสิบโมง — hâang pòoet sìp moong — Malnya buka jam sepuluh.,,thai kosakata tempat tahap5
+มัสยิด,masjid,mát-sà-yít,matsayit,nomina · klasifikator: แห่ง · RTGS: matsayit,มัสยิดอยู่ใกล้ตลาด — mát-sà-yít yùu klâi tà-làat — Masjidnya dekat pasar.,"Huruf ส di sini dibaca dua kali: menutup suku kata pertama dan membuka suku kata kedua. Karena itu lafalnya tiga suku kata, sedangkan tulisannya hanya dua.",thai kosakata tempat tahap5
+ที่ทำงาน,tempat kerja,thîi-tham-ngaan,thi thamngan,nomina · RTGS: thi thamngan,ที่ทำงานอยู่ไกลไหม — thîi-tham-ngaan yùu klai mǎi — Tempat kerjanya jauh tidak?,,thai kosakata tempat tahap5
+มือถือ,telepon genggam,muue-thǔue,muethue,nomina · klasifikator: เครื่อง · RTGS: muethue,มือถือผมหาย — muue-thǔue phǒm hǎai — Telepon genggam saya hilang.,Harfiahnya 'tangan memegang'. Bentuk resminya โทรศัพท์มือถือ.,thai kosakata benda tahap4
+กุญแจ,kunci,kun-jae,kunchae,nomina · klasifikator: ดอก · RTGS: kunchae,กุญแจอยู่บนโต๊ะ — kun-jae yùu bon tó — Kuncinya ada di atas meja.,,thai kosakata benda tahap5
+ประตู,pintu,prà-tuu,pratu,nomina · klasifikator: บาน · RTGS: pratu,ปิดประตูด้วยครับ — pìt prà-tuu dûai khráp — Tolong tutup pintunya.,,thai kosakata benda tahap4
+หน้าต่าง,jendela,nâa-tàang,natang,nomina · klasifikator: บาน · RTGS: natang,เปิดหน้าต่างหน่อย — pòoet nâa-tàang nàawi — Tolong buka jendelanya.,,thai kosakata benda tahap5
+เตียง,"ranjang, tempat tidur",tiang,tiang,nomina · klasifikator: เตียง · RTGS: tiang,ห้องนี้มีสองเตียง — hâawng níi mii sǎawng tiang — Kamar ini punya dua tempat tidur.,,thai kosakata benda tahap5
+ผ้า,kain,phâa,pha,nomina · klasifikator: ผืน · RTGS: pha,ผ้าผืนนี้สวย — phâa phǔuen níi sǔai — Kain ini indah.,,thai kosakata benda tahap5
+รองเท้า,sepatu,raawng-tháo,rongthao,nomina · klasifikator: คู่ · RTGS: rongthao,ถอดรองเท้าก่อนครับ — thàawt raawng-tháo kàawn khráp — Lepas sepatunya dulu.,Melepas sepatu sebelum masuk rumah dan kuil adalah kebiasaan yang diharapkan di Thailand.,thai kosakata benda tahap4
+กางเกง,celana,kaang-keeng,kangkeng,nomina · klasifikator: ตัว · RTGS: kangkeng,กางเกงตัวนี้แพง — kaang-keeng tua níi phaeng — Celana ini mahal.,,thai kosakata benda tahap5
+หมวก,topi,mùak,muak,nomina · klasifikator: ใบ · RTGS: muak,ใส่หมวกด้วย — sài mùak dûai — Pakai topi juga.,,thai kosakata benda tahap6
+นาฬิกา,jam (alat),naa-lí-kaa,nalika,nomina · klasifikator: เรือน · RTGS: nalika,นาฬิกาเรือนนี้สวย — naa-lí-kaa ruuean níi sǔai — Jam tangan ini bagus.,Salah satu dari sedikit kata sehari-hari yang memakai huruf ฬ.,thai kosakata benda tahap5
+ปากกา,pulpen,pàak-kaa,pakka,nomina · klasifikator: ด้าม · RTGS: pakka,ขอยืมปากกาหน่อย — khǎaw yuuem pàak-kaa nàawi — Boleh pinjam pulpennya?,,thai kosakata benda tahap5
+กระดาษ,kertas,krà-dàat,kradat,nomina · klasifikator: แผ่น · RTGS: kradat,ขอกระดาษแผ่นหนึ่ง — khǎaw krà-dàat phàen nùeng — Minta selembar kertas.,,thai kosakata benda tahap5
+ของ,barang; milik,khǎawng,khong,nomina · RTGS: khong,ของผมอยู่ไหน — khǎawng phǒm yùu nǎi — Di mana barang saya?,"Juga menjadi penanda kepemilikan: บ้านของผม ('rumah saya'), meskipun ของ sering dihilangkan.",thai kosakata benda tahap3
+ไฟ,"api; lampu, listrik",fai,fai,nomina · RTGS: fai,ปิดไฟด้วยครับ — pìt fai dûai khráp — Tolong matikan lampunya.,,thai kosakata benda tahap4
+ร่ม,payung,rôm,rom,nomina · klasifikator: คัน · RTGS: rom,"ฝนตกเอาร่มไปด้วย — fǒn tòk ao rôm pai dûai — Hujan, bawa payung juga.",,thai kosakata benda tahap6
+รูป,"gambar, foto",rûup,rup,nomina · klasifikator: รูป · RTGS: rup,ถ่ายรูปได้ไหมครับ — thàai-rûup dâi mǎi khráp — Boleh memotret?,,thai kosakata benda tahap5
+หนัง,film; kulit,nǎng,nang,nomina · klasifikator: เรื่อง · RTGS: nang,หนังเรื่องนี้ดี — nǎng rûeang níi dii — Film ini bagus.,,thai kosakata benda tahap4
+เพลง,lagu,phleeng,phleng,nomina · klasifikator: เพลง · RTGS: phleng,เพลงนี้เพราะมาก — phleeng níi phráw mâak — Lagu ini sangat merdu.,เพราะ bermakna 'merdu' di sini; kata yang sama juga berarti 'karena'.,thai kosakata benda tahap4
+เดือน,bulan (waktu),duean,duean,nomina · klasifikator: เดือน · RTGS: duean,ผมเรียนสองเดือนแล้ว — phǒm rian sǎawng duean láeo — Saya sudah belajar dua bulan.,,thai kosakata waktu tahap3
+ปี,tahun,pii,pi,nomina · klasifikator: ปี · RTGS: pi,ผมอยู่ที่นี่สามปี — phǒm yùu thîi-nîi sǎam pii — Saya tinggal di sini tiga tahun.,,thai kosakata waktu tahap3
+นาที,menit,naa-thii,nathi,nomina · klasifikator: นาที · RTGS: nathi,รอห้านาทีครับ — raaw hâa naa-thii khráp — Tunggu lima menit.,,thai kosakata waktu tahap4
+เช้า,pagi,cháo,chao,nomina · RTGS: chao,พรุ่งนี้เช้าผมไป — phrûng-níi cháo phǒm pai — Besok pagi saya pergi.,,thai kosakata waktu tahap3
+บ่าย,siang (sesudah tengah hari),bàai,bai,nomina · RTGS: bai,บ่ายนี้ผมว่าง — bàai níi phǒm wâang — Siang ini saya luang.,,thai kosakata waktu tahap5
+เที่ยง,tengah hari,thîang,thiang,nomina · RTGS: thiang,เจอกันตอนเที่ยง — jooe kan taawn thîang — Bertemu pada tengah hari.,,thai kosakata waktu tahap5
+ค่ำ,"petang, malam",khâm,kham,nomina · RTGS: kham,ตอนค่ำอากาศเย็น — taawn khâm aa-kàat yen — Pada malam hari cuacanya sejuk.,,thai kosakata waktu tahap6
+ยี่สิบ,dua puluh,yîi-sìp,yisip,angka · RTGS: yisip,ยี่สิบบาทครับ — yîi-sìp bàat khráp — Dua puluh baht.,"Perhatikan 20 memakai ยี่, bukan สอง. Hanya angka 20 yang berperilaku begitu.",thai kosakata angka tahap4
+พัน,ribu,phan,phan,angka · RTGS: phan,สองพันบาท — sǎawng phan bàat — dua ribu baht,,thai kosakata angka tahap4
+หมื่น,sepuluh ribu,mùuen,muen,angka · RTGS: muen,หนึ่งหมื่นบาท — nùeng mùuen bàat — sepuluh ribu baht,"Bahasa Thailand punya kata tersendiri untuk 10.000 (หมื่น) dan 100.000 (แสน), berbeda dari bahasa Indonesia yang menyusunnya dari 'puluh' dan 'ratus'.",thai kosakata angka tahap6
+แสน,seratus ribu,sǎen,saen,angka · RTGS: saen,ราคาหนึ่งแสนบาท — raa-khaa nùeng sǎen bàat — Harganya seratus ribu baht.,,thai kosakata angka tahap6
+ล้าน,juta,láan,lan,angka · RTGS: lan,หนึ่งล้านบาท — nùeng láan bàat — satu juta baht,,thai kosakata angka tahap6
+ครึ่ง,setengah,khrûeng,khrueng,angka · RTGS: khrueng,ครึ่งชั่วโมง — khrûeng chûa-moong — setengah jam,,thai kosakata angka tahap5
+ขนม,"kue, penganan",khà-nǒm,khanom,nomina · klasifikator: ชิ้น · RTGS: khanom,ขนมนี้หวานมาก — khà-nǒm níi wǎan mâak — Kue ini sangat manis.,,thai kosakata makanan tahap4
+ขนมปัง,roti,khà-nǒm-pang,khanompang,nomina · klasifikator: แผ่น · RTGS: khanompang,ผมกินขนมปังตอนเช้า — phǒm kin khà-nǒm-pang taawn-cháo — Saya makan roti pagi hari.,"Harfiahnya 'kue pang'. ปัง diduga berasal dari kata Portugis pão, sebagaimana beberapa nama makanan Thai lain yang datang lewat pedagang Portugis.",thai kosakata makanan tahap4
+นม,susu,nom,nom,nomina · klasifikator: กล่อง · RTGS: nom,ขอนมหนึ่งแก้ว — khǎaw nom nùeng kâeo — Minta satu gelas susu.,,thai kosakata makanan tahap4
+น้ำตาล,gula,náam-taan,namtan,nomina · RTGS: namtan,"ไม่ใส่น้ำตาลครับ — mâi sài náam-taan khráp — Tanpa gula, ya.",,thai kosakata makanan tahap4
+เกลือ,garam,kluea,kluea,nomina · RTGS: kluea,ใส่เกลือนิดหน่อย — sài kluea nít-nàawi — Tambahkan sedikit garam.,,thai kosakata makanan tahap5
+พริก,cabai,phrík,phrik,nomina · klasifikator: เม็ด · RTGS: phrik,"ไม่ใส่พริกครับ — mâi sài phrík khráp — Tanpa cabai, ya.",Permintaan yang perlu dihafal bagi yang tidak tahan pedas.,thai kosakata makanan tahap4
+กระเทียม,bawang putih,krà-thiam,krathiam,nomina · klasifikator: หัว · RTGS: krathiam,อาหารนี้มีกระเทียม — aa-hǎan níi mii krà-thiam — Makanan ini memakai bawang putih.,,thai kosakata makanan tahap6
+มะนาว,jeruk nipis,má-naao,manao,nomina · klasifikator: ลูก · RTGS: manao,ใส่มะนาวด้วยครับ — sài má-naao dûai khráp — Tambahkan jeruk nipis juga.,,thai kosakata makanan tahap5
+มะม่วง,mangga,má-mûang,mamuang,nomina · klasifikator: ลูก · RTGS: mamuang,ข้าวเหนียวมะม่วงอร่อยมาก — khâao-nǐao má-mûang à-ràawi mâak — Ketan mangga sangat enak.,,thai kosakata makanan tahap4
+สับปะรด,nanas,sàp-pà-rót,sapparot,nomina · klasifikator: ลูก · RTGS: sapparot,สับปะรดหวานมาก — sàp-pà-rót wǎan mâak — Nanasnya sangat manis.,,thai kosakata makanan tahap6
+แตงโม,semangka,taeng-moo,taengmo,nomina · klasifikator: ลูก · RTGS: taengmo,ผมชอบแตงโม — phǒm châawp taeng-moo — Saya suka semangka.,,thai kosakata makanan tahap5
+องุ่น,anggur,à-ngùn,angun,nomina · klasifikator: ลูก · RTGS: angun,องุ่นลูกนี้เปรี้ยว — à-ngùn lûuk níi prîao — Anggur ini asam.,"Contoh aksara nam dengan pemimpin อ: งุ่น bernada rendah, bukan turun.",thai kosakata makanan tahap6
+กุ้ง,udang,kûng,kung,nomina · klasifikator: ตัว · RTGS: kung,ผมแพ้กุ้ง — phǒm pháe kûng — Saya alergi udang.,แพ้ (pháe) berarti 'alergi' sekaligus 'kalah'. Kalimat ini penting bagi yang punya alergi makanan.,thai kosakata makanan tahap4
+ปู,kepiting,puu,pu,nomina · klasifikator: ตัว · RTGS: pu,ปูตัวนี้ใหญ่มาก — puu tua níi yài mâak — Kepiting ini sangat besar.,,thai kosakata makanan tahap5
+ต้มยำ,tom yam (sup asam pedas),tôm-yam,tomyam,nomina · klasifikator: ถ้วย · RTGS: tomyam,ต้มยำเผ็ดไหมครับ — tôm-yam phèt mǎi khráp — Tom yamnya pedas tidak?,,thai kosakata makanan tahap4
+ส้มตำ,som tam (salad pepaya muda),sôm-tam,somtam,nomina · klasifikator: จาน · RTGS: somtam,"ส้มตำไม่เผ็ดครับ — sôm-tam mâi phèt khráp — Som tam yang tidak pedas, ya.",,thai kosakata makanan tahap4
+แกง,"gulai, kari",kaeng,kaeng,nomina · klasifikator: ถ้วย · RTGS: kaeng,แกงนี้เผ็ดมาก — kaeng níi phèt mâak — Gulai ini sangat pedas.,,thai kosakata makanan tahap5
+ก๋วยเตี๋ยว,"mi kuah, kuetiau",kǔai-tǐao,kuaitiao,nomina · klasifikator: ชาม · RTGS: kuaitiao,ขอก๋วยเตี๋ยวหนึ่งชาม — khǎaw kǔai-tǐao nùeng chaam — Minta satu mangkuk mi kuah.,Salah satu dari sedikit kata yang memakai mai chattawa dua kali.,thai kosakata makanan tahap4
+ข้าวเหนียว,ketan,khâao-nǐao,khaoniao,nomina · RTGS: khaoniao,ข้าวเหนียวอร่อยมาก — khâao-nǐao à-ràawi mâak — Ketannya sangat enak.,,thai kosakata makanan tahap5
+น้ำแข็ง,es,náam-khǎeng,namkhaeng,nomina · RTGS: namkhaeng,"ไม่ใส่น้ำแข็งครับ — mâi sài náam-khǎeng khráp — Tanpa es, ya.",,thai kosakata makanan tahap4
+ช้อน,sendok,cháawn,chon,nomina · klasifikator: คัน · RTGS: chon,ขอช้อนหน่อยครับ — khǎaw cháawn nàawi khráp — Minta sendok.,,thai kosakata benda tahap4
+จาน,piring,jaan,chan,nomina · klasifikator: ใบ · RTGS: chan,ข้าวผัดหนึ่งจาน — khâao-phàt nùeng jaan — satu piring nasi goreng,,thai kosakata benda tahap4
+ถ้วย,"mangkuk kecil, cangkir",thûai,thuai,nomina · klasifikator: ใบ · RTGS: thuai,ซุปหนึ่งถ้วย — súp nùeng thûai — satu mangkuk sup,,thai kosakata benda tahap5
+ปู่,kakek (dari ayah),pùu,pu,nomina · klasifikator: คน · RTGS: pu,ปู่อยู่ที่หมู่บ้าน — pùu yùu thîi mùu-bâan — Kakek tinggal di kampung.,"Bahasa Thailand membedakan kakek-nenek dari pihak ayah (ปู่, ย่า) dan dari pihak ibu (ตา, ยาย).",thai kosakata keluarga tahap5
+ย่า,nenek (dari ayah),yâa,ya,nomina · klasifikator: คน · RTGS: ya,ย่าทำอาหารเก่ง — yâa tham aa-hǎan kèng — Nenek pandai memasak.,,thai kosakata keluarga tahap5
+ยาย,nenek (dari ibu),yaai,yai,nomina · klasifikator: คน · RTGS: yai,ยายอายุแปดสิบ — yaai aa-yú pàet-sìp — Nenek berusia delapan puluh tahun.,,thai kosakata keluarga tahap5
+ลุง,paman (lebih tua dari orang tua),lung,lung,nomina · klasifikator: คน · RTGS: lung,ลุงเป็นหมอ — lung pen mǎaw — Paman seorang dokter.,,thai kosakata keluarga tahap5
+ป้า,bibi (lebih tua dari orang tua),pâa,pa,nomina · klasifikator: คน · RTGS: pa,ป้าขายของที่ตลาด — pâa khǎai khǎawng thîi tà-làat — Bibi berjualan di pasar.,"ป้า juga dipakai menyapa perempuan paruh baya yang tidak dikenal, seperti 'Bu' dalam bahasa Indonesia.",thai kosakata keluarga tahap5
+น้า,om atau tante (adik ibu),náa,na,nomina · klasifikator: คน · RTGS: na,น้าอยู่กรุงเทพ — náa yùu krung-thêep — Om tinggal di Bangkok.,,thai kosakata keluarga tahap6
+อา,om atau tante (adik ayah),aa,a,nomina · klasifikator: คน · RTGS: a,อามาหาผม — aa maa hǎa phǒm — Om datang menemui saya.,,thai kosakata keluarga tahap6
+แฟน,pacar; pasangan,faen,faen,nomina · klasifikator: คน · RTGS: faen,แฟนผมเป็นคนไทย — faen phǒm pen khon thai — Pacar saya orang Thai.,"Serapan dari bahasa Inggris 'fan'. Dipakai untuk pacar maupun suami-istri, tanpa membedakan jenis kelamin.",thai kosakata orang tahap4
+เพื่อนบ้าน,tetangga,phûean-bâan,phueanban,nomina · klasifikator: คน · RTGS: phueanban,เพื่อนบ้านใจดีมาก — phûean-bâan jai-dii mâak — Tetangganya sangat baik hati.,,thai kosakata orang tahap6
+พนักงาน,"karyawan, petugas",phá-nák-ngaan,phanakngan,nomina · klasifikator: คน · RTGS: phanakngan,พนักงานใจดี — phá-nák-ngaan jai-dii — Petugasnya ramah.,,thai kosakata orang tahap6
+พ่อค้า,pedagang (lelaki),phâaw-kháa,phokha,nomina · klasifikator: คน · RTGS: phokha,พ่อค้าขายของที่ตลาด — phâaw-kháa khǎai khǎawng thîi tà-làat — Pedagang itu berjualan di pasar.,"Pasangannya แม่ค้า (mâe-kháa) untuk pedagang perempuan, dan itulah yang lebih sering terdengar di pasar.",thai kosakata orang tahap6
+เจ้าของ,pemilik,jâo-khǎawng,chaokhong,nomina · klasifikator: คน · RTGS: chaokhong,เจ้าของร้านอยู่ไหน — jâo-khǎawng ráan yùu nǎi — Di mana pemilik tokonya?,,thai kosakata orang tahap6
+ขา,kaki (tungkai),khǎa,kha,nomina · klasifikator: ข้าง · RTGS: kha,ขาผมเจ็บ — khǎa phǒm jèp — Kaki saya sakit.,ขา adalah tungkai dari pinggul sampai pergelangan; เท้า adalah telapak kakinya.,thai kosakata tubuh tahap4
+แขน,lengan,khǎen,khaen,nomina · klasifikator: ข้าง · RTGS: khaen,แขนซ้ายเจ็บ — khǎen sáai jèp — Lengan kiri saya sakit.,,thai kosakata tubuh tahap5
+นิ้ว,jari,níu,niu,nomina · klasifikator: นิ้ว · RTGS: niu,นิ้วมือเจ็บ — níu muue jèp — Jari tangan saya sakit.,,thai kosakata tubuh tahap6
+หู,telinga,hǔu,hu,nomina · klasifikator: ข้าง · RTGS: hu,หูผมไม่ดี — hǔu phǒm mâi dii — Pendengaran saya kurang baik.,,thai kosakata tubuh tahap5
+จมูก,hidung,jà-mùuk,chamuk,nomina · RTGS: chamuk,จมูกไม่ดี — jà-mùuk mâi dii — Hidung saya sedang tidak enak.,Contoh aksara nam dengan pemimpin จ berkelas tengah.,thai kosakata tubuh tahap6
+ฟัน,gigi,fan,fan,nomina · klasifikator: ซี่ · RTGS: fan,ผมปวดฟัน — phǒm pùat fan — Gigi saya sakit.,,thai kosakata tubuh tahap4
+เลือด,darah,lûeat,lueat,nomina · RTGS: lueat,มีเลือดออก — mii lûeat àawk — Ada darah keluar.,,thai kosakata tubuh tahap6
+ไข้,demam,khâi,khai,nomina · RTGS: khai,ผมเป็นไข้ — phǒm pen khâi — Saya demam.,"Untuk penyakit dipakai เป็น: เป็นไข้ ('demam'), เป็นหวัด ('pilek').",thai kosakata tubuh tahap5
+ปวด,"nyeri, sakit berdenyut",pùat,puat,sifat · RTGS: puat,ผมปวดหัวมาก — phǒm pùat hǔa mâak — Kepala saya sangat sakit.,"Tiga kata 'sakit': ปวด (berdenyut di dalam), เจ็บ (nyeri karena luka), ป่วย (berpenyakit).",thai kosakata tubuh tahap4
+แพ้,alergi; kalah,pháe,phae,verba · RTGS: phae,ผมแพ้อาหารทะเล — phǒm pháe aa-hǎan thá-lee — Saya alergi makanan laut.,,thai kosakata tubuh tahap5
+หวัด,"pilek, flu ringan",wàt,wat,nomina · RTGS: wat,ผมเป็นหวัด — phǒm pen wàt — Saya sedang pilek.,,thai kosakata tubuh tahap6
+หาย,sembuh; hilang,hǎai,hai,verba · RTGS: hai,หายแล้วครับ — hǎai láeo khráp — Sudah sembuh.,Satu kata untuk dua hal yang berbeda: penyakit yang sembuh dan barang yang hilang.,thai kosakata tubuh tahap5
+สี,warna,sǐi,si,nomina · klasifikator: สี · RTGS: si,สีอะไรครับ — sǐi à-rai khráp — Warna apa?,"Perhatikan bedanya dengan สี่ (sìi, 'empat') yang hanya berbeda nada.",thai kosakata benda tahap4
+แดง,merah,daeng,daeng,sifat · RTGS: daeng,เสื้อสีแดงสวย — sûea sǐi-daeng sǔai — Baju merah itu bagus.,Nama warna dipakai bersama สี: สีแดง ('warna merah').,thai kosakata benda tahap4
+ขาว,putih,khǎao,khao,sifat · RTGS: khao,ผมชอบสีขาว — phǒm châawp sǐi-khǎao — Saya suka warna putih.,,thai kosakata benda tahap4
+ดำ,hitam,dam,dam,sifat · RTGS: dam,กระเป๋าสีดำ — krà-pǎo sǐi-dam — tas hitam,,thai kosakata benda tahap4
+เขียว,hijau,khǐao,khiao,sifat · RTGS: khiao,ผักสีเขียว — phàk sǐi-khǐao — sayur hijau,,thai kosakata benda tahap5
+เหลือง,kuning,lǔeang,lueang,sifat · RTGS: lueang,ดอกไม้สีเหลือง — dàawk-máai sǐi-lǔeang — bunga kuning,,thai kosakata benda tahap5
+ฟ้า,biru muda; langit,fáa,fa,sifat · RTGS: fa,ท้องฟ้าสวยมาก — tháawng-fáa sǔai mâak — Langitnya sangat indah.,Satu kata untuk 'langit' dan untuk warnanya. Untuk biru tua dipakai สีน้ำเงิน.,thai kosakata alam tahap5
+หมา,anjing,mǎa,ma,nomina · klasifikator: ตัว · RTGS: ma,หมาตัวนี้น่ารัก — mǎa tua níi nâa-rák — Anjing ini menggemaskan.,Bentuk yang lebih halus สุนัข (sù-nák) dipakai pada tulisan resmi.,thai kosakata alam tahap3
+แมว,kucing,maeo,maeo,nomina · klasifikator: ตัว · RTGS: maeo,แมวอยู่บนเตียง — maeo yùu bon tiang — Kucingnya ada di atas tempat tidur.,,thai kosakata alam tahap3
+นก,burung,nók,nok,nomina · klasifikator: ตัว · RTGS: nok,นกบินสูงมาก — nók bin sǔung mâak — Burung itu terbang sangat tinggi.,,thai kosakata alam tahap3
+ช้าง,gajah,cháang,chang,nomina · klasifikator: ตัว · RTGS: chang,ช้างเป็นสัตว์ใหญ่ — cháang pen sàt yài — Gajah adalah hewan besar.,"Gajah adalah lambang Thailand sejak lama, dan namanya muncul pada huruf ช ช้าง.",thai kosakata alam tahap4
+ลิง,"kera, monyet",ling,ling,nomina · klasifikator: ตัว · RTGS: ling,ลิงกินกล้วย — ling kin klûai — Kera itu makan pisang.,,thai kosakata alam tahap5
+วัว,sapi,wua,wua,nomina · klasifikator: ตัว · RTGS: wua,เนื้อวัวแพงกว่าหมู — núea wua phaeng kwàa mǔu — Daging sapi lebih mahal daripada daging babi.,,thai kosakata alam tahap5
+ควาย,kerbau,khwaai,khwai,nomina · klasifikator: ตัว · RTGS: khwai,ควายอยู่ในนา — khwaai yùu nai naa — Kerbau itu ada di sawah.,Muncul pada nama huruf ค ควาย.,thai kosakata alam tahap6
+งู,ular,nguu,ngu,nomina · klasifikator: ตัว · RTGS: ngu,ระวังงู — rá-wang nguu — Awas ular.,Muncul pada nama huruf ง งู.,thai kosakata alam tahap5
+ยุง,nyamuk,yung,yung,nomina · klasifikator: ตัว · RTGS: yung,ยุงเยอะมาก — yung yóe mâak — Nyamuknya banyak sekali.,,thai kosakata alam tahap5
+ต้นไม้,pohon,tôn-máai,tonmai,nomina · klasifikator: ต้น · RTGS: tonmai,ต้นไม้ต้นนี้ใหญ่ — tôn-máai tôn níi yài — Pohon ini besar.,,thai kosakata alam tahap4
+ดอกไม้,bunga,dàawk-máai,dokmai,nomina · klasifikator: ดอก · RTGS: dokmai,ดอกไม้สวยมาก — dàawk-máai sǔai mâak — Bunganya sangat indah.,,thai kosakata alam tahap4
+ใบไม้,daun,bai-máai,baimai,nomina · klasifikator: ใบ · RTGS: baimai,ใบไม้สีเขียว — bai-máai sǐi-khǐao — Daunnya hijau.,Muncul pada nama huruf บ ใบไม้.,thai kosakata alam tahap5
+ดิน,tanah,din,din,nomina · RTGS: din,ดินที่นี่ดี — din thîi-nîi dii — Tanah di sini bagus.,,thai kosakata alam tahap5
+หิน,batu,hǐn,hin,nomina · klasifikator: ก้อน · RTGS: hin,หินก้อนนี้หนัก — hǐn kâawn níi nàk — Batu ini berat.,,thai kosakata alam tahap6
+เมฆ,awan,mêek,mek,nomina · klasifikator: ก้อน · RTGS: mek,เมฆเยอะวันนี้ — mêek yóe wan-níi — Hari ini banyak awan.,Salah satu dari sedikit kata sehari-hari yang memakai huruf ฆ.,thai kosakata alam tahap6
+ดาว,bintang,daao,dao,nomina · klasifikator: ดวง · RTGS: dao,ดาวสวยมาก — daao sǔai mâak — Bintangnya indah sekali.,,thai kosakata alam tahap6
+นา,sawah,naa,na,nomina · RTGS: na,ชาวนาทำนา — chaao-naa tham naa — Petani menggarap sawah.,ชาวนา berarti 'petani sawah'; ชาว adalah awalan untuk penduduk atau pelaku.,thai kosakata alam tahap6
+ห้องเรียน,ruang kelas,hâawng-rian,hongrian,nomina · klasifikator: ห้อง · RTGS: hongrian,ห้องเรียนอยู่ชั้นสอง — hâawng-rian yùu chán sǎawng — Ruang kelasnya di lantai dua.,ชั้น (chán) berarti 'lantai' atau 'tingkat'.,thai kosakata tempat tahap4
+การบ้าน,pekerjaan rumah,kaan-bâan,kanban,nomina · RTGS: kanban,ผมทำการบ้านแล้ว — phǒm tham kaan-bâan láeo — Saya sudah mengerjakan PR.,"การ adalah awalan pembentuk kata benda dari kata kerja, mirip 'pe-an' dalam bahasa Indonesia.",thai kosakata benda tahap5
+สอบ,ujian; menguji,sàawp,sop,nomina · RTGS: sop,พรุ่งนี้มีสอบ — phrûng-níi mii sàawp — Besok ada ujian.,,thai kosakata benda tahap5
+สมุด,buku tulis,sà-mùt,samut,nomina · klasifikator: เล่ม · RTGS: samut,ขอสมุดเล่มหนึ่ง — khǎaw sà-mùt lêm nùeng — Minta satu buku tulis.,"Contoh aksara nam: ส memimpin มุด sehingga bernada rendah, bukan tinggi.",thai kosakata benda tahap5
+ดินสอ,pensil,din-sǎaw,dinso,nomina · klasifikator: แท่ง · RTGS: dinso,ดินสอแท่งนี้สั้น — din-sǎaw thâeng níi sân — Pensil ini pendek.,,thai kosakata benda tahap5
+ชั้น,"lantai, tingkat",chán,chan,nomina · klasifikator: ชั้น · RTGS: chan,ห้องผมอยู่ชั้นสาม — hâawng phǒm yùu chán sǎam — Kamar saya di lantai tiga.,,thai kosakata tempat tahap5
+ตั๋ว,"karcis, tiket",tǔa,tua,nomina · klasifikator: ใบ · RTGS: tua,ซื้อตั๋วที่ไหนครับ — súue tǔa thîi-nǎi khráp — Beli tiketnya di mana?,Salah satu dari sedikit kata sehari-hari yang memakai mai chattawa.,thai kosakata jalan tahap5
+ป้าย,papan nama; halte,pâai,pai,nomina · klasifikator: ป้าย · RTGS: pai,ลงที่ป้ายหน้า — long thîi pâai nâa — Turun di halte berikutnya.,"หน้า di sini berarti 'berikutnya', bukan 'depan'.",thai kosakata jalan tahap5
+ซอย,gang,saawi,soi,nomina · klasifikator: ซอย · RTGS: soi,บ้านอยู่ในซอย — bâan yùu nai saawi — Rumahnya ada di dalam gang.,"Alamat di Thailand hampir selalu memuat nomor ซอย, misalnya สุขุมวิท ซอย 11.",thai kosakata jalan tahap5
+ทาง,"jalan, arah",thaang,thang,nomina · RTGS: thang,ทางนี้ไปตลาด — thaang níi pai tà-làat — Jalan ini menuju pasar.,,thai kosakata jalan tahap4
+ที่นั่ง,tempat duduk,thîi-nâng,thinang,nomina · klasifikator: ที่ · RTGS: thinang,มีที่นั่งไหมครับ — mii thîi-nâng mǎi khráp — Ada tempat duduk?,,thai kosakata jalan tahap5
+รถตู้,minibus,rót-tûu,rottu,nomina · klasifikator: คัน · RTGS: rottu,ผมไปรถตู้ — phǒm pai rót-tûu — Saya pergi naik minibus.,,thai kosakata jalan tahap6
+น้ำมัน,minyak; bensin,náam-man,namman,nomina · RTGS: namman,เติมน้ำมันก่อน — tooem náam-man kàawn — Isi bensin dulu.,"เติม (tooem) berarti 'menambah, mengisi'.",thai kosakata benda tahap5
+เงินสด,uang tunai,ngooen-sòt,ngoenso,nomina · RTGS: ngoenso,จ่ายเงินสดได้ไหม — jàai ngooen-sòt dâi mǎi — Bisa bayar tunai?,,thai kosakata uang tahap5
+ยืน,berdiri,yuuen,yuen,verba · RTGS: yuen,เขายืนรออยู่ — khǎo yuuen raaw yùu — Dia sedang berdiri menunggu.,,thai kosakata kerja tahap5
+ล้าง,mencuci (benda),láang,lang,verba · RTGS: lang,ล้างมือก่อนกิน — láang muue kàawn kin — Cuci tangan sebelum makan.,,thai kosakata kerja tahap4
+ซัก,mencuci (pakaian),sák,sak,verba · RTGS: sak,ซักเสื้อผ้าวันนี้ — sák sûea-phâa wan-níi — Mencuci pakaian hari ini.,เสื้อผ้า (sûea-phâa) berarti 'pakaian' secara umum.,thai kosakata kerja tahap6
+ปลูก,menanam,plùuk,pluk,verba · RTGS: pluk,ปลูกต้นไม้หน้าบ้าน — plùuk tôn-máai nâa bâan — Menanam pohon di depan rumah.,,thai kosakata kerja tahap6
+เลี้ยง,memelihara; mentraktir,líang,liang,verba · RTGS: liang,ผมเลี้ยงแมวสองตัว — phǒm líang maeo sǎawng tua — Saya memelihara dua kucing.,Juga berarti 'mentraktir': วันนี้ผมเลี้ยง ('hari ini saya yang traktir').,thai kosakata kerja tahap5
+ร้องไห้,menangis,ráawng-hâi,ronghai,verba · RTGS: ronghai,เด็กร้องไห้ — dèk ráawng-hâi — Anak itu menangis.,,thai kosakata rasa tahap5
+หัวเราะ,tertawa,hǔa-ráw,huaro,verba · RTGS: huaro,เขาหัวเราะดัง — khǎo hǔa-ráw dang — Dia tertawa keras.,,thai kosakata rasa tahap5
+ยิ้ม,tersenyum,yím,yim,verba · RTGS: yim,คนไทยยิ้มบ่อย — khon thai yím bàawi — Orang Thai sering tersenyum.,,thai kosakata rasa tahap4
+โกรธ,marah,kròot,krot,sifat · RTGS: krot,"อย่าโกรธนะ — yàa kròot ná — Jangan marah, ya.",อย่า (yàa) berarti 'jangan'. Termasuk empat kata ber-อย.,thai kosakata rasa tahap5
+กลัว,takut,klua,klua,sifat · RTGS: klua,ผมกลัวหมา — phǒm klua mǎa — Saya takut anjing.,,thai kosakata rasa tahap4
+ตกใจ,terkejut,tòk-jai,tokchai,sifat · RTGS: tokchai,ผมตกใจมาก — phǒm tòk-jai mâak — Saya sangat terkejut.,,thai kosakata rasa tahap5
+เบื่อ,bosan,bùea,buea,sifat · RTGS: buea,ผมเบื่ออาหารนี้ — phǒm bùea aa-hǎan níi — Saya bosan dengan makanan ini.,,thai kosakata rasa tahap5
+อย่า,jangan,yàa,ya,keterangan · RTGS: ya,"อย่าลืมนะครับ — yàa luuem ná khráp — Jangan lupa, ya.","Salah satu dari empat kata ber-อย: อย่า, อยู่, อย่าง, อยาก.",thai kosakata keterangan tahap5
+อย่าง,cara; macam,yàang,yang,nomina · RTGS: yang,อย่างนี้ดีกว่า — yàang níi dii kwàa — Cara ini lebih baik.,,thai kosakata keterangan tahap5
+ทุกวัน,setiap hari,thúk-wan,thukwan,keterangan · RTGS: thukwan,ผมเรียนทุกวัน — phǒm rian thúk-wan — Saya belajar setiap hari.,,thai kosakata waktu tahap4
+ทุกคน,semua orang,thúk-khon,thukkhon,ganti · RTGS: thukkhon,ทุกคนมาแล้ว — thúk-khon maa láeo — Semua orang sudah datang.,,thai kosakata keterangan tahap5
+ปีนี้,tahun ini,pii-níi,pini,keterangan · RTGS: pini,ปีนี้ผมไปไทย — pii-níi phǒm pai thai — Tahun ini saya pergi ke Thailand.,,thai kosakata waktu tahap5
+สิบเอ็ด,sebelas,sìp-èt,sip-et,angka · RTGS: sip-et,สิบเอ็ดบาท — sìp-èt bàat — sebelas baht,"Angka satu berubah menjadi เอ็ด ketika menjadi satuan: 11, 21, 31, dan seterusnya.",thai kosakata angka tahap4
+สิบสอง,dua belas,sìp-sǎawng,sip song,angka · RTGS: sip song,สิบสองคน — sìp-sǎawng khon — dua belas orang,,thai kosakata angka tahap4
+สามสิบ,tiga puluh,sǎam-sìp,samsip,angka · RTGS: samsip,สามสิบบาท — sǎam-sìp bàat — tiga puluh baht,,thai kosakata angka tahap4
+ห้าสิบ,lima puluh,hâa-sìp,hasip,angka · RTGS: hasip,ห้าสิบบาทครับ — hâa-sìp bàat khráp — Lima puluh baht.,,thai kosakata angka tahap4
+แรก,pertama,râek,raek,sifat · RTGS: raek,ครั้งแรกที่มา — kráng râek thîi maa — pertama kali datang,,thai kosakata angka tahap6
+สุดท้าย,terakhir,sùt-tháai,sutthai,sifat · RTGS: sutthai,วันสุดท้ายแล้ว — wan sùt-tháai láeo — Sudah hari terakhir.,,thai kosakata angka tahap6
+ทำอาหาร,memasak,tham aa-hǎan,tham ahan,verba · RTGS: tham ahan,แม่ทำอาหารเก่ง — mâe tham aa-hǎan kèng — Ibu pandai memasak.,,thai kosakata kerja tahap4
+ซื้อของ,berbelanja,súue-khǎawng,suekhong,verba · RTGS: suekhong,ไปซื้อของที่ห้าง — pai súue-khǎawng thîi hâang — Pergi berbelanja di mal.,,thai kosakata uang tahap4
+ดูหนัง,menonton film,duu nǎng,du nang,verba · RTGS: du nang,"คืนนี้ไปดูหนังกัน — khuuen níi pai duu nǎng kan — Malam ini kita nonton film, yuk.",,thai kosakata kerja tahap4
+เที่ยว,"bertamasya, jalan-jalan",thîao,thiao,verba · RTGS: thiao,ผมมาเที่ยวไทย — phǒm maa thîao thai — Saya datang berwisata ke Thailand.,ไปเที่ยว adalah kata yang paling sering dipakai untuk 'jalan-jalan' maupun 'berlibur'.,thai kosakata jalan tahap4
+พักผ่อน,beristirahat,phák-phàawn,phakphon,verba · RTGS: phakphon,วันนี้ผมพักผ่อน — wan-níi phǒm phák-phàawn — Hari ini saya beristirahat.,,thai kosakata kerja tahap5
+ประชุม,rapat,prà-chum,prachum,nomina · RTGS: prachum,ผมมีประชุมบ่ายนี้ — phǒm mii prà-chum bàai níi — Saya ada rapat siang ini.,,thai kosakata kerja tahap6
+นัด,janji temu; membuat janji,nát,nat,nomina · RTGS: nat,ผมมีนัดตอนเย็น — phǒm mii nát taawn-yen — Saya ada janji sore ini.,,thai kosakata waktu tahap5
+รู้จัก,mengenal,rúu-jàk,ruchak,verba · RTGS: ruchak,ผมรู้จักเขา — phǒm rúu-jàk khǎo — Saya mengenal dia.,รู้ saja berarti 'tahu' tentang sesuatu; untuk mengenal orang dipakai รู้จัก.,thai kosakata kerja tahap4
+ต้องการ,memerlukan,tâawng-kaan,tongkan,verba · RTGS: tongkan,ผมต้องการห้องเงียบ — phǒm tâawng-kaan hâawng ngîap — Saya memerlukan kamar yang sunyi.,Lebih resmi daripada อยาก; dipakai pada tulisan dan percakapan dengan orang yang baru dikenal.,thai kosakata keterangan tahap6
+รีบ,buru-buru,rîip,rip,verba · RTGS: rip,ผมต้องรีบไป — phǒm tâawng rîip pai — Saya harus buru-buru pergi.,,thai kosakata kerja tahap5
+ทัน,"keburu, sempat",than,than,verba · RTGS: than,ไปไม่ทันแล้ว — pai mâi than láeo — Sudah tidak keburu pergi.,,thai kosakata waktu tahap5
+สาย,terlambat; jalur,sǎai,sai,sifat · RTGS: sai,ผมมาสายครับ — phǒm maa sǎai khráp — Saya datang terlambat.,Kata yang sama berarti 'jalur' untuk bus dan kereta: รถสายนี้ ('bus jalur ini').,thai kosakata waktu tahap5
+พิเศษ,istimewa,phí-sèet,phiset,sifat · RTGS: phiset,ราคาพิเศษวันนี้ — raa-khaa phí-sèet wan-níi — Harga istimewa hari ini.,"Di warung mi, พิเศษ berarti porsi besar.",thai kosakata sifat tahap6
+แน่นอน,"pasti, tentu saja",nâe-naawn,naenon,keterangan · RTGS: naenon,แน่นอนครับ — nâe-naawn khráp — Tentu saja.,,thai kosakata keterangan tahap5
+บางที,mungkin,baang-thii,bangthi,keterangan · RTGS: bangthi,บางทีเขาไม่มา — baang-thii khǎo mâi maa — Mungkin dia tidak datang.,,thai kosakata keterangan tahap5
+ถูกต้อง,"benar, tepat",thùuk-tâawng,thuktong,sifat · RTGS: thuktong,คำตอบถูกต้อง — kham-tàawp thùuk-tâawng — Jawabannya benar.,คำตอบ berarti 'jawaban'; คำ adalah 'kata'.,thai kosakata sifat tahap5
+ผิด,salah,phìt,phit,sifat · RTGS: phit,ผมพูดผิด — phǒm phûut phìt — Saya salah bicara.,,thai kosakata sifat tahap4
+แรง,"kuat, keras (tenaga)",raeng,raeng,sifat · RTGS: raeng,ลมแรงมาก — lom raeng mâak — Anginnya sangat kencang.,,thai kosakata sifat tahap6
+ตื่นเต้น,gembira; gugup,tùuen-tên,tuenten,sifat · RTGS: tuenten,ผมตื่นเต้นมาก — phǒm tùuen-tên mâak — Saya sangat gembira.,,thai kosakata rasa tahap6
+สนใจ,"tertarik, berminat",sǒn-jai,sonchai,verba · RTGS: sonchai,ผมสนใจภาษาไทย — phǒm sǒn-jai phaa-sǎa thai — Saya tertarik pada bahasa Thai.,,thai kosakata rasa tahap5
+กำลัง,sedang (berlangsung),kam-lang,kamlang,partikel · RTGS: kamlang,ผมกำลังกินข้าว — phǒm kam-lang kin khâao — Saya sedang makan.,"Diletakkan sebelum kata kerja, dan sering dipasangkan dengan อยู่ di akhir kalimat.",thai kosakata keterangan tahap4
+เรื่อง,"hal, perkara, cerita",rûeang,rueang,nomina · klasifikator: เรื่อง · RTGS: rueang,เรื่องนี้สำคัญ — rûeang níi sǎm-khan — Hal ini penting.,Juga menjadi klasifikator untuk film dan cerita: หนังเรื่องนี้.,thai kosakata benda tahap5
+ปัญหา,masalah,pan-hǎa,panha,nomina · RTGS: panha,ไม่มีปัญหาครับ — mâi mii pan-hǎa khráp — Tidak ada masalah.,,thai kosakata benda tahap6
+ข่าว,berita,khàao,khao,nomina · klasifikator: ข่าว · RTGS: khao,ผมดูข่าวทุกวัน — phǒm duu khàao thúk-wan — Saya menonton berita setiap hari.,"Bandingkan ข้าว (khâao, 'nasi') dan ขาว (khǎao, 'putih') yang hanya berbeda nada.",thai kosakata benda tahap5
+คำ,kata,kham,kham,nomina · klasifikator: คำ · RTGS: kham,คำนี้แปลว่าอะไร — kham níi plae wâa à-rai — Kata ini artinya apa?,แปล (plae) berarti 'menerjemahkan'; แปลว่า berarti 'artinya'.,thai kosakata benda tahap5
+แปล,menerjemahkan,plae,plae,verba · RTGS: plae,ช่วยแปลให้หน่อย — chûai plae hâi nàawi — Tolong terjemahkan untuk saya.,,thai kosakata kerja tahap5
+หน่อย,sedikit; dong (pelembut permintaan),nàawi,noi,partikel · RTGS: noi,"ขอน้ำหน่อยครับ — khǎaw náam nàawi khráp — Minta air sedikit, dong.",Ditambahkan pada permintaan supaya tidak terdengar seperti perintah. Sangat sering dipakai.,thai kosakata partikel tahap3
+ว่า,bahwa; berkata,wâa,wa,sambung · RTGS: wa,ผมคิดว่าใช่ — phǒm khít wâa châi — Saya rasa memang begitu.,"Menghubungkan kata kerja berpikir atau berkata dengan isinya: คิดว่า, บอกว่า, พูดว่า.",thai kosakata keterangan tahap5
+ใน,di dalam,nai,nai,depan · RTGS: nai,ของอยู่ในกระเป๋า — khǎawng yùu nai krà-pǎo — Barangnya ada di dalam tas.,Termasuk daftar kata ber-ใ yang ejaannya perlu dihafal.,thai kosakata arah tahap3
+บน,di atas,bon,bon,depan · RTGS: bon,หนังสืออยู่บนโต๊ะ — nǎng-sǔue yùu bon tó — Bukunya ada di atas meja.,,thai kosakata arah tahap3
+ใต้,di bawah,tâai,tai,depan · RTGS: tai,แมวอยู่ใต้เตียง — maeo yùu tâai tiang — Kucingnya ada di bawah tempat tidur.,,thai kosakata arah tahap4
+ข้าง,"sisi, sebelah",khâang,khang,nomina · RTGS: khang,ร้านอยู่ข้างธนาคาร — ráan yùu khâang thá-naa-khaan — Tokonya di sebelah bank.,"Membentuk banyak kata arah: ข้างใน, ข้างนอก, ข้างบน, ข้างล่าง, ข้างหลัง.",thai kosakata arah tahap4
+นอก,luar,nâawk,nok,nomina · RTGS: nok,"รอข้างนอกนะครับ — raaw khâang-nâawk ná khráp — Tunggu di luar, ya.",,thai kosakata arah tahap5
+ล่าง,bawah,lâang,lang,nomina · RTGS: lang,ห้องน้ำอยู่ข้างล่าง — hâawng-náam yùu khâang-lâang — Toiletnya ada di bawah.,,thai kosakata arah tahap5
+ระวัง,"hati-hati, awas",rá-wang,rawang,verba · RTGS: rawang,"ระวังรถครับ — rá-wang rót khráp — Hati-hati, ada mobil.",,thai kosakata keterangan tahap5
+ชื่อเล่น,nama panggilan,chûue-lên,chuelen,nomina · RTGS: chuelen,ชื่อเล่นผมคือหนึ่ง — chûue-lên phǒm khuue nùeng — Nama panggilan saya Nueng.,"Hampir setiap orang Thai punya nama panggilan pendek, dan itulah yang dipakai sehari-hari.",thai kosakata orang tahap5
+นามสกุล,nama keluarga,naam-sà-kun,namsakun,nomina · RTGS: namsakun,นามสกุลยาวมาก — naam-sà-kun yaao mâak — Nama keluarganya sangat panjang.,,thai kosakata orang tahap6
+อายุ,usia,aa-yú,ayu,nomina · RTGS: ayu,คุณอายุเท่าไหร่ — khun aa-yú thâo-rài — Berapa usia Anda?,,thai kosakata orang tahap4
+ที่อยู่,alamat,thîi-yùu,thiyu,nomina · RTGS: thiyu,ขอที่อยู่หน่อยครับ — khǎaw thîi-yùu nàawi khráp — Boleh minta alamatnya?,,thai kosakata tempat tahap5
+เข้า,masuk,khâo,khao,verba · RTGS: khao,เชิญเข้ามาครับ — chooen khâo maa khráp — Silakan masuk.,เชิญ (chooen) berarti 'silakan'.,thai kosakata kerja tahap3
+ออก,keluar,àawk,ok,verba · RTGS: ok,ออกไปข้างนอก — àawk pai khâang-nâawk — Keluar ke luar.,,thai kosakata kerja tahap3
+ตก,"jatuh, turun",tòk,tok,verba · RTGS: tok,ฝนตกทุกวัน — fǒn tòk thúk-wan — Hujan turun setiap hari.,ฝนตก ('hujan jatuh') adalah cara biasa mengatakan 'hujan'.,thai kosakata kerja tahap3
+ไหว,"sanggup, tahan",wǎi,wai,verba · RTGS: wai,เดินไม่ไหวแล้ว — dooen mâi wǎi láeo — Sudah tidak sanggup berjalan.,"Salah satu dari tiga kata 'bisa': ได้ (mungkin atau boleh), เป็น (keterampilan), ไหว (daya tahan).",thai kosakata kerja tahap6
+ทราบ,tahu (ragam halus),sâap,sap,verba · RTGS: sap,ไม่ทราบครับ — mâi sâap khráp — Saya tidak tahu. (halus),"Perhatikan ejaannya: ทร di awal kata dibaca s, bukan thr. Dipakai pada ragam sopan, menggantikan รู้.",thai kosakata kerja tahap6
+พา,"membawa (orang), mengantar",phaa,pha,verba · RTGS: pha,ผมพาเพื่อนมา — phǒm phaa phûean maa — Saya mengajak teman datang.,พา untuk membawa orang; เอา untuk membawa barang.,thai kosakata kerja tahap5
+บิน,terbang,bin,bin,verba · RTGS: bin,เครื่องบินบินสูง — khrûeang-bin bin sǔung — Pesawatnya terbang tinggi.,,thai kosakata jalan tahap5
+โทร,menelepon,thoo,tho,verba · RTGS: tho,ผมจะโทรหาคุณ — phǒm jà thoo hǎa khun — Saya akan menelepon Anda.,"Pemendekan dari โทรศัพท์. Huruf ร di sini tidak dibunyikan, sehingga terbaca thoo.",thai kosakata kerja tahap5
+เชิญ,"silakan, mempersilakan",chooen,choen,verba · RTGS: choen,เชิญนั่งครับ — chooen nâng khráp — Silakan duduk.,,thai kosakata sapaan tahap5
+ชื่น,"senang, segar (hati)",chûuen,chuen,sifat · RTGS: chuen,ยินดีและชื่นใจ — yin-dii láe chûuen-jai — Senang dan lega hati.,"ชื่นใจ berarti 'lega dan menyenangkan hati', sering dipakai untuk minuman yang menyegarkan.",thai kosakata rasa tahap6
+นะ,"ya, dong (pelembut)",ná,na,partikel · RTGS: na,"ไม่เผ็ดนะครับ — mâi phèt ná khráp — Jangan pedas, ya.","Melembutkan permintaan atau mencari persetujuan. Tanpa นะ, kalimatnya terdengar seperti perintah.",thai kosakata partikel tahap3
+เลย,sama sekali; langsung,looei,loei,partikel · RTGS: loei,ไม่เผ็ดเลย — mâi phèt looei — Sama sekali tidak pedas.,Sesudah kalimat negatif berarti 'sama sekali'; sesudah kata kerja berarti 'langsung saja'.,thai kosakata keterangan tahap5
+อีก,"lagi, tambah",ìik,ik,keterangan · RTGS: ik,ขออีกแก้วหนึ่ง — khǎaw ìik kâeo nùeng — Minta satu gelas lagi.,,thai kosakata keterangan tahap4
+เยอะ,banyak (percakapan),yóe,yoe,keterangan · RTGS: yoe,คนเยอะมาก — khon yóe mâak — Orangnya banyak sekali.,เยอะ dipakai dalam percakapan; มาก dipakai untuk 'sangat' dan juga 'banyak'.,thai kosakata sifat tahap4
+ครั้ง,kali,kráng,khrang,klasifikator · RTGS: khrang,ผมมาครั้งแรก — phǒm maa kráng râek — Saya datang untuk pertama kali.,,thai kosakata waktu tahap4
+ละ,"per, setiap",lá,la,partikel · RTGS: la,วันละสองครั้ง — wan-lá sǎawng kráng — dua kali sehari,"Dipakai pada takaran: วันละ ('per hari'), คนละ ('per orang'), อันละ ('per buah').",thai kosakata keterangan tahap5
+เล่ม,klasifikator untuk buku,lêm,lem,klasifikator · RTGS: lem,หนังสือสามเล่ม — nǎng-sǔue sǎam lêm — tiga buku,,thai kosakata klasifikator tahap4
+คัน,klasifikator kendaraan beroda; gatal,khan,khan,klasifikator · RTGS: khan,รถสองคัน — rót sǎawng khan — dua mobil,Kata yang sama juga berarti 'gatal' dan menjadi klasifikator untuk sendok dan payung.,thai kosakata klasifikator tahap4
+ชิ้น,klasifikator potongan,chín,chin,klasifikator · RTGS: chin,ขนมสองชิ้น — khà-nǒm sǎawng chín — dua potong kue,,thai kosakata klasifikator tahap5
+ขวด,botol,khùat,khuat,klasifikator · RTGS: khuat,น้ำหนึ่งขวด — náam nùeng khùat — satu botol air,Muncul pada nama huruf ฃ ขวด yang sudah tidak dipakai.,thai kosakata klasifikator tahap4
+ถุง,"kantong, tas plastik",thǔng,thung,klasifikator · RTGS: thung,ขอถุงหนึ่งใบ — khǎaw thǔng nùeng bai — Minta satu kantong.,Muncul pada nama huruf ถ ถุง.,thai kosakata klasifikator tahap4
+กล่อง,"kotak, dus",klàawng,klong,klasifikator · RTGS: klong,นมหนึ่งกล่อง — nom nùeng klàawng — satu kotak susu,,thai kosakata klasifikator tahap5
+คู่,pasang; pasangan,khûu,khu,klasifikator · RTGS: khu,รองเท้าหนึ่งคู่ — raawng-tháo nùeng khûu — sepasang sepatu,,thai kosakata klasifikator tahap5
+ชาม,mangkuk; klasifikator untuk makanan berkuah,chaam,cham,klasifikator · RTGS: cham,ก๋วยเตี๋ยวสองชาม — kǔai-tǐao sǎawng chaam — dua mangkuk mi kuah,"Satu kata untuk bendanya sekaligus klasifikatornya: ชามใบนี้ ('mangkuk ini'), ก๋วยเตี๋ยวสองชาม ('dua mangkuk mi').",thai kosakata klasifikator tahap5
+แห่ง,klasifikator tempat,hàeng,haeng,klasifikator · RTGS: haeng,โรงแรมสองแห่ง — roong-raem sǎawng hàeng — dua hotel,,thai kosakata klasifikator tahap6
+ดวง,klasifikator benda bulat bercahaya,duang,duang,klasifikator · RTGS: duang,ดาวหนึ่งดวง — daao nùeng duang — satu bintang,"Dipakai untuk matahari, bulan, bintang, lampu, dan juga perangko.",thai kosakata klasifikator tahap6
+ก้อน,klasifikator benda bergumpal,kâawn,kon,klasifikator · RTGS: kon,น้ำแข็งสองก้อน — náam-khǎeng sǎawng kâawn — dua bongkah es,,thai kosakata klasifikator tahap6
+ต้น,klasifikator pohon; pangkal,tôn,ton,klasifikator · RTGS: ton,ต้นไม้สิบต้น — tôn-máai sìp tôn — sepuluh pohon,,thai kosakata klasifikator tahap5
+ดอก,klasifikator bunga dan kunci,dàawk,dok,klasifikator · RTGS: dok,ดอกไม้สามดอก — dàawk-máai sǎam dàawk — tiga kuntum bunga,,thai kosakata klasifikator tahap5
+เสื้อผ้า,pakaian,sûea-phâa,sueapha,nomina · RTGS: sueapha,ซักเสื้อผ้าแล้ว — sák sûea-phâa láeo — Pakaiannya sudah dicuci.,,thai kosakata benda tahap5
+เครื่องดื่ม,minuman,khrûeang-dùuem,khrueangduem,nomina · klasifikator: แก้ว · RTGS: khrueangduem,มีเครื่องดื่มอะไรบ้าง — mii khrûeang-dùuem à-rai bâang — Ada minuman apa saja?,บ้าง (bâang) ditambahkan pada pertanyaan yang jawabannya lebih dari satu.,thai kosakata makanan tahap5
+บ้าง,beberapa; apa saja,bâang,bang,keterangan · RTGS: bang,มีอะไรบ้างครับ — mii à-rai bâang khráp — Ada apa saja?,,thai kosakata keterangan tahap6

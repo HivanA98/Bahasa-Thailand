@@ -31,6 +31,10 @@ Tabel nada dengan tanda:
 Mai tri dan mai chattawa hampir hanya dipakai pada konsonan kelas tengah.
 Pada ejaan Thai baku keduanya tidak dipakai bersama konsonan kelas rendah.
 
+Modul ini mengenal tiga pola ejaan yang tidak dapat dibaca huruf per huruf:
+ห nam (หมา dibaca mǎa), อย pada empat kata (อยู่, อย่า, อย่าง, อยาก), dan
+ทร yang dibaca s (ทราบ dibaca sâap).
+
 Modul ini juga memuat pembaca suku kata: `parse_syllable` mencocokkan sebuah
 suku kata tertulis dengan daftar pola vokal di `VOWEL_PATTERNS`. Ejaan Thai
 kadang **bermakna ganda** bila dilihat dari polanya saja (ขวด bisa terbaca
@@ -63,6 +67,10 @@ from .thai import (
 
 PENDEK, PANJANG = "pendek", "panjang"
 HIDUP, MATI = "hidup", "mati"
+
+#: ทร di awal suku kata tidak dibaca thr, melainkan s: ทราบ (sâap, 'tahu'),
+#: ทราย (saai, 'pasir'). Kelasnya tetap mengikuti ท, yaitu kelas rendah.
+TR_DIGRAPH = "ทร"
 
 # ------------------------------------------------------------ pola vokal ---
 
@@ -145,7 +153,7 @@ VOWEL_PATTERNS: dict[str, dict] = {
 
 _CONS = "[ก-ฮ]"
 _INIT_ALTS = (
-    [f"ห[{''.join(H_LEADABLE)}]", O_LEAD]
+    [f"ห[{''.join(H_LEADABLE)}]", O_LEAD, TR_DIGRAPH]
     + list(TRUE_CLUSTERS)
     + [_CONS]
 )
@@ -201,6 +209,8 @@ def class_of_initial(initial: str) -> tuple[str, str]:
         return initial[0], HIGH
     if initial == O_LEAD:
         return "อ", MID
+    if initial == TR_DIGRAPH:
+        return "ท", LOW
     return initial[0], CLASS_OF[initial[0]]
 
 
@@ -369,6 +379,8 @@ def explain(s: Syllable) -> str:
         )
     elif s.initial == O_LEAD:
         awal = "อย berkelas tengah (hanya pada empat kata)"
+    elif s.initial == TR_DIGRAPH:
+        awal = "ทร dibaca s, kelasnya mengikuti ท yaitu kelas rendah"
     elif len(s.initial) == 2:
         awal = f"gugus {s.initial}, kelasnya mengikuti {s.consonant} yaitu kelas {s.cls}"
     else:
@@ -387,5 +399,5 @@ def explain(s: Syllable) -> str:
 __all__ = [
     "HIDUP", "MATI", "PANJANG", "PENDEK", "Syllable", "VOWEL_PATTERNS",
     "class_of_initial", "explain", "parse_syllable", "syllable_kind",
-    "tone_from_parts", "tone_of_syllable", "tones_of_syllable",
+    "TR_DIGRAPH", "tone_from_parts", "tone_of_syllable", "tones_of_syllable",
 ]

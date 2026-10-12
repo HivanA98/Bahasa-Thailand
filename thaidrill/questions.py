@@ -561,7 +561,7 @@ def cognate_question(c: dict) -> Question:
         mode="serumpun",
         kind="typed",
         stage=c["stage"],
-        question="Apa arti kata ini, dan kata Bahasa Indonesia apa yang seasal dengannya?",
+        question="Apa arti kata ini, dan kata bahasa Indonesia apa yang seasal dengannya?",
         stimulus_th=c["th"],
         phon=c["phon"],
         accepted=expand_accepted(c["gloss"]) + [c["id_word"]],

@@ -123,7 +123,7 @@ v121,ซ้าย,sáai,sai,kiri,,nomina,,arah,4,เลี้ยวซ้าย,
 v122,ขวา,khwǎa,khwa,kanan,,nomina,,arah,4,เลี้ยวขวา,líao khwǎa,Belok kanan.,"ขว adalah gugus konsonan sejati, jadi kelasnya diambil dari ข (kelas tinggi)."
 v123,ตรง,trong,trong,lurus; tepat di,lurus; langsung,sifat,,arah,4,ตรงไป,trong pai,Jalan terus (lurus).,"ตรงนี้ ('di sini'), ตรงนั้น ('di sana') dipakai untuk menunjuk tempat yang terlihat."
 v124,หน้า,nâa,na,depan; muka; halaman,muka; wajah; depan,nomina,,arah,4,ร้านอยู่หน้าโรงแรม,ráan yùu nâa roong-raem,Tokonya ada di depan hotel.,"Bunyinya sama dengan น่า (nâa, 'patut, layak') tetapi ejaannya berbeda. Juga berarti 'berikutnya': อาทิตย์หน้า ('pekan depan')."
-v125,หลัง,lǎng,lang,belakang; sesudah,belakang; punggung,nomina,,arah,4,ห้องน้ำอยู่หลังร้าน,hâawng-náam yùu lǎng ráan,Toiletnya ada di belakang toko.,Kata yang sama menjadi klasifikator untuk rumah: บ้านสองหลัง ('dua rumah').
+v125,หลัง,lǎng,lang,belakang; sesudah,belakang; punggung,nomina,,arah,4,ห้องน้ำอยู่หลังร้าน,hâawng-náam yùu lǎng ráan,Toiletnya ada di belakang toko.,"Satu kata dengan tiga tugas: 'belakang', 'sesudah', dan klasifikator untuk rumah serta bangunan (บ้านสองหลัง, 'dua rumah')."
 v126,รถ,rót,rot,"mobil, kendaraan",kendaraan; mobil,nomina,คัน,jalan,4,รถคันนี้เก่า,rót khan níi kào,Mobil ini tua.,"Awalan untuk banyak kendaraan: รถไฟ (kereta), รถเมล์ (bus kota), รถตู้ (minibus)."
 v127,รถไฟ,rót-fai,rotfai,kereta api,kereta,nomina,ขบวน,jalan,4,ผมไปด้วยรถไฟ,phǒm pai dûai rót-fai,Saya pergi dengan kereta.,"Harfiahnya 'kendaraan api', sepadan dengan 'kereta api'."
 v128,เรือ,ruea,ruea,"perahu, kapal",kapal; perahu,nomina,ลำ,jalan,4,ผมไปเรือ,phǒm pai ruea,Saya pergi dengan perahu.,
@@ -185,3 +185,319 @@ v179,ภาษา,phaa-sǎa,phasa,bahasa,,nomina,,bangsa,6,ภาษาไทย
 v180,ประเทศ,prà-thêet,prathet,negara,negeri,nomina,,bangsa,6,ประเทศไทยสวย,prà-thêet thai sǔai,Negeri Thailand indah.,ประเทศไทย adalah nama resmi Thailand. Seakar dengan 'pradesa' dalam Sanskerta.
 v181,ไทย,thai,thai,"Thai, Thailand",Thailand,nomina,,bangsa,6,คนไทยพูดภาษาไทย,khon thai phûut phaa-sǎa thai,Orang Thai berbahasa Thai.,"Dipakai untuk bangsa, bahasa, dan negaranya: คนไทย, ภาษาไทย, ประเทศไทย."
 v182,อินโดนีเซีย,in-doo-nii-sia,indonisia,Indonesia,,nomina,,bangsa,6,ผมเป็นคนอินโดนีเซีย,phǒm pen khon in-doo-nii-sia,Saya orang Indonesia.,"Nama negara diserap menurut bunyinya. Semua suku katanya bernada sedang, sehingga mudah diucapkan."
+v187,ให้,hâi,hai,memberi; supaya,kasih; beri,verba,,kerja,2,ให้ผมครับ,hâi phǒm khráp,Berikan kepada saya.,Juga dipakai untuk 'untuk saya': ช่วยเขียนให้ด้วย ('tolong tuliskan untuk saya').
+v188,บอก,bàawk,bok,memberitahu,bilang,verba,,kerja,3,บอกผมหน่อย,bàawk phǒm nàawi,Beri tahu saya sedikit.,
+v189,ถาม,thǎam,tham,bertanya,tanya,verba,,kerja,3,ผมขอถามครับ,phǒm khǎaw thǎam khráp,Saya mau bertanya.,
+v190,ตอบ,tàawp,top,menjawab,jawab,verba,,kerja,4,เขาไม่ตอบ,khǎo mâi tàawp,Dia tidak menjawab.,
+v191,ฟัง,fang,fang,mendengarkan,dengar,verba,,kerja,2,ผมชอบฟังเพลง,phǒm châawp fang phleeng,Saya suka mendengarkan lagu.,
+v192,ดู,duu,du,"melihat, menonton",nonton; lihat,verba,,kerja,2,ผมดูหนัง,phǒm duu nǎng,Saya menonton film.,
+v193,เห็น,hěn,hen,melihat (tertangkap mata),terlihat,verba,,kerja,3,ผมไม่เห็น,phǒm mâi hěn,Saya tidak melihatnya.,ดู adalah menonton dengan sengaja; เห็น adalah melihat karena tertangkap mata.
+v194,รอ,raaw,ro,menunggu,tunggu,verba,,kerja,3,รอที่นี่ครับ,raaw thîi-nîi khráp,Tunggu di sini.,
+v195,เริ่ม,rôoem,roem,mulai,memulai,verba,,kerja,5,เริ่มตอนเช้า,rôoem taawn-cháo,Mulai pada pagi hari.,
+v196,จบ,jòp,chop,"selesai, berakhir",tamat,verba,,kerja,5,งานจบแล้ว,ngaan jòp láeo,Pekerjaannya sudah selesai.,
+v197,ปิด,pìt,pit,"menutup, mematikan",tutup; matikan,verba,,kerja,3,ปิดประตูด้วย,pìt prà-tuu dûai,Tolong tutup pintunya.,
+v198,เปิด,pòoet,poet,"membuka, menyalakan",buka; nyalakan,verba,,kerja,3,ร้านเปิดกี่โมง,ráan pòoet kìi moong,Tokonya buka jam berapa?,
+v199,ส่ง,sòng,song,"mengirim, mengantar",kirim; antar,verba,,kerja,4,ส่งให้เพื่อน,sòng hâi phûean,Mengirimkannya untuk teman.,
+v200,รับ,ráp,rap,"menerima, menjemput",terima; jemput,verba,,kerja,3,รับอะไรดีครับ,ráp à-rai dii khráp,Mau pesan apa?,"Di warung dan restoran, รับอะไรดี adalah cara menanyakan pesanan."
+v201,ใช้,chái,chai,memakai,pakai; menggunakan,verba,,kerja,3,ผมใช้มือถือ,phǒm chái muue-thǔue,Saya memakai telepon genggam.,"Jangan dikacaukan dengan ใช่ (châi, 'ya, benar') yang hanya berbeda nada."
+v202,ทำงาน,tham-ngaan,thamngan,bekerja,kerja,verba,,kerja,3,ผมทำงานที่นี่,phǒm tham-ngaan thîi-nîi,Saya bekerja di sini.,
+v203,พัก,phák,phak,"beristirahat, menginap",istirahat,verba,,kerja,4,พักที่โรงแรม,phák thîi roong-raem,Menginap di hotel.,
+v204,วิ่ง,wîng,wing,berlari,lari,verba,,kerja,4,เด็กวิ่งเร็วมาก,dèk wîng reo mâak,Anak itu berlari sangat cepat.,
+v205,ขี่,khìi,khi,mengendarai (yang dinaiki),naik; mengendarai,verba,,kerja,5,ผมขี่ไม่เป็น,phǒm khìi mâi pen,Saya tidak bisa mengendarainya.,"ขี่ untuk yang dinaiki dengan kaki mengangkang (sepeda, motor, kuda); ขับ untuk yang disetir (mobil)."
+v206,ลืม,luuem,luem,lupa,melupakan,verba,,kerja,4,ผมลืมชื่อเขา,phǒm luuem chûue khǎo,Saya lupa namanya.,
+v207,จำ,jam,cham,mengingat,ingat; hafal,verba,,kerja,4,ผมจำไม่ได้,phǒm jam mâi dâi,Saya tidak bisa mengingatnya.,"จำได้ berarti 'ingat', จำไม่ได้ berarti 'lupa, tidak ingat'."
+v208,คิด,khít,khit,berpikir; menghitung,pikir; kira,verba,,kerja,4,ผมคิดว่าดี,phǒm khít wâa dii,Saya rasa itu bagus.,"คิดว่า berarti 'berpikir bahwa'. Di warung, คิดเงิน berarti 'menghitung tagihan'."
+v209,เข้าใจ,khâo-jai,khaochai,mengerti,paham,verba,,kerja,3,ผมไม่เข้าใจครับ,phǒm mâi khâo-jai khráp,Saya tidak mengerti.,Harfiahnya 'masuk hati'.
+v210,ตื่น,tùuen,tuen,bangun (dari tidur),terbangun,verba,,kerja,5,ผมตื่นหกโมง,phǒm tùuen hòk moong,Saya bangun jam enam.,
+v211,อาบน้ำ,àap-náam,apnam,mandi,,verba,,kerja,4,ผมอาบน้ำตอนเช้า,phǒm àap-náam taawn-cháo,Saya mandi pagi.,
+v212,ใส่,sài,sai,memakai (pakaian); memasukkan,pakai; masukkan,verba,,kerja,4,ไม่ใส่น้ำตาลครับ,mâi sài náam-taan khráp,"Tanpa gula, ya.",Sangat berguna saat memesan minuman: ไม่ใส่น้ำแข็ง ('tanpa es').
+v213,เดินทาง,dooen-thaang,doenthang,bepergian,melakukan perjalanan,verba,,kerja,5,ผมเดินทางคนเดียว,phǒm dooen-thaang khon diao,Saya bepergian sendirian.,
+v214,ชิม,chim,chim,mencicipi,cicip,verba,,kerja,5,ขอชิมหน่อยครับ,khǎaw chim nàawi khráp,Boleh saya cicipi sedikit?,
+v215,สั่ง,sàng,sang,memesan; menyuruh,pesan,verba,,kerja,4,ผมสั่งข้าวผัด,phǒm sàng khâao-phàt,Saya memesan nasi goreng.,
+v216,เก็บ,kèp,kep,"menyimpan, membereskan",simpan,verba,,kerja,5,เก็บเงินด้วยครับ,kèp ngooen dûai khráp,Minta bonnya.,เก็บเงิน adalah cara Thai asli untuk meminta bon; เช็คบิล adalah serapan Inggris.
+v217,เจอ,jooe,choe,"bertemu, menemukan",ketemu; temu,verba,,kerja,3,แล้วเจอกันครับ,láeo jooe kan khráp,Sampai jumpa.,
+v218,คุย,khui,khui,mengobrol,ngobrol; bicara,verba,,kerja,4,คุยกับเพื่อน,khui kàp phûean,Mengobrol dengan teman.,
+v219,เล่า,lâo,lao,menceritakan,cerita,verba,,kerja,6,เล่าให้ฟังหน่อย,lâo hâi fang nàawi,"Ceritakan sedikit, dong.",
+v220,เต้น,tên,ten,menari,dansa,verba,,kerja,6,เขาเต้นเก่ง,khǎo tên kèng,Dia pandai menari.,
+v221,วาด,wâat,wat,menggambar,gambar,verba,,kerja,6,ผมวาดรูปไม่เก่ง,phǒm wâat rûup mâi kèng,Saya tidak pandai menggambar.,
+v222,สอน,sǎawn,son,mengajar,ajar,verba,,kerja,4,ครูสอนที่โรงเรียน,khruu sǎawn thîi roong-rian,Guru mengajar di sekolah.,
+v223,จอง,jaawng,chong,memesan tempat,booking; pesan tempat,verba,,kerja,5,ผมจองห้องแล้ว,phǒm jaawng hâawng láeo,Saya sudah memesan kamar.,
+v224,เช่า,châo,chao,menyewa,sewa,verba,,kerja,6,เช่ารถวันละเท่าไหร่,châo rót wan-lá thâo-rài,Sewa mobil berapa sehari?,
+v225,ยืม,yuuem,yuem,meminjam,pinjam,verba,,kerja,6,ขอยืมปากกาหน่อย,khǎaw yuuem pàak-kaa nàawi,Boleh pinjam pulpennya?,
+v226,จอด,jàawt,chot,"berhenti, memarkir",parkir; berhenti,verba,,jalan,5,จอดตรงนี้ครับ,jàawt trong-níi khráp,Berhenti di sini saja.,
+v227,เลี้ยว,líao,liao,berbelok,belok,verba,,jalan,4,เลี้ยวซ้ายครับ,líao sáai khráp,Belok kiri.,
+v228,ข้าม,khâam,kham,menyeberang,seberang,verba,,jalan,5,ข้ามถนนตรงนี้,khâam thà-nǒn trong-níi,Menyeberang jalan di sini.,
+v229,ว่าย,wâai,wai,berenang,renang,verba,,kerja,6,ผมว่ายน้ำเป็น,phǒm wâai-náam pen,Saya bisa berenang.,Bentuk lengkapnya ว่ายน้ำ. เป็น sesudah kata kerja menandai keterampilan yang dipelajari.
+v230,สูง,sǔung,sung,tinggi,jangkung,sifat,,sifat,3,เขาสูงมาก,khǎo sǔung mâak,Dia sangat tinggi.,
+v231,เตี้ย,tîa,tia,pendek (orang),,sifat,,sifat,5,ผมเตี้ยกว่าเขา,phǒm tîa kwàa khǎo,Saya lebih pendek daripada dia.,
+v232,ยาว,yaao,yao,panjang,,sifat,,sifat,3,ถนนเส้นนี้ยาว,thà-nǒn sên níi yaao,Jalan ini panjang.,
+v233,สั้น,sân,san,pendek (benda),singkat,sifat,,sifat,3,เวลาสั้นมาก,wee-laa sân mâak,Waktunya sangat singkat.,
+v234,หนัก,nàk,nak,berat,,sifat,,sifat,4,กระเป๋าหนักไหม,krà-pǎo nàk mǎi,Tasnya berat tidak?,
+v235,เบา,bao,bao,ringan; pelan (suara),pelan,sifat,,sifat,4,พูดเบาหน่อย,phûut bao nàawi,Tolong bicara lebih pelan.,Bentuk เบาๆ dengan tanda ulang terdengar lebih halus lagi.
+v236,เร็ว,reo,reo,cepat,lekas,sifat,,sifat,3,รถเร็วมาก,rót reo mâak,Mobilnya sangat cepat.,
+v237,ช้า,cháa,cha,lambat,pelan,sifat,,sifat,3,ช่วยพูดช้าหน่อยครับ,chûai phûut cháa nàawi khráp,Tolong bicara lebih lambat.,Kalimat ini termasuk yang paling sering diperlukan pembelajar pemula.
+v238,ง่าย,ngâai,ngai,mudah,gampang,sifat,,sifat,3,ภาษานี้ไม่ง่าย,phaa-sǎa níi mâi ngâai,Bahasa ini tidak mudah.,
+v239,ยาก,yâak,yak,sulit,susah,sifat,,sifat,2,เสียงยากมาก,sǐang yâak mâak,Nadanya sangat sulit.,
+v240,สะอาด,sà-àat,sa-at,bersih,,sifat,,sifat,4,ห้องน้ำสะอาดมาก,hâawng-náam sà-àat mâak,Toiletnya sangat bersih.,
+v241,อ่อน,àawn,on,lembut; muda (warna),lunak,sifat,,sifat,5,เนื้ออ่อนมาก,núea àawn mâak,Dagingnya sangat lembut.,
+v242,แข็ง,khǎeng,khaeng,keras,kaku,sifat,,sifat,4,ข้าวแข็งไป,khâao khǎeng pai,Nasinya terlalu keras.,
+v243,ว่าง,wâang,wang,"luang, kosong",senggang,sifat,,sifat,4,พรุ่งนี้ผมว่าง,phrûng-níi phǒm wâang,Besok saya luang.,
+v244,เต็ม,tem,tem,penuh,,sifat,,sifat,5,ร้านเต็มแล้ว,ráan tem láeo,Restorannya sudah penuh.,
+v245,ดัง,dang,dang,keras (suara); terkenal,nyaring; terkenal,sifat,,sifat,5,ร้านนี้ดังมาก,ráan níi dang mâak,Restoran ini sangat terkenal.,
+v246,เงียบ,ngîap,ngiap,"sunyi, diam",hening,sifat,,sifat,5,ที่นี่เงียบดี,thîi-nîi ngîap dii,"Di sini enak, sunyi.",
+v247,น่ารัก,nâa-rák,narak,"manis, menggemaskan",imut; lucu,sifat,,sifat,4,เด็กคนนี้น่ารัก,dèk khon níi nâa-rák,Anak ini menggemaskan.,"น่า + kata kerja berarti 'patut di-': น่ากิน ('menggugah selera'), น่าไป ('layak dikunjungi')."
+v248,สำคัญ,sǎm-khan,samkhan,penting,,sifat,,sifat,5,เรื่องนี้สำคัญมาก,rûeang níi sǎm-khan mâak,Hal ini sangat penting.,
+v249,อบอุ่น,òp-ùn,op-un,hangat,,sifat,,sifat,6,อากาศอบอุ่น,aa-kàat òp-ùn,Cuacanya hangat.,
+v250,สด,sòt,sot,segar,baru,sifat,,sifat,5,ปลาสดมาก,plaa sòt mâak,Ikannya sangat segar.,
+v251,ขม,khǒm,khom,pahit,,sifat,,sifat,5,กาแฟขมไป,kaa-fae khǒm pai,Kopinya terlalu pahit.,
+v252,มัน,man,man,"berminyak, gurih",gurih,sifat,,sifat,6,อาหารมันไป,aa-hǎan man pai,Makanannya terlalu berminyak.,
+v253,สุก,sùk,suk,matang,masak,sifat,,sifat,5,เนื้อสุกแล้ว,núea sùk láeo,Dagingnya sudah matang.,
+v254,ดิบ,dìp,dip,mentah,,sifat,,sifat,6,ผมไม่กินของดิบ,phǒm mâi kin khǎawng dìp,Saya tidak makan makanan mentah.,
+v256,หรือ,rǔue,rue,atau,,sambung,,keterangan,4,ชาหรือกาแฟ,chaa rǔue kaa-fae,Teh atau kopi?,
+v257,และ,láe,lae,dan,,sambung,,keterangan,4,ข้าวและน้ำ,khâao láe náam,Nasi dan air.,และ menghubungkan kalimat atau daftar; untuk 'dengan' di antara dua kata benda dipakai กับ.
+v258,เพราะ,phráw,phro,karena,sebab,sambung,,keterangan,5,ไม่ไปเพราะฝนตก,mâi pai phráw fǒn tòk,Tidak pergi karena hujan.,
+v259,ถ้า,thâa,tha,"kalau, jika",jika,sambung,,keterangan,5,ถ้าฝนตกผมไม่ไป,thâa fǒn tòk phǒm mâi pai,"Kalau hujan, saya tidak pergi.",
+v260,แค่,khâe,khae,hanya,cuma,keterangan,,keterangan,5,แค่นี้พอครับ,khâe níi phaaw khráp,Segini saja cukup.,
+v261,ทั้งหมด,tháng-mòt,thangmot,semuanya,seluruhnya,keterangan,,keterangan,5,ทั้งหมดเท่าไหร่ครับ,tháng-mòt thâo-rài khráp,Semuanya berapa?,
+v262,อื่น,ùuen,uen,lain,,sifat,,keterangan,5,มีสีอื่นไหม,mii sǐi ùuen mǎi,Ada warna lain?,
+v263,เอง,eeng,eng,sendiri,,keterangan,,keterangan,6,ผมทำเอง,phǒm tham eeng,Saya mengerjakannya sendiri.,
+v264,กัน,kan,kan,"bersama, saling",,keterangan,,keterangan,4,ไปด้วยกันครับ,pai dûai-kan khráp,Ayo pergi bersama.,
+v265,ที่สุด,thîi-sùt,thisut,paling,ter-,keterangan,,keterangan,5,ร้านนี้ดีที่สุด,ráan níi dii thîi-sùt,Restoran ini yang paling bagus.,
+v266,กว่า,kwàa,kwa,lebih ... daripada,lebih,keterangan,,keterangan,5,แพงกว่าร้านนั้น,phaeng kwàa ráan nán,Lebih mahal daripada toko itu.,
+v267,เหมือน,mǔean,muean,"seperti, sama dengan",serupa,keterangan,,keterangan,5,ร้อนเหมือนกัน,ráawn mǔean-kan,Sama panasnya.,"เหมือนกัน juga dipakai sendirian untuk menanggapi: 'sama saja', 'saya juga'."
+v268,ต่าง,tàang,tang,berbeda; asing,beda,sifat,,keterangan,6,ราคาต่างกัน,raa-khaa tàang kan,Harganya berbeda-beda.,"ต่างชาติ (tàang-châat) berarti 'asing', harfiahnya 'bangsa lain'."
+v269,เกือบ,kùeap,kueap,hampir,,keterangan,,keterangan,6,เกือบลืมแล้ว,kùeap luuem láeo,Hampir saja lupa.,
+v270,นิด,nít,nit,sedikit,dikit,keterangan,,keterangan,4,เผ็ดนิดหน่อย,phèt nít-nàawi,Sedikit pedas.,"Bentuk lengkapnya นิดหน่อย, dan itulah yang paling sering terdengar."
+v271,บ่อย,bàawi,boi,sering,kerap,keterangan,,keterangan,4,ฝนตกบ่อย,fǒn tòk bàawi,Sering hujan.,
+v272,บางครั้ง,baang-kráng,bangkhrang,kadang-kadang,terkadang,keterangan,,keterangan,6,บางครั้งผมไปตลาด,baang-kráng phǒm pai tà-làat,Kadang-kadang saya pergi ke pasar.,
+v273,เคย,khooei,khoei,pernah,,keterangan,,keterangan,5,ผมเคยไปที่นั่น,phǒm khooei pai thîi-nân,Saya pernah ke sana.,Penafiannya ไม่เคย ('belum pernah').
+v274,ก่อน,kàawn,kon,"sebelum, lebih dahulu",dulu,keterangan,,waktu,4,ผมไปก่อนนะ,phǒm pai kàawn ná,"Saya pergi duluan, ya.",
+v275,ตอนนี้,taawn-níi,tonni,sekarang,saat ini,keterangan,,waktu,4,ตอนนี้ผมไม่ว่าง,taawn-níi phǒm mâi wâang,Sekarang saya tidak luang.,
+v276,ห้อง,hâawng,hong,"ruang, kamar",kamar,nomina,ห้อง,tempat,3,ห้องนี้ใหญ่มาก,hâawng níi yài mâak,Kamar ini sangat besar.,"Dipakai pada banyak kata: ห้องนอน (kamar tidur), ห้องเรียน (ruang kelas), ห้องน้ำ (toilet)."
+v277,ครัว,khrua,khrua,dapur,,nomina,ห้อง,tempat,5,แม่อยู่ในครัว,mâe yùu nai khrua,Ibu ada di dapur.,
+v278,สวน,sǔan,suan,"taman, kebun",kebun,nomina,,tempat,4,สวนนี้สวยมาก,sǔan níi sǔai mâak,Taman ini sangat indah.,
+v279,ถนน,thà-nǒn,thanon,jalan (raya),,nomina,สาย,jalan,4,ถนนนี้ยาวมาก,thà-nǒn níi yaao mâak,Jalan ini sangat panjang.,"Contoh aksara nam: ถ berkelas tinggi memimpin นน, sehingga suku kata keduanya bernada naik."
+v280,สะพาน,sà-phaan,saphan,jembatan,,nomina,,jalan,6,ข้ามสะพานไป,khâam sà-phaan pai,Menyeberang lewat jembatan.,
+v281,ธนาคาร,thá-naa-khaan,thanakhan,bank,,nomina,,tempat,5,ธนาคารอยู่ไหนครับ,thá-naa-khaan yùu nǎi khráp,Di mana banknya?,
+v282,โรงพยาบาล,roong-phá-yaa-baan,rongphayaban,rumah sakit,,nomina,แห่ง,tempat,5,ไปโรงพยาบาลด้วยกัน,pai roong-phá-yaa-baan dûai-kan,Pergi ke rumah sakit bersama.,
+v283,ร้านอาหาร,ráan-aa-hǎan,ran ahan,"restoran, rumah makan",warung makan,nomina,ร้าน,tempat,4,ร้านอาหารเปิดแล้ว,ráan-aa-hǎan pòoet láeo,Rumah makannya sudah buka.,
+v284,ชายหาด,chaai-hàat,chaihat,pantai,,nomina,แห่ง,tempat,6,ชายหาดสวยมาก,chaai-hàat sǔai mâak,Pantainya sangat indah.,
+v285,ภูเขา,phuu-khǎo,phukhao,gunung,,nomina,ลูก,alam,5,ภูเขาสูงมาก,phuu-khǎo sǔung mâak,Gunungnya sangat tinggi.,
+v286,แม่น้ำ,mâe-náam,maenam,sungai,,nomina,สาย,alam,5,แม่น้ำยาวมาก,mâe-náam yaao mâak,Sungainya sangat panjang.,Harfiahnya 'ibu air'.
+v287,ทะเล,thá-lee,thale,laut,,nomina,,alam,5,ผมชอบทะเล,phǒm châawp thá-lee,Saya suka laut.,
+v288,เมือง,mueang,mueang,kota,,nomina,เมือง,tempat,5,เมืองนี้ใหญ่,mueang níi yài,Kota ini besar.,
+v289,หมู่บ้าน,mùu-bâan,muban,"kampung, desa",desa,nomina,แห่ง,tempat,6,หมู่บ้านอยู่ไกล,mùu-bâan yùu klai,Kampungnya jauh.,
+v290,สนามบิน,sà-nǎam-bin,sanambin,bandar udara,bandara,nomina,แห่ง,tempat,5,ไปสนามบินกี่ชั่วโมง,pai sà-nǎam-bin kìi chûa-moong,Ke bandara berapa jam?,
+v291,ห้าง,hâang,hang,pusat perbelanjaan,mal,nomina,ห้าง,tempat,5,ห้างเปิดสิบโมง,hâang pòoet sìp moong,Malnya buka jam sepuluh.,
+v292,มัสยิด,mát-sà-yít,matsayit,masjid,,nomina,แห่ง,tempat,5,มัสยิดอยู่ใกล้ตลาด,mát-sà-yít yùu klâi tà-làat,Masjidnya dekat pasar.,"Huruf ส di sini dibaca dua kali: menutup suku kata pertama dan membuka suku kata kedua. Karena itu lafalnya tiga suku kata, sedangkan tulisannya hanya dua."
+v293,ที่ทำงาน,thîi-tham-ngaan,thi thamngan,tempat kerja,kantor,nomina,,tempat,5,ที่ทำงานอยู่ไกลไหม,thîi-tham-ngaan yùu klai mǎi,Tempat kerjanya jauh tidak?,
+v294,มือถือ,muue-thǔue,muethue,telepon genggam,HP; ponsel,nomina,เครื่อง,benda,4,มือถือผมหาย,muue-thǔue phǒm hǎai,Telepon genggam saya hilang.,Harfiahnya 'tangan memegang'. Bentuk resminya โทรศัพท์มือถือ.
+v295,กุญแจ,kun-jae,kunchae,kunci,,nomina,ดอก,benda,5,กุญแจอยู่บนโต๊ะ,kun-jae yùu bon tó,Kuncinya ada di atas meja.,
+v296,ประตู,prà-tuu,pratu,pintu,,nomina,บาน,benda,4,ปิดประตูด้วยครับ,pìt prà-tuu dûai khráp,Tolong tutup pintunya.,
+v297,หน้าต่าง,nâa-tàang,natang,jendela,,nomina,บาน,benda,5,เปิดหน้าต่างหน่อย,pòoet nâa-tàang nàawi,Tolong buka jendelanya.,
+v298,เตียง,tiang,tiang,"ranjang, tempat tidur",kasur,nomina,เตียง,benda,5,ห้องนี้มีสองเตียง,hâawng níi mii sǎawng tiang,Kamar ini punya dua tempat tidur.,
+v299,ผ้า,phâa,pha,kain,,nomina,ผืน,benda,5,ผ้าผืนนี้สวย,phâa phǔuen níi sǔai,Kain ini indah.,
+v300,รองเท้า,raawng-tháo,rongthao,sepatu,alas kaki,nomina,คู่,benda,4,ถอดรองเท้าก่อนครับ,thàawt raawng-tháo kàawn khráp,Lepas sepatunya dulu.,Melepas sepatu sebelum masuk rumah dan kuil adalah kebiasaan yang diharapkan di Thailand.
+v301,กางเกง,kaang-keeng,kangkeng,celana,,nomina,ตัว,benda,5,กางเกงตัวนี้แพง,kaang-keeng tua níi phaeng,Celana ini mahal.,
+v302,หมวก,mùak,muak,topi,,nomina,ใบ,benda,6,ใส่หมวกด้วย,sài mùak dûai,Pakai topi juga.,
+v303,นาฬิกา,naa-lí-kaa,nalika,jam (alat),arloji,nomina,เรือน,benda,5,นาฬิกาเรือนนี้สวย,naa-lí-kaa ruuean níi sǔai,Jam tangan ini bagus.,Salah satu dari sedikit kata sehari-hari yang memakai huruf ฬ.
+v304,ปากกา,pàak-kaa,pakka,pulpen,,nomina,ด้าม,benda,5,ขอยืมปากกาหน่อย,khǎaw yuuem pàak-kaa nàawi,Boleh pinjam pulpennya?,
+v305,กระดาษ,krà-dàat,kradat,kertas,,nomina,แผ่น,benda,5,ขอกระดาษแผ่นหนึ่ง,khǎaw krà-dàat phàen nùeng,Minta selembar kertas.,
+v306,ของ,khǎawng,khong,barang; milik,punya,nomina,,benda,3,ของผมอยู่ไหน,khǎawng phǒm yùu nǎi,Di mana barang saya?,"Juga menjadi penanda kepemilikan: บ้านของผม ('rumah saya'), meskipun ของ sering dihilangkan."
+v307,ไฟ,fai,fai,"api; lampu, listrik",lampu,nomina,,benda,4,ปิดไฟด้วยครับ,pìt fai dûai khráp,Tolong matikan lampunya.,
+v308,ร่ม,rôm,rom,payung,,nomina,คัน,benda,6,ฝนตกเอาร่มไปด้วย,fǒn tòk ao rôm pai dûai,"Hujan, bawa payung juga.",
+v309,รูป,rûup,rup,"gambar, foto",foto,nomina,รูป,benda,5,ถ่ายรูปได้ไหมครับ,thàai-rûup dâi mǎi khráp,Boleh memotret?,
+v310,หนัง,nǎng,nang,film; kulit,film,nomina,เรื่อง,benda,4,หนังเรื่องนี้ดี,nǎng rûeang níi dii,Film ini bagus.,
+v311,เพลง,phleeng,phleng,lagu,musik,nomina,เพลง,benda,4,เพลงนี้เพราะมาก,phleeng níi phráw mâak,Lagu ini sangat merdu.,เพราะ bermakna 'merdu' di sini; kata yang sama juga berarti 'karena'.
+v312,เดือน,duean,duean,bulan (waktu),,nomina,เดือน,waktu,3,ผมเรียนสองเดือนแล้ว,phǒm rian sǎawng duean láeo,Saya sudah belajar dua bulan.,
+v313,ปี,pii,pi,tahun,,nomina,ปี,waktu,3,ผมอยู่ที่นี่สามปี,phǒm yùu thîi-nîi sǎam pii,Saya tinggal di sini tiga tahun.,
+v314,นาที,naa-thii,nathi,menit,,nomina,นาที,waktu,4,รอห้านาทีครับ,raaw hâa naa-thii khráp,Tunggu lima menit.,
+v315,เช้า,cháo,chao,pagi,,nomina,,waktu,3,พรุ่งนี้เช้าผมไป,phrûng-níi cháo phǒm pai,Besok pagi saya pergi.,
+v316,บ่าย,bàai,bai,siang (sesudah tengah hari),,nomina,,waktu,5,บ่ายนี้ผมว่าง,bàai níi phǒm wâang,Siang ini saya luang.,
+v317,เที่ยง,thîang,thiang,tengah hari,,nomina,,waktu,5,เจอกันตอนเที่ยง,jooe kan taawn thîang,Bertemu pada tengah hari.,
+v318,ค่ำ,khâm,kham,"petang, malam",,nomina,,waktu,6,ตอนค่ำอากาศเย็น,taawn khâm aa-kàat yen,Pada malam hari cuacanya sejuk.,
+v319,ยี่สิบ,yîi-sìp,yisip,dua puluh,20,angka,,angka,4,ยี่สิบบาทครับ,yîi-sìp bàat khráp,Dua puluh baht.,"Perhatikan 20 memakai ยี่, bukan สอง. Hanya angka 20 yang berperilaku begitu."
+v320,พัน,phan,phan,ribu,seribu,angka,,angka,4,สองพันบาท,sǎawng phan bàat,dua ribu baht,
+v321,หมื่น,mùuen,muen,sepuluh ribu,,angka,,angka,6,หนึ่งหมื่นบาท,nùeng mùuen bàat,sepuluh ribu baht,"Bahasa Thailand punya kata tersendiri untuk 10.000 (หมื่น) dan 100.000 (แสน), berbeda dari bahasa Indonesia yang menyusunnya dari 'puluh' dan 'ratus'."
+v322,แสน,sǎen,saen,seratus ribu,,angka,,angka,6,ราคาหนึ่งแสนบาท,raa-khaa nùeng sǎen bàat,Harganya seratus ribu baht.,
+v323,ล้าน,láan,lan,juta,,angka,,angka,6,หนึ่งล้านบาท,nùeng láan bàat,satu juta baht,
+v324,ครึ่ง,khrûeng,khrueng,setengah,separuh,angka,,angka,5,ครึ่งชั่วโมง,khrûeng chûa-moong,setengah jam,
+v325,ขนม,khà-nǒm,khanom,"kue, penganan",jajanan,nomina,ชิ้น,makanan,4,ขนมนี้หวานมาก,khà-nǒm níi wǎan mâak,Kue ini sangat manis.,
+v326,ขนมปัง,khà-nǒm-pang,khanompang,roti,,nomina,แผ่น,makanan,4,ผมกินขนมปังตอนเช้า,phǒm kin khà-nǒm-pang taawn-cháo,Saya makan roti pagi hari.,"Harfiahnya 'kue pang'. ปัง diduga berasal dari kata Portugis pão, sebagaimana beberapa nama makanan Thai lain yang datang lewat pedagang Portugis."
+v327,นม,nom,nom,susu,,nomina,กล่อง,makanan,4,ขอนมหนึ่งแก้ว,khǎaw nom nùeng kâeo,Minta satu gelas susu.,
+v328,น้ำตาล,náam-taan,namtan,gula,,nomina,,makanan,4,ไม่ใส่น้ำตาลครับ,mâi sài náam-taan khráp,"Tanpa gula, ya.",
+v329,เกลือ,kluea,kluea,garam,,nomina,,makanan,5,ใส่เกลือนิดหน่อย,sài kluea nít-nàawi,Tambahkan sedikit garam.,
+v330,พริก,phrík,phrik,cabai,,nomina,เม็ด,makanan,4,ไม่ใส่พริกครับ,mâi sài phrík khráp,"Tanpa cabai, ya.",Permintaan yang perlu dihafal bagi yang tidak tahan pedas.
+v331,กระเทียม,krà-thiam,krathiam,bawang putih,,nomina,หัว,makanan,6,อาหารนี้มีกระเทียม,aa-hǎan níi mii krà-thiam,Makanan ini memakai bawang putih.,
+v332,มะนาว,má-naao,manao,jeruk nipis,,nomina,ลูก,makanan,5,ใส่มะนาวด้วยครับ,sài má-naao dûai khráp,Tambahkan jeruk nipis juga.,
+v333,มะม่วง,má-mûang,mamuang,mangga,,nomina,ลูก,makanan,4,ข้าวเหนียวมะม่วงอร่อยมาก,khâao-nǐao má-mûang à-ràawi mâak,Ketan mangga sangat enak.,
+v334,สับปะรด,sàp-pà-rót,sapparot,nanas,,nomina,ลูก,makanan,6,สับปะรดหวานมาก,sàp-pà-rót wǎan mâak,Nanasnya sangat manis.,
+v335,แตงโม,taeng-moo,taengmo,semangka,,nomina,ลูก,makanan,5,ผมชอบแตงโม,phǒm châawp taeng-moo,Saya suka semangka.,
+v336,องุ่น,à-ngùn,angun,anggur,,nomina,ลูก,makanan,6,องุ่นลูกนี้เปรี้ยว,à-ngùn lûuk níi prîao,Anggur ini asam.,"Contoh aksara nam dengan pemimpin อ: งุ่น bernada rendah, bukan turun."
+v337,กุ้ง,kûng,kung,udang,,nomina,ตัว,makanan,4,ผมแพ้กุ้ง,phǒm pháe kûng,Saya alergi udang.,แพ้ (pháe) berarti 'alergi' sekaligus 'kalah'. Kalimat ini penting bagi yang punya alergi makanan.
+v338,ปู,puu,pu,kepiting,,nomina,ตัว,makanan,5,ปูตัวนี้ใหญ่มาก,puu tua níi yài mâak,Kepiting ini sangat besar.,
+v339,ต้มยำ,tôm-yam,tomyam,tom yam (sup asam pedas),,nomina,ถ้วย,makanan,4,ต้มยำเผ็ดไหมครับ,tôm-yam phèt mǎi khráp,Tom yamnya pedas tidak?,
+v340,ส้มตำ,sôm-tam,somtam,som tam (salad pepaya muda),,nomina,จาน,makanan,4,ส้มตำไม่เผ็ดครับ,sôm-tam mâi phèt khráp,"Som tam yang tidak pedas, ya.",
+v341,แกง,kaeng,kaeng,"gulai, kari",kari,nomina,ถ้วย,makanan,5,แกงนี้เผ็ดมาก,kaeng níi phèt mâak,Gulai ini sangat pedas.,
+v342,ก๋วยเตี๋ยว,kǔai-tǐao,kuaitiao,"mi kuah, kuetiau",mi,nomina,ชาม,makanan,4,ขอก๋วยเตี๋ยวหนึ่งชาม,khǎaw kǔai-tǐao nùeng chaam,Minta satu mangkuk mi kuah.,Salah satu dari sedikit kata yang memakai mai chattawa dua kali.
+v343,ข้าวเหนียว,khâao-nǐao,khaoniao,ketan,,nomina,,makanan,5,ข้าวเหนียวอร่อยมาก,khâao-nǐao à-ràawi mâak,Ketannya sangat enak.,
+v344,น้ำแข็ง,náam-khǎeng,namkhaeng,es,,nomina,,makanan,4,ไม่ใส่น้ำแข็งครับ,mâi sài náam-khǎeng khráp,"Tanpa es, ya.",
+v345,ช้อน,cháawn,chon,sendok,,nomina,คัน,benda,4,ขอช้อนหน่อยครับ,khǎaw cháawn nàawi khráp,Minta sendok.,
+v346,จาน,jaan,chan,piring,,nomina,ใบ,benda,4,ข้าวผัดหนึ่งจาน,khâao-phàt nùeng jaan,satu piring nasi goreng,
+v347,ถ้วย,thûai,thuai,"mangkuk kecil, cangkir",cangkir,nomina,ใบ,benda,5,ซุปหนึ่งถ้วย,súp nùeng thûai,satu mangkuk sup,
+v348,ปู่,pùu,pu,kakek (dari ayah),,nomina,คน,keluarga,5,ปู่อยู่ที่หมู่บ้าน,pùu yùu thîi mùu-bâan,Kakek tinggal di kampung.,"Bahasa Thailand membedakan kakek-nenek dari pihak ayah (ปู่, ย่า) dan dari pihak ibu (ตา, ยาย)."
+v349,ย่า,yâa,ya,nenek (dari ayah),,nomina,คน,keluarga,5,ย่าทำอาหารเก่ง,yâa tham aa-hǎan kèng,Nenek pandai memasak.,
+v350,ยาย,yaai,yai,nenek (dari ibu),,nomina,คน,keluarga,5,ยายอายุแปดสิบ,yaai aa-yú pàet-sìp,Nenek berusia delapan puluh tahun.,
+v351,ลุง,lung,lung,paman (lebih tua dari orang tua),,nomina,คน,keluarga,5,ลุงเป็นหมอ,lung pen mǎaw,Paman seorang dokter.,
+v352,ป้า,pâa,pa,bibi (lebih tua dari orang tua),,nomina,คน,keluarga,5,ป้าขายของที่ตลาด,pâa khǎai khǎawng thîi tà-làat,Bibi berjualan di pasar.,"ป้า juga dipakai menyapa perempuan paruh baya yang tidak dikenal, seperti 'Bu' dalam bahasa Indonesia."
+v353,น้า,náa,na,om atau tante (adik ibu),,nomina,คน,keluarga,6,น้าอยู่กรุงเทพ,náa yùu krung-thêep,Om tinggal di Bangkok.,
+v354,อา,aa,a,om atau tante (adik ayah),,nomina,คน,keluarga,6,อามาหาผม,aa maa hǎa phǒm,Om datang menemui saya.,
+v355,แฟน,faen,faen,pacar; pasangan,pacar,nomina,คน,orang,4,แฟนผมเป็นคนไทย,faen phǒm pen khon thai,Pacar saya orang Thai.,"Serapan dari bahasa Inggris 'fan'. Dipakai untuk pacar maupun suami-istri, tanpa membedakan jenis kelamin."
+v356,เพื่อนบ้าน,phûean-bâan,phueanban,tetangga,,nomina,คน,orang,6,เพื่อนบ้านใจดีมาก,phûean-bâan jai-dii mâak,Tetangganya sangat baik hati.,
+v357,พนักงาน,phá-nák-ngaan,phanakngan,"karyawan, petugas",pegawai,nomina,คน,orang,6,พนักงานใจดี,phá-nák-ngaan jai-dii,Petugasnya ramah.,
+v358,พ่อค้า,phâaw-kháa,phokha,pedagang (lelaki),,nomina,คน,orang,6,พ่อค้าขายของที่ตลาด,phâaw-kháa khǎai khǎawng thîi tà-làat,Pedagang itu berjualan di pasar.,"Pasangannya แม่ค้า (mâe-kháa) untuk pedagang perempuan, dan itulah yang lebih sering terdengar di pasar."
+v359,เจ้าของ,jâo-khǎawng,chaokhong,pemilik,,nomina,คน,orang,6,เจ้าของร้านอยู่ไหน,jâo-khǎawng ráan yùu nǎi,Di mana pemilik tokonya?,
+v360,ขา,khǎa,kha,kaki (tungkai),,nomina,ข้าง,tubuh,4,ขาผมเจ็บ,khǎa phǒm jèp,Kaki saya sakit.,ขา adalah tungkai dari pinggul sampai pergelangan; เท้า adalah telapak kakinya.
+v361,แขน,khǎen,khaen,lengan,,nomina,ข้าง,tubuh,5,แขนซ้ายเจ็บ,khǎen sáai jèp,Lengan kiri saya sakit.,
+v362,นิ้ว,níu,niu,jari,,nomina,นิ้ว,tubuh,6,นิ้วมือเจ็บ,níu muue jèp,Jari tangan saya sakit.,
+v363,หู,hǔu,hu,telinga,,nomina,ข้าง,tubuh,5,หูผมไม่ดี,hǔu phǒm mâi dii,Pendengaran saya kurang baik.,
+v364,จมูก,jà-mùuk,chamuk,hidung,,nomina,,tubuh,6,จมูกไม่ดี,jà-mùuk mâi dii,Hidung saya sedang tidak enak.,Contoh aksara nam dengan pemimpin จ berkelas tengah.
+v365,ฟัน,fan,fan,gigi,,nomina,ซี่,tubuh,4,ผมปวดฟัน,phǒm pùat fan,Gigi saya sakit.,
+v366,เลือด,lûeat,lueat,darah,,nomina,,tubuh,6,มีเลือดออก,mii lûeat àawk,Ada darah keluar.,
+v367,ไข้,khâi,khai,demam,,nomina,,tubuh,5,ผมเป็นไข้,phǒm pen khâi,Saya demam.,"Untuk penyakit dipakai เป็น: เป็นไข้ ('demam'), เป็นหวัด ('pilek')."
+v368,ปวด,pùat,puat,"nyeri, sakit berdenyut",nyeri,sifat,,tubuh,4,ผมปวดหัวมาก,phǒm pùat hǔa mâak,Kepala saya sangat sakit.,"Tiga kata 'sakit': ปวด (berdenyut di dalam), เจ็บ (nyeri karena luka), ป่วย (berpenyakit)."
+v369,แพ้,pháe,phae,alergi; kalah,alergi,verba,,tubuh,5,ผมแพ้อาหารทะเล,phǒm pháe aa-hǎan thá-lee,Saya alergi makanan laut.,
+v370,หวัด,wàt,wat,"pilek, flu ringan",flu,nomina,,tubuh,6,ผมเป็นหวัด,phǒm pen wàt,Saya sedang pilek.,
+v371,หาย,hǎai,hai,sembuh; hilang,sembuh; hilang,verba,,tubuh,5,หายแล้วครับ,hǎai láeo khráp,Sudah sembuh.,Satu kata untuk dua hal yang berbeda: penyakit yang sembuh dan barang yang hilang.
+v372,สี,sǐi,si,warna,,nomina,สี,benda,4,สีอะไรครับ,sǐi à-rai khráp,Warna apa?,"Perhatikan bedanya dengan สี่ (sìi, 'empat') yang hanya berbeda nada."
+v373,แดง,daeng,daeng,merah,,sifat,,benda,4,เสื้อสีแดงสวย,sûea sǐi-daeng sǔai,Baju merah itu bagus.,Nama warna dipakai bersama สี: สีแดง ('warna merah').
+v374,ขาว,khǎao,khao,putih,,sifat,,benda,4,ผมชอบสีขาว,phǒm châawp sǐi-khǎao,Saya suka warna putih.,
+v375,ดำ,dam,dam,hitam,,sifat,,benda,4,กระเป๋าสีดำ,krà-pǎo sǐi-dam,tas hitam,
+v376,เขียว,khǐao,khiao,hijau,,sifat,,benda,5,ผักสีเขียว,phàk sǐi-khǐao,sayur hijau,
+v377,เหลือง,lǔeang,lueang,kuning,,sifat,,benda,5,ดอกไม้สีเหลือง,dàawk-máai sǐi-lǔeang,bunga kuning,
+v378,ฟ้า,fáa,fa,biru muda; langit,langit,sifat,,alam,5,ท้องฟ้าสวยมาก,tháawng-fáa sǔai mâak,Langitnya sangat indah.,Satu kata untuk 'langit' dan untuk warnanya. Untuk biru tua dipakai สีน้ำเงิน.
+v379,หมา,mǎa,ma,anjing,,nomina,ตัว,alam,3,หมาตัวนี้น่ารัก,mǎa tua níi nâa-rák,Anjing ini menggemaskan.,Bentuk yang lebih halus สุนัข (sù-nák) dipakai pada tulisan resmi.
+v380,แมว,maeo,maeo,kucing,,nomina,ตัว,alam,3,แมวอยู่บนเตียง,maeo yùu bon tiang,Kucingnya ada di atas tempat tidur.,
+v381,นก,nók,nok,burung,,nomina,ตัว,alam,3,นกบินสูงมาก,nók bin sǔung mâak,Burung itu terbang sangat tinggi.,
+v382,ช้าง,cháang,chang,gajah,,nomina,ตัว,alam,4,ช้างเป็นสัตว์ใหญ่,cháang pen sàt yài,Gajah adalah hewan besar.,"Gajah adalah lambang Thailand sejak lama, dan namanya muncul pada huruf ช ช้าง."
+v383,ลิง,ling,ling,"kera, monyet",,nomina,ตัว,alam,5,ลิงกินกล้วย,ling kin klûai,Kera itu makan pisang.,
+v384,วัว,wua,wua,sapi,,nomina,ตัว,alam,5,เนื้อวัวแพงกว่าหมู,núea wua phaeng kwàa mǔu,Daging sapi lebih mahal daripada daging babi.,
+v385,ควาย,khwaai,khwai,kerbau,,nomina,ตัว,alam,6,ควายอยู่ในนา,khwaai yùu nai naa,Kerbau itu ada di sawah.,Muncul pada nama huruf ค ควาย.
+v386,งู,nguu,ngu,ular,,nomina,ตัว,alam,5,ระวังงู,rá-wang nguu,Awas ular.,Muncul pada nama huruf ง งู.
+v387,ยุง,yung,yung,nyamuk,,nomina,ตัว,alam,5,ยุงเยอะมาก,yung yóe mâak,Nyamuknya banyak sekali.,
+v388,ต้นไม้,tôn-máai,tonmai,pohon,,nomina,ต้น,alam,4,ต้นไม้ต้นนี้ใหญ่,tôn-máai tôn níi yài,Pohon ini besar.,
+v389,ดอกไม้,dàawk-máai,dokmai,bunga,,nomina,ดอก,alam,4,ดอกไม้สวยมาก,dàawk-máai sǔai mâak,Bunganya sangat indah.,
+v390,ใบไม้,bai-máai,baimai,daun,,nomina,ใบ,alam,5,ใบไม้สีเขียว,bai-máai sǐi-khǐao,Daunnya hijau.,Muncul pada nama huruf บ ใบไม้.
+v391,ดิน,din,din,tanah,,nomina,,alam,5,ดินที่นี่ดี,din thîi-nîi dii,Tanah di sini bagus.,
+v392,หิน,hǐn,hin,batu,,nomina,ก้อน,alam,6,หินก้อนนี้หนัก,hǐn kâawn níi nàk,Batu ini berat.,
+v393,เมฆ,mêek,mek,awan,,nomina,ก้อน,alam,6,เมฆเยอะวันนี้,mêek yóe wan-níi,Hari ini banyak awan.,Salah satu dari sedikit kata sehari-hari yang memakai huruf ฆ.
+v394,ดาว,daao,dao,bintang,,nomina,ดวง,alam,6,ดาวสวยมาก,daao sǔai mâak,Bintangnya indah sekali.,
+v395,นา,naa,na,sawah,,nomina,,alam,6,ชาวนาทำนา,chaao-naa tham naa,Petani menggarap sawah.,ชาวนา berarti 'petani sawah'; ชาว adalah awalan untuk penduduk atau pelaku.
+v396,ห้องเรียน,hâawng-rian,hongrian,ruang kelas,,nomina,ห้อง,tempat,4,ห้องเรียนอยู่ชั้นสอง,hâawng-rian yùu chán sǎawng,Ruang kelasnya di lantai dua.,ชั้น (chán) berarti 'lantai' atau 'tingkat'.
+v397,การบ้าน,kaan-bâan,kanban,pekerjaan rumah,PR,nomina,,benda,5,ผมทำการบ้านแล้ว,phǒm tham kaan-bâan láeo,Saya sudah mengerjakan PR.,"การ adalah awalan pembentuk kata benda dari kata kerja, mirip 'pe-an' dalam bahasa Indonesia."
+v398,สอบ,sàawp,sop,ujian; menguji,ulangan,nomina,,benda,5,พรุ่งนี้มีสอบ,phrûng-níi mii sàawp,Besok ada ujian.,
+v399,สมุด,sà-mùt,samut,buku tulis,,nomina,เล่ม,benda,5,ขอสมุดเล่มหนึ่ง,khǎaw sà-mùt lêm nùeng,Minta satu buku tulis.,"Contoh aksara nam: ส memimpin มุด sehingga bernada rendah, bukan tinggi."
+v400,ดินสอ,din-sǎaw,dinso,pensil,,nomina,แท่ง,benda,5,ดินสอแท่งนี้สั้น,din-sǎaw thâeng níi sân,Pensil ini pendek.,
+v401,ชั้น,chán,chan,"lantai, tingkat",lantai,nomina,ชั้น,tempat,5,ห้องผมอยู่ชั้นสาม,hâawng phǒm yùu chán sǎam,Kamar saya di lantai tiga.,
+v402,ตั๋ว,tǔa,tua,"karcis, tiket",karcis,nomina,ใบ,jalan,5,ซื้อตั๋วที่ไหนครับ,súue tǔa thîi-nǎi khráp,Beli tiketnya di mana?,Salah satu dari sedikit kata sehari-hari yang memakai mai chattawa.
+v403,ป้าย,pâai,pai,papan nama; halte,halte,nomina,ป้าย,jalan,5,ลงที่ป้ายหน้า,long thîi pâai nâa,Turun di halte berikutnya.,"หน้า di sini berarti 'berikutnya', bukan 'depan'."
+v404,ซอย,saawi,soi,gang,,nomina,ซอย,jalan,5,บ้านอยู่ในซอย,bâan yùu nai saawi,Rumahnya ada di dalam gang.,"Alamat di Thailand hampir selalu memuat nomor ซอย, misalnya สุขุมวิท ซอย 11."
+v405,ทาง,thaang,thang,"jalan, arah",arah,nomina,,jalan,4,ทางนี้ไปตลาด,thaang níi pai tà-làat,Jalan ini menuju pasar.,
+v406,ที่นั่ง,thîi-nâng,thinang,tempat duduk,kursi,nomina,ที่,jalan,5,มีที่นั่งไหมครับ,mii thîi-nâng mǎi khráp,Ada tempat duduk?,
+v407,รถตู้,rót-tûu,rottu,minibus,mobil van,nomina,คัน,jalan,6,ผมไปรถตู้,phǒm pai rót-tûu,Saya pergi naik minibus.,
+v408,น้ำมัน,náam-man,namman,minyak; bensin,bensin,nomina,,benda,5,เติมน้ำมันก่อน,tooem náam-man kàawn,Isi bensin dulu.,"เติม (tooem) berarti 'menambah, mengisi'."
+v409,เงินสด,ngooen-sòt,ngoenso,uang tunai,tunai,nomina,,uang,5,จ่ายเงินสดได้ไหม,jàai ngooen-sòt dâi mǎi,Bisa bayar tunai?,
+v410,ยืน,yuuen,yuen,berdiri,,verba,,kerja,5,เขายืนรออยู่,khǎo yuuen raaw yùu,Dia sedang berdiri menunggu.,
+v411,ล้าง,láang,lang,mencuci (benda),cuci,verba,,kerja,4,ล้างมือก่อนกิน,láang muue kàawn kin,Cuci tangan sebelum makan.,
+v412,ซัก,sák,sak,mencuci (pakaian),,verba,,kerja,6,ซักเสื้อผ้าวันนี้,sák sûea-phâa wan-níi,Mencuci pakaian hari ini.,เสื้อผ้า (sûea-phâa) berarti 'pakaian' secara umum.
+v413,ปลูก,plùuk,pluk,menanam,tanam,verba,,kerja,6,ปลูกต้นไม้หน้าบ้าน,plùuk tôn-máai nâa bâan,Menanam pohon di depan rumah.,
+v414,เลี้ยง,líang,liang,memelihara; mentraktir,pelihara; traktir,verba,,kerja,5,ผมเลี้ยงแมวสองตัว,phǒm líang maeo sǎawng tua,Saya memelihara dua kucing.,Juga berarti 'mentraktir': วันนี้ผมเลี้ยง ('hari ini saya yang traktir').
+v415,ร้องไห้,ráawng-hâi,ronghai,menangis,,verba,,rasa,5,เด็กร้องไห้,dèk ráawng-hâi,Anak itu menangis.,
+v416,หัวเราะ,hǔa-ráw,huaro,tertawa,,verba,,rasa,5,เขาหัวเราะดัง,khǎo hǔa-ráw dang,Dia tertawa keras.,
+v417,ยิ้ม,yím,yim,tersenyum,senyum,verba,,rasa,4,คนไทยยิ้มบ่อย,khon thai yím bàawi,Orang Thai sering tersenyum.,
+v418,โกรธ,kròot,krot,marah,,sifat,,rasa,5,อย่าโกรธนะ,yàa kròot ná,"Jangan marah, ya.",อย่า (yàa) berarti 'jangan'. Termasuk empat kata ber-อย.
+v419,กลัว,klua,klua,takut,,sifat,,rasa,4,ผมกลัวหมา,phǒm klua mǎa,Saya takut anjing.,
+v420,ตกใจ,tòk-jai,tokchai,terkejut,kaget,sifat,,rasa,5,ผมตกใจมาก,phǒm tòk-jai mâak,Saya sangat terkejut.,
+v421,เบื่อ,bùea,buea,bosan,jenuh,sifat,,rasa,5,ผมเบื่ออาหารนี้,phǒm bùea aa-hǎan níi,Saya bosan dengan makanan ini.,
+v422,อย่า,yàa,ya,jangan,,keterangan,,keterangan,5,อย่าลืมนะครับ,yàa luuem ná khráp,"Jangan lupa, ya.","Salah satu dari empat kata ber-อย: อย่า, อยู่, อย่าง, อยาก."
+v423,อย่าง,yàang,yang,cara; macam,macam,nomina,,keterangan,5,อย่างนี้ดีกว่า,yàang níi dii kwàa,Cara ini lebih baik.,
+v424,ทุกวัน,thúk-wan,thukwan,setiap hari,,keterangan,,waktu,4,ผมเรียนทุกวัน,phǒm rian thúk-wan,Saya belajar setiap hari.,
+v425,ทุกคน,thúk-khon,thukkhon,semua orang,,ganti,,keterangan,5,ทุกคนมาแล้ว,thúk-khon maa láeo,Semua orang sudah datang.,
+v426,ปีนี้,pii-níi,pini,tahun ini,,keterangan,,waktu,5,ปีนี้ผมไปไทย,pii-níi phǒm pai thai,Tahun ini saya pergi ke Thailand.,
+v427,สิบเอ็ด,sìp-èt,sip-et,sebelas,11,angka,,angka,4,สิบเอ็ดบาท,sìp-èt bàat,sebelas baht,"Angka satu berubah menjadi เอ็ด ketika menjadi satuan: 11, 21, 31, dan seterusnya."
+v428,สิบสอง,sìp-sǎawng,sip song,dua belas,12,angka,,angka,4,สิบสองคน,sìp-sǎawng khon,dua belas orang,
+v429,สามสิบ,sǎam-sìp,samsip,tiga puluh,30,angka,,angka,4,สามสิบบาท,sǎam-sìp bàat,tiga puluh baht,
+v430,ห้าสิบ,hâa-sìp,hasip,lima puluh,50,angka,,angka,4,ห้าสิบบาทครับ,hâa-sìp bàat khráp,Lima puluh baht.,
+v431,แรก,râek,raek,pertama,awal,sifat,,angka,6,ครั้งแรกที่มา,kráng râek thîi maa,pertama kali datang,
+v432,สุดท้าย,sùt-tháai,sutthai,terakhir,,sifat,,angka,6,วันสุดท้ายแล้ว,wan sùt-tháai láeo,Sudah hari terakhir.,
+v433,ทำอาหาร,tham aa-hǎan,tham ahan,memasak,masak,verba,,kerja,4,แม่ทำอาหารเก่ง,mâe tham aa-hǎan kèng,Ibu pandai memasak.,
+v434,ซื้อของ,súue-khǎawng,suekhong,berbelanja,belanja,verba,,uang,4,ไปซื้อของที่ห้าง,pai súue-khǎawng thîi hâang,Pergi berbelanja di mal.,
+v435,ดูหนัง,duu nǎng,du nang,menonton film,,verba,,kerja,4,คืนนี้ไปดูหนังกัน,khuuen níi pai duu nǎng kan,"Malam ini kita nonton film, yuk.",
+v436,เที่ยว,thîao,thiao,"bertamasya, jalan-jalan",jalan-jalan,verba,,jalan,4,ผมมาเที่ยวไทย,phǒm maa thîao thai,Saya datang berwisata ke Thailand.,ไปเที่ยว adalah kata yang paling sering dipakai untuk 'jalan-jalan' maupun 'berlibur'.
+v437,พักผ่อน,phák-phàawn,phakphon,beristirahat,santai,verba,,kerja,5,วันนี้ผมพักผ่อน,wan-níi phǒm phák-phàawn,Hari ini saya beristirahat.,
+v438,ประชุม,prà-chum,prachum,rapat,pertemuan,nomina,,kerja,6,ผมมีประชุมบ่ายนี้,phǒm mii prà-chum bàai níi,Saya ada rapat siang ini.,
+v439,นัด,nát,nat,janji temu; membuat janji,janji,nomina,,waktu,5,ผมมีนัดตอนเย็น,phǒm mii nát taawn-yen,Saya ada janji sore ini.,
+v440,รู้จัก,rúu-jàk,ruchak,mengenal,kenal,verba,,kerja,4,ผมรู้จักเขา,phǒm rúu-jàk khǎo,Saya mengenal dia.,รู้ saja berarti 'tahu' tentang sesuatu; untuk mengenal orang dipakai รู้จัก.
+v441,ต้องการ,tâawng-kaan,tongkan,memerlukan,butuh; perlu,verba,,keterangan,6,ผมต้องการห้องเงียบ,phǒm tâawng-kaan hâawng ngîap,Saya memerlukan kamar yang sunyi.,Lebih resmi daripada อยาก; dipakai pada tulisan dan percakapan dengan orang yang baru dikenal.
+v442,รีบ,rîip,rip,buru-buru,tergesa,verba,,kerja,5,ผมต้องรีบไป,phǒm tâawng rîip pai,Saya harus buru-buru pergi.,
+v443,ทัน,than,than,"keburu, sempat",sempat,verba,,waktu,5,ไปไม่ทันแล้ว,pai mâi than láeo,Sudah tidak keburu pergi.,
+v444,สาย,sǎai,sai,terlambat; jalur,telat,sifat,,waktu,5,ผมมาสายครับ,phǒm maa sǎai khráp,Saya datang terlambat.,Kata yang sama berarti 'jalur' untuk bus dan kereta: รถสายนี้ ('bus jalur ini').
+v445,พิเศษ,phí-sèet,phiset,istimewa,spesial,sifat,,sifat,6,ราคาพิเศษวันนี้,raa-khaa phí-sèet wan-níi,Harga istimewa hari ini.,"Di warung mi, พิเศษ berarti porsi besar."
+v446,แน่นอน,nâe-naawn,naenon,"pasti, tentu saja",tentu,keterangan,,keterangan,5,แน่นอนครับ,nâe-naawn khráp,Tentu saja.,
+v447,บางที,baang-thii,bangthi,mungkin,barangkali,keterangan,,keterangan,5,บางทีเขาไม่มา,baang-thii khǎo mâi maa,Mungkin dia tidak datang.,
+v448,ถูกต้อง,thùuk-tâawng,thuktong,"benar, tepat",betul,sifat,,sifat,5,คำตอบถูกต้อง,kham-tàawp thùuk-tâawng,Jawabannya benar.,คำตอบ berarti 'jawaban'; คำ adalah 'kata'.
+v449,ผิด,phìt,phit,salah,keliru,sifat,,sifat,4,ผมพูดผิด,phǒm phûut phìt,Saya salah bicara.,
+v450,แรง,raeng,raeng,"kuat, keras (tenaga)",kencang,sifat,,sifat,6,ลมแรงมาก,lom raeng mâak,Anginnya sangat kencang.,
+v451,ตื่นเต้น,tùuen-tên,tuenten,gembira; gugup,deg-degan,sifat,,rasa,6,ผมตื่นเต้นมาก,phǒm tùuen-tên mâak,Saya sangat gembira.,
+v452,สนใจ,sǒn-jai,sonchai,"tertarik, berminat",minat,verba,,rasa,5,ผมสนใจภาษาไทย,phǒm sǒn-jai phaa-sǎa thai,Saya tertarik pada bahasa Thai.,
+v453,กำลัง,kam-lang,kamlang,sedang (berlangsung),,partikel,,keterangan,4,ผมกำลังกินข้าว,phǒm kam-lang kin khâao,Saya sedang makan.,"Diletakkan sebelum kata kerja, dan sering dipasangkan dengan อยู่ di akhir kalimat."
+v454,เรื่อง,rûeang,rueang,"hal, perkara, cerita",cerita; masalah,nomina,เรื่อง,benda,5,เรื่องนี้สำคัญ,rûeang níi sǎm-khan,Hal ini penting.,Juga menjadi klasifikator untuk film dan cerita: หนังเรื่องนี้.
+v455,ปัญหา,pan-hǎa,panha,masalah,persoalan,nomina,,benda,6,ไม่มีปัญหาครับ,mâi mii pan-hǎa khráp,Tidak ada masalah.,
+v456,ข่าว,khàao,khao,berita,,nomina,ข่าว,benda,5,ผมดูข่าวทุกวัน,phǒm duu khàao thúk-wan,Saya menonton berita setiap hari.,"Bandingkan ข้าว (khâao, 'nasi') dan ขาว (khǎao, 'putih') yang hanya berbeda nada."
+v457,คำ,kham,kham,kata,,nomina,คำ,benda,5,คำนี้แปลว่าอะไร,kham níi plae wâa à-rai,Kata ini artinya apa?,แปล (plae) berarti 'menerjemahkan'; แปลว่า berarti 'artinya'.
+v458,แปล,plae,plae,menerjemahkan,terjemah; arti,verba,,kerja,5,ช่วยแปลให้หน่อย,chûai plae hâi nàawi,Tolong terjemahkan untuk saya.,
+v459,หน่อย,nàawi,noi,sedikit; dong (pelembut permintaan),dong,partikel,,partikel,3,ขอน้ำหน่อยครับ,khǎaw náam nàawi khráp,"Minta air sedikit, dong.",Ditambahkan pada permintaan supaya tidak terdengar seperti perintah. Sangat sering dipakai.
+v460,ว่า,wâa,wa,bahwa; berkata,bahwa,sambung,,keterangan,5,ผมคิดว่าใช่,phǒm khít wâa châi,Saya rasa memang begitu.,"Menghubungkan kata kerja berpikir atau berkata dengan isinya: คิดว่า, บอกว่า, พูดว่า."
+v461,ใน,nai,nai,di dalam,dalam,depan,,arah,3,ของอยู่ในกระเป๋า,khǎawng yùu nai krà-pǎo,Barangnya ada di dalam tas.,Termasuk daftar kata ber-ใ yang ejaannya perlu dihafal.
+v462,บน,bon,bon,di atas,atas,depan,,arah,3,หนังสืออยู่บนโต๊ะ,nǎng-sǔue yùu bon tó,Bukunya ada di atas meja.,
+v463,ใต้,tâai,tai,di bawah,bawah,depan,,arah,4,แมวอยู่ใต้เตียง,maeo yùu tâai tiang,Kucingnya ada di bawah tempat tidur.,
+v464,ข้าง,khâang,khang,"sisi, sebelah",samping,nomina,,arah,4,ร้านอยู่ข้างธนาคาร,ráan yùu khâang thá-naa-khaan,Tokonya di sebelah bank.,"Membentuk banyak kata arah: ข้างใน, ข้างนอก, ข้างบน, ข้างล่าง, ข้างหลัง."
+v465,นอก,nâawk,nok,luar,,nomina,,arah,5,รอข้างนอกนะครับ,raaw khâang-nâawk ná khráp,"Tunggu di luar, ya.",
+v466,ล่าง,lâang,lang,bawah,,nomina,,arah,5,ห้องน้ำอยู่ข้างล่าง,hâawng-náam yùu khâang-lâang,Toiletnya ada di bawah.,
+v467,ระวัง,rá-wang,rawang,"hati-hati, awas",awas,verba,,keterangan,5,ระวังรถครับ,rá-wang rót khráp,"Hati-hati, ada mobil.",
+v468,ชื่อเล่น,chûue-lên,chuelen,nama panggilan,nama kecil,nomina,,orang,5,ชื่อเล่นผมคือหนึ่ง,chûue-lên phǒm khuue nùeng,Nama panggilan saya Nueng.,"Hampir setiap orang Thai punya nama panggilan pendek, dan itulah yang dipakai sehari-hari."
+v469,นามสกุล,naam-sà-kun,namsakun,nama keluarga,marga,nomina,,orang,6,นามสกุลยาวมาก,naam-sà-kun yaao mâak,Nama keluarganya sangat panjang.,
+v470,อายุ,aa-yú,ayu,usia,umur,nomina,,orang,4,คุณอายุเท่าไหร่,khun aa-yú thâo-rài,Berapa usia Anda?,
+v471,ที่อยู่,thîi-yùu,thiyu,alamat,,nomina,,tempat,5,ขอที่อยู่หน่อยครับ,khǎaw thîi-yùu nàawi khráp,Boleh minta alamatnya?,
+v472,เข้า,khâo,khao,masuk,,verba,,kerja,3,เชิญเข้ามาครับ,chooen khâo maa khráp,Silakan masuk.,เชิญ (chooen) berarti 'silakan'.
+v473,ออก,àawk,ok,keluar,,verba,,kerja,3,ออกไปข้างนอก,àawk pai khâang-nâawk,Keluar ke luar.,
+v474,ตก,tòk,tok,"jatuh, turun",jatuh,verba,,kerja,3,ฝนตกทุกวัน,fǒn tòk thúk-wan,Hujan turun setiap hari.,ฝนตก ('hujan jatuh') adalah cara biasa mengatakan 'hujan'.
+v475,ไหว,wǎi,wai,"sanggup, tahan",kuat,verba,,kerja,6,เดินไม่ไหวแล้ว,dooen mâi wǎi láeo,Sudah tidak sanggup berjalan.,"Salah satu dari tiga kata 'bisa': ได้ (mungkin atau boleh), เป็น (keterampilan), ไหว (daya tahan)."
+v476,ทราบ,sâap,sap,tahu (ragam halus),mengetahui,verba,,kerja,6,ไม่ทราบครับ,mâi sâap khráp,Saya tidak tahu. (halus),"Perhatikan ejaannya: ทร di awal kata dibaca s, bukan thr. Dipakai pada ragam sopan, menggantikan รู้."
+v477,พา,phaa,pha,"membawa (orang), mengantar",mengajak,verba,,kerja,5,ผมพาเพื่อนมา,phǒm phaa phûean maa,Saya mengajak teman datang.,พา untuk membawa orang; เอา untuk membawa barang.
+v478,บิน,bin,bin,terbang,,verba,,jalan,5,เครื่องบินบินสูง,khrûeang-bin bin sǔung,Pesawatnya terbang tinggi.,
+v479,โทร,thoo,tho,menelepon,telepon,verba,,kerja,5,ผมจะโทรหาคุณ,phǒm jà thoo hǎa khun,Saya akan menelepon Anda.,"Pemendekan dari โทรศัพท์. Huruf ร di sini tidak dibunyikan, sehingga terbaca thoo."
+v480,เชิญ,chooen,choen,"silakan, mempersilakan",silakan,verba,,sapaan,5,เชิญนั่งครับ,chooen nâng khráp,Silakan duduk.,
+v481,ชื่น,chûuen,chuen,"senang, segar (hati)",,sifat,,rasa,6,ยินดีและชื่นใจ,yin-dii láe chûuen-jai,Senang dan lega hati.,"ชื่นใจ berarti 'lega dan menyenangkan hati', sering dipakai untuk minuman yang menyegarkan."
+v482,นะ,ná,na,"ya, dong (pelembut)",ya,partikel,,partikel,3,ไม่เผ็ดนะครับ,mâi phèt ná khráp,"Jangan pedas, ya.","Melembutkan permintaan atau mencari persetujuan. Tanpa นะ, kalimatnya terdengar seperti perintah."
+v483,เลย,looei,loei,sama sekali; langsung,langsung,partikel,,keterangan,5,ไม่เผ็ดเลย,mâi phèt looei,Sama sekali tidak pedas.,Sesudah kalimat negatif berarti 'sama sekali'; sesudah kata kerja berarti 'langsung saja'.
+v484,อีก,ìik,ik,"lagi, tambah",lagi,keterangan,,keterangan,4,ขออีกแก้วหนึ่ง,khǎaw ìik kâeo nùeng,Minta satu gelas lagi.,
+v485,เยอะ,yóe,yoe,banyak (percakapan),banyak,keterangan,,sifat,4,คนเยอะมาก,khon yóe mâak,Orangnya banyak sekali.,เยอะ dipakai dalam percakapan; มาก dipakai untuk 'sangat' dan juga 'banyak'.
+v486,ครั้ง,kráng,khrang,kali,,klasifikator,,waktu,4,ผมมาครั้งแรก,phǒm maa kráng râek,Saya datang untuk pertama kali.,
+v487,ละ,lá,la,"per, setiap",per,partikel,,keterangan,5,วันละสองครั้ง,wan-lá sǎawng kráng,dua kali sehari,"Dipakai pada takaran: วันละ ('per hari'), คนละ ('per orang'), อันละ ('per buah')."
+v488,เล่ม,lêm,lem,klasifikator untuk buku,,klasifikator,,klasifikator,4,หนังสือสามเล่ม,nǎng-sǔue sǎam lêm,tiga buku,
+v489,คัน,khan,khan,klasifikator kendaraan beroda; gatal,gatal,klasifikator,,klasifikator,4,รถสองคัน,rót sǎawng khan,dua mobil,Kata yang sama juga berarti 'gatal' dan menjadi klasifikator untuk sendok dan payung.
+v490,ชิ้น,chín,chin,klasifikator potongan,potong,klasifikator,,klasifikator,5,ขนมสองชิ้น,khà-nǒm sǎawng chín,dua potong kue,
+v491,ขวด,khùat,khuat,botol,,klasifikator,,klasifikator,4,น้ำหนึ่งขวด,náam nùeng khùat,satu botol air,Muncul pada nama huruf ฃ ขวด yang sudah tidak dipakai.
+v492,ถุง,thǔng,thung,"kantong, tas plastik",kantong,klasifikator,,klasifikator,4,ขอถุงหนึ่งใบ,khǎaw thǔng nùeng bai,Minta satu kantong.,Muncul pada nama huruf ถ ถุง.
+v493,กล่อง,klàawng,klong,"kotak, dus",kotak,klasifikator,,klasifikator,5,นมหนึ่งกล่อง,nom nùeng klàawng,satu kotak susu,
+v494,คู่,khûu,khu,pasang; pasangan,pasang,klasifikator,,klasifikator,5,รองเท้าหนึ่งคู่,raawng-tháo nùeng khûu,sepasang sepatu,
+v495,ชาม,chaam,cham,mangkuk; klasifikator untuk makanan berkuah,mangkuk,klasifikator,,klasifikator,5,ก๋วยเตี๋ยวสองชาม,kǔai-tǐao sǎawng chaam,dua mangkuk mi kuah,"Satu kata untuk bendanya sekaligus klasifikatornya: ชามใบนี้ ('mangkuk ini'), ก๋วยเตี๋ยวสองชาม ('dua mangkuk mi')."
+v497,แห่ง,hàeng,haeng,klasifikator tempat,,klasifikator,,klasifikator,6,โรงแรมสองแห่ง,roong-raem sǎawng hàeng,dua hotel,
+v498,ดวง,duang,duang,klasifikator benda bulat bercahaya,,klasifikator,,klasifikator,6,ดาวหนึ่งดวง,daao nùeng duang,satu bintang,"Dipakai untuk matahari, bulan, bintang, lampu, dan juga perangko."
+v499,ก้อน,kâawn,kon,klasifikator benda bergumpal,bongkah,klasifikator,,klasifikator,6,น้ำแข็งสองก้อน,náam-khǎeng sǎawng kâawn,dua bongkah es,
+v500,ต้น,tôn,ton,klasifikator pohon; pangkal,batang,klasifikator,,klasifikator,5,ต้นไม้สิบต้น,tôn-máai sìp tôn,sepuluh pohon,
+v501,ดอก,dàawk,dok,klasifikator bunga dan kunci,kuntum,klasifikator,,klasifikator,5,ดอกไม้สามดอก,dàawk-máai sǎam dàawk,tiga kuntum bunga,
+v502,เสื้อผ้า,sûea-phâa,sueapha,pakaian,baju,nomina,,benda,5,ซักเสื้อผ้าแล้ว,sák sûea-phâa láeo,Pakaiannya sudah dicuci.,
+v503,เครื่องดื่ม,khrûeang-dùuem,khrueangduem,minuman,,nomina,แก้ว,makanan,5,มีเครื่องดื่มอะไรบ้าง,mii khrûeang-dùuem à-rai bâang,Ada minuman apa saja?,บ้าง (bâang) ditambahkan pada pertanyaan yang jawabannya lebih dari satu.
+v504,บ้าง,bâang,bang,beberapa; apa saja,,keterangan,,keterangan,6,มีอะไรบ้างครับ,mii à-rai bâang khráp,Ada apa saja?,

@@ -24,7 +24,7 @@ pengajar**. Periksalah dengan kamus atau pengajar sebelum menghafalkannya.
 | Kata serumpun tidak mengulang kata yang sudah ada di modul kosakata | `tests/test_modul_baru.py` |
 | Seluruh kata pada modul bacaan sudah pernah diajarkan di modul lain | `tests/test_modul_baru.py` |
 
-702 kata dan kalimat contoh diperiksa dengan cara itu.
+1334 kata dan kalimat contoh diperiksa dengan cara itu.
 
 ## Yang TIDAK diperiksa mesin
 
@@ -45,8 +45,8 @@ pengajar**. Periksalah dengan kamus atau pengajar sebelum menghafalkannya.
 6. **Penjelasan tata bahasa.** Dua belas topik di `grammar.json` sengaja
    disederhanakan untuk tingkat A1-A2. Field `caveats` memuat batasnya, tetapi
    penyederhanaan yang menyesatkan tetap mungkin lolos.
-7. **Lajur `freq` pada kosakata.** Pembagian 48 kata inti, 113 kata sering,
-   dan 25 kata lebih jarang adalah **perkiraan penyusun**, bukan hasil
+7. **Lajur `freq` pada kosakata.** Pembagian 73 kata inti, 260 kata sering,
+   dan 169 kata lebih jarang adalah **perkiraan penyusun**, bukan hasil
    hitungan korpus. Ia menentukan kata mana yang diperkenalkan lebih dahulu,
    jadi kekeliruan di sini memperlambat belajar tetapi tidak membuat materinya
    salah. Daftar frekuensi dari korpus Thai akan jauh lebih baik.
@@ -56,7 +56,7 @@ pengajar**. Periksalah dengan kamus atau pengajar sebelum menghafalkannya.
    วิชา/'widya') perlu diperiksa ahli. Pakailah kemiripan itu untuk MENGINGAT
    kata, bukan untuk menyimpulkan sejarah bahasanya.
 9. **Suara.** Pelafalan di aplikasi web memakai pelafal mesin bawaan perangkat,
-   bukan rekaman penutur asli. Mutunya berbeda-beda antar perangkat, dan
+   bukan rekaman penutur asli. Mutunya berbeda-beda antarperangkat, dan
    nadanya tidak selalu setepat penutur asli. Proyek ini tidak memuat berkas
    audio sendiri.
 

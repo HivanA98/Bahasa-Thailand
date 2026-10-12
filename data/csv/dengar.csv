@@ -1,6 +1,6 @@
 id,jenis,th,lafal,arti,pasangannya,tahap,catatan
-d-p01-0,panjang,ปัก,pàk,"menancapkan, menyulam",ปาก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia."
-d-p01-1,panjang,ปาก,pàak,mulut,ปัก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia."
+d-p01-0,panjang,ปัก,pàk,"menancapkan, menyulam",ปาก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam bahasa Indonesia."
+d-p01-1,panjang,ปาก,pàak,mulut,ปัก,2,"Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam bahasa Indonesia."
 d-p02-0,panjang,คัน,khan,gatal; klasifikator kendaraan,คาน,2,Keduanya bernada sedang dan berawalan ค. Panjang vokal saja yang membedakan artinya.
 d-p02-1,panjang,คาน,khaan,balok penyangga,คัน,2,Keduanya bernada sedang dan berawalan ค. Panjang vokal saja yang membedakan artinya.
 d-p03-0,panjang,ทัน,than,"sempat, keburu",ทาน,3,"ทาน yang panjang adalah bentuk halus dari กิน. Kalau vokalnya terlalu pendek, yang terdengar justru ทัน ('keburu')."
@@ -13,8 +13,8 @@ d-p06-0,panjang,พัน,phan,seribu; melilit,พาน,5,"พัน ('seribu')
 d-p06-1,panjang,พาน,phaan,baki bertangkai,พัน,5,"พัน ('seribu') dipakai hampir setiap hari saat menyebut harga, jadi vokal pendeknya perlu benar-benar pendek."
 d-h01-0,hembusan,กา,kaa,burung gagak,คา,2,"Keduanya bernada sedang. ก tidak berhembus, ค berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada ค harus terasa embusan udara, pada ก tidak."
 d-h01-1,hembusan,คา,khaa,tersangkut,กา,2,"Keduanya bernada sedang. ก tidak berhembus, ค berhembus. Uji sendiri dengan menaruh telapak tangan di depan mulut: pada ค harus terasa embusan udara, pada ก tidak."
-d-h02-0,hembusan,ตา,taa,mata; kakek dari pihak ibu,ทา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
-d-h02-1,hembusan,ทา,thaa,mengoleskan,ตา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
+d-h02-0,hembusan,ตา,taa,mata; kakek dari pihak ibu,ทา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
+d-h02-1,hembusan,ทา,thaa,mengoleskan,ตา,2,"ต tanpa hembusan, ท dengan hembusan. Bunyi t bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."
 d-h03-0,hembusan,ปา,paa,melempar,พา,3,"ป tanpa hembusan, พ dengan hembusan. Keduanya bernada sedang."
 d-h03-1,hembusan,พา,phaa,membawa (orang),ปา,3,"ป tanpa hembusan, พ dengan hembusan. Keduanya bernada sedang."
 d-h04-0,hembusan,ไก่,kài,ayam,ไข่,3,"Pasangan paling berguna di warung: keduanya bernada rendah, dan hanya hembusan yang membedakan 'ayam' dari 'telur'. ข้าวไก่ ('nasi ayam') dan ข้าวไข่ ('nasi telur') adalah dua pesanan yang berbeda."

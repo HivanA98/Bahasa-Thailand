@@ -59,7 +59,7 @@ MODE_GROUPS = {
 #: kosakata hanya bisa dihafal lewat alih huruf Latin, dan itu jalan buntu.
 #: Kosakata tetap diberi bobot terbesar karena jumlah entrinya paling banyak.
 #: Latihan telinga diberi bobot 2 karena nada, panjang vokal, dan hembusan
-#: tidak ada dalam Bahasa Indonesia sehingga perlu diulang jauh lebih sering
+#: tidak ada dalam bahasa Indonesia sehingga perlu diulang jauh lebih sering
 #: daripada hal yang sudah dimiliki penuturnya.
 GROUP_WEIGHTS = {
     "aksara": 3, "nada": 2, "dengar": 2, "kosakata": 3, "serumpun": 1,

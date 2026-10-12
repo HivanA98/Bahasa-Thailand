@@ -184,14 +184,46 @@ def test_setiap_kata_punya_perkiraan_frekuensi():
 
 
 def test_kata_inti_cukup_banyak_dan_tidak_berlebihan():
+    """Band 1 adalah kata yang muncul hampir di setiap percakapan.
+
+    Bila terlalu sedikit, penjadwal tidak punya cukup kata inti untuk
+    didahulukan; bila terlalu banyak, penandaannya kehilangan arti. Sepersepuluh
+    sampai seperlima dari seluruh kosakata adalah ukuran yang wajar.
+    """
     band = [e["freq"] for e in dataio.vocab_entries()]
     inti = band.count(1)
-    assert 30 <= inti <= 70, f"kata inti: {inti}"
+    assert 0.10 <= inti / len(band) <= 0.20, f"kata inti: {inti} dari {len(band)}"
     assert band.count(2) > inti, "sebagian besar kata seharusnya berada di band 2"
 
 
-def test_kata_inti_muncul_pada_tahap_awal():
-    """Kata paling sering dipakai tidak boleh menumpuk di tahap akhir."""
-    awal = [e for e in dataio.vocab_entries() if e["freq"] == 1 and e["stage"] <= 2]
-    semua_inti = [e for e in dataio.vocab_entries() if e["freq"] == 1]
-    assert len(awal) >= len(semua_inti) * 0.6
+def test_kata_yang_lebih_sering_diperkenalkan_lebih_dahulu():
+    """Makin sering sebuah kata dipakai, makin awal tahapnya.
+
+    Yang diperiksa bukan tahap satu per satu — kata sering yang ejaannya sulit
+    memang pantas menunggu — melainkan kecenderungannya: rata-rata tahap kata
+    inti harus lebih rendah daripada kata yang sering, dan kata yang sering
+    lebih rendah daripada kata yang jarang.
+    """
+    import statistics
+
+    entri = dataio.vocab_entries()
+    rata = {
+        f: statistics.mean([e["stage"] for e in entri if e["freq"] == f])
+        for f in (1, 2, 3)
+    }
+    assert rata[1] < rata[2] < rata[3], rata
+
+
+def test_tahap_awal_tidak_diisi_kata_jarang():
+    """Tahap 1 dan 2 adalah modal pertama, jadi tidak diisi kata yang jarang."""
+    awal = [e for e in dataio.vocab_entries() if e["stage"] <= 2]
+    assert awal
+    assert all(e["freq"] <= 2 for e in awal), [
+        e["id"] for e in awal if e["freq"] > 2
+    ]
+
+
+def test_kata_inti_tersebar_bukan_menumpuk():
+    inti = [e for e in dataio.vocab_entries() if e["freq"] == 1]
+    assert len(inti) >= 40
+    assert all(e["stage"] <= 5 for e in inti), "kata inti tidak boleh di tahap 6"

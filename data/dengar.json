@@ -1,7 +1,7 @@
 {
   "module": 6,
   "title": "Latihan telinga",
-  "description": "Tiga hal yang tidak ada dalam Bahasa Indonesia dan karena itu tidak bisa didengar begitu saja oleh telinga Anda: nada, panjang vokal, dan hembusan (aspirasi). Ketiganya hanya terlatih dengan mendengarkan pasangan kata yang bedanya HANYA satu hal itu, lalu menebak mana yang barusan terdengar. Latihan nada memakai pasangan nada di Modul 2; berkas ini memuat dua jenis pasangan lainnya.\n\nDi aplikasi web, kartu modul ini membunyikan salah satu kata lalu meminta Anda memilih kata mana yang terdengar. Di terminal tidak ada bunyi, sehingga kartu yang sama berubah menjadi latihan mengucapkan: Anda membaca kedua kata dengan beda yang tepat, lalu menilai sendiri.",
+  "description": "Tiga hal yang tidak ada dalam bahasa Indonesia dan karena itu tidak bisa didengar begitu saja oleh telinga Anda: nada, panjang vokal, dan hembusan (aspirasi). Ketiganya hanya terlatih dengan mendengarkan pasangan kata yang bedanya HANYA satu hal itu, lalu menebak mana yang barusan terdengar. Latihan nada memakai pasangan nada di Modul 2; berkas ini memuat dua jenis pasangan lainnya.\n\nDi aplikasi web, kartu modul ini membunyikan salah satu kata lalu meminta Anda memilih kata mana yang terdengar. Di terminal tidak ada bunyi, sehingga kartu yang sama berubah menjadi latihan mengucapkan: Anda membaca kedua kata dengan beda yang tepat, lalu menilai sendiri.",
   "schema": {
     "sets": "satu kelompok kata yang hanya berbeda pada SATU hal",
     "type": "panjang = beda panjang vokal; hembusan = beda hembusan konsonan awal",
@@ -14,7 +14,7 @@
        {"th": "ปัก", "syl": ["ปัก"], "phon": "pàk", "gloss": "menancapkan, menyulam"},
        {"th": "ปาก", "syl": ["ปาก"], "phon": "pàak", "gloss": "mulut"}
      ],
-     "note": "Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur Bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam Bahasa Indonesia."},
+     "note": "Keduanya bernada rendah. Yang berbeda hanya lama vokalnya: ◌ั pendek, ◌า panjang. Telinga penutur bahasa Indonesia tidak terlatih membedakan ini karena panjang vokal tidak membedakan arti dalam bahasa Indonesia."},
     {"id": "d-p02", "type": "panjang", "stage": 2,
      "words": [
        {"th": "คัน", "syl": ["คัน"], "phon": "khan", "gloss": "gatal; klasifikator kendaraan"},
@@ -57,7 +57,7 @@
        {"th": "ตา", "syl": ["ตา"], "phon": "taa", "gloss": "mata; kakek dari pihak ibu"},
        {"th": "ทา", "syl": ["ทา"], "phon": "thaa", "gloss": "mengoleskan"}
      ],
-     "note": "ต tanpa hembusan, ท dengan hembusan. Bunyi t Bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."},
+     "note": "ต tanpa hembusan, ท dengan hembusan. Bunyi t bahasa Indonesia sudah mirip ต, jadi yang perlu dilatih adalah menambah hembusan pada ท."},
     {"id": "d-h03", "type": "hembusan", "stage": 3,
      "words": [
        {"th": "ปา", "syl": ["ปา"], "phon": "paa", "gloss": "melempar"},
@@ -95,7 +95,7 @@
      ], "answer": 0,
      "explain": "Aturan nada menjawab pertanyaan 'kata tertulis ini nadanya apa'. Ia tidak menjawab 'bunyi yang barusan saya dengar itu nada apa'. Keduanya keterampilan berbeda dan dilatih terpisah."},
     {"id": "d-q02", "type": "mcq", "stage": 2,
-     "prompt": "Apa yang paling sering merusak nada kata terakhir pada kalimat tanya penutur Bahasa Indonesia?",
+     "prompt": "Apa yang paling sering merusak nada kata terakhir pada kalimat tanya penutur bahasa Indonesia?",
      "prompt_th": null, "options_lang": "id",
      "options": [
        "Kebiasaan menaikkan nada suara di akhir pertanyaan",
@@ -103,7 +103,7 @@
        "Memakai partikel ครับ atau ค่ะ",
        "Mengucapkan vokal terlalu panjang"
      ], "answer": 0,
-     "explain": "Dalam Bahasa Indonesia, naik-turun suara menandai jenis kalimat. Dalam Bahasa Thailand, naik-turun suara adalah bagian dari kata itu sendiri. Pertanyaan ditandai partikel seperti ไหม, bukan oleh nada akhir."},
+     "explain": "Dalam bahasa Indonesia, naik-turun suara menandai jenis kalimat. Dalam bahasa Thailand, naik-turun suara adalah bagian dari kata itu sendiri. Pertanyaan ditandai partikel seperti ไหม, bukan oleh nada akhir."},
     {"id": "d-q03", "type": "mcq", "stage": 3,
      "prompt": "Cara paling sederhana memeriksa sendiri apakah konsonan Anda berhembus?",
      "prompt_th": null, "options_lang": "id",
@@ -115,7 +115,7 @@
      ], "answer": 0,
      "explain": "Pada ข, ถ, ผ, ท, ค, พ terasa embusan udara di telapak tangan; pada ก, ต, ป tidak. Ini pemeriksaan yang bisa dilakukan tanpa alat apa pun."},
     {"id": "d-q04", "type": "mcq", "stage": 4,
-     "prompt": "Panjang vokal pada Bahasa Thailand berperan sebagai apa?",
+     "prompt": "Panjang vokal pada bahasa Thailand berperan sebagai apa?",
      "prompt_th": null, "options_lang": "id",
      "options": [
        "Pembeda arti kata, sama seperti nada",
