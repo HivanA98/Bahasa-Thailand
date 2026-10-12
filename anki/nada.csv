@@ -1,0 +1,57 @@
+#separator:Comma
+#html:false
+#tags column:6
+กา,sedang,kaa,burung gagak,ก kelas tengah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap1
+ดี,sedang,dii,baik,ด kelas tengah + vokal ◌ี panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap1
+จะ,rendah,jà,akan,จ kelas tengah + vokal ◌ะ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap1
+จาก,rendah,jàak,dari,จ kelas tengah + vokal ◌า◌ panjang + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap1
+ปิด,rendah,pìt,menutup,ป kelas tengah + vokal ◌ิ◌ pendek + berakhiran ด (bunyi -t) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap1
+เป็น,sedang,pen,"adalah, menjadi",ป kelas tengah + vokal เ◌็◌ pendek + berakhiran น (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap1
+มา,sedang,maa,datang,ม kelas rendah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap1
+คน,sedang,khon,orang,ค kelas rendah + vokal ◌◌ pendek + berakhiran น (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap1
+ขา,naik,khǎa,kaki,ข kelas tinggi + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap1
+นก,tinggi,nók,burung,น kelas rendah + vokal ◌◌ pendek + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada tinggi.,thai nada tahap1
+ป่า,rendah,pàa,hutan,ป kelas tengah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap2
+ป้า,turun,pâa,bibi (saudara tua ayah/ibu),ป kelas tengah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai tho → nada turun.,thai nada tahap2
+ไม่,turun,mâi,tidak,ม kelas rendah + vokal ไ◌ pendek + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai ek → nada turun.,thai nada tahap2
+ม้า,tinggi,máa,kuda,ม kelas rendah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai tho → nada tinggi.,thai nada tahap2
+ข่าว,rendah,khàao,berita,ข kelas tinggi + vokal ◌า◌ panjang + berakhiran ว (bunyi -w) sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap2
+ข้าว,turun,khâao,"beras, nasi",ข kelas tinggi + vokal ◌า◌ panjang + berakhiran ว (bunyi -w) sehingga suku kata hidup + bertanda mai tho → nada turun.,thai nada tahap2
+มาก,turun,mâak,"banyak, sangat",ม kelas rendah + vokal ◌า◌ panjang + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada turun.,thai nada tahap2
+รัก,tinggi,rák,"cinta, mencintai",ร kelas rendah + vokal ◌ั◌ pendek + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada tinggi.,thai nada tahap2
+ลูก,turun,lûuk,anak (keturunan),ล kelas rendah + vokal ◌ู◌ panjang + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada turun.,thai nada tahap2
+สิบ,rendah,sìp,sepuluh,ส kelas tinggi + vokal ◌ิ◌ pendek + berakhiran บ (bunyi -p) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap2
+สาม,naik,sǎam,tiga,ส kelas tinggi + vokal ◌า◌ panjang + berakhiran ม (bunyi -m) sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap2
+ห้า,turun,hâa,lima,ห kelas tinggi + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai tho → nada turun.,thai nada tahap2
+หก,rendah,hòk,enam,ห kelas tinggi + vokal ◌◌ pendek + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap2
+ผม,naik,phǒm,saya (dipakai lelaki); rambut,ผ kelas tinggi + vokal ◌◌ pendek + berakhiran ม (bunyi -m) sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap2
+ถูก,rendah,thùuk,murah; benar,ถ kelas tinggi + vokal ◌ู◌ panjang + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap3
+ฝน,naik,fǒn,hujan,ฝ kelas tinggi + vokal ◌◌ pendek + berakhiran น (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap3
+น้ำ,tinggi,náam,air,น kelas rendah + vokal ◌ำ pendek + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai tho → nada tinggi.,thai nada tahap3
+ที่,turun,thîi,di; yang; tempat,ท kelas rendah + vokal ◌ี panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai ek → nada turun.,thai nada tahap3
+ยาก,turun,yâak,sulit,ย kelas rendah + vokal ◌า◌ panjang + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada turun.,thai nada tahap3
+เล็ก,tinggi,lék,kecil,ล kelas rendah + vokal เ◌็◌ pendek + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada tinggi.,thai nada tahap3
+ชา,sedang,chaa,teh,ช kelas rendah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap3
+งาน,sedang,ngaan,"pekerjaan, acara",ง kelas rendah + vokal ◌า◌ panjang + berakhiran น (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap3
+วัน,sedang,wan,hari,ว kelas rendah + vokal ◌ั◌ pendek + berakhiran น (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap3
+โต๊ะ,tinggi,tó,meja,ต kelas tengah + vokal โ◌ะ pendek + tanpa konsonan akhir sehingga suku kata mati + bertanda mai tri → nada tinggi.,thai nada tahap3
+เดี๋ยว,naik,dǐao,sebentar,ด kelas tengah + vokal เ◌ีย◌ panjang + berakhiran ว (bunyi -w) sehingga suku kata hidup + bertanda mai chattawa → nada naik.,thai nada tahap3
+หมา,naik,mǎa,anjing,ห nam di depan ม (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap4
+หนึ่ง,rendah,nùeng,satu,ห nam di depan น (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal ◌ึ◌ pendek + berakhiran ง (bunyi -ng) sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap4
+ให้,turun,hâi,memberi; supaya,ห kelas tinggi + vokal ใ◌ pendek + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai tho → nada turun.,thai nada tahap4
+ใหญ่,rendah,yài,besar,ห nam di depan ญ (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal ใ◌ pendek + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap4
+ไหม,naik,mǎi,partikel penanda pertanyaan,ห nam di depan ม (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal ไ◌ pendek + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap4
+อยู่,rendah,yùu,"berada, tinggal di",อย berkelas tengah (hanya pada empat kata) + vokal ◌ู panjang + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap4
+ปลา,sedang,plaa,ikan,"gugus ปล, kelasnya mengikuti ป yaitu kelas tengah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang.",thai nada tahap4
+กลับ,rendah,klàp,"kembali, pulang","gugus กล, kelasnya mengikuti ก yaitu kelas tengah + vokal ◌ั◌ pendek + berakhiran บ (bunyi -p) sehingga suku kata mati + tanpa tanda nada → nada rendah.",thai nada tahap4
+ครับ,tinggi,khráp,partikel sopan (dipakai lelaki),"gugus คร, kelasnya mengikuti ค yaitu kelas rendah + vokal ◌ั◌ pendek + berakhiran บ (bunyi -p) sehingga suku kata mati + tanpa tanda nada → nada tinggi.",thai nada tahap4
+ขนม,rendah - naik,khà-nǒm,"kue, penganan",ข kelas tinggi + vokal ◌ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah. น kelas tinggi + vokal ◌◌ pendek + berakhiran ม (bunyi -m) sehingga suku kata hidup + tanpa tanda nada → nada naik.,thai nada tahap5
+ตลาด,rendah - rendah,tà-làat,pasar,ต kelas tengah + vokal ◌ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah. ล kelas tengah + vokal ◌า◌ panjang + berakhiran ด (bunyi -t) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap5
+สนุก,rendah - rendah,sà-nùk,"menyenangkan, seru",ส kelas tinggi + vokal ◌ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah. น kelas tinggi + vokal ◌ุ◌ pendek + berakhiran ก (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap5
+สบาย,rendah - sedang,sà-baai,"nyaman, sehat",ส kelas tinggi + vokal ◌ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah. บ kelas tengah + vokal ◌า◌ panjang + berakhiran ย (bunyi -y) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap5
+เหนื่อย,rendah,nùeai,lelah,ห nam di depan น (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal เ◌ือ◌ panjang + berakhiran ย (bunyi -y) sehingga suku kata hidup + bertanda mai ek → nada rendah.,thai nada tahap6
+เปรี้ยว,turun,prîao,asam,"gugus ปร, kelasnya mengikuti ป yaitu kelas tengah + vokal เ◌ีย◌ panjang + berakhiran ว (bunyi -w) sehingga suku kata hidup + bertanda mai tho → nada turun.",thai nada tahap6
+กระเป๋า,rendah - naik,krà-pǎo,tas,"gugus กร, kelasnya mengikuti ก yaitu kelas tengah + vokal ◌ะ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada rendah. ป kelas tengah + vokal เ◌า pendek + tanpa konsonan akhir sehingga suku kata hidup + bertanda mai chattawa → nada naik.",thai nada tahap6
+พยาบาล,tinggi - sedang - sedang,phá-yaa-baan,perawat,พ kelas rendah + vokal ◌ pendek + tanpa konsonan akhir sehingga suku kata mati + tanpa tanda nada → nada tinggi. ย kelas rendah + vokal ◌า panjang + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada sedang. บ kelas tengah + vokal ◌า◌ panjang + berakhiran ล (bunyi -n) sehingga suku kata hidup + tanpa tanda nada → nada sedang.,thai nada tahap6
+สำหรับ,naik - rendah,sǎm-ràp,untuk,ส kelas tinggi + vokal ◌ำ pendek + tanpa konsonan akhir sehingga suku kata hidup + tanpa tanda nada → nada naik. ห nam di depan ร (ห tidak dibunyikan) sehingga kelasnya menjadi tinggi + vokal ◌ั◌ pendek + berakhiran บ (bunyi -p) sehingga suku kata mati + tanpa tanda nada → nada rendah.,thai nada tahap6
+ความสุข,sedang - rendah,khwaam-sùk,kebahagiaan,"gugus คว, kelasnya mengikuti ค yaitu kelas rendah + vokal ◌า◌ panjang + berakhiran ม (bunyi -m) sehingga suku kata hidup + tanpa tanda nada → nada sedang. ส kelas tinggi + vokal ◌ุ◌ pendek + berakhiran ข (bunyi -k) sehingga suku kata mati + tanpa tanda nada → nada rendah.",thai nada tahap6

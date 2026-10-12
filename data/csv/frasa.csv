@@ -1,0 +1,59 @@
+id,th,lafal,rtgs,arti,harfiah,kategori,tahap,catatan
+f01,สวัสดีครับ,sà-wàt-dii khráp,sawatdi khrap,Salam. (diucapkan lelaki),,sapaan,1,"Dipakai pagi, siang, malam, dan juga saat berpamitan. Lelaki selalu menutup dengan ครับ."
+f02,สวัสดีค่ะ,sà-wàt-dii khâ,sawatdi kha,Salam. (diucapkan perempuan),,sapaan,1,Perempuan memakai ค่ะ pada pernyataan dan sapaan.
+f03,สบายดีไหมครับ,sà-baai-dii mǎi khráp,sabaidi mai khrap,Apa kabar?,nyaman-baik kah,sapaan,1,Pertanyaan pembuka yang paling lazim. Tidak dipakai kepada orang yang sudah Anda temui pada hari yang sama.
+f04,สบายดีครับ,sà-baai-dii khráp,sabaidi khrap,"Baik, terima kasih.",nyaman-baik,sapaan,1,Jawaban baku atas สบายดีไหม. Bila sedang tidak sehat: ไม่สบาย (mâi sà-baai).
+f05,ขอบคุณครับ,khàawp-khun khráp,khopkhun khrap,Terima kasih.,,sapaan,1,Untuk terima kasih yang lebih dalam: ขอบคุณมากครับ.
+f06,ไม่เป็นไรครับ,mâi-pen-rai khráp,mai pen rai khrap,Tidak apa-apa. / Tidak masalah.,tidak jadi apa,sapaan,1,"Salah satu ungkapan paling sering didengar di Thailand. Dipakai untuk menjawab permintaan maaf, menjawab terima kasih, dan menolak tawaran dengan halus."
+f07,ขอโทษครับ,khǎaw-thôot khráp,khothot khrap,Maaf. / Permisi.,minta hukuman,sapaan,1,Juga dipakai untuk menyapa orang yang tidak dikenal sebelum bertanya.
+f08,ยินดีที่ได้รู้จัก,yin-dii thîi dâi rúu-jàk,yindi thi dai ruchak,Senang berkenalan dengan Anda.,senang yang dapat mengenal,kenalan,2,Kalimat yang panjang tetapi dipakai utuh sebagai satu ungkapan. Hafalkan sebagai satu blok.
+f09,คุณชื่ออะไรครับ,khun chûue à-rai khráp,khun chue arai khrap,Siapa nama Anda?,Anda bernama apa,kenalan,2,"Kata tanya อะไร berada di tempat jawabannya, bukan di awal kalimat."
+f10,ผมมาจากอินโดนีเซีย,phǒm maa jàak in-doo-nii-sia,phom ma chak indonisia,Saya dari Indonesia.,saya datang dari Indonesia,kenalan,2,Perempuan mengganti ผม dengan ฉัน.
+f11,ผมพูดไทยได้นิดหน่อย,phǒm phûut thai dâi nít-nàawi,phom phut thai dai nitnoi,Saya bisa berbahasa Thai sedikit.,saya bicara Thai bisa sedikit,kenalan,2,Kalimat yang sangat berguna di awal percakapan: ia menurunkan kecepatan bicara lawan bicara Anda.
+f12,ผมไม่เข้าใจครับ,phǒm mâi khâo-jai khráp,phom mai khaochai khrap,Saya tidak mengerti.,saya tidak masuk hati,kenalan,2,เข้าใจ ('mengerti') harfiahnya 'masuk ke hati'. Kata ใจ muncul pada banyak ungkapan perasaan dan pikiran.
+f13,ช่วยพูดอีกครั้งครับ,chûai phûut ìik kráng khráp,chuai phut ik khrang khrap,Tolong ucapkan sekali lagi.,bantu bicara lagi kali,kenalan,3,ช่วย + kata kerja adalah pola permintaan sopan yang paling berguna untuk pemula.
+f14,ภาษาไทยยากไหมครับ,phaa-sǎa thai yâak mǎi khráp,phasa thai yak mai khrap,Apakah bahasa Thailand sulit?,,kenalan,3,Pertanyaan pembuka percakapan yang hampir selalu disambut hangat oleh penutur asli.
+f15,แล้วเจอกันครับ,láeo jooe kan khráp,laeo choe kan khrap,Sampai jumpa.,sudah berjumpa bersama,sapaan,2,Dipakai kepada orang yang akan Anda temui lagi. Lebih santai daripada ลาก่อน.
+f16,ลาก่อนครับ,laa-kàawn khráp,lakon khrap,Selamat tinggal.,berpisah dahulu,sapaan,3,Terasa agak resmi dan berjarak. Dalam percakapan sehari-hari orang lebih sering memakai แล้วเจอกัน atau ไปก่อนนะ.
+f17,ไปก่อนนะครับ,pai kàawn ná khráp,pai kon na khrap,"Saya pergi dulu, ya.",pergi dahulu ya,sapaan,3,Cara pamit yang paling wajar saat meninggalkan sekelompok orang.
+f18,ฝันดีครับ,fǎn dii khráp,fandi khrap,Selamat tidur. (mimpi indah),bermimpi baik,sapaan,4,"Dipakai kepada orang dekat sebelum tidur, biasanya lewat pesan singkat."
+f19,เอาอันนี้ครับ,ao an níi khráp,ao an ni khrap,Saya mau yang ini.,ambil buah ini,restoran,2,"Kalimat terpenting bagi pemula: dengan menunjuk, Anda bisa memesan apa pun tanpa tahu namanya."
+f20,ผมไม่กินหมูครับ,phǒm mâi kin mǔu khráp,phom mai kin mu khrap,Saya tidak makan babi.,,restoran,2,"Bagi pembaca Muslim, kalimat ini perlu dihafal lebih dahulu daripada kalimat lain. Perhatikan nada naik pada หมู; bila diucapkan bernada sedang (มู) kata itu tidak dikenali."
+f21,มีอาหารฮาลาลไหมครับ,mii aa-hǎan haa-laan mǎi khráp,mi ahan halan mai khrap,Apakah ada makanan halal?,,restoran,3,"ฮาลาล adalah serapan dan dilafalkan haa-laan, sebab ล di akhir suku kata berbunyi -n. Di Bangkok dan Thailand selatan banyak rumah makan halal; di daerah lain pertanyaan ini perlu disertai penjelasan."
+f22,ไม่เผ็ดนะครับ,mâi phèt ná khráp,mai phet na khrap,"Jangan pedas, ya.",tidak pedas ya,restoran,2,Partikel นะ melembutkan permintaan. Tanpa นะ kalimatnya terdengar seperti perintah.
+f23,เอาน้ำเปล่าหนึ่งแก้วครับ,ao náam-plào nùeng kâeo khráp,ao nam plao nueng kaeo khrap,Saya mau satu gelas air putih.,ambil air kosong satu gelas,restoran,3,"น้ำเปล่า harfiahnya 'air kosong', yaitu air minum biasa. Pola hitungannya: benda + angka + klasifikator."
+f24,อร่อยมากครับ,à-ràawi mâak khráp,aroi mak khrap,Enak sekali.,,restoran,2,Pujian yang selalu disukai. Perhatikan มาก berada SESUDAH kata sifatnya.
+f25,ขอช้อนครับ,khǎaw cháawn khráp,kho chon khrap,Minta sendok.,minta sendok,restoran,3,ขอ + benda adalah pola meminta sesuatu yang kecil. Lebih sopan daripada เอา pada keadaan ini.
+f26,เช็คบิลครับ,chék bin khráp,chek bin khrap,Minta bonnya. (bayar),,restoran,3,Serapan dari bahasa Inggris 'check bill'. Bentuk Thai aslinya เก็บเงิน (kèp ngooen) juga dipakai.
+f27,อิ่มแล้วครับ,ìm láeo khráp,im laeo khrap,Sudah kenyang.,kenyang sudah,restoran,3,Cara menolak tambahan makanan tanpa menyinggung tuan rumah. แล้ว di sini menandai perubahan keadaan.
+f28,กินข้าวแล้วหรือยังครับ,kin khâao láeo rǔue yang khráp,kin khao laeo rue yang khrap,Sudah makan atau belum?,makan nasi sudah atau belum,restoran,4,"Pertanyaan sapaan yang sangat lazim, mirip 'sudah makan?' dalam bahasa Indonesia. Pola ...แล้วหรือยัง berarti 'sudah ... atau belum'."
+f29,ราคาเท่าไหร่ครับ,raa-khaa thâo-rài khráp,rakha thaorai khrap,Berapa harganya?,,belanja,3,Bentuk pendeknya เท่าไหร่ครับ saja sudah cukup bila barangnya sedang Anda pegang.
+f30,แพงมากครับ,phaeng mâak khráp,phaeng mak khrap,Mahal sekali.,,belanja,3,"Dipakai sebagai pembuka menawar di pasar, bukan di toko berlabel harga."
+f31,ลดได้ไหมครับ,lót dâi mǎi khráp,lot dai mai khrap,Bisa kurang harganya?,kurangi bisa kah,belanja,4,"Menawar lazim di pasar dan kios suvenir, tetapi tidak di pasar modern. Jawabannya ได้ ('bisa') atau ไม่ได้ ('tidak bisa')."
+f32,เอาสองอันครับ,ao sǎawng an khráp,ao song an khrap,Saya mau dua buah.,ambil dua buah,belanja,3,"อัน adalah klasifikator umum untuk benda kecil, pilihan yang aman bila Anda belum tahu klasifikator yang tepat."
+f33,มีสีอื่นไหมครับ,mii sǐi ùuen mǎi khráp,mi si uen mai khrap,Ada warna lain?,ada warna lain kah,belanja,4,สี berarti 'warna' dan bernada naik; สี่ ('empat') bernada rendah. Keduanya hanya berbeda nada.
+f34,จ่ายเงินที่ไหนครับ,jàai ngooen thîi-nǎi khráp,chai ngoen thi nai khrap,Bayarnya di mana?,,belanja,4,
+f35,ไม่เอาครับ,mâi ao khráp,mai ao khrap,"Tidak, terima kasih.",tidak ambil,belanja,2,Cara menolak tawaran penjual dengan singkat tetapi tetap sopan karena ada ครับ.
+f36,ห้องน้ำอยู่ที่ไหนครับ,hâawng-náam yùu thîi-nǎi khráp,hongnam yu thi nai khrap,Di mana toiletnya?,ruang air berada di mana,arah,2,Kalimat yang paling sering diperlukan wisatawan. Bentuk pendeknya ห้องน้ำอยู่ไหนครับ.
+f37,ไปสถานีรถไฟอย่างไรครับ,pai sà-thǎa-nii rót-fai yàang-rai khráp,pai sathani rotfai yangrai khrap,Bagaimana caranya ke stasiun kereta?,pergi stasiun kereta bagaimana,arah,5,อย่างไร ('bagaimana') dalam percakapan hampir selalu diucapkan ยังไง (yang-ngai). Ejaan อย่างไร dipakai pada tulisan.
+f38,ไกลไหมครับ,klai mǎi khráp,klai mai khrap,Jauh tidak?,,arah,2,Jawabannya biasanya ไม่ไกล ('tidak jauh') atau ใกล้ๆ ('dekat saja').
+f39,เลี้ยวซ้ายครับ,líao sáai khráp,liao sai khrap,Belok kiri.,,arah,4,Dipakai saat memberi arah kepada pengemudi. Pasangannya เลี้ยวขวา ('belok kanan').
+f40,ตรงไปครับ,trong pai khráp,trong pai khrap,Jalan terus (lurus).,lurus pergi,arah,4,
+f41,ช่วยเขียนให้ด้วยครับ,chûai khǐan hâi dûai khráp,chuai khian hai duai khrap,Tolong tuliskan untuk saya.,bantu tulis beri juga,arah,5,Berguna saat menanyakan alamat: tulisan tangan penutur asli bisa Anda tunjukkan kepada pengemudi.
+f42,ผมหลงทางครับ,phǒm lǒng thaang khráp,phom longthang khrap,Saya tersesat.,saya tersesat jalan,arah,5,"หลง sendiri berarti 'tersesat, terpikat'; หลงทาง khusus untuk kehilangan arah."
+f43,ช่วยด้วยครับ,chûai dûai khráp,chuai duai khrap,Tolong!,bantu juga,darurat,3,Seruan meminta pertolongan. Dalam keadaan darurat partikel sopan boleh dihilangkan: ช่วยด้วย.
+f44,ผมไม่สบายครับ,phǒm mâi sà-baai khráp,phom mai sabai khrap,Saya tidak sehat.,saya tidak nyaman,darurat,3,Ungkapan umum untuk 'sakit'. Untuk menyebut bagian yang sakit dipakai ปวด atau เจ็บ.
+f45,ผมปวดท้องครับ,phǒm pùat tháawng khráp,phom puat thong khrap,Perut saya sakit.,,darurat,4,"Pola ปวด + bagian badan: ปวดหัว (sakit kepala), ปวดฟัน (sakit gigi), ปวดท้อง (sakit perut)."
+f46,โรงพยาบาลอยู่ไหนครับ,roong-phá-yaa-baan yùu nǎi khráp,rongphayaban yu nai khrap,Di mana rumah sakit?,,darurat,5,"Suku kata พ berdiri sendiri dan berkelas rendah, sehingga bernada tinggi (phá). Bandingkan dengan aksara nam yang pemimpinnya berkelas tinggi, seperti ขนม."
+f47,เรียกหมอให้ด้วยครับ,rîak mǎaw hâi dûai khráp,riak mo hai duai khrap,Tolong panggil dokter.,panggil dokter beri juga,darurat,5,Pola ...ให้ด้วย ('lakukan untuk saya') adalah permintaan yang sopan dan jelas.
+f48,ผมต้องกินยาครับ,phǒm tâawng kin yaa khráp,phom tong kin ya khrap,Saya harus minum obat.,saya harus makan obat,darurat,4,"Untuk obat dipakai กิน ('makan'), bukan ดื่ม ('minum')."
+f49,กี่โมงแล้วครับ,kìi moong láeo khráp,ki mong laeo khrap,Jam berapa sekarang?,berapa jam sudah,waktu,4,"Penyebutan pukul dalam bahasa Thailand memakai sistem yang berbeda-beda menurut bagian hari, dan itu di luar cakupan materi ini."
+f50,รอสักครู่ครับ,raaw sàk-khrûu khráp,ro sakkhru khrap,Tunggu sebentar.,tunggu sejenak,waktu,4,"Lebih sopan daripada เดี๋ยว saja, dan lazim dipakai di kantor atau toko."
+f51,เดี๋ยวครับ,dǐao khráp,diao khrap,Sebentar.,,waktu,3,Kata percakapan yang sangat sering dipakai. เดี๋ยวก่อน berarti 'tunggu dulu'.
+f52,วันนี้ผมไม่ว่างครับ,wan-níi phǒm mâi wâang khráp,wanni phom mai wang khrap,Hari ini saya tidak ada waktu.,hari ini saya tidak kosong,waktu,4,"ว่าง berarti 'kosong, lowong'. ไม่ว่าง adalah cara halus menolak undangan."
+f53,พรุ่งนี้เจอกันครับ,phrûng-níi jooe kan khráp,phrungni choe kan khrap,Sampai besok.,besok berjumpa bersama,waktu,4,
+f54,ผมอยากไปไทยครับ,phǒm yàak pai thai khráp,phom yak pai thai khrap,Saya ingin pergi ke Thailand.,,kenalan,5,อยาก + kata kerja berarti 'ingin melakukan'. Untuk 'ingin punya' dipakai อยากได้.
+f56,ผมกินเผ็ดไม่ได้ครับ,phǒm kin phèt mâi dâi khráp,phom kin phet mai dai khrap,Saya tidak bisa makan pedas.,saya makan pedas tidak bisa,restoran,6,"ได้ diletakkan SESUDAH kata kerja, dan penafiannya ไม่ได้ berada di akhir. Susunannya kebalikan dari 'tidak bisa makan' dalam bahasa Indonesia."
+f57,ที่นี่ถ่ายรูปได้ไหมครับ,thîi-nîi thàai-rûup dâi mǎi khráp,thi ni thairup dai mai khrap,Boleh memotret di sini?,di sini ambil gambar bisa kah,arah,6,"Pertanyaan yang perlu diajukan di dalam kuil dan museum. ได้ di sini berarti 'boleh', bukan 'mampu'."
+f58,ขอบคุณสำหรับทุกอย่างครับ,khàawp-khun sǎm-ràp thúk-yàang khráp,khopkhun samrap thukyang khrap,Terima kasih untuk semuanya.,terima kasih untuk setiap hal,sapaan,6,"สำหรับ ('untuk') memakai ห nam pada suku kata kedua, sehingga หรับ bernada rendah, bukan tinggi."
+f55,คนไทยใจดีมากครับ,khon thai jai-dii mâak khráp,khon thai chaidi mak khrap,Orang Thai sangat baik hati.,orang Thai hati-baik sangat,kenalan,5,"ใจดี ('baik hati') menempatkan ใจ di depan, sedangkan ดีใจ ('senang') urutannya terbalik. Urutan kata mengubah artinya."

@@ -1,0 +1,45 @@
+huruf,nama_th,nama_rom,arti_nama,kelas,bunyi_awal,bunyi_akhir,tidak_dipakai,tahap,catatan
+ก,ก ไก่,ko kai,ayam,tengah,k,k,tidak,1,"Kelas tengah. Bunyi k tanpa hembusan udara, seperti k pada 'kaki'. Huruf pertama dalam urutan abjad Thai, dan yang pertama dihafal."
+ข,ข ไข่,kho khai,telur,tinggi,kh,k,tidak,1,"Kelas tinggi. Bunyi kh dengan hembusan, seperti kh pada 'khusus'. Bandingkan dengan ค yang bunyinya sama tetapi kelasnya rendah, sehingga nadanya berbeda."
+ค,ค ควาย,kho khwai,kerbau,rendah,kh,k,tidak,1,"Kelas rendah. Bunyinya sama dengan ข. Yang membedakan keduanya bukan bunyi, melainkan nada yang dihasilkan: ขา = khǎa (naik), คา = khaa (sedang)."
+ง,ง งู,ngo ngu,ular,rendah,ng,ng,tidak,1,"Kelas rendah. Bunyi ng, dan dalam bahasa Thailand bunyi ng bisa berada di AWAL kata. Penutur bahasa Indonesia terbantu di sini: 'ngeri', 'ngilu' sudah memakai bunyi itu di awal."
+จ,จ จาน,cho chan,piring,tengah,ch,t,tidak,1,"Kelas tengah. Bunyinya mirip c pada 'cari', tanpa hembusan. Alih huruf RTGS menulisnya 'ch', padahal ia tidak berhembus seperti ช."
+ด,ด เด็ก,do dek,anak,tengah,d,t,tidak,1,Kelas tengah. Bunyi d seperti pada 'dua'. Sebagai konsonan akhir bunyinya menjadi -t yang tertahan (tidak dilepas).
+ต,ต เต่า,to tao,kura-kura,tengah,t,t,tidak,1,"Kelas tengah. Bunyi t TANPA hembusan; bandingkan ถ dan ท yang berhembus. Perbedaan hembusan ini membedakan arti kata, jadi perlu dibiasakan sejak awal."
+น,น หนู,no nu,tikus,rendah,n,n,tidak,1,Kelas rendah. Bunyi n. Salah satu dari sembilan konsonan nyaring yang bisa dipimpin oleh ห (หน) agar kelasnya berubah menjadi tinggi.
+บ,บ ใบไม้,bo baimai,daun,tengah,b,p,tidak,1,Kelas tengah. Bunyi b. Sebagai konsonan akhir bunyinya -p tertahan: ขอบ = khàwp.
+ป,ป ปลา,po pla,ikan,tengah,p,p,tidak,1,"Kelas tengah. Bunyi p tanpa hembusan. Jangan dikacaukan dengan ผ dan พ yang berhembus, atau dengan บ (b)."
+ม,ม ม้า,mo ma,kuda,rendah,m,m,tidak,1,Kelas rendah. Bunyi m.
+อ,อ อ่าง,o ang,baskom,tengah,-,,tidak,1,"Kelas tengah, tetapi tidak punya bunyi konsonan sendiri. Dua tugasnya: menjadi tumpuan vokal yang perlu konsonan awal (อาหาร), dan menjadi bagian vokal ◌อ, เ◌อ, เ◌ือ."
+ช,ช ช้าง,cho chang,gajah,rendah,ch,t,tidak,2,"Kelas rendah. Bunyi ch berhembus, seperti ch pada 'cheese'. Bandingkan จ yang tidak berhembus."
+ซ,ซ โซ่,so so,rantai,rendah,s,t,tidak,2,"Kelas rendah. Bunyi s. Perhatikan: tiga huruf s lain (ศ ษ ส) berkelas tinggi, hanya ซ yang berkelas rendah."
+ท,ท ทหาร,tho thahan,tentara,rendah,th,t,tidak,2,Kelas rendah. Bunyi th berhembus. Bersama ธ ฑ ฒ membentuk kelompok empat huruf 'th' kelas rendah.
+พ,พ พาน,pho phan,baki bertangkai,rendah,ph,p,tidak,2,"Kelas rendah. Bunyi ph berhembus (BUKAN f). พ, ผ, dan ภ semuanya ph."
+ฟ,ฟ ฟัน,fo fan,gigi,rendah,f,p,tidak,2,"Kelas rendah. Bunyi f. Inilah huruf f yang sebenarnya, bukan พ."
+ย,ย ยักษ์,yo yak,raksasa,rendah,y,y,tidak,2,Kelas rendah. Bunyi y. Sebagai konsonan akhir ia menjadi bagian vokal: ◌าย = -aai.
+ร,ร เรือ,ro ruea,perahu,rendah,r,n,tidak,2,"Kelas rendah. Bunyi r bergetar. Dalam percakapan sehari-hari sering dilafalkan seperti l, dan pada gugus seperti ปร, กร bahkan sering hilang sama sekali. Ejaannya tetap ditulis."
+ล,ล ลิง,lo ling,kera,rendah,l,n,tidak,2,Kelas rendah. Bunyi l. Sebagai konsonan akhir bunyinya menjadi -n: ผล = phǒn.
+ว,ว แหวน,wo waen,cincin,rendah,w,w,tidak,2,"Kelas rendah. Bunyi w. Ia juga bisa menjadi bagian vokal (◌ัว, ◌ว◌), sehingga ว di tengah kata perlu dibaca hati-hati."
+ส,ส เสือ,so suea,harimau,tinggi,s,t,tidak,2,"Kelas tinggi. Bunyi s, huruf s yang paling sering dipakai."
+ห,ห หีบ,ho hip,peti,tinggi,h,,tidak,3,"Kelas tinggi. Bunyi h. Tugas keduanya lebih penting: bila ditulis di depan konsonan nyaring kelas rendah (ง ญ ณ น ม ย ร ล ว), ห TIDAK dibunyikan, dan kelas konsonan di belakangnya berubah menjadi tinggi. หมา dibaca mǎa, bukan hǎmaa."
+ผ,ผ ผึ้ง,pho phueng,lebah,tinggi,ph,,tidak,3,Kelas tinggi. Bunyi ph berhembus. Pasangan kelas tinggi dari พ.
+ฝ,ฝ ฝา,fo fa,tutup,tinggi,f,,tidak,3,Kelas tinggi. Bunyi f. Pasangan kelas tinggi dari ฟ.
+ถ,ถ ถุง,tho thung,kantong,tinggi,th,t,tidak,3,Kelas tinggi. Bunyi th berhembus. Pasangan kelas tinggi dari ท.
+ฉ,ฉ ฉิ่ง,cho ching,kerincing logam,tinggi,ch,,tidak,3,Kelas tinggi. Bunyi ch berhembus. Pasangan kelas tinggi dari ช. Tidak pernah menjadi konsonan akhir.
+ภ,ภ สำเภา,pho sam-phao,perahu jung,rendah,ph,p,tidak,3,Kelas rendah. Bunyi ph. Banyak muncul pada kata serapan Pali-Sanskerta seperti ภาษา (bahasa).
+ธ,ธ ธง,tho thong,bendera,rendah,th,t,tidak,3,Kelas rendah. Bunyi th. Juga lazim pada kata serapan Pali-Sanskerta.
+ฮ,ฮ นกฮูก,ho nok-huk,burung hantu,rendah,h,,tidak,3,"Kelas rendah. Bunyi h. Pasangan kelas rendah dari ห, tetapi jauh lebih jarang dan tidak punya fungsi pemimpin."
+ญ,ญ หญิง,yo ying,perempuan,rendah,y,n,tidak,4,"Kelas rendah. Bunyi awal y, bunyi akhir -n. Muncul pada kata sehari-hari ผู้หญิง (perempuan) dan ใหญ่ (besar)."
+ณ,ณ เณร,no nen,biksu muda,rendah,n,n,tidak,4,"Kelas rendah. Bunyi n, dipakai pada kata serapan Pali-Sanskerta seperti คุณ (Anda)."
+ศ,ศ ศาลา,so sala,balai,tinggi,s,t,tidak,4,"Kelas tinggi. Bunyi s pada kata serapan Sanskerta, misalnya ศาลา (balai)."
+ษ,ษ ฤษี,so rue-si,pertapa,tinggi,s,t,tidak,4,"Kelas tinggi. Bunyi s pada kata serapan Sanskerta, misalnya ภาษา (bahasa)."
+ฬ,ฬ จุฬา,lo chu-la,layang-layang chula,rendah,l,n,tidak,4,"Kelas rendah. Bunyi l pada kata serapan, misalnya จุฬา. Jarang."
+ฆ,ฆ ระฆัง,kho ra-khang,lonceng besar,rendah,kh,k,tidak,4,Kelas rendah. Bunyi kh. Sangat jarang; yang paling dikenal ระฆัง (lonceng besar).
+ฎ,ฎ ชฎา,do cha-da,mahkota penari,tengah,d,t,tidak,5,"Kelas tengah. Bunyi d, sama dengan ด, tetapi khusus pada kata serapan Pali-Sanskerta dan istilah kerajaan."
+ฏ,ฏ ปฏัก,to pa-tak,tombak penggiring,tengah,t,t,tidak,5,"Kelas tengah. Bunyi t, sama dengan ต, pada kata serapan. Bentuknya mirip ฎ, hanya ujungnya berbeda."
+ฐ,ฐ ฐาน,tho than,"alas, dasar",tinggi,th,t,tidak,5,"Kelas tinggi. Bunyi th pada kata serapan, misalnya ฐาน (alas)."
+ฑ,ฑ มณโฑ,tho montho,Montho (nama tokoh),rendah,th,t,tidak,5,Kelas rendah. Bunyi th pada kata serapan. Sangat jarang.
+ฒ,ฒ ผู้เฒ่า,tho phu-thao,orang tua,rendah,th,t,tidak,5,"Kelas rendah. Bunyi th pada kata serapan, misalnya วัฒนธรรม (kebudayaan)."
+ฌ,ฌ เฌอ,cho choe,pohon,rendah,ch,,tidak,5,Kelas rendah. Bunyi ch. Paling jarang di antara semua huruf yang masih dipakai.
+ฃ,ฃ ขวด,kho khuat,botol,tinggi,kh,k,ya,6,"Kelas tinggi, bunyi kh. SUDAH TIDAK DIPAKAI sejak awal abad ke-20; semua pemakaiannya digantikan ข. Dicantumkan karena masih ikut dihitung sebagai bagian 44 huruf."
+ฅ,ฅ คน,kho khon,orang,rendah,kh,k,ya,6,"Kelas rendah, bunyi kh. SUDAH TIDAK DIPAKAI; digantikan ค. Anda tidak akan menemukannya pada teks masa kini."

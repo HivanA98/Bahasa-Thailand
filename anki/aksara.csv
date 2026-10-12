@@ -1,0 +1,78 @@
+#separator:Comma
+#html:false
+#tags column:5
+ก,"ก ไก่ (ko kai, 'ayam') — kelas tengah, bunyi awal k, bunyi akhir k",tengah,"Kelas tengah. Bunyi k tanpa hembusan udara, seperti k pada 'kaki'. Huruf pertama dalam urutan abjad Thai, dan yang pertama dihafal.",thai aksara konsonan tahap1
+ข,"ข ไข่ (kho khai, 'telur') — kelas tinggi, bunyi awal kh, bunyi akhir k",tinggi,"Kelas tinggi. Bunyi kh dengan hembusan, seperti kh pada 'khusus'. Bandingkan dengan ค yang bunyinya sama tetapi kelasnya rendah, sehingga nadanya berbeda.",thai aksara konsonan tahap1
+ค,"ค ควาย (kho khwai, 'kerbau') — kelas rendah, bunyi awal kh, bunyi akhir k",rendah,"Kelas rendah. Bunyinya sama dengan ข. Yang membedakan keduanya bukan bunyi, melainkan nada yang dihasilkan: ขา = khǎa (naik), คา = khaa (sedang).",thai aksara konsonan tahap1
+ง,"ง งู (ngo ngu, 'ular') — kelas rendah, bunyi awal ng, bunyi akhir ng",rendah,"Kelas rendah. Bunyi ng, dan dalam bahasa Thailand bunyi ng bisa berada di AWAL kata. Penutur bahasa Indonesia terbantu di sini: 'ngeri', 'ngilu' sudah memakai bunyi itu di awal.",thai aksara konsonan tahap1
+จ,"จ จาน (cho chan, 'piring') — kelas tengah, bunyi awal ch, bunyi akhir t",tengah,"Kelas tengah. Bunyinya mirip c pada 'cari', tanpa hembusan. Alih huruf RTGS menulisnya 'ch', padahal ia tidak berhembus seperti ช.",thai aksara konsonan tahap1
+ด,"ด เด็ก (do dek, 'anak') — kelas tengah, bunyi awal d, bunyi akhir t",tengah,Kelas tengah. Bunyi d seperti pada 'dua'. Sebagai konsonan akhir bunyinya menjadi -t yang tertahan (tidak dilepas).,thai aksara konsonan tahap1
+ต,"ต เต่า (to tao, 'kura-kura') — kelas tengah, bunyi awal t, bunyi akhir t",tengah,"Kelas tengah. Bunyi t TANPA hembusan; bandingkan ถ dan ท yang berhembus. Perbedaan hembusan ini membedakan arti kata, jadi perlu dibiasakan sejak awal.",thai aksara konsonan tahap1
+น,"น หนู (no nu, 'tikus') — kelas rendah, bunyi awal n, bunyi akhir n",rendah,Kelas rendah. Bunyi n. Salah satu dari sembilan konsonan nyaring yang bisa dipimpin oleh ห (หน) agar kelasnya berubah menjadi tinggi.,thai aksara konsonan tahap1
+บ,"บ ใบไม้ (bo baimai, 'daun') — kelas tengah, bunyi awal b, bunyi akhir p",tengah,Kelas tengah. Bunyi b. Sebagai konsonan akhir bunyinya -p tertahan: ขอบ = khàwp.,thai aksara konsonan tahap1
+ป,"ป ปลา (po pla, 'ikan') — kelas tengah, bunyi awal p, bunyi akhir p",tengah,"Kelas tengah. Bunyi p tanpa hembusan. Jangan dikacaukan dengan ผ dan พ yang berhembus, atau dengan บ (b).",thai aksara konsonan tahap1
+ม,"ม ม้า (mo ma, 'kuda') — kelas rendah, bunyi awal m, bunyi akhir m",rendah,Kelas rendah. Bunyi m.,thai aksara konsonan tahap1
+อ,"อ อ่าง (o ang, 'baskom') — kelas tengah, bunyi awal -, bunyi akhir tidak ada",tengah,"Kelas tengah, tetapi tidak punya bunyi konsonan sendiri. Dua tugasnya: menjadi tumpuan vokal yang perlu konsonan awal (อาหาร), dan menjadi bagian vokal ◌อ, เ◌อ, เ◌ือ.",thai aksara konsonan tahap1
+ช,"ช ช้าง (cho chang, 'gajah') — kelas rendah, bunyi awal ch, bunyi akhir t",rendah,"Kelas rendah. Bunyi ch berhembus, seperti ch pada 'cheese'. Bandingkan จ yang tidak berhembus.",thai aksara konsonan tahap2
+ซ,"ซ โซ่ (so so, 'rantai') — kelas rendah, bunyi awal s, bunyi akhir t",rendah,"Kelas rendah. Bunyi s. Perhatikan: tiga huruf s lain (ศ ษ ส) berkelas tinggi, hanya ซ yang berkelas rendah.",thai aksara konsonan tahap2
+ท,"ท ทหาร (tho thahan, 'tentara') — kelas rendah, bunyi awal th, bunyi akhir t",rendah,Kelas rendah. Bunyi th berhembus. Bersama ธ ฑ ฒ membentuk kelompok empat huruf 'th' kelas rendah.,thai aksara konsonan tahap2
+พ,"พ พาน (pho phan, 'baki bertangkai') — kelas rendah, bunyi awal ph, bunyi akhir p",rendah,"Kelas rendah. Bunyi ph berhembus (BUKAN f). พ, ผ, dan ภ semuanya ph.",thai aksara konsonan tahap2
+ฟ,"ฟ ฟัน (fo fan, 'gigi') — kelas rendah, bunyi awal f, bunyi akhir p",rendah,"Kelas rendah. Bunyi f. Inilah huruf f yang sebenarnya, bukan พ.",thai aksara konsonan tahap2
+ย,"ย ยักษ์ (yo yak, 'raksasa') — kelas rendah, bunyi awal y, bunyi akhir y",rendah,Kelas rendah. Bunyi y. Sebagai konsonan akhir ia menjadi bagian vokal: ◌าย = -aai.,thai aksara konsonan tahap2
+ร,"ร เรือ (ro ruea, 'perahu') — kelas rendah, bunyi awal r, bunyi akhir n",rendah,"Kelas rendah. Bunyi r bergetar. Dalam percakapan sehari-hari sering dilafalkan seperti l, dan pada gugus seperti ปร, กร bahkan sering hilang sama sekali. Ejaannya tetap ditulis.",thai aksara konsonan tahap2
+ล,"ล ลิง (lo ling, 'kera') — kelas rendah, bunyi awal l, bunyi akhir n",rendah,Kelas rendah. Bunyi l. Sebagai konsonan akhir bunyinya menjadi -n: ผล = phǒn.,thai aksara konsonan tahap2
+ว,"ว แหวน (wo waen, 'cincin') — kelas rendah, bunyi awal w, bunyi akhir w",rendah,"Kelas rendah. Bunyi w. Ia juga bisa menjadi bagian vokal (◌ัว, ◌ว◌), sehingga ว di tengah kata perlu dibaca hati-hati.",thai aksara konsonan tahap2
+ส,"ส เสือ (so suea, 'harimau') — kelas tinggi, bunyi awal s, bunyi akhir t",tinggi,"Kelas tinggi. Bunyi s, huruf s yang paling sering dipakai.",thai aksara konsonan tahap2
+ห,"ห หีบ (ho hip, 'peti') — kelas tinggi, bunyi awal h, bunyi akhir tidak ada",tinggi,"Kelas tinggi. Bunyi h. Tugas keduanya lebih penting: bila ditulis di depan konsonan nyaring kelas rendah (ง ญ ณ น ม ย ร ล ว), ห TIDAK dibunyikan, dan kelas konsonan di belakangnya berubah menjadi tinggi. หมา dibaca mǎa, bukan hǎmaa.",thai aksara konsonan tahap3
+ผ,"ผ ผึ้ง (pho phueng, 'lebah') — kelas tinggi, bunyi awal ph, bunyi akhir tidak ada",tinggi,Kelas tinggi. Bunyi ph berhembus. Pasangan kelas tinggi dari พ.,thai aksara konsonan tahap3
+ฝ,"ฝ ฝา (fo fa, 'tutup') — kelas tinggi, bunyi awal f, bunyi akhir tidak ada",tinggi,Kelas tinggi. Bunyi f. Pasangan kelas tinggi dari ฟ.,thai aksara konsonan tahap3
+ถ,"ถ ถุง (tho thung, 'kantong') — kelas tinggi, bunyi awal th, bunyi akhir t",tinggi,Kelas tinggi. Bunyi th berhembus. Pasangan kelas tinggi dari ท.,thai aksara konsonan tahap3
+ฉ,"ฉ ฉิ่ง (cho ching, 'kerincing logam') — kelas tinggi, bunyi awal ch, bunyi akhir tidak ada",tinggi,Kelas tinggi. Bunyi ch berhembus. Pasangan kelas tinggi dari ช. Tidak pernah menjadi konsonan akhir.,thai aksara konsonan tahap3
+ภ,"ภ สำเภา (pho sam-phao, 'perahu jung') — kelas rendah, bunyi awal ph, bunyi akhir p",rendah,Kelas rendah. Bunyi ph. Banyak muncul pada kata serapan Pali-Sanskerta seperti ภาษา (bahasa).,thai aksara konsonan tahap3
+ธ,"ธ ธง (tho thong, 'bendera') — kelas rendah, bunyi awal th, bunyi akhir t",rendah,Kelas rendah. Bunyi th. Juga lazim pada kata serapan Pali-Sanskerta.,thai aksara konsonan tahap3
+ฮ,"ฮ นกฮูก (ho nok-huk, 'burung hantu') — kelas rendah, bunyi awal h, bunyi akhir tidak ada",rendah,"Kelas rendah. Bunyi h. Pasangan kelas rendah dari ห, tetapi jauh lebih jarang dan tidak punya fungsi pemimpin.",thai aksara konsonan tahap3
+ญ,"ญ หญิง (yo ying, 'perempuan') — kelas rendah, bunyi awal y, bunyi akhir n",rendah,"Kelas rendah. Bunyi awal y, bunyi akhir -n. Muncul pada kata sehari-hari ผู้หญิง (perempuan) dan ใหญ่ (besar).",thai aksara konsonan tahap4
+ณ,"ณ เณร (no nen, 'biksu muda') — kelas rendah, bunyi awal n, bunyi akhir n",rendah,"Kelas rendah. Bunyi n, dipakai pada kata serapan Pali-Sanskerta seperti คุณ (Anda).",thai aksara konsonan tahap4
+ศ,"ศ ศาลา (so sala, 'balai') — kelas tinggi, bunyi awal s, bunyi akhir t",tinggi,"Kelas tinggi. Bunyi s pada kata serapan Sanskerta, misalnya ศาลา (balai).",thai aksara konsonan tahap4
+ษ,"ษ ฤษี (so rue-si, 'pertapa') — kelas tinggi, bunyi awal s, bunyi akhir t",tinggi,"Kelas tinggi. Bunyi s pada kata serapan Sanskerta, misalnya ภาษา (bahasa).",thai aksara konsonan tahap4
+ฬ,"ฬ จุฬา (lo chu-la, 'layang-layang chula') — kelas rendah, bunyi awal l, bunyi akhir n",rendah,"Kelas rendah. Bunyi l pada kata serapan, misalnya จุฬา. Jarang.",thai aksara konsonan tahap4
+ฆ,"ฆ ระฆัง (kho ra-khang, 'lonceng besar') — kelas rendah, bunyi awal kh, bunyi akhir k",rendah,Kelas rendah. Bunyi kh. Sangat jarang; yang paling dikenal ระฆัง (lonceng besar).,thai aksara konsonan tahap4
+ฎ,"ฎ ชฎา (do cha-da, 'mahkota penari') — kelas tengah, bunyi awal d, bunyi akhir t",tengah,"Kelas tengah. Bunyi d, sama dengan ด, tetapi khusus pada kata serapan Pali-Sanskerta dan istilah kerajaan.",thai aksara konsonan tahap5
+ฏ,"ฏ ปฏัก (to pa-tak, 'tombak penggiring') — kelas tengah, bunyi awal t, bunyi akhir t",tengah,"Kelas tengah. Bunyi t, sama dengan ต, pada kata serapan. Bentuknya mirip ฎ, hanya ujungnya berbeda.",thai aksara konsonan tahap5
+ฐ,"ฐ ฐาน (tho than, 'alas, dasar') — kelas tinggi, bunyi awal th, bunyi akhir t",tinggi,"Kelas tinggi. Bunyi th pada kata serapan, misalnya ฐาน (alas).",thai aksara konsonan tahap5
+ฑ,"ฑ มณโฑ (tho montho, 'Montho (nama tokoh)') — kelas rendah, bunyi awal th, bunyi akhir t",rendah,Kelas rendah. Bunyi th pada kata serapan. Sangat jarang.,thai aksara konsonan tahap5
+ฒ,"ฒ ผู้เฒ่า (tho phu-thao, 'orang tua') — kelas rendah, bunyi awal th, bunyi akhir t",rendah,"Kelas rendah. Bunyi th pada kata serapan, misalnya วัฒนธรรม (kebudayaan).",thai aksara konsonan tahap5
+ฌ,"ฌ เฌอ (cho choe, 'pohon') — kelas rendah, bunyi awal ch, bunyi akhir tidak ada",rendah,Kelas rendah. Bunyi ch. Paling jarang di antara semua huruf yang masih dipakai.,thai aksara konsonan tahap5
+ฃ,"ฃ ขวด (kho khuat, 'botol') — kelas tinggi, bunyi awal kh, bunyi akhir k",tinggi,"Kelas tinggi, bunyi kh. SUDAH TIDAK DIPAKAI sejak awal abad ke-20; semua pemakaiannya digantikan ข. Dicantumkan karena masih ikut dihitung sebagai bagian 44 huruf.",thai aksara konsonan tahap6
+ฅ,"ฅ คน (kho khon, 'orang') — kelas rendah, bunyi awal kh, bunyi akhir k",rendah,"Kelas rendah, bunyi kh. SUDAH TIDAK DIPAKAI; digantikan ค. Anda tidak akan menemukannya pada teks masa kini.",thai aksara konsonan tahap6
+◌ะ,a (pendek),จะ jà akan,"Vokal a pendek. Ditulis sesudah konsonan. Karena pendek dan tanpa konsonan akhir, suku katanya MATI, sehingga nadanya bukan nada sedang.",thai aksara vokal tahap1
+◌า,aa (panjang),มา maa datang,"Vokal a panjang. RTGS menulis ◌ะ dan ◌า sama-sama 'a', padahal panjangnya berbeda dan perbedaan itu mengubah arti.",thai aksara vokal tahap1
+◌ิ,i (pendek),กิน kin makan,"Vokal i pendek, ditulis di ATAS konsonan. Tanda nada, bila ada, ditulis di atas tanda vokal ini.",thai aksara vokal tahap1
+◌ี,ii (panjang),ดี dii baik,Vokal i panjang.,thai aksara vokal tahap1
+◌ุ,u (pendek),คุณ khun Anda,"Vokal u pendek, ditulis di BAWAH konsonan.",thai aksara vokal tahap1
+◌ู,uu (panjang),"ดู duu melihat, menonton","Vokal u panjang, ditulis di bawah konsonan.",thai aksara vokal tahap1
+◌◌,o (pendek),คน khon orang,"Vokal o pendek yang TIDAK DITULIS. Bila dua konsonan berdempet tanpa tanda vokal, biasanya ada bunyi o pendek di antaranya: คน = khon, นก = nók, ลม = lom. Inilah pola yang paling sering membingungkan pembaca baru.",thai aksara vokal tahap1
+เ◌ะ,e (pendek),เล็ก lék kecil,"Vokal e pendek. Bila ada konsonan akhir, ◌ะ diganti tanda ◌็ : เล็ก. Perhatikan เ ditulis SEBELUM konsonan meskipun dibaca sesudahnya.",thai aksara vokal tahap2
+เ◌,ee (panjang),เล่น lên bermain,"Vokal e panjang. Tanda vokal เ selalu ditulis di depan konsonan awal; kalau ada tanda nada, tanda nada tetap di atas konsonan awalnya.",thai aksara vokal tahap2
+แ◌ะ,ae (pendek),"แข็ง khǎeng keras, kaku","Vokal ae pendek, bunyinya seperti e pada 'enak' tetapi lebih terbuka. Dengan konsonan akhir dipakai tanda ◌็ : แข็ง.",thai aksara vokal tahap2
+แ◌,aae (panjang),แม่ mâe ibu,Vokal ae panjang. Bentuk tandanya seperti เ yang digandakan.,thai aksara vokal tahap2
+โ◌ะ,o (pendek),โต๊ะ tó meja,"Vokal o pendek yang DITULIS. Berbeda dari o pendek yang tidak ditulis (คน), yang ini memakai โ dan ะ.",thai aksara vokal tahap2
+โ◌,oo (panjang),โต too besar (tumbuh besar),Vokal o panjang.,thai aksara vokal tahap2
+เ◌าะ,aw (pendek),เกาะ kàw pulau,"Vokal aw pendek, bunyinya seperti o pada 'botol'. Tandanya terpisah tiga bagian: เ di depan, า dan ะ di belakang.",thai aksara vokal tahap3
+◌อ,aaw (panjang),ขอ khǎaw meminta,"Vokal aw panjang, ditulis dengan huruf อ yang di sini berfungsi sebagai vokal, bukan konsonan.",thai aksara vokal tahap3
+◌ึ,ue (pendek),หนึ่ง nùeng satu,"Vokal ue pendek. Tidak ada padanannya dalam bahasa Indonesia: bentuk mulut seperti mengucapkan i, tetapi bibir tidak ditarik ke samping. Mirip bunyi e pada 'keras', tetapi lidah diangkat lebih tinggi ke belakang.",thai aksara vokal tahap3
+◌ือ,uue (panjang),มือ muue tangan,"Vokal ue panjang. Huruf อ di belakangnya bagian dari vokal, bukan konsonan.",thai aksara vokal tahap3
+เ◌อะ,oe (pendek),เยอะ yóe banyak (percakapan),"Vokal oe pendek, mirip e pada 'empat' tetapi lebih dalam. Jarang dipakai.",thai aksara vokal tahap4
+เ◌อ,ooe (panjang),"เธอ thoe kamu, dia (perempuan)","Vokal oe panjang. Bila ada konsonan akhir, อ berubah menjadi tanda ◌ิ : เดิน = doen (berjalan).",thai aksara vokal tahap4
+เ◌ีย,ia (panjang),เรียน rian belajar,"Vokal rangkap ia. Tandanya tiga bagian: เ di depan, ◌ี di atas, ย di belakang.",thai aksara vokal tahap4
+เ◌ียะ,ia (pendek),"เปี๊ยะ pía pia (pada ขนมเปี๊ยะ, kue pia)",Bentuk pendek dari เ◌ีย. Sangat jarang; hampir hanya pada kata serapan dan nama makanan.,thai aksara vokal tahap6
+เ◌ือ,uea (panjang),เสือ sǔea harimau,"Vokal rangkap uea. Bandingkan dengan เสื้อ (sûea, baju) yang hanya berbeda tanda nada.",thai aksara vokal tahap4
+เ◌ือะ,uea (pendek),,Bentuk pendek dari เ◌ือ. Hampir tidak ada kata yang memakainya; dicantumkan supaya tabel vokalnya lengkap. Tidak ada contoh kata yang dipakai di sini karena belum ada yang diyakini.,thai aksara vokal tahap6
+◌ัว,ua (panjang),ตัว tua tubuh; klasifikator untuk hewan,"Vokal rangkap ua. Bila ada konsonan akhir, ◌ั hilang dan hanya ว yang tersisa: สวน = sǔan (taman).",thai aksara vokal tahap4
+◌ัวะ,ua (pendek),,Bentuk pendek dari ◌ัว. Nyaris hanya dipakai pada kata tiruan bunyi. Tidak ada contoh kata yang dipakai di sini.,thai aksara vokal tahap6
+◌ั◌,a (pendek),ฉัน chǎn saya (dipakai perempuan),"Vokal a pendek DENGAN konsonan akhir. Tanda ◌ั (mai han akat) menggantikan ◌ะ, karena ◌ะ tidak bisa dipakai bila ada konsonan akhir.",thai aksara vokal tahap2
+◌ำ,am (pendek),น้ำ náam air,"Vokal a pendek yang sudah mengandung bunyi akhir -m. Karena berakhiran nyaring, suku katanya HIDUP meskipun vokalnya pendek.",thai aksara vokal tahap3
+ไ◌,ai (pendek),ไป pai pergi,"Bunyi ai. Mengandung bunyi akhir -y, jadi suku katanya hidup. Ini bentuk yang lazim, dipakai pada hampir semua kata.",thai aksara vokal tahap2
+ใ◌,ai (pendek),ใจ jai hati,"Bunyinya PERSIS sama dengan ไ◌. Bedanya hanya ejaan, dan ใ◌ dipakai pada sekitar dua puluh kata saja (ใจ ใช่ ใคร ใด ใน ใหม่ ใหญ่ ให้ ใส ใส่ ...). Daftar itu memang harus dihafal.",thai aksara vokal tahap3
+เ◌า,ao (pendek),เขา khǎo dia,"Bunyi ao. Mengandung bunyi akhir -w, jadi suku katanya hidup. Jangan dikacaukan dengan เ◌าะ (aw pendek) yang ada ะ di ujungnya.",thai aksara vokal tahap2
+◌,a (pendek),"ขนม khà-nǒm kue, penganan","Satu konsonan berdiri sendiri sebagai suku kata, dengan vokal a pendek yang tidak ditulis. Inilah pola aksara nam (อักษรนำ): ขนม = khà-nǒm, ตลาด = tà-làat, สบาย = sà-baai. Lihat Modul 2 untuk pengaruhnya pada nada.",thai aksara vokal tahap5

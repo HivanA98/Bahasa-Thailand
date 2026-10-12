@@ -1,0 +1,187 @@
+id,th,lafal,rtgs,arti,arti_lain,kelas_kata,klasifikator,kategori,tahap,contoh_th,contoh_lafal,contoh_arti,catatan
+v001,สวัสดี,sà-wàt-dii,sawatdi,"salam (hai, selamat pagi, selamat siang)",hai; selamat pagi; halo,sapaan,,sapaan,1,สวัสดีครับ,sà-wàt-dii khráp,Salam. (diucapkan lelaki),"Satu kata ini dipakai untuk pagi, siang, maupun malam, dan juga untuk berpamitan. Hampir selalu disusul partikel sopan ครับ atau ค่ะ."
+v002,ครับ,khráp,khrap,partikel sopan yang dipakai lelaki,"ya (sopan, lelaki)",partikel,,partikel,1,ขอบคุณครับ,khàawp-khun khráp,Terima kasih. (diucapkan lelaki),"Ditempelkan di akhir kalimat untuk menandai kesopanan. Penutur lelaki memakai ครับ pada kalimat apa pun, baik pernyataan maupun pertanyaan. Dalam percakapan cepat sering terdengar seperti 'kháp'."
+v003,ค่ะ,khâ,kha,"partikel sopan yang dipakai perempuan, pada pernyataan","ya (sopan, perempuan)",partikel,,partikel,1,ขอบคุณค่ะ,khàawp-khun khâ,Terima kasih. (diucapkan perempuan),"Penutur perempuan memakai DUA bentuk: ค่ะ (nada turun) untuk pernyataan, dan คะ (nada tinggi) untuk pertanyaan. Perbedaan itu hanya nada, tetapi diperhatikan penutur asli."
+v004,คะ,khá,kha,"partikel sopan yang dipakai perempuan, pada pertanyaan",,partikel,,partikel,1,ไปไหนคะ,pai nǎi khá,Mau ke mana? (ditanyakan perempuan),"Pasangan pertanyaan dari ค่ะ. Memakai ค่ะ pada pertanyaan tidak membuat kalimatnya salah dipahami, tetapi terdengar kurang wajar."
+v005,ขอบคุณ,khàawp-khun,khopkhun,terima kasih,terimakasih,ungkapan,,sapaan,1,ขอบคุณมากครับ,khàawp-khun mâak khráp,Terima kasih banyak.,"Harfiahnya 'tepi' + 'Anda', tetapi dipakai sebagai satu ungkapan utuh. Untuk teman sebaya atau orang yang lebih muda, bentuk singkat ขอบใจ (khàawp-jai) juga dipakai."
+v006,ขอโทษ,khǎaw-thôot,khothot,maaf; permisi,minta maaf; permisi,ungkapan,,sapaan,1,ขอโทษครับ,khǎaw-thôot khráp,Maaf. / Permisi.,"Dipakai untuk meminta maaf dan juga untuk menyapa orang yang tidak dikenal sebelum bertanya, seperti 'permisi' dalam bahasa Indonesia."
+v007,ใช่,châi,chai,"ya, benar",benar; iya,keterangan,,partikel,1,ใช่ครับ,châi khráp,"Ya, benar.","Hanya untuk membenarkan pernyataan ('Benar begitu'). Untuk menjawab 'ya' pada pertanyaan kata kerja, orang Thai mengulang kata kerjanya: 'ไปไหม' dijawab 'ไป', bukan 'ใช่'."
+v008,ไม่,mâi,mai,tidak,bukan; tak,keterangan,,partikel,1,ผมไม่ไป,phǒm mâi pai,Saya tidak pergi.,"Diletakkan SEBELUM kata kerja atau kata sifat yang dinegasikan. Untuk menyangkal kata benda dipakai ไม่ใช่ (mâi châi, 'bukan')."
+v009,ผม,phǒm,phom,saya (dipakai lelaki),aku (lelaki); rambut,ganti,,ganti,1,ผมเป็นครู,phǒm pen khruu,Saya seorang guru.,"Kata yang sama juga berarti 'rambut (kepala)'. Kata ganti orang pertama dalam bahasa Thailand bergantung pada jenis kelamin dan tingkat keakraban, bukan satu kata untuk semua."
+v010,ฉัน,chǎn,chan,saya (dipakai perempuan),aku (perempuan),ganti,,ganti,1,ฉันเป็นครู,chǎn pen khruu,Saya seorang guru.,Menurut aturan ejaan kata ini bernada naik; dalam percakapan sehari-hari hampir selalu diucapkan bernada tinggi (chán). Dipakai perempuan pada ragam agak resmi; di antara teman lebih lazim memakai nama sendiri atau เรา.
+v011,คุณ,khun,khun,Anda,kamu (sopan); saudara,ganti,,ganti,1,คุณชื่ออะไร,khun chûue à-rai,Siapa nama Anda?,"Juga dipakai di depan nama sebagai sebutan hormat, seperti 'Pak' atau 'Bu': คุณสมชาย. Netral dan aman untuk orang yang baru dikenal."
+v012,เขา,khǎo,khao,dia,ia; beliau,ganti,,ganti,1,เขาไม่อยู่,khǎo mâi yùu,Dia tidak ada (tidak di tempat).,"Tidak membedakan lelaki dan perempuan, sama seperti 'dia'. Dalam percakapan sering diucapkan bernada tinggi (kháo)."
+v013,เรา,rao,rao,"kita, kami",kami; kita,ganti,,ganti,1,เราไปด้วยกัน,rao pai dûai-kan,Kita pergi bersama.,"Tidak membedakan 'kami' dan 'kita'. Juga dipakai sebagai 'aku' yang akrab, terutama oleh perempuan terhadap teman."
+v014,พวกเขา,phûak-khǎo,phuak khao,mereka,,ganti,,ganti,1,พวกเขาเป็นนักเรียน,phûak-khǎo pen nák-rian,Mereka murid.,"พวก berarti 'kelompok', jadi พวกเขา harfiahnya 'kelompok dia'. Pola yang sama: พวกเรา (phûak-rao, 'kami semua')."
+v015,นี่,nîi,ni,ini,yang ini,tunjuk,,tunjuk,1,นี่อะไร,nîi à-rai,Ini apa?,"นี่ berdiri sendiri sebagai kata ('ini'), sedangkan นี้ (níi) menempel sesudah kata benda: หนังสือเล่มนี้ ('buku ini'). Keduanya hanya berbeda nada."
+v016,นั่น,nân,nan,itu,yang itu,tunjuk,,tunjuk,1,นั่นบ้านผม,nân bâan phǒm,Itu rumah saya.,"Seperti pasangan นี่/นี้, bentuk นั้น (nán) dipakai menempel sesudah kata benda."
+v017,อะไร,à-rai,arai,apa,apakah,tanya,,tanya,1,คุณกินอะไร,khun kin à-rai,Anda makan apa?,"Kata tanya dalam bahasa Thailand berada di tempat kata yang ditanyakan, bukan di awal kalimat. Susunan kalimatnya tidak berubah."
+v018,ใคร,khrai,khrai,siapa,,tanya,,tanya,1,ใครมา,khrai maa,Siapa yang datang?,Termasuk daftar kata ber-ใ yang perlu dihafal ejaannya.
+v019,ไหน,nǎi,nai,mana,di mana,tanya,,tanya,1,ห้องน้ำอยู่ไหน,hâawng-náam yùu nǎi,Di mana kamar mandi?,"Lazim dipakai bersama ที่: ที่ไหน (thîi-nǎi, 'di mana'). Dengan kata kerja อยู่ ('berada'), ที่ boleh dihilangkan."
+v020,ทำไม,tham-mai,thammai,mengapa,kenapa,tanya,,tanya,1,ทำไมคุณไม่กิน,tham-mai khun mâi kin,Mengapa Anda tidak makan?,"Berbeda dari kata tanya lain, ทำไม memang lazim di awal kalimat, meski bisa juga di akhir."
+v021,เมื่อไหร่,mûea-rài,muearai,kapan,bilamana,tanya,,tanya,1,คุณไปเมื่อไหร่,khun pai mûea-rài,Kapan Anda pergi?,Ejaan เมื่อไร juga dipakai dan dibaca sama.
+v022,หนึ่ง,nùeng,nueng,satu,1,angka,,angka,1,หนึ่งคน,nùeng khon,satu orang,Pada hitungan sehari-hari sering disingkat menjadi เอ็ด (èt) ketika menjadi satuan: สิบเอ็ด = sebelas.
+v023,สอง,sǎawng,song,dua,2,angka,,angka,1,สองคน,sǎawng khon,dua orang,
+v024,สาม,sǎam,sam,tiga,3,angka,,angka,1,สามวัน,sǎam wan,tiga hari,
+v025,สี่,sìi,si,empat,4,angka,,angka,1,สี่บาท,sìi bàat,empat baht,
+v026,ห้า,hâa,ha,lima,5,angka,,angka,1,ห้าคน,hâa khon,lima orang,Angka 5 juga dipakai sebagai lelucon tulisan: 555 dibaca hâa-hâa-hâa dan berarti 'hahaha'.
+v027,หก,hòk,hok,enam,6,angka,,angka,1,หกโมง,hòk moong,jam enam,
+v028,เจ็ด,jèt,chet,tujuh,7,angka,,angka,1,เจ็ดวัน,jèt wan,tujuh hari,
+v029,แปด,pàet,paet,delapan,8,angka,,angka,1,แปดบาท,pàet bàat,delapan baht,
+v030,เก้า,kâo,kao,sembilan,9,angka,,angka,1,เก้าคน,kâo khon,sembilan orang,
+v031,สิบ,sìp,sip,sepuluh,10,angka,,angka,1,สิบบาท,sìp bàat,sepuluh baht,"Puluhan dibentuk dengan menambahkan สิบ: ยี่สิบ (20), สามสิบ (30). Perhatikan 20 memakai ยี่, bukan สอง."
+v032,ร้อย,ráawi,roi,ratus,seratus,angka,,angka,1,ร้อยบาท,ráawi bàat,seratus baht,
+v033,พ่อ,phâaw,pho,ayah,bapak; papa,nomina,คน,keluarga,2,พ่อผมเป็นหมอ,phâaw phǒm pen mǎaw,Ayah saya seorang dokter.,Bentuk sapaan akrab: ป๊า atau ป๋า. Dalam ragam resmi dipakai บิดา (bì-daa).
+v034,แม่,mâe,mae,ibu,mama; emak,nomina,คน,keluarga,2,แม่อยู่บ้าน,mâe yùu bâan,Ibu ada di rumah.,"Juga dipakai sebagai awalan untuk 'induk' atau 'sumber': แม่น้ำ (mâe-náam) berarti 'sungai', harfiahnya 'ibu air'."
+v035,พี่,phîi,phi,saudara yang lebih tua,kakak,nomina,คน,keluarga,2,พี่ชายผมอยู่ที่นี่,phîi-chaai phǒm yùu thîi-nîi,Kakak lelaki saya ada di sini.,"Tidak membedakan jenis kelamin; untuk itu ditambahkan ชาย (lelaki) atau สาว/หญิง (perempuan). พี่ juga dipakai menyapa orang yang sedikit lebih tua, termasuk pelayan restoran dan pengemudi."
+v036,น้อง,náawng,nong,saudara yang lebih muda,adik,nomina,คน,keluarga,2,น้องผมเป็นนักเรียน,náawng phǒm pen nák-rian,Adik saya murid.,"Seperti พี่, dipakai juga untuk menyapa orang yang lebih muda, termasuk orang asing. Umur relatif lebih penting daripada hubungan darah dalam sebutan keluarga bahasa Thailand."
+v037,ลูก,lûuk,luk,anak (keturunan),anak kandung,nomina,คน,keluarga,2,ลูกสองคน,lûuk sǎawng khon,dua anak,"ลูก adalah anak dalam arti keturunan, sedangkan เด็ก adalah anak dalam arti usia. Keduanya tidak saling mengganti."
+v038,ครอบครัว,khrâawp-khrua,khropkhrua,keluarga,,nomina,,keluarga,2,ครอบครัวผมอยู่ไทย,khrâawp-khrua phǒm yùu thai,Keluarga saya tinggal di Thailand.,
+v039,เพื่อน,phûean,phuean,teman,kawan; sahabat,nomina,คน,orang,2,เพื่อนผมชอบกาแฟ,phûean phǒm châawp kaa-fae,Teman saya suka kopi.,
+v040,คน,khon,khon,orang,manusia,nomina,คน,orang,2,คนไทยใจดี,khon thai jai-dii,Orang Thai baik hati.,"คน juga merupakan klasifikator untuk orang: นักเรียนสามคน ('tiga murid'). Dipakai di depan nama bangsa untuk menyebut orangnya: คนไทย, คนอินโดนีเซีย."
+v041,ผู้ชาย,phûu-chaai,phuchai,lelaki,pria; laki-laki,nomina,คน,orang,2,ผู้ชายคนนั้นเป็นครู,phûu-chaai khon nán pen khruu,Lelaki itu seorang guru.,"ผู้ berarti 'orang yang', dan dipakai membentuk banyak kata: ผู้ใหญ่ (orang dewasa), ผู้จัดการ (manajer)."
+v042,ผู้หญิง,phûu-yǐng,phuying,perempuan,wanita,nomina,คน,orang,2,ผู้หญิงสองคน,phûu-yǐng sǎawng khon,dua perempuan,
+v043,เด็ก,dèk,dek,anak (usia muda),anak-anak; bocah,nomina,คน,orang,2,เด็กชอบเล่น,dèk châawp lên,Anak-anak suka bermain.,
+v044,ครู,khruu,khru,guru,pengajar,nomina,คน,orang,2,ครูอยู่โรงเรียน,khruu yùu roong-rian,Guru ada di sekolah.,"Serapan dari bahasa Sanskerta (guru), sama asalnya dengan kata bahasa Indonesia 'guru'. Untuk dosen dipakai อาจารย์ (aa-jaan)."
+v045,นักเรียน,nák-rian,nakrian,"murid, pelajar",siswa; pelajar,nomina,คน,orang,2,นักเรียนสิบคน,nák-rian sìp khon,sepuluh murid,"นัก adalah awalan 'orang yang ahli atau tekun dalam': นักเรียน (yang belajar), นักร้อง (penyanyi), นักกีฬา (atlet)."
+v046,หมอ,mǎaw,mo,dokter,tabib,nomina,คน,orang,2,ผมไปหาหมอ,phǒm pai hǎa mǎaw,Saya pergi ke dokter.,Bentuk resminya แพทย์ (phâet). หมอ dipakai sehari-hari dan juga sebagai sapaan langsung kepada dokter.
+v047,ชื่อ,chûue,chue,nama; bernama,nama,nomina,,orang,2,ผมชื่อสมชาย,phǒm chûue sǒm-chaai,Nama saya Somchai.,"Dipakai langsung sebagai kata kerja: 'ผมชื่อ...' berarti 'saya bernama...', tanpa perlu kata 'adalah'."
+v048,กิน,kin,kin,makan,menyantap,verba,,kerja,2,ผมกินข้าว,phǒm kin khâao,Saya makan (nasi).,"Bentuk yang lebih halus: ทาน atau รับประทาน. กินข้าว harfiahnya 'makan nasi', tetapi dipakai untuk 'makan' secara umum, seperti 'makan' dalam bahasa Indonesia."
+v049,ดื่ม,dùuem,duem,minum,,verba,,kerja,2,ผมดื่มน้ำ,phǒm dùuem náam,Saya minum air.,"Dalam percakapan sehari-hari orang justru memakai กิน untuk minuman juga: กินน้ำ, กินกาแฟ. ดื่ม terasa lebih resmi."
+v050,นอน,naawn,non,"tidur, berbaring",tidur; berbaring,verba,,kerja,2,ผมนอนที่บ้าน,phǒm naawn thîi bâan,Saya tidur di rumah.,Untuk 'tertidur' (benar-benar terlelap) dipakai นอนหลับ (naawn-làp).
+v051,ไป,pai,pai,pergi,berangkat; menuju,verba,,kerja,2,ผมไปตลาด,phǒm pai tà-làat,Saya pergi ke pasar.,Tidak memerlukan kata 'ke': ไปตลาด sudah berarti 'pergi ke pasar'. ไป juga dipakai sesudah kata kerja lain untuk menandai arah menjauh dari pembicara.
+v052,มา,maa,ma,datang,tiba; mari,verba,,kerja,2,เพื่อนมาหาผม,phûean maa hǎa phǒm,Teman datang menemui saya.,"Pasangan ไป. Sesudah kata kerja lain, มา menandai arah mendekat ke pembicara: เอามา ('bawa ke sini')."
+v053,ทำ,tham,tham,"melakukan, membuat",mengerjakan; membuat,verba,,kerja,2,คุณทำอะไร,khun tham à-rai,Anda sedang apa? / Apa pekerjaan Anda?,"Dipakai membentuk banyak kata: ทำงาน (bekerja), ทำอาหาร (memasak), ทำไม (mengapa)."
+v054,พูด,phûut,phut,berbicara,bicara; berkata,verba,,kerja,2,ผมพูดไทยไม่เก่ง,phǒm phûut thai mâi kèng,Saya tidak pandai berbahasa Thai.,
+v055,อ่าน,àan,an,membaca,baca,verba,,kerja,2,ผมอ่านหนังสือ,phǒm àan nǎng-sǔue,Saya membaca buku.,
+v056,เขียน,khǐan,khian,menulis,tulis,verba,,kerja,2,เขียนชื่อที่นี่,khǐan chûue thîi-nîi,Tulis nama di sini.,
+v057,เรียน,rian,rian,belajar,mempelajari,verba,,kerja,2,ผมเรียนภาษาไทย,phǒm rian phaa-sǎa thai,Saya belajar bahasa Thailand.,
+v058,ชอบ,châawp,chop,"suka, menyukai",senang akan; gemar,verba,,kerja,2,ผมชอบอาหารไทย,phǒm châawp aa-hǎan thai,Saya suka makanan Thai.,
+v059,รัก,rák,rak,"cinta, mencintai",sayang; mengasihi,verba,,kerja,2,ผมรักครอบครัว,phǒm rák khrâawp-khrua,Saya mencintai keluarga saya.,
+v060,รู้,rúu,ru,"tahu, mengetahui",mengetahui,verba,,kerja,2,ผมไม่รู้,phǒm mâi rúu,Saya tidak tahu.,"Untuk 'mengenal orang' dipakai รู้จัก (rúu-jàk), bukan รู้ saja."
+v061,มี,mii,mi,"ada, punya",memiliki; terdapat,verba,,kerja,2,มีน้ำไหม,mii náam mǎi,Ada air?,"Satu kata untuk 'punya' dan 'ada (terdapat)', seperti dua arti itu dalam bahasa Indonesia."
+v062,เป็น,pen,pen,"adalah, menjadi",menjadi,verba,,kerja,2,เขาเป็นหมอ,khǎo pen mǎaw,Dia seorang dokter.,"Dipakai untuk menyatakan jabatan, pekerjaan, atau golongan. TIDAK dipakai di depan kata sifat: 'rumah itu besar' adalah บ้านใหญ่, bukan บ้านเป็นใหญ่."
+v063,คือ,khuue,khue,"yaitu, adalah",ialah,verba,,kerja,2,นี่คือบ้านผม,nîi khuue bâan phǒm,Ini rumah saya.,"คือ menyamakan dua hal ('A yaitu B'), sedangkan เป็น menyatakan golongan ('A termasuk B'). Untuk pemula: pakai คือ sesudah kata tunjuk, เป็น untuk pekerjaan."
+v064,อยู่,yùu,yu,"berada, tinggal di",ada di; tinggal,verba,,kerja,2,ผมอยู่อินโดนีเซีย,phǒm yùu in-doo-nii-sia,Saya tinggal di Indonesia.,Juga dipakai sesudah kata kerja untuk menandai perbuatan yang sedang berlangsung: กินอยู่ ('sedang makan').
+v065,ได้,dâi,dai,"bisa, dapat; boleh",dapat; boleh; bisa,verba,,kerja,2,ผมพูดไทยได้,phǒm phûut thai dâi,Saya bisa berbahasa Thai.,"Diletakkan SESUDAH kata kerja untuk 'bisa karena mampu'. Bandingkan dengan เป็น yang menandai keterampilan yang dipelajari, dan ไหว yang menandai kemampuan fisik."
+v066,เอา,ao,ao,mengambil; mau,ambil; mau; minta,verba,,kerja,2,ผมเอาน้ำหนึ่งแก้ว,phǒm ao náam nùeng kâeo,Saya mau satu gelas air.,Kata yang paling sering dipakai saat memesan atau berbelanja. เอา + barang = 'saya mau barang itu'.
+v067,เล่น,lên,len,bermain,main,verba,,kerja,2,เด็กเล่นที่บ้าน,dèk lên thîi bâan,Anak-anak bermain di rumah.,
+v068,หา,hǎa,ha,mencari; menemui,cari; mencari,verba,,kerja,2,ผมหาเพื่อน,phǒm hǎa phûean,Saya mencari teman saya.,
+v069,เก่ง,kèng,keng,"pandai, mahir",pintar; hebat; jago,sifat,,sifat,2,เขาเก่งมาก,khǎo kèng mâak,Dia sangat pandai.,เก่ง menunjuk kemahiran pada suatu keterampilan. Untuk 'pandai' dalam arti cerdas dipakai ฉลาด (chà-làat).
+v070,หนังสือ,nǎng-sǔue,nangsue,buku,kitab,nomina,เล่ม,benda,2,หนังสือเล่มนี้ดี,nǎng-sǔue lêm níi dii,Buku ini bagus.,"Klasifikatornya เล่ม (lêm), dipakai untuk buku dan benda berjilid."
+v071,ข้าว,khâao,khao,"beras, nasi",nasi; padi,nomina,จาน,makanan,3,ผมกินข้าวแล้ว,phǒm kin khâao láeo,Saya sudah makan.,"Bandingkan dengan ขาว (khǎao, 'putih') dan ข่าว (khàao, 'berita') yang hanya berbeda nada."
+v072,น้ำ,náam,nam,air,minuman,nomina,แก้ว,makanan,3,ขอน้ำเปล่าครับ,khǎaw náam-plào khráp,Minta air putih.,"Dipakai sebagai awalan untuk banyak cairan: น้ำแข็ง (es), น้ำตาล (gula), น้ำปลา (kecap ikan), น้ำมัน (minyak)."
+v073,อาหาร,aa-hǎan,ahan,makanan,hidangan; masakan,nomina,,makanan,3,อาหารไทยอร่อย,aa-hǎan thai à-ràawi,Makanan Thai enak.,
+v074,ไข่,khài,khai,telur,,nomina,ฟอง,makanan,3,ข้าวผัดไข่,khâao-phàt khài,nasi goreng telur,
+v075,หมู,mǔu,mu,babi,daging babi,nomina,ตัว,makanan,3,ผมไม่กินหมู,phǒm mâi kin mǔu,Saya tidak makan babi.,"Bagi pembaca Muslim, kata ini perlu dikenali lebih dahulu daripada kata makanan lain, sebab หมู muncul pada banyak nama hidangan: ข้าวหมูแดง, หมูปิ้ง, ต้มยำหมู."
+v076,ไก่,kài,kai,ayam,daging ayam,nomina,ตัว,makanan,3,ข้าวผัดไก่,khâao-phàt kài,nasi goreng ayam,
+v077,ปลา,plaa,pla,ikan,,nomina,ตัว,makanan,3,ผมชอบกินปลา,phǒm châawp kin plaa,Saya suka makan ikan.,
+v078,เนื้อ,núea,nuea,daging (terutama sapi),daging,nomina,,makanan,3,ผมกินเนื้อ,phǒm kin núea,Saya makan daging.,"Bila disebut sendirian, เนื้อ biasanya berarti daging sapi (เนื้อวัว). Untuk 'daging' secara umum dipakai nama hewannya."
+v079,ผัก,phàk,phak,sayur,sayuran,nomina,,makanan,3,ผัดผักไม่เผ็ด,phàt phàk mâi phèt,Tumis sayur yang tidak pedas.,
+v080,กล้วย,klûai,kluai,pisang,,nomina,ลูก,makanan,3,กล้วยสองลูก,klûai sǎawng lûuk,dua buah pisang,ลูก selain berarti 'anak' juga menjadi klasifikator untuk buah-buahan.
+v081,ส้ม,sôm,som,jeruk,,nomina,ลูก,makanan,3,ส้มตำเผ็ดมาก,sôm-tam phèt mâak,Som tam sangat pedas.,"ส้มตำ (sôm-tam) adalah salad pepaya muda, bukan hidangan jeruk. Nama itu berasal dari rasa asamnya."
+v082,กาแฟ,kaa-fae,kafae,kopi,,nomina,แก้ว,makanan,3,ผมดื่มกาแฟร้อน,phǒm dùuem kaa-fae ráawn,Saya minum kopi panas.,Serapan dari bahasa Eropa. Untuk kopi dingin dipakai กาแฟเย็น (kaa-fae yen).
+v083,ชา,chaa,cha,teh,,nomina,แก้ว,makanan,3,ชาเย็นหนึ่งแก้ว,chaa-yen nùeng kâeo,satu gelas teh dingin,
+v084,เผ็ด,phèt,phet,pedas,,sifat,,sifat,3,ไม่เผ็ดครับ,mâi phèt khráp,"Tidak pedas, ya.",Ungkapan yang perlu dihafal utuh saat memesan: ไม่เผ็ด ('tidak pedas') dan เผ็ดน้อย ('sedikit pedas').
+v085,หวาน,wǎan,wan,manis,,sifat,,sifat,3,ชาหวานมาก,chaa wǎan mâak,Tehnya sangat manis.,"Perhatikan bedanya dengan วัน (wan, 'hari'): bukan hanya nadanya, panjang vokalnya juga berbeda."
+v086,เค็ม,khem,khem,asin,,sifat,,sifat,3,อาหารเค็มไป,aa-hǎan khem pai,Makanannya terlalu asin.,"Pola 'kata sifat + ไป' berarti 'terlalu ...': เค็มไป, แพงไป, เผ็ดไป."
+v087,เปรี้ยว,prîao,priao,asam,kecut,sifat,,sifat,3,ส้มเปรี้ยว,sôm prîao,Jeruknya asam.,
+v088,อร่อย,à-ràawi,aroi,"enak, lezat",lezat; sedap,sifat,,sifat,3,อร่อยมากครับ,à-ràawi mâak khráp,Enak sekali.,"Contoh aksara nam dengan pemimpin อ kelas tengah, sehingga ร่อย bernada rendah, bukan turun."
+v089,บ้าน,bâan,ban,rumah,kampung,nomina,หลัง,tempat,3,บ้านผมอยู่ไกล,bâan phǒm yùu klai,Rumah saya jauh.,"Klasifikatornya หลัง (lǎng), kata yang juga berarti 'belakang'. บ้าน juga dipakai di depan nama kampung."
+v090,ห้องน้ำ,hâawng-náam,hongnam,"kamar mandi, toilet",toilet; WC; kamar kecil,nomina,ห้อง,tempat,3,ห้องน้ำอยู่ที่ไหน,hâawng-náam yùu thîi-nǎi,Di mana toiletnya?,"Harfiahnya 'ruang air'. ห้อง berarti 'ruang' dan dipakai pada banyak kata: ห้องนอน (kamar tidur), ห้องเรียน (ruang kelas)."
+v091,โรงเรียน,roong-rian,rongrian,sekolah,,nomina,โรง,tempat,3,เด็กไปโรงเรียน,dèk pai roong-rian,Anak-anak pergi ke sekolah.,"โรง berarti 'bangunan besar': โรงแรม (hotel), โรงพยาบาล (rumah sakit), โรงหนัง (gedung bioskop)."
+v092,ตลาด,tà-làat,talat,pasar,,nomina,,tempat,3,ตลาดอยู่ใกล้บ้าน,tà-làat yùu klâi bâan,Pasarnya dekat rumah.,
+v093,ร้าน,ráan,ran,"toko, warung",kedai; kios,nomina,ร้าน,tempat,3,ร้านอาหารอยู่ตรงนี้,ráan-aa-hǎan yùu trong-níi,Restorannya ada di sini.,"ร้านอาหาร berarti 'restoran', ร้านกาแฟ 'kedai kopi'."
+v094,โรงแรม,roong-raem,rongraem,hotel,penginapan,nomina,โรง,tempat,3,โรงแรมอยู่ไกลไหม,roong-raem yùu klai mǎi,Apakah hotelnya jauh?,
+v095,สถานี,sà-thǎa-nii,sathani,stasiun,,nomina,,tempat,3,สถานีรถไฟอยู่ไหน,sà-thǎa-nii rót-fai yùu nǎi,Di mana stasiun keretanya?,"Contoh aksara nam yang TIDAK menularkan kelas, sebab ถ sendiri sudah berkelas tinggi."
+v096,วัด,wát,wat,kuil (wihara Buddha),wihara; candi,nomina,วัด,tempat,3,ผมไปวัด,phǒm pai wát,Saya pergi ke kuil.,"Muncul pada banyak nama tempat di Thailand: วัดโพธิ์, วัดอรุณ. Kata yang sama juga berarti 'mengukur'."
+v097,วัน,wan,wan,hari,,nomina,วัน,waktu,3,วันนี้ร้อนมาก,wan-níi ráawn mâak,Hari ini sangat panas.,"Nama hari dibentuk dengan วัน + nama planet: วันจันทร์ (Senin), วันอาทิตย์ (Minggu)."
+v098,วันนี้,wan-níi,wanni,hari ini,,keterangan,,waktu,3,วันนี้ผมไม่ไป,wan-níi phǒm mâi pai,Hari ini saya tidak pergi.,"Keterangan waktu lazim diletakkan di AWAL kalimat dalam bahasa Thailand, meski boleh juga di akhir."
+v099,พรุ่งนี้,phrûng-níi,phrungni,besok,esok,keterangan,,waktu,3,พรุ่งนี้ผมไปตลาด,phrûng-níi phǒm pai tà-làat,Besok saya pergi ke pasar.,Tidak ada perubahan bentuk kata kerja untuk masa depan; keterangan waktu sudah cukup.
+v100,เมื่อวาน,mûea-waan,muea wan,kemarin,,keterangan,,waktu,3,เมื่อวานผมอยู่บ้าน,mûea-waan phǒm yùu bâan,Kemarin saya di rumah.,
+v101,ตอนเช้า,taawn-cháo,ton chao,pagi,waktu pagi,keterangan,,waktu,3,ตอนเช้าผมดื่มกาแฟ,taawn-cháo phǒm dùuem kaa-fae,Pagi saya minum kopi.,"ตอน berarti 'bagian waktu': ตอนเช้า, ตอนเย็น, ตอนกลางคืน."
+v102,ตอนเย็น,taawn-yen,ton yen,"senja, petang",sore; petang,keterangan,,waktu,3,ตอนเย็นผมกลับบ้าน,taawn-yen phǒm klàp bâan,Petang saya pulang.,
+v103,กลางคืน,klaang-khuuen,klangkhuen,malam,waktu malam,keterangan,,waktu,3,กลางคืนเย็นมาก,klaang-khuuen yen mâak,Malamnya sangat dingin.,"กลาง berarti 'tengah', คืน berarti 'malam'; harfiahnya 'tengah malam' tetapi artinya malam secara umum."
+v104,เวลา,wee-laa,wela,waktu,saat,nomina,,waktu,3,ผมไม่มีเวลา,phǒm mâi mii wee-laa,Saya tidak punya waktu.,"Serapan dari bahasa Pali-Sanskerta, berasal dari akar yang sama dengan kata bahasa Indonesia 'waktu' lewat jalur berbeda."
+v105,ชั่วโมง,chûa-moong,chuamong,jam (lama waktu),jam,nomina,,waktu,3,สองชั่วโมง,sǎawng chûa-moong,dua jam,ชั่วโมง adalah lama waktu; untuk menyebut pukul dipakai โมง dengan pola yang berbeda-beda menurut bagian hari.
+v106,ใหญ่,yài,yai,besar,luas; agung,sifat,,sifat,4,บ้านใหญ่มาก,bâan yài mâak,Rumahnya sangat besar.,"Kata sifat diletakkan SESUDAH kata benda: บ้านใหญ่ ('rumah besar'), bukan ใหญ่บ้าน."
+v107,เล็ก,lék,lek,kecil,,sifat,,sifat,4,ร้านเล็กแต่ดี,ráan lék tàe dii,Tokonya kecil tetapi bagus.,
+v108,ดี,dii,di,"baik, bagus",bagus; baik,sifat,,sifat,4,สบายดีไหม,sà-baai-dii mǎi,Apa kabar? (Sehat?),"Muncul pada banyak ungkapan: ดีใจ (senang), ใจดี (baik hati), สบายดี (sehat)."
+v109,สวย,sǔai,suai,"cantik, indah",indah; elok,sifat,,sifat,4,วัดนี้สวยมาก,wát níi sǔai mâak,Kuil ini sangat indah.,"Dipakai untuk perempuan, pemandangan, dan benda. Untuk lelaki dipakai หล่อ (làaw, 'tampan')."
+v110,ใหม่,mài,mai,baru,,sifat,,sifat,4,ร้านใหม่อยู่ตรงนั้น,ráan mài yùu trong-nán,Toko baru itu ada di sana.,"Perhatikan empat kata berbunyi 'mai' yang berbeda nada dan arti: ไม่ (tidak), ไหม (partikel tanya), ใหม่ (baru), ไม้ (kayu)."
+v111,เก่า,kào,kao,"lama, tua (untuk benda)",usang; bekas,sifat,,sifat,4,รถเก่าแต่ดี,rót kào tàe dii,Mobilnya tua tetapi bagus.,"Untuk orang yang berusia lanjut dipakai แก่ (kàe), bukan เก่า."
+v112,แพง,phaeng,phaeng,mahal,,sifat,,sifat,4,แพงมากครับ,phaeng mâak khráp,Mahal sekali.,
+v113,ถูก,thùuk,thuk,murah; benar,murah; benar; tepat,sifat,,sifat,4,ที่นี่ถูกกว่า,thîi-nîi thùuk kwàa,Di sini lebih murah.,Satu kata dengan dua arti yang jauh berbeda: 'murah' dan 'benar'. Konteks yang menentukan.
+v114,ร้อน,ráawn,ron,panas,,sifat,,sifat,4,วันนี้ร้อน,wan-níi ráawn,Hari ini panas.,
+v115,เย็น,yen,yen,"dingin (benda, minuman); sejuk",sejuk; dingin,sifat,,sifat,4,น้ำเย็นหนึ่งแก้ว,náam yen nùeng kâeo,satu gelas air dingin,"เย็น untuk benda atau minuman yang dingin, หนาว untuk cuaca yang membuat badan kedinginan."
+v116,หนาว,nǎao,nao,"dingin (cuaca, badan)",kedinginan,sifat,,sifat,4,ผมหนาว,phǒm nǎao,Saya kedinginan.,
+v117,มาก,mâak,mak,banyak; sangat,sangat; sekali; banyak,keterangan,,sifat,4,ผมชอบมาก,phǒm châawp mâak,Saya sangat suka.,"Diletakkan SESUDAH kata yang diperkuat: อร่อยมาก, แพงมาก. Bukan di depan seperti 'sangat' dalam bahasa Indonesia."
+v118,น้อย,náawi,noi,sedikit,kurang,keterangan,,sifat,4,เผ็ดน้อยครับ,phèt náawi khráp,"Sedikit pedas saja, ya.",Bentuk นิดหน่อย (nít-nàwi) juga sering dipakai untuk 'sedikit'.
+v119,ไกล,klai,klai,jauh,,sifat,,arah,4,ไกลไหม,klai mǎi,Jauh tidak?,"Pasangannya ใกล้ (klâi, 'dekat') hanya berbeda nada dan ejaan ไ/ใ. Salah satu pasangan yang paling mudah tertukar."
+v120,ใกล้,klâi,klai,dekat,,sifat,,arah,4,ตลาดอยู่ใกล้,tà-làat yùu klâi,Pasarnya dekat.,
+v121,ซ้าย,sáai,sai,kiri,,nomina,,arah,4,เลี้ยวซ้าย,líao sáai,Belok kiri.,
+v122,ขวา,khwǎa,khwa,kanan,,nomina,,arah,4,เลี้ยวขวา,líao khwǎa,Belok kanan.,"ขว adalah gugus konsonan sejati, jadi kelasnya diambil dari ข (kelas tinggi)."
+v123,ตรง,trong,trong,lurus; tepat di,lurus; langsung,sifat,,arah,4,ตรงไป,trong pai,Jalan terus (lurus).,"ตรงนี้ ('di sini'), ตรงนั้น ('di sana') dipakai untuk menunjuk tempat yang terlihat."
+v124,หน้า,nâa,na,depan; muka; halaman,muka; wajah; depan,nomina,,arah,4,ร้านอยู่หน้าโรงแรม,ráan yùu nâa roong-raem,Tokonya ada di depan hotel.,"Bunyinya sama dengan น่า (nâa, 'patut, layak') tetapi ejaannya berbeda. Juga berarti 'berikutnya': อาทิตย์หน้า ('pekan depan')."
+v125,หลัง,lǎng,lang,belakang; sesudah,belakang; punggung,nomina,,arah,4,ห้องน้ำอยู่หลังร้าน,hâawng-náam yùu lǎng ráan,Toiletnya ada di belakang toko.,Kata yang sama menjadi klasifikator untuk rumah: บ้านสองหลัง ('dua rumah').
+v126,รถ,rót,rot,"mobil, kendaraan",kendaraan; mobil,nomina,คัน,jalan,4,รถคันนี้เก่า,rót khan níi kào,Mobil ini tua.,"Awalan untuk banyak kendaraan: รถไฟ (kereta), รถเมล์ (bus kota), รถตู้ (minibus)."
+v127,รถไฟ,rót-fai,rotfai,kereta api,kereta,nomina,ขบวน,jalan,4,ผมไปด้วยรถไฟ,phǒm pai dûai rót-fai,Saya pergi dengan kereta.,"Harfiahnya 'kendaraan api', sepadan dengan 'kereta api'."
+v128,เรือ,ruea,ruea,"perahu, kapal",kapal; perahu,nomina,ลำ,jalan,4,ผมไปเรือ,phǒm pai ruea,Saya pergi dengan perahu.,
+v129,เครื่องบิน,khrûeang-bin,khrueangbin,pesawat terbang,pesawat; kapal terbang,nomina,ลำ,jalan,4,เครื่องบินไปไทย,khrûeang-bin pai thai,pesawat ke Thailand,"เครื่อง berarti 'mesin, alat' dan juga menjadi klasifikator untuk alat: โทรศัพท์สองเครื่อง."
+v130,แท็กซี่,tháek-sîi,thaeksi,taksi,,nomina,คัน,jalan,4,ผมนั่งแท็กซี่,phǒm nâng tháek-sîi,Saya naik taksi.,Serapan dari bahasa Inggris. Kata serapan baru sering memakai ◌็ dan tanda nada yang tidak lazim pada kata asli Thai.
+v131,เดิน,dooen,doen,berjalan,jalan kaki,verba,,jalan,4,ผมเดินไปตลาด,phǒm dooen pai tà-làat,Saya berjalan ke pasar.,
+v132,นั่ง,nâng,nang,duduk; naik (kendaraan),duduk; naik,verba,,jalan,4,นั่งที่นี่ได้ไหม,nâng thîi-nîi dâi mǎi,Boleh duduk di sini?,"Untuk 'naik kendaraan' dipakai นั่ง, bukan ขึ้น, bila yang dimaksud menumpang: นั่งรถไฟ, นั่งแท็กซี่."
+v133,ขึ้น,khûen,khuen,"naik, menaiki",meningkat,verba,,jalan,4,ขึ้นรถไฟที่นี่,khûen rót-fai thîi-nîi,Naik kereta di sini.,
+v134,ลง,long,long,turun,menurun,verba,,jalan,4,ผมลงที่สถานีนี้,phǒm long thîi sà-thǎa-nii níi,Saya turun di stasiun ini.,
+v135,กลับ,klàp,klap,"kembali, pulang",pulang; balik,verba,,jalan,4,ผมกลับบ้าน,phǒm klàp bâan,Saya pulang ke rumah.,
+v183,โต๊ะ,tó,to,meja,,nomina,ตัว,benda,4,โต๊ะนี้เล็ก,tó níi lék,Meja ini kecil.,"Serapan dari bahasa Tionghoa. Klasifikatornya ตัว, sama seperti hewan dan pakaian."
+v184,เก้าอี้,kâo-îi,kaoi,kursi,,nomina,ตัว,benda,4,เก้าอี้สองตัว,kâo-îi sǎawng tua,dua kursi,"Suku kata kedua memakai อ sebagai tumpuan vokal, sebab tidak ada konsonan awal yang berbunyi."
+v185,กระเป๋า,krà-pǎo,krapao,tas,kantong; dompet,nomina,ใบ,benda,4,กระเป๋าใบนี้สวย,krà-pǎo bai níi sǔai,Tas ini cantik.,Contoh mai chattawa pada konsonan kelas tengah. Juga berarti 'dompet' (กระเป๋าเงิน) dan 'saku'.
+v186,เสื้อ,sûea,suea,baju,kemeja; pakaian,nomina,ตัว,benda,4,เสื้อตัวนี้แพง,sûea tua níi phaeng,Baju ini mahal.,"Hanya berbeda nada dari เสือ (sǔea, 'harimau') dan เสื่อ (sùea, 'tikar'). Lihat pasangan nada mp04 di Modul 2."
+v136,เงิน,ngooen,ngoen,uang,duit; perak (logam),nomina,,uang,5,ผมไม่มีเงิน,phǒm mâi mii ngooen,Saya tidak punya uang.,"Kata yang sama berarti 'perak' (logam), sama seperti 'uang perak'."
+v137,บาท,bàat,bat,baht (mata uang Thailand),,nomina,,uang,5,ห้าสิบบาท,hâa-sìp bàat,lima puluh baht,
+v138,เท่าไหร่,thâo-rài,thaorai,berapa,berapa banyak,tanya,,uang,5,ราคาเท่าไหร่,raa-khaa thâo-rài,Berapa harganya?,"Untuk jumlah benda yang memakai klasifikator dipakai กี่: กี่คน ('berapa orang'), กี่บาท ('berapa baht')."
+v139,ราคา,raa-khaa,rakha,harga,,nomina,,uang,5,ราคาถูก,raa-khaa thùuk,Harganya murah.,
+v140,ซื้อ,súue,sue,membeli,beli,verba,,uang,5,ผมซื้อกล้วย,phǒm súue klûai,Saya membeli pisang.,
+v141,ขาย,khǎai,khai,menjual,jual,verba,,uang,5,ร้านนี้ขายอาหาร,ráan níi khǎai aa-hǎan,Toko ini menjual makanan.,
+v142,จ่าย,jàai,chai,membayar,bayar,verba,,uang,5,ผมจ่ายเงินแล้ว,phǒm jàai ngooen láeo,Saya sudah membayar.,
+v143,ลด,lót,lot,"mengurangi, memberi potongan harga",kurangi; diskon,verba,,uang,5,ลดได้ไหม,lót dâi mǎi,Bisa kurang (harganya)?,Ungkapan menawar yang lazim di pasar. Bentuk yang lebih lengkap: ลดราคาได้ไหม.
+v144,แก้ว,kâeo,kaeo,gelas; kaca,gelas; kaca,nomina,ใบ,klasifikator,5,น้ำสองแก้ว,náam sǎawng kâeo,dua gelas air,Juga menjadi klasifikator untuk minuman yang disajikan dalam gelas.
+v145,ใบ,bai,bai,lembar (klasifikator); daun,daun; lembar,klasifikator,,klasifikator,5,สองใบ,sǎawng bai,dua lembar / dua buah,"Klasifikator untuk benda tipis dan berongga: daun, kertas, tiket, gelas, tas, topi."
+v146,ตัว,tua,tua,tubuh; klasifikator hewan dan pakaian,badan; ekor,klasifikator,,klasifikator,5,หมาสามตัว,mǎa sǎam tua,tiga ekor anjing,"Dipakai untuk hewan, pakaian, meja dan kursi, serta huruf (ตัวอักษร)."
+v147,อัน,an,an,klasifikator umum untuk benda kecil,buah (benda),klasifikator,,klasifikator,5,เอาอันนี้,ao an níi,Saya mau yang ini.,"Bila Anda tidak tahu klasifikator yang tepat, อัน adalah pilihan paling aman untuk benda kecil. อันนี้ ('yang ini') sangat berguna saat berbelanja."
+v148,กี่,kìi,ki,berapa (dengan klasifikator),,tanya,,klasifikator,5,กี่คนครับ,kìi khon khráp,Berapa orang?,"Selalu disusul klasifikator: กี่คน, กี่บาท, กี่โมง ('jam berapa')."
+v149,แล้ว,láeo,laeo,sudah,telah,partikel,,keterangan,5,ผมกินแล้ว,phǒm kin láeo,Saya sudah makan.,Diletakkan di AKHIR kalimat. Kata kerja bahasa Thailand tidak berubah bentuk; penanda seperti แล้ว dan จะ yang menunjukkan waktu.
+v150,ยัง,yang,yang,masih; belum,masih,partikel,,keterangan,5,ผมยังไม่กิน,phǒm yang mâi kin,Saya belum makan.,'Belum' dinyatakan dengan ยัง...ไม่ atau ยังไม่ + kata kerja.
+v151,จะ,jà,cha,akan,,partikel,,keterangan,5,ผมจะไปพรุ่งนี้,phǒm jà pai phrûng-níi,Saya akan pergi besok.,Diletakkan SEBELUM kata kerja. Sering dihilangkan bila sudah ada keterangan waktu.
+v152,ต้อง,tâawng,tong,harus,mesti; wajib,verba,,keterangan,5,ผมต้องกลับบ้าน,phǒm tâawng klàp bâan,Saya harus pulang.,
+v153,อยาก,yàak,yak,ingin,mau; hendak,verba,,keterangan,5,ผมอยากไปไทย,phǒm yàak pai thai,Saya ingin pergi ke Thailand.,"Salah satu dari empat kata ber-อย: อย่า, อยู่, อย่าง, อยาก. อยากได้ dipakai untuk 'ingin punya'."
+v154,ด้วย,dûai,duai,juga; dengan,juga; dengan; pula,keterangan,,keterangan,5,ผมไปด้วย,phǒm pai dûai,Saya ikut juga.,ด้วยกัน (dûai-kan) berarti 'bersama-sama'.
+v155,กับ,kàp,kap,"dengan, dan",bersama; dan,depan,,keterangan,5,ผมไปกับเพื่อน,phǒm pai kàp phûean,Saya pergi dengan teman.,"Untuk menghubungkan kata benda. Untuk menghubungkan kalimat dipakai และ (láe, 'dan')."
+v156,แต่,tàe,tae,tetapi,tapi; namun,sambung,,keterangan,5,แพงแต่อร่อย,phaeng tàe à-ràawi,Mahal tetapi enak.,
+v157,ที่,thîi,thi,di; yang; tempat,di; yang,depan,,keterangan,5,ผมอยู่ที่บ้าน,phǒm yùu thîi bâan,Saya ada di rumah.,"Tiga tugas sekaligus: kata depan 'di', kata penghubung 'yang', dan kata benda 'tempat'. Juga dipakai pada ที่นี่, ที่ไหน, ที่นั่น."
+v158,หัว,hǔa,hua,kepala,,nomina,หัว,tubuh,6,ผมปวดหัว,phǒm pùat hǔa,Kepala saya sakit.,ปวด (pùat) dipakai untuk sakit yang berdenyut di dalam badan; เจ็บ untuk nyeri karena luka.
+v159,ตา,taa,ta,mata; kakek (dari pihak ibu),mata,nomina,ข้าง,tubuh,6,ตาสวย,taa sǔai,Matanya indah.,
+v160,ปาก,pàak,pak,mulut,,nomina,,tubuh,6,เจ็บปาก,jèp pàak,Mulutnya sakit.,
+v161,มือ,muue,mue,tangan,,nomina,ข้าง,tubuh,6,ล้างมือ,láang muue,Mencuci tangan.,"โทรศัพท์มือถือ (thoo-rá-sàp muue-thǔue) berarti 'telepon genggam', harfiahnya 'telepon yang dipegang tangan'."
+v162,เท้า,tháo,thao,kaki (bagian bawah),telapak kaki,nomina,ข้าง,tubuh,6,เจ็บเท้า,jèp tháo,Kaki saya sakit.,"ขา (khǎa) adalah kaki dari pinggul sampai pergelangan; เท้า bagian telapaknya. Dalam budaya Thai, kaki dianggap bagian terendah: jangan menunjuk apa pun dengan kaki."
+v163,ท้อง,tháawng,thong,perut,,nomina,,tubuh,6,ผมปวดท้อง,phǒm pùat tháawng,Perut saya sakit.,Ungkapan yang sangat berguna saat berobat: ปวดท้อง ('sakit perut').
+v164,เจ็บ,jèp,chep,sakit (nyeri karena luka),nyeri; perih,sifat,,tubuh,6,เจ็บมากไหม,jèp mâak mǎi,Sakitnya parah?,
+v165,ป่วย,pùai,puai,sakit (berpenyakit),jatuh sakit,sifat,,tubuh,6,เขาป่วยวันนี้,khǎo pùai wan-níi,Dia sakit hari ini.,"Tiga kata 'sakit' yang berbeda: ป่วย (berpenyakit), เจ็บ (nyeri karena luka), ปวด (sakit berdenyut)."
+v166,ยา,yaa,ya,obat,,nomina,เม็ด,tubuh,6,ผมต้องกินยา,phǒm tâawng kin yaa,Saya harus minum obat.,"Untuk obat dipakai กิน ('makan'), bukan ดื่ม. ร้านขายยา berarti 'apotek'."
+v167,อากาศ,aa-kàat,akat,"cuaca, udara",udara; hawa,nomina,,alam,6,อากาศร้อนมาก,aa-kàat ráawn mâak,Cuacanya sangat panas.,"Serapan Sanskerta, seakar dengan kata bahasa Indonesia 'angkasa'."
+v168,ฝน,fǒn,fon,hujan,,nomina,,alam,6,ฝนตก,fǒn tòk,Hujan turun.,ฝนตก (harfiahnya 'hujan jatuh') adalah cara biasa mengatakan 'hujan'. ตก berarti 'jatuh'.
+v169,แดด,dàet,daet,sinar matahari,panas matahari,nomina,,alam,6,แดดร้อน,dàet ráawn,Mataharinya panas.,แดด adalah sinarnya; benda langitnya พระอาทิตย์ (phrá-aa-thít).
+v170,ลม,lom,lom,angin,,nomina,,alam,6,ลมเย็น,lom yen,Anginnya sejuk.,
+v171,ดีใจ,dii-jai,dichai,"senang, gembira",gembira; bahagia,sifat,,rasa,6,ผมดีใจมาก,phǒm dii-jai mâak,Saya sangat senang.,"ใจ ('hati') membentuk puluhan kata perasaan: ดีใจ (senang), เสียใจ (sedih), ใจดี (baik hati), ใจร้อน (tidak sabar)."
+v172,เสียใจ,sǐa-jai,siachai,sedih,berduka; menyesal,sifat,,rasa,6,ผมเสียใจด้วย,phǒm sǐa-jai dûai,Saya ikut berduka.,"เสีย sendiri berarti 'rusak, hilang', jadi เสียใจ harfiahnya 'hati yang rusak'."
+v173,เหนื่อย,nùeai,nueai,lelah,capek; letih,sifat,,rasa,6,ผมเหนื่อยมาก,phǒm nùeai mâak,Saya sangat lelah.,
+v174,หิว,hǐu,hiu,lapar,haus (dengan น้ำ),sifat,,rasa,6,ผมหิวแล้ว,phǒm hǐu láeo,Saya sudah lapar.,"หิวน้ำ (hǐu náam) berarti 'haus', harfiahnya 'lapar air'."
+v175,ง่วง,ngûang,nguang,mengantuk,ngantuk,sifat,,rasa,6,ผมง่วงมาก,phǒm ngûang mâak,Saya sangat mengantuk.,
+v176,สนุก,sà-nùk,sanuk,"menyenangkan, seru",asyik; seru,sifat,,rasa,6,สนุกมาก,sà-nùk mâak,Seru sekali.,Kata yang sering disebut sebagai cermin budaya Thai: pekerjaan dan kegiatan dinilai juga dari apakah สนุก.
+v177,สบาย,sà-baai,sabai,"nyaman, sehat, santai",enak badan; santai,sifat,,rasa,6,สบายดีไหมครับ,sà-baai-dii mǎi khráp,Apa kabar?,สบายดีไหม adalah 'apa kabar' yang paling lazim. Jawabannya สบายดี ('baik').
+v178,ช่วย,chûai,chuai,membantu; tolong (minta),tolong; bantu,verba,,rasa,6,ช่วยผมด้วย,chûai phǒm dûai,Tolong saya.,ช่วย + kata kerja berarti 'tolong lakukan...': ช่วยพูดช้าๆ ('tolong bicara lebih lambat').
+v179,ภาษา,phaa-sǎa,phasa,bahasa,,nomina,,bangsa,6,ภาษาไทยยาก,phaa-sǎa thai yâak,Bahasa Thailand sulit.,"Serapan Sanskerta yang seakar dengan kata bahasa Indonesia 'bahasa'. Banyak kata serapan Sanskerta mirip di kedua bahasa: ภาษา/bahasa, อากาศ/angkasa, ประเทศ/pradesa."
+v180,ประเทศ,prà-thêet,prathet,negara,negeri,nomina,,bangsa,6,ประเทศไทยสวย,prà-thêet thai sǔai,Negeri Thailand indah.,ประเทศไทย adalah nama resmi Thailand. Seakar dengan 'pradesa' dalam Sanskerta.
+v181,ไทย,thai,thai,"Thai, Thailand",Thailand,nomina,,bangsa,6,คนไทยพูดภาษาไทย,khon thai phûut phaa-sǎa thai,Orang Thai berbahasa Thai.,"Dipakai untuk bangsa, bahasa, dan negaranya: คนไทย, ภาษาไทย, ประเทศไทย."
+v182,อินโดนีเซีย,in-doo-nii-sia,indonisia,Indonesia,,nomina,,bangsa,6,ผมเป็นคนอินโดนีเซีย,phǒm pen khon in-doo-nii-sia,Saya orang Indonesia.,"Nama negara diserap menurut bunyinya. Semua suku katanya bernada sedang, sehingga mudah diucapkan."

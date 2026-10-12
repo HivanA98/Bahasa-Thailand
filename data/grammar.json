@@ -1,0 +1,411 @@
+{
+  "module": 4,
+  "title": "Tata bahasa dasar",
+  "description": "Dua belas topik inti untuk tingkat A1 menuju A2. Bahasa Thailand tidak mengenal perubahan bentuk kata: kata kerja tidak berubah menurut waktu, kata benda tidak berubah menurut jumlah, dan tidak ada jenis kata benda. Yang perlu dikuasai adalah URUTAN kata dan sekumpulan kata penanda. Bagi penutur bahasa Indonesia, banyak hal di sini terasa akrab, dan perbedaannya justru tersembunyi pada hal-hal kecil.",
+  "schema": {
+    "id": "pengenal topik (g##)",
+    "stage": "tahap 1-6",
+    "explanation": "penjelasan dalam bahasa Indonesia",
+    "caveats": "pengecualian dan batas berlakunya aturan, ditulis sebagai catatan, bukan aturan mutlak",
+    "examples": "contoh kalimat; 'syl' dan 'phon' diperiksa mesin terhadap thaidrill/tone.py",
+    "items": "soal pilihan ganda; options_lang menandai bahasa pilihan jawaban (th/id); answer adalah indeks jawaban benar"
+  },
+  "topics": [
+    {
+      "id": "g01",
+      "title": "Susunan kalimat: pelaku - kata kerja - sasaran",
+      "stage": 1,
+      "explanation": "Susunan dasar kalimat bahasa Thailand sama dengan bahasa Indonesia: pelaku, kata kerja, lalu sasaran. ผมกินข้าว tersusun dari 'saya' + 'makan' + 'nasi'. Yang berbeda dari bahasa-bahasa Eropa: kata kerjanya TIDAK pernah berubah bentuk. Tidak ada perbedaan antara 'makan', 'memakan', 'makanlah', atau bentuk masa lalu. Satu bentuk kata kerja dipakai untuk segala keadaan, dan selebihnya dijelaskan oleh keterangan waktu atau kata penanda. Bahasa Thailand juga tidak memakai kata sandang (seperti 'the' atau 'a'), tidak menandai jumlah pada kata benda, dan sering menghilangkan pelaku bila sudah jelas dari keadaan.",
+      "caveats": [
+        "Pelaku sangat sering dihilangkan. 'ไปไหน' tanpa pelaku berarti '(Kamu) mau ke mana?' dan itu kalimat yang wajar, bukan kalimat tidak lengkap.",
+        "Keterangan waktu lazim diletakkan di awal kalimat, meski boleh juga di akhir: วันนี้ผมไม่ไป dan ผมไม่ไปวันนี้ keduanya benar.",
+        "Dalam tulisan Thai tidak ada spasi antarkata. Spasi hanya dipakai untuk memisahkan kalimat atau bagian kalimat yang panjang. Memecah kata adalah keterampilan yang terbangun bersama kosakata."
+      ],
+      "examples": [
+        {"th": "ผมกินข้าว", "syl": ["ผม", "กิน", "ข้าว"], "phon": "phǒm kin khâao", "gloss": "Saya makan (nasi)."},
+        {"th": "เขาไปตลาด", "syl": ["เขา", "ไป", "ต", "ลาด"], "phon": "khǎo pai tà-làat", "gloss": "Dia pergi ke pasar."},
+        {"th": "เด็กอ่านหนังสือ", "syl": ["เด็ก", "อ่าน", "หนัง", "สือ"], "phon": "dèk àan nǎng-sǔue", "gloss": "Anak itu membaca buku."}
+      ],
+      "items": [
+        {"id": "g01-1", "type": "mcq", "prompt": "Bagaimana bentuk kata kerja bahasa Thailand berubah menurut waktu?", "prompt_th": null, "options_lang": "id",
+         "options": ["Tidak berubah sama sekali; waktu ditandai kata lain atau keterangan waktu", "Berubah dengan menambahkan akhiran", "Berubah dengan mengubah nada", "Berubah dengan mengulang kata kerjanya"],
+         "answer": 0, "explain": "ผมกิน bisa berarti 'saya makan', 'saya sudah makan', atau 'saya akan makan'. Penanda seperti แล้ว dan จะ yang menjelaskan, bukan bentuk kata kerjanya."},
+        {"id": "g01-2", "type": "mcq", "prompt": "Mana susunan yang benar untuk 'Saya pergi ke pasar'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ผมไปตลาด", "ตลาดไปผม", "ไปผมตลาด", "ผมตลาดไป"],
+         "answer": 0, "explain": "Pelaku, kata kerja, lalu tujuan. Perhatikan tidak ada kata 'ke': ไปตลาด sudah berarti 'pergi ke pasar'."},
+        {"id": "g01-3", "type": "mcq", "prompt": "Mengapa tulisan Thai sulit dipecah menjadi kata oleh pembaca baru?", "prompt_th": null, "options_lang": "id",
+         "options": ["Karena tidak ada spasi antarkata", "Karena hurufnya ditulis dari kanan ke kiri", "Karena satu huruf bisa mewakili beberapa kata", "Karena kata selalu ditulis bersambung dengan tanda hubung"],
+         "answer": 0, "explain": "Spasi hanya memisahkan kalimat atau bagian kalimat. Pemecahan kata bergantung pada pengenalan kosakata, bukan pada tanda baca."},
+        {"id": "g01-4", "type": "mcq", "prompt": "Kalimat 'ไปไหน' tanpa pelaku berarti apa?", "prompt_th": "ไปไหน", "options_lang": "id",
+         "options": ["(Kamu) mau ke mana?", "Kalimat itu tidak lengkap dan salah", "Pergi ke sana", "Siapa yang pergi?"],
+         "answer": 0, "explain": "Penghilangan pelaku adalah hal biasa, bukan kesalahan. Siapa pelakunya diketahui dari keadaan percakapan."},
+        {"id": "g01-5", "type": "mcq", "prompt": "Bagaimana jumlah (tunggal atau jamak) ditandai pada kata benda Thai?", "prompt_th": null, "options_lang": "id",
+         "options": ["Tidak ditandai pada kata bendanya; bila perlu dipakai angka dengan klasifikator", "Dengan mengulang kata bendanya", "Dengan menambahkan awalan", "Dengan mengubah nadanya"],
+         "answer": 0, "explain": "หนังสือ bisa berarti 'buku' atau 'buku-buku'. Untuk menyatakan jumlah dipakai pola seperti หนังสือสามเล่ม ('tiga buku')."}
+      ]
+    },
+    {
+      "id": "g02",
+      "title": "Kata sifat sesudah kata benda, tanpa kata 'adalah'",
+      "stage": 1,
+      "explanation": "Kata sifat bahasa Thailand diletakkan SESUDAH kata benda yang diterangkan, sama seperti bahasa Indonesia: บ้านใหญ่ = 'rumah besar'. Yang berbeda: untuk mengatakan 'rumah itu besar', bahasa Thailand tidak memerlukan kata penghubung apa pun. บ้านใหญ่ bisa berarti 'rumah besar' maupun 'rumahnya besar', bergantung keadaan. Kata sifat dalam bahasa Thailand berperilaku seperti kata kerja: ia bisa berdiri sendiri sebagai predikat, bisa dinegasikan dengan ไม่, dan bisa diperkuat dengan มาก. Karena itu JANGAN memakai เป็น di depan kata sifat.",
+      "caveats": [
+        "บ้านใหญ่ memang bermakna ganda antara 'rumah besar' dan 'rumahnya besar'. Dalam percakapan nyata keadaan yang menentukan, dan bila perlu ditambahkan kata tunjuk: บ้านหลังนี้ใหญ่ ('rumah ini besar').",
+        "Penguat diletakkan sesudah kata sifat: อร่อยมาก ('sangat enak'), bukan มากอร่อย. Ini berlawanan dengan urutan bahasa Indonesia.",
+        "Beberapa kata sifat yang berasal dari kata serapan memakai pola yang berbeda, tetapi untuk tingkat ini aturan di atas berlaku luas."
+      ],
+      "examples": [
+        {"th": "บ้านใหญ่", "syl": ["บ้าน", "ใหญ่"], "phon": "bâan yài", "gloss": "rumah besar / Rumahnya besar."},
+        {"th": "อาหารอร่อยมาก", "syl": ["อา", "หาร", "อ", "ร่อย", "มาก"], "phon": "aa-hǎan à-ràawi mâak", "gloss": "Makanannya sangat enak."},
+        {"th": "ร้านนี้ไม่แพง", "syl": ["ร้าน", "นี้", "ไม่", "แพง"], "phon": "ráan níi mâi phaeng", "gloss": "Toko ini tidak mahal."}
+      ],
+      "items": [
+        {"id": "g02-1", "type": "mcq", "prompt": "Mana yang benar untuk 'Makanannya enak'?", "prompt_th": null, "options_lang": "th",
+         "options": ["อาหารอร่อย", "อาหารเป็นอร่อย", "อร่อยอาหาร", "อาหารคืออร่อย"],
+         "answer": 0, "explain": "Kata sifat langsung menyusul kata bendanya, tanpa เป็น atau คือ. Memakai เป็น di depan kata sifat adalah kesalahan yang paling sering dibuat pembelajar."},
+        {"id": "g02-2", "type": "mcq", "prompt": "Di mana letak มาก ('sangat') pada kalimat?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sesudah kata sifat yang diperkuat", "Sebelum kata sifat yang diperkuat", "Di awal kalimat", "Di akhir kalimat setelah partikel sopan"],
+         "answer": 0, "explain": "อร่อยมาก, แพงมาก, เหนื่อยมาก. Urutannya berlawanan dengan 'sangat enak' dalam bahasa Indonesia."},
+        {"id": "g02-3", "type": "mcq", "prompt": "Mengapa kata sifat Thai disebut berperilaku seperti kata kerja?", "prompt_th": null, "options_lang": "id",
+         "options": ["Karena bisa menjadi predikat sendiri dan dinegasikan dengan ไม่", "Karena bentuknya berubah menurut waktu", "Karena selalu memerlukan pelaku", "Karena harus didahului เป็น"],
+         "answer": 0, "explain": "ไม่แพง ('tidak mahal') memakai ไม่ yang sama seperti pada ไม่ไป ('tidak pergi'). Keduanya diperlakukan sama oleh tata bahasanya."},
+        {"id": "g02-4", "type": "mcq", "prompt": "Apa arti บ้านใหญ่ ?", "prompt_th": "บ้านใหญ่", "options_lang": "id",
+         "options": ["Bisa 'rumah besar' maupun 'rumahnya besar'", "Hanya 'rumah besar'", "Hanya 'rumahnya besar'", "'Besar rumah'"],
+         "answer": 0, "explain": "Kedua makna itu dituliskan sama. Untuk mempertegas dipakai kata tunjuk dengan klasifikator: บ้านหลังนี้ใหญ่."},
+        {"id": "g02-5", "type": "mcq", "prompt": "Mana yang BUKAN kalimat yang wajar?", "prompt_th": null, "options_lang": "th",
+         "options": ["ผมเป็นเหนื่อย", "ผมเหนื่อย", "ผมเหนื่อยมาก", "ผมไม่เหนื่อย"],
+         "answer": 0, "explain": "เหนื่อย adalah kata sifat, jadi tidak boleh didahului เป็น. Tiga pilihan lainnya wajar."}
+      ]
+    },
+    {
+      "id": "g03",
+      "title": "Tiga kata untuk 'adalah': เป็น, คือ, อยู่",
+      "stage": 2,
+      "explanation": "Bahasa Indonesia memakai satu kata 'adalah' untuk banyak keadaan; bahasa Thailand membaginya. เป็น dipakai untuk menyatakan golongan, pekerjaan, atau keadaan ('A termasuk B'): เขาเป็นหมอ. คือ dipakai untuk menyamakan dua hal atau menjelaskan ('A yaitu B'), lazim sesudah kata tunjuk: นี่คือบ้านผม. อยู่ dipakai untuk keberadaan di suatu tempat: ผมอยู่ที่บ้าน. Dan untuk kata sifat, tidak dipakai salah satu pun dari ketiganya. Sebagai pegangan awal: pekerjaan dan golongan pakai เป็น, penjelasan sesudah 'ini/itu' pakai คือ, tempat pakai อยู่, kata sifat tanpa kata penghubung.",
+      "caveats": [
+        "Batas antara เป็น dan คือ tidak selalu tegas, dan penutur asli kadang memakai keduanya pada kalimat yang sama. Pembagian di atas adalah pegangan praktis, bukan hukum.",
+        "เป็น juga punya arti lain sama sekali: 'bisa karena sudah dipelajari' (ผมว่ายน้ำเป็น, 'saya bisa berenang') dan 'menderita penyakit' (เป็นไข้, 'demam').",
+        "อยู่ juga dipakai sesudah kata kerja untuk menandai perbuatan yang sedang berlangsung: กินอยู่ ('sedang makan')."
+      ],
+      "examples": [
+        {"th": "เขาเป็นหมอ", "syl": ["เขา", "เป็น", "หมอ"], "phon": "khǎo pen mǎaw", "gloss": "Dia seorang dokter."},
+        {"th": "นี่คือบ้านผม", "syl": ["นี่", "คือ", "บ้าน", "ผม"], "phon": "nîi khuue bâan phǒm", "gloss": "Ini rumah saya."},
+        {"th": "ผมอยู่ที่บ้าน", "syl": ["ผม", "อยู่", "ที่", "บ้าน"], "phon": "phǒm yùu thîi bâan", "gloss": "Saya ada di rumah."}
+      ],
+      "items": [
+        {"id": "g03-1", "type": "mcq", "prompt": "Mana yang benar untuk 'Dia seorang guru'?", "prompt_th": null, "options_lang": "th",
+         "options": ["เขาเป็นครู", "เขาคือครู", "เขาอยู่ครู", "เขาครู"],
+         "answer": 0, "explain": "Pekerjaan dan golongan memakai เป็น. คือครู tidak salah secara tata bahasa, tetapi terdengar seperti sedang menjelaskan identitas, bukan menyebut pekerjaan."},
+        {"id": "g03-2", "type": "mcq", "prompt": "Mana yang benar untuk 'Toiletnya di belakang'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ห้องน้ำอยู่หลัง", "ห้องน้ำเป็นหลัง", "ห้องน้ำคือหลัง", "ห้องน้ำหลัง"],
+         "answer": 0, "explain": "Keberadaan di suatu tempat selalu memakai อยู่."},
+        {"id": "g03-3", "type": "mcq", "prompt": "Kata mana yang dipakai untuk 'Ini ...' saat menjelaskan sesuatu?", "prompt_th": null, "options_lang": "th",
+         "options": ["คือ", "เป็น", "อยู่", "ได้"],
+         "answer": 0, "explain": "นี่คือ... adalah pola yang lazim. คือ menyamakan dua hal."},
+        {"id": "g03-4", "type": "mcq", "prompt": "Mana kalimat yang SALAH?", "prompt_th": null, "options_lang": "th",
+         "options": ["บ้านเป็นใหญ่", "บ้านใหญ่", "บ้านอยู่ไกล", "เขาเป็นหมอ"],
+         "answer": 0, "explain": "ใหญ่ adalah kata sifat, sehingga tidak memakai เป็น. Tiga pilihan lainnya benar."},
+        {"id": "g03-5", "type": "mcq", "prompt": "Pada ผมว่ายน้ำเป็น, apa arti เป็น?", "prompt_th": "ผมว่ายน้ำเป็น", "options_lang": "id",
+         "options": ["Bisa, karena sudah dipelajari", "Adalah", "Sedang", "Harus"],
+         "answer": 0, "explain": "เป็น sesudah kata kerja menandai keterampilan yang dikuasai. Bandingkan ได้ yang menandai kemungkinan atau izin."}
+      ]
+    },
+    {
+      "id": "g04",
+      "title": "Penafian: ไม่, ไม่ใช่, ยังไม่",
+      "stage": 2,
+      "explanation": "ไม่ diletakkan SEBELUM kata kerja atau kata sifat yang ditafikan: ผมไม่ไป ('saya tidak pergi'), ไม่แพง ('tidak mahal'). Untuk menafikan kata benda dipakai ไม่ใช่ ('bukan'): นี่ไม่ใช่บ้านผม ('ini bukan rumah saya'). Perbedaan ini sama dengan 'tidak' dan 'bukan' dalam bahasa Indonesia, sehingga mudah bagi penutur bahasa Indonesia. Untuk 'belum' dipakai ยัง + ไม่: ผมยังไม่กิน ('saya belum makan'). Satu hal yang perlu diperhatikan: menjawab 'tidak' pada pertanyaan kata kerja dilakukan dengan mengulang kata kerjanya yang ditafikan, bukan dengan satu kata 'tidak' saja.",
+      "caveats": [
+        "ไม่ dan มี adalah dua kata yang berdiri sendiri, tetapi gabungan ไม่มี ('tidak ada') diucapkan menyatu sebagai mâi-mii. Banyak gabungan dengan ไม่ yang sudah menjadi satu kata lazim: ไม่เป็นไร ('tidak apa-apa'), ไม่ค่อย ('tidak begitu').",
+        "Dalam percakapan cepat, ไม่ sering diucapkan pendek dan hampir kehilangan nada turunnya. Dalam tulisan nadanya tetap.",
+        "Penafian yang lebih halus dipakai untuk menolak tawaran: ไม่เป็นไรครับ terasa lebih sopan daripada ไม่ครับ saja."
+      ],
+      "examples": [
+        {"th": "ผมไม่ไป", "syl": ["ผม", "ไม่", "ไป"], "phon": "phǒm mâi pai", "gloss": "Saya tidak pergi."},
+        {"th": "นี่ไม่ใช่บ้านผม", "syl": ["นี่", "ไม่", "ใช่", "บ้าน", "ผม"], "phon": "nîi mâi-châi bâan phǒm", "gloss": "Ini bukan rumah saya."},
+        {"th": "ผมยังไม่กิน", "syl": ["ผม", "ยัง", "ไม่", "กิน"], "phon": "phǒm yang mâi kin", "gloss": "Saya belum makan."}
+      ],
+      "items": [
+        {"id": "g04-1", "type": "mcq", "prompt": "Di mana letak ไม่ pada kalimat?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sebelum kata kerja atau kata sifat", "Sesudah kata kerja", "Di akhir kalimat", "Sebelum pelaku"],
+         "answer": 0, "explain": "ผมไม่ไป, ไม่แพง, ไม่เผ็ด. Letaknya sama dengan 'tidak' dalam bahasa Indonesia."},
+        {"id": "g04-2", "type": "mcq", "prompt": "Mana yang benar untuk 'Ini bukan air'?", "prompt_th": null, "options_lang": "th",
+         "options": ["นี่ไม่ใช่น้ำ", "นี่ไม่น้ำ", "น้ำไม่นี่", "นี่น้ำไม่"],
+         "answer": 0, "explain": "Kata benda ditafikan dengan ไม่ใช่, sama seperti 'bukan' dalam bahasa Indonesia."},
+        {"id": "g04-3", "type": "mcq", "prompt": "Bagaimana mengatakan 'belum'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ยังไม่", "ไม่ยัง", "ไม่แล้ว", "แล้วไม่"],
+         "answer": 0, "explain": "ยังไม่ + kata kerja. ยัง sendiri berarti 'masih'."},
+        {"id": "g04-4", "type": "mcq", "prompt": "Pertanyaan 'คุณไปไหม' dijawab 'tidak' dengan apa?", "prompt_th": "คุณไปไหม", "options_lang": "th",
+         "options": ["ไม่ไป", "ไม่ใช่", "ไม่เป็นไร", "ยัง"],
+         "answer": 0, "explain": "Jawaban atas pertanyaan kata kerja mengulang kata kerjanya: ไป untuk 'ya', ไม่ไป untuk 'tidak'. ไม่ใช่ hanya untuk menyangkal pernyataan."},
+        {"id": "g04-5", "type": "mcq", "prompt": "Apa arti ไม่เป็นไร?", "prompt_th": "ไม่เป็นไร", "options_lang": "id",
+         "options": ["Tidak apa-apa; tidak masalah", "Tidak ada", "Belum selesai", "Tidak mau"],
+         "answer": 0, "explain": "Ungkapan yang sangat sering dipakai, baik untuk menjawab permintaan maaf maupun untuk menolak tawaran dengan sopan."}
+      ]
+    },
+    {
+      "id": "g05",
+      "title": "Membuat pertanyaan",
+      "stage": 3,
+      "explanation": "Ada tiga cara utama. Pertama, partikel ไหม di akhir kalimat untuk pertanyaan ya/tidak: คุณไปไหม ('Anda pergi?'). Kedua, kata tanya (อะไร, ใคร, ไหน, เมื่อไหร่, เท่าไหร่) yang diletakkan DI TEMPAT kata yang ditanyakan, tanpa mengubah susunan kalimat: คุณกินอะไร, harfiahnya 'Anda makan apa'. Ketiga, ใช่ไหม di akhir untuk meminta pembenaran: อร่อยใช่ไหม ('enak, kan?'). Yang perlu disadari penutur bahasa Indonesia: tidak ada 'apakah' di awal kalimat, dan nada bicara TIDAK dinaikkan di akhir pertanyaan. Menaikkan nada akhir justru dapat mengubah kata terakhir menjadi kata lain.",
+      "caveats": [
+        "ไหม menurut aturan ejaan bernada naik, tetapi dalam percakapan hampir selalu bernada tinggi dan ditulis มั้ย pada tulisan tidak resmi.",
+        "หรือ (rǔue) di akhir kalimat juga membentuk pertanyaan, dengan nuansa 'oh begitu ya?'. Dalam percakapan sering diucapkan singkat menjadi เหรอ.",
+        "Untuk pertanyaan yang sudah memakai kata tanya, partikel ไหม TIDAK dipakai. 'คุณกินอะไรไหม' bukan kalimat yang wajar."
+      ],
+      "examples": [
+        {"th": "คุณไปไหม", "syl": ["คุณ", "ไป", "ไหม"], "phon": "khun pai mǎi", "gloss": "Anda pergi?"},
+        {"th": "คุณกินอะไร", "syl": ["คุณ", "กิน", "อะ", "ไร"], "phon": "khun kin à-rai", "gloss": "Anda makan apa?"},
+        {"th": "อร่อยใช่ไหม", "syl": ["อ", "ร่อย", "ใช่", "ไหม"], "phon": "à-ràawi châi mǎi", "gloss": "Enak, kan?"}
+      ],
+      "items": [
+        {"id": "g05-1", "type": "mcq", "prompt": "Di mana letak partikel ไหม?", "prompt_th": null, "options_lang": "id",
+         "options": ["Di akhir kalimat", "Di awal kalimat", "Sesudah pelaku", "Sebelum kata kerja"],
+         "answer": 0, "explain": "Partikel pertanyaan selalu di akhir, sesudah seluruh kalimatnya: คุณไปไหม."},
+        {"id": "g05-2", "type": "mcq", "prompt": "Di mana letak kata tanya seperti อะไร?", "prompt_th": null, "options_lang": "id",
+         "options": ["Di tempat kata yang ditanyakan, tanpa mengubah susunan", "Selalu di awal kalimat", "Selalu di akhir kalimat", "Sesudah partikel sopan"],
+         "answer": 0, "explain": "คุณกินอะไร mengikuti susunan pelaku-kerja-sasaran, dengan อะไร menempati tempat sasaran."},
+        {"id": "g05-3", "type": "mcq", "prompt": "Apa yang terjadi bila nada bicara dinaikkan di akhir pertanyaan?", "prompt_th": null, "options_lang": "id",
+         "options": ["Kata terakhirnya bisa berubah menjadi kata lain", "Pertanyaan menjadi lebih sopan", "Tidak ada pengaruh apa pun", "Pertanyaan menjadi pernyataan"],
+         "answer": 0, "explain": "Nada di bahasa Thailand adalah bagian dari kata, bukan hiasan kalimat. Pola naik-turun gaya pertanyaan bahasa Indonesia dapat merusak kata."},
+        {"id": "g05-4", "type": "mcq", "prompt": "Mana yang berarti 'Enak, kan?'", "prompt_th": null, "options_lang": "th",
+         "options": ["อร่อยใช่ไหม", "อร่อยไหม", "ใช่อร่อย", "อะไรอร่อย"],
+         "answer": 0, "explain": "ใช่ไหม meminta pembenaran atas sesuatu yang sudah diduga. อร่อยไหม adalah pertanyaan terbuka 'enak?'."},
+        {"id": "g05-5", "type": "mcq", "prompt": "Mana pertanyaan yang TIDAK wajar?", "prompt_th": null, "options_lang": "th",
+         "options": ["คุณกินอะไรไหม", "คุณกินอะไร", "คุณกินไหม", "คุณกินข้าวไหม"],
+         "answer": 0, "explain": "Kalimat yang sudah memakai kata tanya tidak memerlukan ไหม lagi."}
+      ]
+    },
+    {
+      "id": "g06",
+      "title": "Klasifikator dan cara menghitung",
+      "stage": 3,
+      "explanation": "Untuk menghitung benda, bahasa Thailand memakai pola: kata benda + angka + klasifikator. หมาสามตัว = 'anjing' + 'tiga' + klasifikator hewan, artinya 'tiga anjing'. Klasifikator adalah kata penggolong yang dipilih menurut jenis bendanya, mirip 'tiga BUAH buku' atau 'dua BATANG rokok' dalam bahasa Indonesia, tetapi dalam bahasa Thailand pemakaiannya WAJIB saat menghitung. Beberapa yang terpenting: คน (orang), ตัว (hewan, pakaian, meja dan kursi), ใบ (benda tipis dan berongga: daun, kertas, tas, gelas), เล่ม (buku), คัน (kendaraan beroda), ลูก (buah), แก้ว (minuman dalam gelas), อัน (benda kecil umum).",
+      "caveats": [
+        "Urutannya berbeda dari bahasa Indonesia: benda lebih dahulu, angka kemudian, klasifikator terakhir. 'tiga anjing' menjadi 'anjing tiga ตัว'.",
+        "Angka satu adalah pengecualian: หมาตัวหนึ่ง (klasifikator sebelum angka) terasa lebih wajar daripada หมาหนึ่งตัว, meski keduanya dipakai.",
+        "Bila Anda tidak tahu klasifikator yang tepat, อัน adalah pilihan yang cukup aman untuk benda kecil, dan menyebut angka saja biasanya tetap dipahami. Pemakaian klasifikator yang keliru tidak menghalangi pemahaman."
+      ],
+      "examples": [
+        {"th": "หมาสามตัว", "syl": ["หมา", "สาม", "ตัว"], "phon": "mǎa sǎam tua", "gloss": "tiga ekor anjing"},
+        {"th": "น้ำสองแก้ว", "syl": ["น้ำ", "สอง", "แก้ว"], "phon": "náam sǎawng kâeo", "gloss": "dua gelas air"},
+        {"th": "นักเรียนสิบคน", "syl": ["นัก", "เรียน", "สิบ", "คน"], "phon": "nák-rian sìp khon", "gloss": "sepuluh murid"}
+      ],
+      "items": [
+        {"id": "g06-1", "type": "mcq", "prompt": "Apa urutan yang benar saat menghitung benda?", "prompt_th": null, "options_lang": "id",
+         "options": ["Kata benda + angka + klasifikator", "Angka + klasifikator + kata benda", "Klasifikator + angka + kata benda", "Angka + kata benda"],
+         "answer": 0, "explain": "หมาสามตัว, น้ำสองแก้ว, นักเรียนสิบคน. Klasifikator berada paling akhir."},
+        {"id": "g06-2", "type": "mcq", "prompt": "Klasifikator apa untuk orang?", "prompt_th": null, "options_lang": "th",
+         "options": ["คน", "ตัว", "ใบ", "เล่ม"],
+         "answer": 0, "explain": "คน dipakai untuk orang, dan kata itu memang berarti 'orang'. Memakai ตัว untuk orang terdengar menghina."},
+        {"id": "g06-3", "type": "mcq", "prompt": "Klasifikator apa untuk buku?", "prompt_th": null, "options_lang": "th",
+         "options": ["เล่ม", "ใบ", "อัน", "ลูก"],
+         "answer": 0, "explain": "เล่ม dipakai untuk buku dan benda berjilid: หนังสือสองเล่ม."},
+        {"id": "g06-4", "type": "mcq", "prompt": "Mana yang benar untuk 'tiga ekor anjing'?", "prompt_th": null, "options_lang": "th",
+         "options": ["หมาสามตัว", "สามตัวหมา", "ตัวสามหมา", "หมาตัวสาม"],
+         "answer": 0, "explain": "หมาตัวสาม justru berarti 'anjing yang ketiga', bukan 'tiga anjing'. Urutan menentukan arti."},
+        {"id": "g06-5", "type": "mcq", "prompt": "Apa yang terjadi bila klasifikatornya keliru?", "prompt_th": null, "options_lang": "id",
+         "options": ["Biasanya tetap dipahami, meski terdengar salah", "Kalimatnya tidak bisa dipahami sama sekali", "Artinya berubah menjadi kebalikannya", "Nada kata bendanya berubah"],
+         "answer": 0, "explain": "Klasifikator yang keliru adalah kesalahan yang segera terdengar, tetapi jarang menghalangi pemahaman. Kesalahan nada jauh lebih mengganggu."}
+      ]
+    },
+    {
+      "id": "g07",
+      "title": "Kata tunjuk: นี่/นั่น dan นี้/นั้น",
+      "stage": 4,
+      "explanation": "Bahasa Thailand membedakan kata tunjuk yang berdiri sendiri dari yang menempel pada kata benda, dan perbedaannya hanya NADA. นี่ (nada turun) dan นั่น (nada turun) berdiri sendiri sebagai kata benda: นี่อะไร ('ini apa?'). นี้ (nada tinggi) dan นั้น (nada tinggi) menempel sesudah kata benda, dan didahului klasifikatornya: หนังสือเล่มนี้ ('buku ini'), บ้านหลังนั้น ('rumah itu'). Pola lengkapnya adalah kata benda + klasifikator + kata tunjuk. Untuk pemula, pola tanpa klasifikator (หนังสือนี้) juga akan dipahami, tetapi pola dengan klasifikator itulah yang dipakai penutur asli.",
+      "caveats": [
+        "Perbedaan นี่ dan นี้ hanya pada nada, dan dalam percakapan cepat perbedaannya tidak selalu terdengar jelas. Dalam tulisan perbedaannya tegas.",
+        "Ada tingkat ketiga: โน่น/โน้น untuk benda yang jauh dari pembicara maupun pendengar, sepadan dengan 'itu di sana'.",
+        "ตรงนี้ dan ตรงนั้น ('di sini', 'di sana') dipakai untuk menunjuk tempat yang terlihat, dan terasa lebih alami daripada ที่นี่ pada banyak keadaan."
+      ],
+      "examples": [
+        {"th": "นี่อะไร", "syl": ["นี่", "อะ", "ไร"], "phon": "nîi à-rai", "gloss": "Ini apa?"},
+        {"th": "หนังสือเล่มนี้ดี", "syl": ["หนัง", "สือ", "เล่ม", "นี้", "ดี"], "phon": "nǎng-sǔue lêm níi dii", "gloss": "Buku ini bagus."},
+        {"th": "บ้านหลังนั้นใหญ่", "syl": ["บ้าน", "หลัง", "นั้น", "ใหญ่"], "phon": "bâan lǎng nán yài", "gloss": "Rumah itu besar."}
+      ],
+      "items": [
+        {"id": "g07-1", "type": "mcq", "prompt": "Apa yang membedakan นี่ dari นี้?", "prompt_th": "นี่ / นี้", "options_lang": "id",
+         "options": ["Nadanya, dan karena itu pemakaiannya", "Panjang vokalnya", "Kelas konsonannya", "Tidak ada bedanya"],
+         "answer": 0, "explain": "นี่ bernada turun dan berdiri sendiri; นี้ bernada tinggi dan menempel sesudah kata benda."},
+        {"id": "g07-2", "type": "mcq", "prompt": "Mana pola lengkap untuk 'buku ini'?", "prompt_th": null, "options_lang": "th",
+         "options": ["หนังสือเล่มนี้", "นี้หนังสือ", "หนังสือนี่", "เล่มหนังสือนี้"],
+         "answer": 0, "explain": "Kata benda + klasifikator + kata tunjuk. เล่ม adalah klasifikator untuk buku."},
+        {"id": "g07-3", "type": "mcq", "prompt": "Mana yang berarti 'Ini apa?'", "prompt_th": null, "options_lang": "th",
+         "options": ["นี่อะไร", "นี้อะไร", "อะไรนี่ไหม", "นี่คืออะไรไหม"],
+         "answer": 0, "explain": "นี่ berdiri sendiri sebagai pelaku. Bentuk นี่คืออะไร juga benar dan terasa lebih lengkap."},
+        {"id": "g07-4", "type": "mcq", "prompt": "Apa guna โน่น?", "prompt_th": "โน่น", "options_lang": "id",
+         "options": ["Menunjuk benda yang jauh dari pembicara maupun pendengar", "Menunjuk benda di tangan pembicara", "Menandai pertanyaan", "Menandai jumlah"],
+         "answer": 0, "explain": "Bahasa Thailand punya tiga tingkat jarak: นี่ (dekat pembicara), นั่น (dekat pendengar), โน่น (jauh dari keduanya)."},
+        {"id": "g07-5", "type": "mcq", "prompt": "Mana yang paling wajar untuk menunjuk tempat yang terlihat, 'di sini'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ตรงนี้", "นี้", "นี่นี้", "ที่นี้"],
+         "answer": 0, "explain": "ตรงนี้ dipakai untuk tempat yang terlihat. ที่นี่ juga benar dan lebih umum untuk 'di sini' dalam arti luas."}
+      ]
+    },
+    {
+      "id": "g08",
+      "title": "Waktu tanpa perubahan kata kerja: แล้ว, จะ, กำลัง, ยัง",
+      "stage": 4,
+      "explanation": "Karena kata kerja tidak berubah bentuk, waktu dan tahapan perbuatan ditandai kata lain. จะ diletakkan SEBELUM kata kerja untuk masa depan: ผมจะไป ('saya akan pergi'). แล้ว diletakkan di AKHIR kalimat untuk perbuatan yang sudah selesai: ผมกินแล้ว ('saya sudah makan'). กำลัง diletakkan sebelum kata kerja untuk perbuatan yang sedang berlangsung: ผมกำลังกิน ('saya sedang makan'), dan sering dipasangkan dengan อยู่ di akhir. ยัง berarti 'masih', dan ยังไม่ berarti 'belum'. Bila sudah ada keterangan waktu yang jelas, penanda ini sering dihilangkan: พรุ่งนี้ผมไป sudah berarti 'besok saya pergi'.",
+      "caveats": [
+        "แล้ว tidak selalu berarti masa lalu. Ia menandai perubahan keadaan, sehingga อิ่มแล้ว berarti 'sudah kenyang (sekarang)', dan ไปแล้ว bisa berarti 'sudah berangkat'.",
+        "ได้ sebelum kata kerja juga dapat menandai masa lalu dalam ragam resmi dan tulisan, tetapi pemakaian itu berbeda dari ได้ sesudah kata kerja yang berarti 'bisa'.",
+        "Penutur asli lebih sering mengandalkan keterangan waktu dan konteks daripada menumpuk penanda. Memakai จะ dan แล้ว pada setiap kalimat membuat bahasa terdengar kaku."
+      ],
+      "examples": [
+        {"th": "ผมจะไปพรุ่งนี้", "syl": ["ผม", "จะ", "ไป", "พรุ่ง", "นี้"], "phon": "phǒm jà pai phrûng-níi", "gloss": "Saya akan pergi besok."},
+        {"th": "ผมกินแล้ว", "syl": ["ผม", "กิน", "แล้ว"], "phon": "phǒm kin láeo", "gloss": "Saya sudah makan."},
+        {"th": "ผมกำลังกิน", "syl": ["ผม", "กำ", "ลัง", "กิน"], "phon": "phǒm kam-lang kin", "gloss": "Saya sedang makan."}
+      ],
+      "items": [
+        {"id": "g08-1", "type": "mcq", "prompt": "Di mana letak จะ ('akan')?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sebelum kata kerja", "Di akhir kalimat", "Sebelum pelaku", "Sesudah sasaran"],
+         "answer": 0, "explain": "ผมจะไป. Bandingkan แล้ว yang justru di akhir kalimat."},
+        {"id": "g08-2", "type": "mcq", "prompt": "Di mana letak แล้ว ('sudah')?", "prompt_th": null, "options_lang": "id",
+         "options": ["Di akhir kalimat", "Sebelum kata kerja", "Sebelum pelaku", "Sesudah pelaku"],
+         "answer": 0, "explain": "ผมกินแล้ว. Letak ini berlawanan dengan 'sudah' dalam bahasa Indonesia yang berada sebelum kata kerja."},
+        {"id": "g08-3", "type": "mcq", "prompt": "Mana yang berarti 'Saya sedang makan'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ผมกำลังกิน", "ผมกินแล้ว", "ผมจะกิน", "ผมยังไม่กิน"],
+         "answer": 0, "explain": "กำลัง + kata kerja menandai perbuatan yang sedang berlangsung. Bentuk กำลังกินอยู่ juga lazim."},
+        {"id": "g08-4", "type": "mcq", "prompt": "Apa arti อิ่มแล้ว?", "prompt_th": "อิ่มแล้ว", "options_lang": "id",
+         "options": ["Sudah kenyang (sekarang)", "Dulu pernah kenyang", "Akan kenyang", "Belum kenyang"],
+         "answer": 0, "explain": "แล้ว menandai perubahan keadaan, tidak selalu masa lalu. Ungkapan ini dipakai untuk menolak tambahan makanan."},
+        {"id": "g08-5", "type": "mcq", "prompt": "Mengapa kalimat 'พรุ่งนี้ผมไป' benar tanpa จะ?", "prompt_th": "พรุ่งนี้ผมไป", "options_lang": "id",
+         "options": ["Karena keterangan waktu พรุ่งนี้ sudah menjelaskan waktunya", "Karena ไป selalu bermakna masa depan", "Karena pelakunya orang pertama", "Karena kalimatnya tidak lengkap"],
+         "answer": 0, "explain": "Penanda waktu bersifat pilihan bila konteksnya sudah jelas. Inilah sebabnya bahasa Thailand terasa ringkas."}
+      ]
+    },
+    {
+      "id": "g09",
+      "title": "Partikel sopan dan partikel rasa",
+      "stage": 5,
+      "explanation": "Partikel di akhir kalimat adalah bagian penting kesopanan bahasa Thailand, dan tidak ada padanan langsungnya dalam bahasa Indonesia. ครับ dipakai penutur lelaki pada kalimat apa pun. Penutur perempuan memakai DUA bentuk: ค่ะ (nada turun) untuk pernyataan dan คะ (nada tinggi) untuk pertanyaan. Selain itu ada partikel rasa: นะ melembutkan permintaan atau mencari persetujuan, สิ memberi dorongan atau penegasan, ครับผม terdengar lebih hormat lagi. Kalimat tanpa partikel sopan tidak salah, tetapi bisa terdengar datar atau kurang ramah terhadap orang yang baru dikenal, terutama di tempat umum.",
+      "caveats": [
+        "Partikel sopan dipilih menurut jenis kelamin PEMBICARA, bukan pendengar. Penutur lelaki tetap memakai ครับ saat berbicara kepada perempuan.",
+        "Dalam percakapan santai, ครับ sering dipendekkan menjadi คับ dan ค่ะ menjadi ค่า atau จ้า. Bentuk pendek ini tidak dipakai pada tulisan resmi.",
+        "Memakai terlalu banyak partikel pada satu kalimat terdengar berlebihan. Satu partikel di akhir sudah cukup."
+      ],
+      "examples": [
+        {"th": "ขอบคุณครับ", "syl": ["ขอบ", "คุณ", "ครับ"], "phon": "khàawp-khun khráp", "gloss": "Terima kasih. (lelaki)"},
+        {"th": "สวัสดีค่ะ", "syl": ["ส", "วัส", "ดี", "ค่ะ"], "phon": "sà-wàt-dii khâ", "gloss": "Salam. (perempuan)"},
+        {"th": "ไม่เผ็ดนะ", "syl": ["ไม่", "เผ็ด", "นะ"], "phon": "mâi phèt ná", "gloss": "Tidak pedas, ya."}
+      ],
+      "items": [
+        {"id": "g09-1", "type": "mcq", "prompt": "Partikel sopan dipilih berdasarkan apa?", "prompt_th": null, "options_lang": "id",
+         "options": ["Jenis kelamin pembicara", "Jenis kelamin pendengar", "Umur pendengar", "Jenis kalimat saja"],
+         "answer": 0, "explain": "Lelaki memakai ครับ, perempuan memakai ค่ะ atau คะ, siapa pun yang diajak bicara."},
+        {"id": "g09-2", "type": "mcq", "prompt": "Penutur perempuan memakai partikel apa pada PERTANYAAN?", "prompt_th": null, "options_lang": "th",
+         "options": ["คะ", "ค่ะ", "ครับ", "นะ"],
+         "answer": 0, "explain": "คะ bernada tinggi untuk pertanyaan, ค่ะ bernada turun untuk pernyataan. Perbedaannya hanya nada."},
+        {"id": "g09-3", "type": "mcq", "prompt": "Apa guna partikel นะ?", "prompt_th": "นะ", "options_lang": "id",
+         "options": ["Melembutkan kalimat atau mencari persetujuan", "Menandai pertanyaan ya/tidak", "Menandai masa lalu", "Menandai jumlah"],
+         "answer": 0, "explain": "ไม่เผ็ดนะ terasa seperti 'tidak pedas, ya?' — permintaan yang dilunakkan."},
+        {"id": "g09-4", "type": "mcq", "prompt": "Apa akibat tidak memakai partikel sopan sama sekali?", "prompt_th": null, "options_lang": "id",
+         "options": ["Kalimatnya tetap benar tetapi bisa terdengar datar atau kurang ramah", "Kalimatnya menjadi salah secara tata bahasa", "Artinya berubah", "Kalimatnya menjadi pertanyaan"],
+         "answer": 0, "explain": "Secara tata bahasa tidak ada yang salah, tetapi di tempat umum partikel sopan sangat diharapkan."},
+        {"id": "g09-5", "type": "mcq", "prompt": "Mana yang BUKAN bentuk percakapan santai dari ครับ atau ค่ะ?", "prompt_th": null, "options_lang": "th",
+         "options": ["คุณ", "คับ", "ค่า", "จ้า"],
+         "answer": 0, "explain": "คุณ berarti 'Anda', bukan partikel sopan. Tiga lainnya adalah bentuk santai yang lazim dalam percakapan dan pesan singkat."}
+      ]
+    },
+    {
+      "id": "g10",
+      "title": "Kata ganti dan sebutan: lebih rumit daripada 'saya' dan 'kamu'",
+      "stage": 5,
+      "explanation": "Kata ganti bahasa Thailand dipilih menurut jenis kelamin pembicara, umur relatif, keakraban, dan keadaan. Untuk 'saya': ผม (lelaki), ฉัน (perempuan, agak resmi), เรา (akrab), atau nama diri sendiri. Untuk 'kamu': คุณ (sopan, netral), เธอ (akrab), atau — yang paling lazim — SEBUTAN KEKELUARGAAN menurut umur: พี่ untuk orang yang lebih tua, น้อง untuk yang lebih muda. Memanggil pelayan dengan พี่ atau น้อง adalah hal biasa dan sopan. Selain itu, kata ganti sangat sering DIHILANGKAN sama sekali. Menyebut nama diri sendiri sebagai 'saya' terdengar wajar dalam bahasa Thailand, berbeda dari bahasa Indonesia baku.",
+      "caveats": [
+        "Ada kata ganti yang kasar atau sangat akrab (มึง, กู) yang hanya dipakai di antara teman sangat dekat. Memakainya kepada orang asing adalah penghinaan serius, jadi sebaiknya dihindari sama sekali.",
+        "เขา berarti 'dia' tanpa membedakan lelaki dan perempuan, dan dalam percakapan sering diucapkan bernada tinggi, berbeda dari nada naik menurut ejaannya.",
+        "Memakai คุณ terus-menerus kepada orang yang sudah dekat bisa terasa berjarak. Beralih ke พี่ atau nama diri adalah tanda keakraban."
+      ],
+      "examples": [
+        {"th": "พี่ไปไหน", "syl": ["พี่", "ไป", "ไหน"], "phon": "phîi pai nǎi", "gloss": "Mau ke mana, Kak?"},
+        {"th": "คุณชื่ออะไร", "syl": ["คุณ", "ชื่อ", "อะ", "ไร"], "phon": "khun chûue à-rai", "gloss": "Siapa nama Anda?"},
+        {"th": "ไปไหน", "syl": ["ไป", "ไหน"], "phon": "pai nǎi", "gloss": "Mau ke mana? (tanpa kata ganti)"}
+      ],
+      "items": [
+        {"id": "g10-1", "type": "mcq", "prompt": "Kata ganti 'saya' apa yang dipakai penutur lelaki pada keadaan sopan?", "prompt_th": null, "options_lang": "th",
+         "options": ["ผม", "ฉัน", "เธอ", "คุณ"],
+         "answer": 0, "explain": "ผม untuk lelaki, ฉัน untuk perempuan. คุณ berarti 'Anda', bukan 'saya'."},
+        {"id": "g10-2", "type": "mcq", "prompt": "Bagaimana cara lazim memanggil pelayan restoran yang kelihatan lebih tua?", "prompt_th": null, "options_lang": "th",
+         "options": ["พี่", "คุณ", "เธอ", "เขา"],
+         "answer": 0, "explain": "Sebutan kekeluargaan dipakai luas kepada orang yang tidak dikenal. พี่ untuk yang lebih tua, น้อง untuk yang lebih muda."},
+        {"id": "g10-3", "type": "mcq", "prompt": "Apakah wajar menyebut nama diri sendiri untuk 'saya'?", "prompt_th": null, "options_lang": "id",
+         "options": ["Wajar dan lazim dalam bahasa Thailand", "Hanya dipakai anak kecil", "Dianggap tidak sopan", "Hanya dipakai dalam tulisan resmi"],
+         "answer": 0, "explain": "Orang dewasa pun lazim memakai nama atau nama panggilannya sendiri sebagai 'saya', terutama dalam percakapan santai."},
+        {"id": "g10-4", "type": "mcq", "prompt": "Mengapa kata ganti มึง dan กู sebaiknya dihindari?", "prompt_th": null, "options_lang": "id",
+         "options": ["Keduanya sangat kasar kecuali di antara teman sangat dekat", "Keduanya sudah tidak dipakai lagi", "Keduanya hanya dipakai dalam tulisan", "Keduanya hanya dipakai oleh perempuan"],
+         "answer": 0, "explain": "Di antara teman dekat keduanya menandakan keakraban, tetapi kepada orang lain merupakan penghinaan."},
+        {"id": "g10-5", "type": "mcq", "prompt": "Apa yang sering terjadi pada kata ganti dalam percakapan Thai?", "prompt_th": null, "options_lang": "id",
+         "options": ["Dihilangkan sama sekali bila sudah jelas dari keadaan", "Diulang dua kali untuk penegasan", "Diletakkan di akhir kalimat", "Diganti dengan angka"],
+         "answer": 0, "explain": "ไปไหน tanpa kata ganti adalah kalimat yang lengkap dan wajar."}
+      ]
+    },
+    {
+      "id": "g11",
+      "title": "Tempat dan arah: ที่, ใน, บน, ไป, มา",
+      "stage": 6,
+      "explanation": "Kata depan tempat yang paling sering dipakai: ที่ ('di'), ใน ('di dalam'), บน ('di atas'), ใต้ ('di bawah'), ข้าง ('di samping'), ใกล้ ('dekat'), ไกล ('jauh dari'). Semuanya diletakkan sebelum kata tempatnya, seperti bahasa Indonesia. Dengan kata kerja อยู่, kata depan ที่ sering dihilangkan: ห้องน้ำอยู่ไหน. Selain itu, ไป ('pergi') dan มา ('datang') dipakai SESUDAH kata kerja lain untuk menandai arah terhadap pembicara: เดินไป ('berjalan menjauh'), เอามา ('bawa ke sini'). Pola arah ini sangat khas bahasa Thailand dan tidak ada padanan langsungnya dalam bahasa Indonesia.",
+      "caveats": [
+        "ไป dan มา sebagai penanda arah tidak selalu dapat diterjemahkan. เอาไป dan เอามา keduanya berarti 'membawa', bedanya hanya arah terhadap pembicara.",
+        "Kata kerja gerak tidak memerlukan kata depan untuk tujuannya: ไปตลาด sudah berarti 'pergi ke pasar'. Menambahkan ที่ di situ terasa berlebihan.",
+        "ข้าง berarti 'sisi', dan dipakai dalam banyak gabungan: ข้างใน (di dalam), ข้างนอก (di luar), ข้างบน (di atas), ข้างล่าง (di bawah)."
+      ],
+      "examples": [
+        {"th": "ผมอยู่ที่โรงแรม", "syl": ["ผม", "อยู่", "ที่", "โรง", "แรม"], "phon": "phǒm yùu thîi roong-raem", "gloss": "Saya ada di hotel."},
+        {"th": "หนังสืออยู่บนโต๊ะ", "syl": ["หนัง", "สือ", "อยู่", "บน", "โต๊ะ"], "phon": "nǎng-sǔue yùu bon tó", "gloss": "Bukunya ada di atas meja."},
+        {"th": "ร้านอยู่ใกล้บ้าน", "syl": ["ร้าน", "อยู่", "ใกล้", "บ้าน"], "phon": "ráan yùu klâi bâan", "gloss": "Tokonya dekat rumah."}
+      ],
+      "items": [
+        {"id": "g11-1", "type": "mcq", "prompt": "Mana yang benar untuk 'Saya pergi ke pasar'?", "prompt_th": null, "options_lang": "th",
+         "options": ["ผมไปตลาด", "ผมไปที่ในตลาด", "ผมตลาดไป", "ผมไปบนตลาด"],
+         "answer": 0, "explain": "Kata kerja gerak tidak memerlukan kata depan untuk tujuannya."},
+        {"id": "g11-2", "type": "mcq", "prompt": "Apa arti บน?", "prompt_th": "บน", "options_lang": "id",
+         "options": ["Di atas", "Di dalam", "Di bawah", "Di samping"],
+         "answer": 0, "explain": "บนโต๊ะ ('di atas meja'). Untuk 'di dalam' dipakai ใน, untuk 'di bawah' ใต้."},
+        {"id": "g11-3", "type": "mcq", "prompt": "Apa guna มา pada เอามา?", "prompt_th": "เอามา", "options_lang": "id",
+         "options": ["Menandai arah mendekat ke pembicara", "Menandai masa lalu", "Menandai pertanyaan", "Menandai jumlah"],
+         "answer": 0, "explain": "เอามา = 'bawa ke sini', เอาไป = 'bawa ke sana'. Arah terhadap pembicara ditandai oleh มา dan ไป."},
+        {"id": "g11-4", "type": "mcq", "prompt": "Mengapa ที่ bisa dihilangkan pada ห้องน้ำอยู่ไหน?", "prompt_th": "ห้องน้ำอยู่ไหน", "options_lang": "id",
+         "options": ["Karena อยู่ sendiri sudah menyatakan keberadaan di suatu tempat", "Karena ไหน tidak boleh didahului kata depan", "Karena kalimatnya pertanyaan", "Karena ห้องน้ำ kata majemuk"],
+         "answer": 0, "explain": "Bentuk lengkapnya ห้องน้ำอยู่ที่ไหน juga benar, tetapi ที่ sering dihilangkan dalam percakapan."},
+        {"id": "g11-5", "type": "mcq", "prompt": "Apa arti ข้างนอก?", "prompt_th": "ข้างนอก", "options_lang": "id",
+         "options": ["Di luar", "Di dalam", "Di sebelah kiri", "Di belakang"],
+         "answer": 0, "explain": "ข้าง ('sisi') + นอก ('luar'). Pola yang sama: ข้างใน (di dalam), ข้างบน (di atas), ข้างล่าง (di bawah)."}
+      ]
+    },
+    {
+      "id": "g12",
+      "title": "Kata kerja berangkai dan tiga cara mengatakan 'bisa'",
+      "stage": 6,
+      "explanation": "Bahasa Thailand merangkai beberapa kata kerja berturut-turut tanpa kata penghubung: ผมเดินไปตลาด = 'saya' + 'berjalan' + 'pergi' + 'pasar', artinya 'saya berjalan ke pasar'. Rangkaian ini bukan daftar perbuatan terpisah, melainkan satu peristiwa yang dirinci. Pola yang sama dipakai untuk permintaan: ช่วย + kata kerja berarti 'tolong lakukan...'. Untuk 'bisa' ada tiga kata yang berbeda, semuanya diletakkan SESUDAH kata kerja: ได้ untuk kemungkinan atau izin (พูดได้, 'bisa berbicara / boleh bicara'), เป็น untuk keterampilan yang dipelajari (ว่ายน้ำเป็น, 'bisa berenang'), dan ไหว untuk kemampuan fisik atau daya tahan (เดินไหว, 'masih kuat berjalan').",
+      "caveats": [
+        "Perbedaan ได้, เป็น, dan ไหว tidak selalu tegas, dan penutur asli kadang memakai ได้ untuk semuanya dalam percakapan santai. Namun เป็น pada keterampilan terdengar lebih tepat.",
+        "ได้ยัง? dan ได้ไหม? adalah cara lazim bertanya 'bisa tidak?'. Jawabannya ได้ ('bisa') atau ไม่ได้ ('tidak bisa').",
+        "Rangkaian kata kerja bisa menjadi panjang dan tetap wajar: เอาไปให้เขา ('ambil, bawa, berikan kepadanya'), yang diterjemahkan sebagai satu perbuatan."
+      ],
+      "examples": [
+        {"th": "ผมเดินไปตลาด", "syl": ["ผม", "เดิน", "ไป", "ต", "ลาด"], "phon": "phǒm dooen pai tà-làat", "gloss": "Saya berjalan ke pasar."},
+        {"th": "ช่วยพูดอีกครั้ง", "syl": ["ช่วย", "พูด", "อีก", "ครั้ง"], "phon": "chûai phûut ìik kráng", "gloss": "Tolong ucapkan sekali lagi."},
+        {"th": "ผมกินเผ็ดไม่ได้", "syl": ["ผม", "กิน", "เผ็ด", "ไม่", "ได้"], "phon": "phǒm kin phèt mâi dâi", "gloss": "Saya tidak bisa makan pedas."}
+      ],
+      "items": [
+        {"id": "g12-1", "type": "mcq", "prompt": "Di mana letak ได้ ('bisa')?", "prompt_th": null, "options_lang": "id",
+         "options": ["Sesudah kata kerja", "Sebelum kata kerja", "Di awal kalimat", "Sebelum pelaku"],
+         "answer": 0, "explain": "พูดได้, กินได้, ไปได้. Berlawanan dengan 'bisa' bahasa Indonesia yang berada sebelum kata kerja."},
+        {"id": "g12-2", "type": "mcq", "prompt": "Kata mana untuk 'bisa' dalam arti keterampilan yang dipelajari?", "prompt_th": null, "options_lang": "th",
+         "options": ["เป็น", "ได้", "ไหว", "อยู่"],
+         "answer": 0, "explain": "ว่ายน้ำเป็น ('bisa berenang'), พูดไทยเป็น ('bisa berbahasa Thai'). เป็น di sini bukan 'adalah'."},
+        {"id": "g12-3", "type": "mcq", "prompt": "Apa arti ไหว pada เดินไหว?", "prompt_th": "เดินไหว", "options_lang": "id",
+         "options": ["Masih kuat atau tahan secara fisik", "Sudah terbiasa", "Boleh menurut aturan", "Sedang berlangsung"],
+         "answer": 0, "explain": "ไหว menandai daya tahan fisik. ไม่ไหว ('tidak tahan lagi') sangat sering dipakai dalam percakapan."},
+        {"id": "g12-4", "type": "mcq", "prompt": "Apa arti ผมเดินไปตลาด?", "prompt_th": "ผมเดินไปตลาด", "options_lang": "id",
+         "options": ["Saya berjalan ke pasar", "Saya berjalan lalu pergi, kemudian ke pasar", "Saya menyuruh orang berjalan ke pasar", "Saya pernah berjalan ke pasar"],
+         "answer": 0, "explain": "Rangkaian kata kerja เดินไป menggambarkan satu perbuatan: berjalan dengan arah menjauh dari pembicara."},
+        {"id": "g12-5", "type": "mcq", "prompt": "Bagaimana mengatakan 'Tolong bicara lebih lambat'?", "prompt_th": null, "options_lang": "id",
+         "options": ["Dengan ช่วย di depan kata kerjanya", "Dengan ได้ di depan kata kerjanya", "Dengan ไหม di depan kata kerjanya", "Dengan เป็น di akhir kalimat"],
+         "answer": 0, "explain": "ช่วย + kata kerja membentuk permintaan sopan, dan sering ditutup ด้วย atau หน่อย: ช่วยพูดช้าๆหน่อย."}
+      ]
+    }
+  ]
+}
